@@ -1,0 +1,110 @@
+{
+    "doc_id": "event6_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday",
+            "event_type": "Competition",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "men’s 50-kilometer cross-country race"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Saturday"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "claiming his sixth gold medal to complete the most dominant individual performance in Winter Olympics history",
+            "event_type": "Achievement",
+            "trigger": "claiming",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Result",
+                    "argument": "sixth gold medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Nyenget took silver and Iversen bronze, ensuring Norway swept the podium",
+            "event_type": "Competition",
+            "trigger": "took",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Nyenget"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Nyenget took silver and Iversen bronze, ensuring Norway swept the podium",
+            "event_type": "Competition",
+            "trigger": "took",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Iversen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that",
+            "event_type": "Achievement",
+            "trigger": "snaring",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first medal at a Winter Olympics"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Bormio"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes",
+            "event_type": "Competition",
+            "trigger": "leaves",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Marco Odermatt"
+                },
+                {
+                    "role": "Result",
+                    "argument": "without a title"
+                }
+            ]
+        }
+    ]
+}

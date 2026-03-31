@@ -1,0 +1,34 @@
+{
+    "doc_id": "event3_flash",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "The United States captured its third Olympic men's ice hockey gold medal, and first in 46 years, by edging Canada 2-1 in overtime in a thrilling final at the Milan-Cortina Winter Olympics on Sunday.",
+            "event_type": "Sports Event",
+            "trigger": "captured",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "The United States"
+                },
+                {
+                    "role": "Loser",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Score",
+                    "argument": "2-1"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Milan-Cortina Winter Olympics"
+                },
+                {
+                    "role": "Date",
+                    "argument": "Sunday"
+                }
+            ]
+        }
+    ]
+}

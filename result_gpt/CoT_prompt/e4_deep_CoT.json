@@ -1,0 +1,258 @@
+{
+    "doc_id": "event4_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Ilia Malinin arrived at his first Olympics",
+            "event_type": "Arrival",
+            "trigger": "arrived",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Place",
+                    "argument": "his first Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Malinin showed some fallibility and faltered in the short program of the team event",
+            "event_type": "Performance",
+            "trigger": "faltered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "short program of the team event"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Malinin won the free program segment in the team event",
+            "event_type": "Victory",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "free program segment in the team event"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Malinin finished in first, nearly six points ahead of Kagiyama",
+            "event_type": "Ranking",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Kagiyama"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Malinin landed a clean quad flip to start the program",
+            "event_type": "Performance",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "clean quad flip"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Malinin popped it in the air and only received points for a single axel",
+            "event_type": "Performance",
+            "trigger": "popped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "single axel"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Malinin fell on that jump and wasn’t able to complete the next two in the series",
+            "event_type": "Performance",
+            "trigger": "fell",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "that jump"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Mikhail Shaidorov from Kazakhstan landed five quad jumps to earn the gold",
+            "event_type": "Victory",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Mikhail Shaidorov"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "five quad jumps"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Malinin congratulated Shaidorov",
+            "event_type": "Social",
+            "trigger": "congratulated",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Shaidorov"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Malinin said he “blew it” and acknowledged the impact of the pressure of competing at his first Olympics",
+            "event_type": "Acknowledgment",
+            "trigger": "acknowledged",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "impact of the pressure"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Malinin skated the equivalent of two full competitions, with short and free programs, over six days",
+            "event_type": "Performance",
+            "trigger": "skated",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "two full competitions"
+                },
+                {
+                    "role": "Time",
+                    "argument": "over six days"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Team USA selected him to skate both portions of the men’s program in that event",
+            "event_type": "Selection",
+            "trigger": "selected",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Team USA"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "him"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "both portions of the men’s program"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Malinin met Richard at a gym over the summer",
+            "event_type": "Meeting",
+            "trigger": "met",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Richard"
+                },
+                {
+                    "role": "Place",
+                    "argument": "a gym"
+                },
+                {
+                    "role": "Time",
+                    "argument": "over the summer"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Malinin and Richard co-created National Backflip Day",
+            "event_type": "Creation",
+            "trigger": "co-created",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "Agent",
+                    "argument": "Richard"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "National Backflip Day"
+                }
+            ]
+        }
+    ]
+}

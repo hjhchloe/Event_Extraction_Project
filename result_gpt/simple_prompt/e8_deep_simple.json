@@ -1,0 +1,138 @@
+{
+    "doc_id": "event8_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Team France sewed up the gold medal after a stellar performance in the third leg of the women’s 4x6km biathlon relay on Wednesday at Milan Cortina 2026.",
+            "event_type": "Competition",
+            "trigger": "sewed up",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Team France"
+                },
+                {
+                    "role": "Medal",
+                    "argument": "gold"
+                },
+                {
+                    "role": "Event",
+                    "argument": "women’s 4x6km biathlon relay"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Milan Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Team Sweden won the silver medal after finishing 51.3 seconds behind.",
+            "event_type": "Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Team Sweden"
+                },
+                {
+                    "role": "Medal",
+                    "argument": "silver"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Team Norway skied to bronze 1:07.6 behind France.",
+            "event_type": "Competition",
+            "trigger": "skied to",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Team Norway"
+                },
+                {
+                    "role": "Medal",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Camille Bened of France started the race before passing off to Lou Jeanmonnot.",
+            "event_type": "Relay",
+            "trigger": "started",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Camille Bened"
+                },
+                {
+                    "role": "Next Participant",
+                    "argument": "Lou Jeanmonnot"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Michelon, the youngest member of Team France, moved to the front position and created a 47-second lead after shooting in the standing position.",
+            "event_type": "Competition",
+            "trigger": "moved to",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Michelon"
+                },
+                {
+                    "role": "Team",
+                    "argument": "Team France"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Simon earned her third gold medal and Jeanmonnot earned her fourth medal at these Winter Games.",
+            "event_type": "Achievement",
+            "trigger": "earned",
+            "arguments": [
+                {
+                    "role": "Recipient",
+                    "argument": "Simon"
+                },
+                {
+                    "role": "Medal Count",
+                    "argument": "third gold medal"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Jeanmonnot"
+                },
+                {
+                    "role": "Medal Count",
+                    "argument": "fourth medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Team USA finished 18th with Deedra Irwin, Margie Freed, Lucinda Anderson, and Joanne Reid.",
+            "event_type": "Competition",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Team",
+                    "argument": "Team USA"
+                },
+                {
+                    "role": "Position",
+                    "argument": "18th"
+                },
+                {
+                    "role": "Participants",
+                    "argument": "Deedra Irwin, Margie Freed, Lucinda Anderson, and Joanne Reid"
+                }
+            ]
+        }
+    ]
+}

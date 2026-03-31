@@ -1,0 +1,210 @@
+{
+    "doc_id": "event8_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Team France sewed up the gold medal after a stellar performance in the third leg of the women’s 4x6km biathlon relay on Wednesday at Milan Cortina 2026.",
+            "event_type": "Competition Result",
+            "trigger": "sewed up",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Team France"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold medal"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Wednesday"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milan Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Julia Simon of France skied across the finish line with the French flag at a cumulative time of 1 hour, 10 minutes, 22.7 seconds, after inheriting a substantial lead from teammate Oceane Michelon.",
+            "event_type": "Finish",
+            "trigger": "skied across",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Julia Simon of France"
+                },
+                {
+                    "role": "Time",
+                    "argument": "1 hour, 10 minutes, 22.7 seconds"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Oceane Michelon"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Team Sweden won the silver medal after finishing 51.3 seconds behind, and Team Norway skied to bronze 1:07.6 behind France.",
+            "event_type": "Competition Result",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Team Sweden"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver medal"
+                },
+                {
+                    "role": "Time",
+                    "argument": "51.3 seconds behind"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Team Norway skied to bronze 1:07.6 behind France.",
+            "event_type": "Competition Result",
+            "trigger": "skied to",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Team Norway"
+                },
+                {
+                    "role": "Result",
+                    "argument": "bronze"
+                },
+                {
+                    "role": "Time",
+                    "argument": "1:07.6 behind France"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Camille Bened of France started the race before passing off to Lou Jeanmonnot.",
+            "event_type": "Race Start",
+            "trigger": "started",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Camille Bened of France"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Lou Jeanmonnot"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Michelon, the youngest member of Team France, moved to the front position and created a 47-second lead after shooting in the standing position.",
+            "event_type": "Lead Change",
+            "trigger": "moved to",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Michelon"
+                },
+                {
+                    "role": "Result",
+                    "argument": "47-second lead"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Swedish sisters Elvira Oeberg and Hanna Oeberg (the team's anchor) battled it out with Team Norway for 2nd place.",
+            "event_type": "Competition",
+            "trigger": "battled",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Swedish sisters Elvira Oeberg and Hanna Oeberg"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Team Norway"
+                },
+                {
+                    "role": "Result",
+                    "argument": "2nd place"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Hanna Oeberg held her pace against Maren Kirkeeide of Norway to secure the silver medal.",
+            "event_type": "Competition Result",
+            "trigger": "held",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Hanna Oeberg"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Maren Kirkeeide of Norway"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "France becomes the first country to sweep all three biathlon relays — men's, women's and mixed.",
+            "event_type": "Achievement",
+            "trigger": "becomes",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "France"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first country to sweep all three biathlon relays"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Simon earned her third gold medal and Jeanmonnot earned her fourth medal at these Winter Games.",
+            "event_type": "Achievement",
+            "trigger": "earned",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Simon"
+                },
+                {
+                    "role": "Result",
+                    "argument": "third gold medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Jeanmonnot earned her fourth medal at these Winter Games.",
+            "event_type": "Achievement",
+            "trigger": "earned",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Jeanmonnot"
+                },
+                {
+                    "role": "Result",
+                    "argument": "fourth medal"
+                }
+            ]
+        }
+    ]
+}

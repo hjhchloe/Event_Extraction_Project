@@ -1,0 +1,314 @@
+{
+    "doc_id": "event4_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Ilia Malinin arrived at his first Olympics",
+            "event_type": "Arrival",
+            "trigger": "arrived",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "location",
+                    "argument": "his first Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Malinin showed some fallibility and faltered in the short program of the team event",
+            "event_type": "Performance",
+            "trigger": "faltered",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "event",
+                    "argument": "short program of the team event"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "He won the free program segment in the team event",
+            "event_type": "Victory",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "event",
+                    "argument": "free program segment in the team event"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Malinin finished in first, nearly six points ahead of Kagiyama",
+            "event_type": "Ranking",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "position",
+                    "argument": "first"
+                },
+                {
+                    "role": "competitor",
+                    "argument": "Kagiyama"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Malinin took his starting position and his music began",
+            "event_type": "Performance",
+            "trigger": "began",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "action",
+                    "argument": "took his starting position"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Malinin landed a clean quad flip to start the program",
+            "event_type": "Performance",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "action",
+                    "argument": "landed a clean quad flip"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Malinin popped it in the air and only received points for a single axel",
+            "event_type": "Performance",
+            "trigger": "popped",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "action",
+                    "argument": "popped it in the air"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Malinin fell on that jump and wasn’t able to complete the next two in the series",
+            "event_type": "Performance",
+            "trigger": "fell",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "action",
+                    "argument": "fell on that jump"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Mikhail Shaidorov from Kazakhstan landed five quad jumps to earn the gold",
+            "event_type": "Victory",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Mikhail Shaidorov"
+                },
+                {
+                    "role": "action",
+                    "argument": "landed five quad jumps"
+                },
+                {
+                    "role": "result",
+                    "argument": "earn the gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Malinin congratulated Shaidorov and told him, 'You deserve it.'",
+            "event_type": "Communication",
+            "trigger": "congratulated",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "recipient",
+                    "argument": "Shaidorov"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Japan’s Kagiyama earned silver",
+            "event_type": "Victory",
+            "trigger": "earned",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Kagiyama"
+                },
+                {
+                    "role": "result",
+                    "argument": "silver"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Shun Sato skated another powerful program for bronze",
+            "event_type": "Performance",
+            "trigger": "skated",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Shun Sato"
+                },
+                {
+                    "role": "result",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Andrew Torgashev and Maxim Naumov both struggled with some of their jumps",
+            "event_type": "Performance",
+            "trigger": "struggled",
+            "arguments": [
+                {
+                    "role": "participants",
+                    "argument": "Andrew Torgashev and Maxim Naumov"
+                },
+                {
+                    "role": "action",
+                    "argument": "struggled with some of their jumps"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Malinin said he 'blew it' and acknowledged the impact of the pressure",
+            "event_type": "Communication",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "content",
+                    "argument": "'blew it' and acknowledged the impact of the pressure"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "Malinin skated the equivalent of two full competitions",
+            "event_type": "Performance",
+            "trigger": "skated",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "action",
+                    "argument": "skated the equivalent of two full competitions"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "Team USA selected him to skate both portions of the men’s program",
+            "event_type": "Selection",
+            "trigger": "selected",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Team USA"
+                },
+                {
+                    "role": "selected",
+                    "argument": "Malinin"
+                }
+            ]
+        },
+        {
+            "event_id": "E17",
+            "event_mention": "Malinin met Richard at a gym over the summer",
+            "event_type": "Meeting",
+            "trigger": "met",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "participant",
+                    "argument": "Richard"
+                },
+                {
+                    "role": "location",
+                    "argument": "a gym"
+                },
+                {
+                    "role": "time",
+                    "argument": "over the summer"
+                }
+            ]
+        },
+        {
+            "event_id": "E18",
+            "event_mention": "Malinin came with his father and coach to Chen’s rink",
+            "event_type": "Visit",
+            "trigger": "came",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "accompanied_by",
+                    "argument": "his father and coach"
+                },
+                {
+                    "role": "location",
+                    "argument": "Chen’s rink"
+                }
+            ]
+        }
+    ]
+}

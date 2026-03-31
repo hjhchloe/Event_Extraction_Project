@@ -1,0 +1,154 @@
+{
+    "doc_id": "event1_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Norway has once again topped the Winter Olympics medal table",
+            "event_type": "Achievement",
+            "trigger": "topped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The Scandinavian country won more gold medals (18) and more total medals (41) than the US",
+            "event_type": "Achievement",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The Scandinavian country"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "18 gold medals and 41 total medals"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Norway’s 18 golds were the most by a country in Winter Olympics history",
+            "event_type": "Record",
+            "trigger": "were",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "18 golds"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Johannes Høsflot Klæbo accounted for six golds on his own",
+            "event_type": "Achievement",
+            "trigger": "accounted",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "six golds"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Great Britain enjoyed its best ever medal haul at a Winter Olympics with three golds, a silver and a bronze",
+            "event_type": "Achievement",
+            "trigger": "enjoyed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Great Britain"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "three golds, a silver and a bronze"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Australia (three golds, two silver and a bronze)",
+            "event_type": "Achievement",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Australia"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "three golds, two silver and a bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "the Americans’ 12 golds were the most at a Winter Olympics in the nation’s history",
+            "event_type": "Record",
+            "trigger": "were",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the Americans"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "12 golds"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "The Norwegians have won the most golds at every Winter Olympics since 2014",
+            "event_type": "Achievement",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The Norwegians"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Winter Olympics"
+                },
+                {
+                    "role": "Time",
+                    "argument": "since 2014"
+                }
+            ]
+        }
+    ]
+}

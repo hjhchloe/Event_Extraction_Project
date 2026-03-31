@@ -1,0 +1,134 @@
+{
+    "doc_id": "event3_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Sunday (22 February) saw the clash of the ages, as the USA and Canada battled for the title of 2026 Olympic champion, with Jack Hughes securing the gold in 2-1 overtime victory.",
+            "event_type": "Sports Competition",
+            "trigger": "battled",
+            "arguments": [
+                {
+                    "role": "competitors",
+                    "argument": "USA and Canada"
+                },
+                {
+                    "role": "outcome",
+                    "argument": "Jack Hughes securing the gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "the United States created a new Olympic memory for fans to dream about, defeating Canada 2-1 in overtime in the men’s final at Olympic Winter Games Milano Cortina 2026 on Sunday (22 February).",
+            "event_type": "Sports Competition",
+            "trigger": "defeating",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "United States"
+                },
+                {
+                    "role": "loser",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "score",
+                    "argument": "2-1"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Jack Hughes was the hero, scoring the golden goal in overtime to secure gold for the Americans.",
+            "event_type": "Sports Achievement",
+            "trigger": "scoring",
+            "arguments": [
+                {
+                    "role": "scorer",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "achievement",
+                    "argument": "golden goal"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "U.S. goaltender Connor Hellebuyck (Winnipeg Jets) was the backbone of that victory, stopping 41 shots to keep the Americans’ dreams alive.",
+            "event_type": "Sports Performance",
+            "trigger": "stopping",
+            "arguments": [
+                {
+                    "role": "performer",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "action",
+                    "argument": "stopping 41 shots"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Quinn Hughes (Minnesota Wild) scored the overtime winner against Sweden in the quarter-final.",
+            "event_type": "Sports Achievement",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "scorer",
+                    "argument": "Quinn Hughes"
+                },
+                {
+                    "role": "opponent",
+                    "argument": "Sweden"
+                },
+                {
+                    "role": "stage",
+                    "argument": "quarter-final"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Finland secured bronze one day earlier, defeating Slovakia 6-1 on Saturday (21 February).",
+            "event_type": "Sports Competition",
+            "trigger": "defeating",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Finland"
+                },
+                {
+                    "role": "loser",
+                    "argument": "Slovakia"
+                },
+                {
+                    "role": "score",
+                    "argument": "6-1"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "the United States beat Canada in the women’s final (also a 2-1 overtime decision).",
+            "event_type": "Sports Competition",
+            "trigger": "beat",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "United States"
+                },
+                {
+                    "role": "loser",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "score",
+                    "argument": "2-1"
+                }
+            ]
+        }
+    ]
+}

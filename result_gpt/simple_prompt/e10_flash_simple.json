@@ -1,0 +1,46 @@
+{
+    "doc_id": "event10_flash",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Francesca Lollobrigida powered to victory in the women’s speed skating 3000m to deliver Italy’s first gold medal of Milano Cortina 2026 in a new Olympic record time of 3:54.28.",
+            "event_type": "Competition",
+            "trigger": "powered to victory",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "event",
+                    "argument": "women’s speed skating 3000m"
+                },
+                {
+                    "role": "result",
+                    "argument": "Italy’s first gold medal of Milano Cortina 2026"
+                },
+                {
+                    "role": "record",
+                    "argument": "new Olympic record time of 3:54.28"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "admitting she had been on the verge of quitting the sport due to a viral infection",
+            "event_type": "Admission",
+            "trigger": "admitting",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "reason",
+                    "argument": "viral infection"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+{
+    "doc_id": "event5_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Lindsey Vonn's 5th-place finish in a race at Afton Alps in Washington County, Minnesota, on Feb. 22, 1992.",
+            "event_type": "Competition",
+            "trigger": "finish",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "location",
+                    "argument": "Afton Alps, Washington County, Minnesota"
+                },
+                {
+                    "role": "date",
+                    "argument": "Feb. 22, 1992"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Vonn stood coiled in the start house at the top of the Olympia delle Tofane",
+            "event_type": "Preparation",
+            "trigger": "stood",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "location",
+                    "argument": "Olympia delle Tofane"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Vonn prepared herself as the 13th starter in the downhill at the Milan Cortina Olympic Games",
+            "event_type": "Preparation",
+            "trigger": "prepared",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "event",
+                    "argument": "Milan Cortina Olympic Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Vonn pushed out, skated five times to create speed and then dropped into a tuck",
+            "event_type": "Action",
+            "trigger": "pushed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "she clipped the fourth right-sided gate on the course just as she went airborne",
+            "event_type": "Accident",
+            "trigger": "clipped",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Vonn was loaded onto an orange sled, tethered to the chopper and lifted into the bluebird sky",
+            "event_type": "Rescue",
+            "trigger": "loaded",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Breezy Johnson sat at the bottom of the hill in the leader's chair",
+            "event_type": "Competition",
+            "trigger": "sat",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Breezy Johnson"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Johnson would eventually win the gold medal",
+            "event_type": "Victory",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Breezy Johnson"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Sofia Goggia of Italy, racing on home snow two days after lighting the Olympic flame in Cortina",
+            "event_type": "Competition",
+            "trigger": "racing",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Sofia Goggia"
+                },
+                {
+                    "role": "location",
+                    "argument": "Cortina"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Goggia won the bronze medal",
+            "event_type": "Victory",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Sofia Goggia"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Jackie Wiles finished 4th",
+            "event_type": "Competition",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Jackie Wiles"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Vonn underwent partial right knee replacement surgery",
+            "event_type": "Medical",
+            "trigger": "underwent",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Vonn announced on Feb. 3 that she would put a brace on her newly damaged left knee and race with it",
+            "event_type": "Announcement",
+            "trigger": "announced",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "date",
+                    "argument": "Feb. 3"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Vonn completed two training runs",
+            "event_type": "Preparation",
+            "trigger": "completed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "Johnson tore down the hill, almost Klammer-esque, losing form frequently, but never losing speed",
+            "event_type": "Action",
+            "trigger": "tore",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Breezy Johnson"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "Emma Aicher of Germany got within four one-hundredths, and would win the silver",
+            "event_type": "Victory",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Emma Aicher"
+                }
+            ]
+        }
+    ]
+}

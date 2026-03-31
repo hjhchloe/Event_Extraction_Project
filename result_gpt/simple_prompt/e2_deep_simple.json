@@ -1,0 +1,222 @@
+{
+    "doc_id": "event2_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Eileen Gu got her gold.",
+            "event_type": "Achievement",
+            "trigger": "got",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "object",
+                    "argument": "gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Gu nailed her final two runs of the halfpipe skiing at the Livigno Snow Park",
+            "event_type": "Performance",
+            "trigger": "nailed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "location",
+                    "argument": "Livigno Snow Park"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Li Fanghui of China finished with a silver",
+            "event_type": "Achievement",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Li Fanghui"
+                },
+                {
+                    "role": "object",
+                    "argument": "silver"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Great Britain’s Zoe Atkin won the bronze",
+            "event_type": "Achievement",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Zoe Atkin"
+                },
+                {
+                    "role": "object",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Gu became the second person to win gold or silver in each of their first six Winter Olympic individual events",
+            "event_type": "Achievement",
+            "trigger": "became",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "security had to compel Chinese fans to leave the freeski venue in Livigno",
+            "event_type": "Security",
+            "trigger": "compel",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "security"
+                },
+                {
+                    "role": "participant",
+                    "argument": "Chinese fans"
+                },
+                {
+                    "role": "location",
+                    "argument": "freeski venue in Livigno"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Gu told reporters after the event",
+            "event_type": "Communication",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "speaker",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "audience",
+                    "argument": "reporters"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Gu noted that she hadn’t skied halfpipe in two months prior to the Olympics",
+            "event_type": "Communication",
+            "trigger": "noted",
+            "arguments": [
+                {
+                    "role": "speaker",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Gu grew emotional at the end of her Olympic press conference",
+            "event_type": "Emotional",
+            "trigger": "grew emotional",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "she had just found out that her grandmother, who had been sick, had passed away",
+            "event_type": "Death",
+            "trigger": "passed away",
+            "arguments": [
+                {
+                    "role": "deceased",
+                    "argument": "her grandmother"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Vice President J.D. Vance was the latest prominent figure to weigh in on her choice to represent China",
+            "event_type": "Opinion",
+            "trigger": "weigh in",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Vice President J.D. Vance"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Gu replied in a playful manner to Vance’s words",
+            "event_type": "Communication",
+            "trigger": "replied",
+            "arguments": [
+                {
+                    "role": "speaker",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "audience",
+                    "argument": "Vance"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Gu struggled with panic attacks and encountered online trolling",
+            "event_type": "Adversity",
+            "trigger": "struggled",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Gu suffered several injuries in the lead-up to the Games",
+            "event_type": "Injury",
+            "trigger": "suffered",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "Gu wrote in her journal in December, after winning a World Cup event in China",
+            "event_type": "Communication",
+            "trigger": "wrote",
+            "arguments": [
+                {
+                    "role": "author",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "time",
+                    "argument": "December"
+                }
+            ]
+        }
+    ]
+}

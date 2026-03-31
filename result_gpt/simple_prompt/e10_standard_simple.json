@@ -1,0 +1,78 @@
+{
+    "doc_id": "event10_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Italy won its first gold medal of the Milano Cortina Games on Saturday",
+            "event_type": "Winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Italy"
+                },
+                {
+                    "role": "event",
+                    "argument": "Milano Cortina Games"
+                },
+                {
+                    "role": "medal",
+                    "argument": "gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Francesca Lollobrigida set a new Olympic record — on her 35th birthday — of 3 minutes, 54.28 seconds",
+            "event_type": "RecordSetting",
+            "trigger": "set",
+            "arguments": [
+                {
+                    "role": "record_holder",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "record",
+                    "argument": "new Olympic record"
+                },
+                {
+                    "role": "time",
+                    "argument": "3 minutes, 54.28 seconds"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Dutch skater Joy Beune, the reigning world champion in the 3000m, finished off the podium in 4th",
+            "event_type": "CompetitionResult",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Joy Beune"
+                },
+                {
+                    "role": "position",
+                    "argument": "4th"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "A last-minute addition to Saturday's race was that of American skater Greta Myers, who was added to the lineup after Czech skater Martina Sablikova's withdrawal",
+            "event_type": "ParticipantAddition",
+            "trigger": "addition",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "withdrawn_participant",
+                    "argument": "Martina Sablikova"
+                }
+            ]
+        }
+    ]
+}

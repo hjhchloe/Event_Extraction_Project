@@ -1,0 +1,150 @@
+{
+    "doc_id": "event5_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "awarded to her for a 5th-place finish in a race at Afton Alps in Washington County, Minnesota, on Feb. 22, 1992",
+            "event_type": "Award",
+            "trigger": "awarded",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "unspecified"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Afton Alps, Washington County, Minnesota"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Feb. 22, 1992"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Vonn stood coiled in the start house at the top of the Olympia delle Tofane",
+            "event_type": "Preparation",
+            "trigger": "stood",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Place",
+                    "argument": "start house at the top of the Olympia delle Tofane"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Sunday morning"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Vonn pushed out, skated five times to create speed and then dropped into a tuck",
+            "event_type": "Action",
+            "trigger": "pushed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lindsey Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "she clipped the fourth right-sided gate on the course just as she went airborne",
+            "event_type": "Accident",
+            "trigger": "clipped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Place",
+                    "argument": "fourth right-sided gate on the course"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Vonn was loaded onto an orange sled, tethered to the chopper and lifted into the bluebird sky",
+            "event_type": "Rescue",
+            "trigger": "loaded",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Instrument",
+                    "argument": "orange sled"
+                },
+                {
+                    "role": "Agent",
+                    "argument": "rescue team"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Johnson would eventually win the gold medal on the same course",
+            "event_type": "Victory",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Breezy Johnson"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold medal"
+                },
+                {
+                    "role": "Place",
+                    "argument": "same course"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Goggia won the bronze medal",
+            "event_type": "Victory",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Sofia Goggia"
+                },
+                {
+                    "role": "Result",
+                    "argument": "bronze medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Vonn announced on Feb. 3 that she would put a brace on her newly damaged left knee and race with it",
+            "event_type": "Announcement",
+            "trigger": "announced",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Feb. 3"
+                }
+            ]
+        }
+    ]
+}

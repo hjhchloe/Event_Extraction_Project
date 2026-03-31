@@ -1,0 +1,234 @@
+{
+    "doc_id": "event7_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Braathen’s victory also makes him the first athlete from South America to medal at the Winter Games",
+            "event_type": "Achievement",
+            "trigger": "victory",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first athlete from South America to medal at the Winter Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Marco Odermatt and Loïc Meillard winning silver and bronze, respectively",
+            "event_type": "Achievement",
+            "trigger": "winning",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Marco Odermatt and Loïc Meillard"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver and bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026",
+            "event_type": "Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "Alpine skiing giant slalom gold"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Saturday (14 February)"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milano Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Braathen told reporters after the race",
+            "event_type": "Communication",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "reporters"
+                },
+                {
+                    "role": "Time",
+                    "argument": "after the race"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Braathen put himself in pole position for gold with a leading time of 1:13.92 in Run 1",
+            "event_type": "Competition",
+            "trigger": "put",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "pole position for gold"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Run 1"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "1:13.92"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "His second run saw him maintain his lead to secure the gold medal in a combined time of 2:25.00",
+            "event_type": "Competition",
+            "trigger": "maintain",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "secure the gold medal"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "2:25.00"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Odermatt failed to win the gold he was so widely predicted to in Italy",
+            "event_type": "Competition",
+            "trigger": "failed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Odermatt"
+                },
+                {
+                    "role": "Result",
+                    "argument": "failed to win the gold"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Italy"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "the Swiss skier expressed his satisfaction with his performance at these Games",
+            "event_type": "Communication",
+            "trigger": "expressed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the Swiss skier"
+                },
+                {
+                    "role": "Result",
+                    "argument": "satisfaction with his performance"
+                },
+                {
+                    "role": "Place",
+                    "argument": "these Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Meillard, who also won silver in the team combined event alongside Odermatt",
+            "event_type": "Achievement",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Meillard"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver in the team combined event"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "alongside Odermatt"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Braathen held his nerve to deliver a gold-winning run",
+            "event_type": "Competition",
+            "trigger": "deliver",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold-winning run"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Braathen was keener to focus on the inspiration young people in Brazil could take from his history-making gold",
+            "event_type": "Communication",
+            "trigger": "focus",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "inspiration young people in Brazil could take"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Braathen has now seen it lifted high for the first time at a medal ceremony of the Olympic Winter Games",
+            "event_type": "Ceremony",
+            "trigger": "lifted",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "Place",
+                    "argument": "medal ceremony of the Olympic Winter Games"
+                }
+            ]
+        }
+    ]
+}

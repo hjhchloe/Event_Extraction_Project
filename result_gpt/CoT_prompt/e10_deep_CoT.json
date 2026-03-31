@@ -1,0 +1,450 @@
+{
+    "doc_id": "event10_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+            "event_type": "Competition",
+            "trigger": "competition",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "2026 Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics in a surprisingly dominant performance.",
+            "event_type": "Winning",
+            "trigger": "took home",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Italian Francesca Lollobrigida"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first speed skating gold"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2026 Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "skating the 3000m in Olympic record time in front of a roaring home crowd on her 35th birthday.",
+            "event_type": "Performance",
+            "trigger": "skating",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "Distance",
+                    "argument": "3000m"
+                },
+                {
+                    "role": "Result",
+                    "argument": "Olympic record time"
+                },
+                {
+                    "role": "Place",
+                    "argument": "in front of a roaring home crowd"
+                },
+                {
+                    "role": "Time",
+                    "argument": "on her 35th birthday"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world.",
+            "event_type": "Entering",
+            "trigger": "entered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "Position",
+                    "argument": "9th best women's long distance skater in the world"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "She spent part of the season battling a viral infection.",
+            "event_type": "Battling",
+            "trigger": "battling",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "She"
+                },
+                {
+                    "role": "Obstacle",
+                    "argument": "viral infection"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "finding her previous best finish in the 3000m (4th) at the 2025-26 Speed Skating World Cup opener in November.",
+            "event_type": "Finishing",
+            "trigger": "finish",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "her"
+                },
+                {
+                    "role": "Position",
+                    "argument": "4th"
+                },
+                {
+                    "role": "Event",
+                    "argument": "3000m"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2025-26 Speed Skating World Cup opener in November"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "battling Canada's Valarie Maltais in a race that was neck-and-neck through the finish line.",
+            "event_type": "Competing",
+            "trigger": "battling",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "Opponent",
+                    "argument": "Canada's Valarie Maltais"
+                },
+                {
+                    "role": "Result",
+                    "argument": "neck-and-neck through the finish line"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Her final time was over two seconds faster than 2nd-place finisher Ragne Wiklund's (3:56.540).",
+            "event_type": "Timing",
+            "trigger": "final time",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Her"
+                },
+                {
+                    "role": "Comparison",
+                    "argument": "over two seconds faster than 2nd-place finisher Ragne Wiklund's (3:56.540)"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Maltais rounded out the podium in 3rd.",
+            "event_type": "Finishing",
+            "trigger": "rounded out",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Maltais"
+                },
+                {
+                    "role": "Position",
+                    "argument": "3rd"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Lollobrigida told the media after her race Saturday.",
+            "event_type": "Speaking",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "Audience",
+                    "argument": "the media"
+                },
+                {
+                    "role": "Time",
+                    "argument": "after her race Saturday"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Lollobrigida became the first Italian woman to win Olympic speed skating gold.",
+            "event_type": "Winning",
+            "trigger": "became",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first Italian woman to win Olympic speed skating gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Lollobrigida tore away from the ice and down the tunnels of the Milano Speed Skating Stadium, looking for her son, Tommaso.",
+            "event_type": "Searching",
+            "trigger": "looking",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "Target",
+                    "argument": "her son, Tommaso"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milano Speed Skating Stadium"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "she took a break from the sport, missing the entire 2022-23 season in order to start her family.",
+            "event_type": "Taking a Break",
+            "trigger": "took a break",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "she"
+                },
+                {
+                    "role": "Duration",
+                    "argument": "entire 2022-23 season"
+                },
+                {
+                    "role": "Purpose",
+                    "argument": "to start her family"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "She returned to competition in September 2023, just four months after giving birth.",
+            "event_type": "Returning",
+            "trigger": "returned",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "She"
+                },
+                {
+                    "role": "Time",
+                    "argument": "September 2023"
+                },
+                {
+                    "role": "Condition",
+                    "argument": "just four months after giving birth"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "she claimed the 2025 world title in the 5000m.",
+            "event_type": "Winning",
+            "trigger": "claimed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "she"
+                },
+                {
+                    "role": "Title",
+                    "argument": "2025 world title"
+                },
+                {
+                    "role": "Event",
+                    "argument": "5000m"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "Wiklund entered Olympic competition on a high.",
+            "event_type": "Entering",
+            "trigger": "entered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "Condition",
+                    "argument": "on a high"
+                }
+            ]
+        },
+        {
+            "event_id": "E17",
+            "event_mention": "She took gold in both the 1500m and 3000m at the 2026 European Championships.",
+            "event_type": "Winning",
+            "trigger": "took gold",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "She"
+                },
+                {
+                    "role": "Event",
+                    "argument": "1500m and 3000m"
+                },
+                {
+                    "role": "Place",
+                    "argument": "2026 European Championships"
+                }
+            ]
+        },
+        {
+            "event_id": "E18",
+            "event_mention": "won the race at the final World Cup stop Jan. 24.",
+            "event_type": "Winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "She"
+                },
+                {
+                    "role": "Event",
+                    "argument": "race"
+                },
+                {
+                    "role": "Time",
+                    "argument": "final World Cup stop Jan. 24"
+                }
+            ]
+        },
+        {
+            "event_id": "E19",
+            "event_mention": "With her silver, she became the first Norwegian woman to make an Olympic speed skating podium since Bjørg Eva Jensen won the 3000m in 1980.",
+            "event_type": "Achieving",
+            "trigger": "became",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "she"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first Norwegian woman to make an Olympic speed skating podium"
+                },
+                {
+                    "role": "Comparison",
+                    "argument": "since Bjørg Eva Jensen won the 3000m in 1980"
+                }
+            ]
+        },
+        {
+            "event_id": "E20",
+            "event_mention": "For Maltais, the podium finish marked her first individual Olympic medal in either sport.",
+            "event_type": "Achieving",
+            "trigger": "marked",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Maltais"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first individual Olympic medal in either sport"
+                }
+            ]
+        },
+        {
+            "event_id": "E21",
+            "event_mention": "She helped Canada to 3000m relay silver (short track) in 2014 and team pursuit gold (speed skating) in 2022.",
+            "event_type": "Helping",
+            "trigger": "helped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "She"
+                },
+                {
+                    "role": "Beneficiary",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Result",
+                    "argument": "3000m relay silver (short track) in 2014 and team pursuit gold (speed skating) in 2022"
+                }
+            ]
+        },
+        {
+            "event_id": "E22",
+            "event_mention": "Dutch skater Joy Beune finished just off the podium in 4th.",
+            "event_type": "Finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Dutch skater Joy Beune"
+                },
+                {
+                    "role": "Position",
+                    "argument": "4th"
+                }
+            ]
+        },
+        {
+            "event_id": "E23",
+            "event_mention": "American Greta Myers finished 20th.",
+            "event_type": "Finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "American Greta Myers"
+                },
+                {
+                    "role": "Position",
+                    "argument": "20th"
+                }
+            ]
+        },
+        {
+            "event_id": "E24",
+            "event_mention": "Competition continues Sunday, Feb. 8, with the men's 5000m.",
+            "event_type": "Competition",
+            "trigger": "continues",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "Sunday, Feb. 8"
+                },
+                {
+                    "role": "Event",
+                    "argument": "men's 5000m"
+                }
+            ]
+        }
+    ]
+}

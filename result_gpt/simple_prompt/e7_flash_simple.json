@@ -1,0 +1,54 @@
+{
+    "doc_id": "event7_flash",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026.",
+            "event_type": "Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "event",
+                    "argument": "Alpine skiing giant slalom"
+                },
+                {
+                    "role": "medal",
+                    "argument": "gold"
+                },
+                {
+                    "role": "date",
+                    "argument": "Saturday (14 February)"
+                },
+                {
+                    "role": "location",
+                    "argument": "Milano Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The 25-year-old’s victory at the Stelvio Ski Centre makes him the first Brazilian and first South American ever to claim a medal at the Winter Games.",
+            "event_type": "Achievement",
+            "trigger": "victory",
+            "arguments": [
+                {
+                    "role": "person",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "location",
+                    "argument": "Stelvio Ski Centre"
+                },
+                {
+                    "role": "achievement",
+                    "argument": "first Brazilian and first South American ever to claim a medal at the Winter Games"
+                }
+            ]
+        }
+    ]
+}

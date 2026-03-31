@@ -1,0 +1,102 @@
+{
+    "doc_id": "event4_flash",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Ilia Malinin missed out on a medal in a stunning and dramatic men's figure skating final at the Winter Olympics today.",
+            "event_type": "Competition Result",
+            "trigger": "missed out on a medal",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "event",
+                    "argument": "men's figure skating final"
+                },
+                {
+                    "role": "location",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The 21-year-old American fell twice in his final free skate to score 156.33 and finish eighth as Mikhail Shaidorov of Kazakhstan won gold.",
+            "event_type": "Performance",
+            "trigger": "fell twice",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "score",
+                    "argument": "156.33"
+                },
+                {
+                    "role": "position",
+                    "argument": "eighth"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Mikhail Shaidorov of Kazakhstan won gold.",
+            "event_type": "Competition Result",
+            "trigger": "won gold",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Mikhail Shaidorov"
+                },
+                {
+                    "role": "country",
+                    "argument": "Kazakhstan"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Malinin won team gold here at the Milan Cortina Games",
+            "event_type": "Competition Result",
+            "trigger": "won team gold",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "event",
+                    "argument": "Milan Cortina Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Yuma Kagiyama won silver",
+            "event_type": "Competition Result",
+            "trigger": "won silver",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Yuma Kagiyama"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Shun Sato bronze",
+            "event_type": "Competition Result",
+            "trigger": "bronze",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Shun Sato"
+                }
+            ]
+        }
+    ]
+}

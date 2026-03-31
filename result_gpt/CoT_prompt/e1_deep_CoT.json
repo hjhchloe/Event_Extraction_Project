@@ -1,0 +1,178 @@
+{
+    "doc_id": "event1_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Norway’s success at the 2026 Winter Olympics stems from a unique model prioritizing grassroots joy and long-term athlete well-being over prizes",
+            "event_type": "Achievement",
+            "trigger": "success",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2026 Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "As the Olympic flame was extinguished in the Verona Arena in February 2026",
+            "event_type": "Ceremony",
+            "trigger": "extinguished",
+            "arguments": [
+                {
+                    "role": "Place",
+                    "argument": "Verona Arena"
+                },
+                {
+                    "role": "Time",
+                    "argument": "February 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Norway, a nation of just 5.7 million people, had once again outclassed the world’s sporting superpowers on the largest stage of winter athletics",
+            "event_type": "Competition",
+            "trigger": "outclassed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "world’s sporting superpowers"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "With a record-breaking 18 gold medals and 41 total podium finishes, the Scandinavian country stood alone at the summit",
+            "event_type": "Achievement",
+            "trigger": "stood",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Scandinavian country"
+                },
+                {
+                    "role": "Result",
+                    "argument": "18 gold medals and 41 total podium finishes"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Johannes Høsflot Klæbo, who secured six gold medals in a single Games to bring his career total to 11",
+            "event_type": "Achievement",
+            "trigger": "secured",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Result",
+                    "argument": "six gold medals"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Norway’s 18 gold medals represent the highest total ever achieved by any nation at a single Winter Olympics",
+            "event_type": "Record",
+            "trigger": "achieved",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Result",
+                    "argument": "18 gold medals"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Norway awards the Egebergs Ærespris, its highest award for athletes who has made outstanding achievements in one sport and has also excelled in others",
+            "event_type": "Award",
+            "trigger": "awards",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "athletes"
+                },
+                {
+                    "role": "Award",
+                    "argument": "Egebergs Ærespris"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Wiklund in 2023 for her composite background in speed skating and orienteering",
+            "event_type": "Award",
+            "trigger": "awarded",
+            "arguments": [
+                {
+                    "role": "Recipient",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2023"
+                },
+                {
+                    "role": "Reason",
+                    "argument": "composite background in speed skating and orienteering"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Brå in 1988 for a career in both cross-country skiing and athletics",
+            "event_type": "Award",
+            "trigger": "awarded",
+            "arguments": [
+                {
+                    "role": "Recipient",
+                    "argument": "Brå"
+                },
+                {
+                    "role": "Time",
+                    "argument": "1988"
+                },
+                {
+                    "role": "Reason",
+                    "argument": "career in both cross-country skiing and athletics"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Norway’s dominance at Milano Cortina 2026 suggests that excellence is not merely the result of early intensity, but of long-term exploration, variation and joy",
+            "event_type": "Achievement",
+            "trigger": "dominance",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Milano Cortina 2026"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,254 @@
+{
+    "doc_id": "event10_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+            "event_type": "Competition",
+            "trigger": "got off to the hottest of starts",
+            "arguments": [
+                {
+                    "role": "event",
+                    "argument": "speed skating competition"
+                },
+                {
+                    "role": "location",
+                    "argument": "2026 Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics in a surprisingly dominant performance.",
+            "event_type": "Victory",
+            "trigger": "took home",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "medal",
+                    "argument": "gold"
+                },
+                {
+                    "role": "event",
+                    "argument": "speed skating"
+                },
+                {
+                    "role": "location",
+                    "argument": "2026 Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world.",
+            "event_type": "Participation",
+            "trigger": "entered",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "ranking",
+                    "argument": "9th best women's long distance skater"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "She spent part of the season battling a viral infection.",
+            "event_type": "Health",
+            "trigger": "battling",
+            "arguments": [
+                {
+                    "role": "person",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "condition",
+                    "argument": "viral infection"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Lollobrigida remained composed throughout the duration of the event, battling Canada's Valarie Maltais in a race that was neck-and-neck through the finish line.",
+            "event_type": "Competition",
+            "trigger": "battling",
+            "arguments": [
+                {
+                    "role": "competitor1",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "competitor2",
+                    "argument": "Valarie Maltais"
+                },
+                {
+                    "role": "event",
+                    "argument": "race"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Lollobrigida tore away from the ice and down the tunnels of the Milano Speed Skating Stadium, looking for her son, Tommaso.",
+            "event_type": "Personal",
+            "trigger": "looking for",
+            "arguments": [
+                {
+                    "role": "person",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "target",
+                    "argument": "her son, Tommaso"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "She returned to competition in September 2023, just four months after giving birth.",
+            "event_type": "Return",
+            "trigger": "returned",
+            "arguments": [
+                {
+                    "role": "person",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "event",
+                    "argument": "competition"
+                },
+                {
+                    "role": "time",
+                    "argument": "September 2023"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Eighteen months later, she claimed the 2025 world title in the 5000m.",
+            "event_type": "Victory",
+            "trigger": "claimed",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "title",
+                    "argument": "2025 world title"
+                },
+                {
+                    "role": "event",
+                    "argument": "5000m"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Wiklund entered Olympic competition on a high.",
+            "event_type": "Participation",
+            "trigger": "entered",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "event",
+                    "argument": "Olympic competition"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "She took gold in both the 1500m and 3000m at the 2026 European Championships.",
+            "event_type": "Victory",
+            "trigger": "took gold",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "events",
+                    "argument": "1500m and 3000m"
+                },
+                {
+                    "role": "location",
+                    "argument": "2026 European Championships"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "With her silver, she became the first Norwegian woman to make an Olympic speed skating podium since Bjørg Eva Jensen won the 3000m in 1980.",
+            "event_type": "Achievement",
+            "trigger": "became",
+            "arguments": [
+                {
+                    "role": "person",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "achievement",
+                    "argument": "first Norwegian woman to make an Olympic speed skating podium"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "For Maltais, the podium finish marked her first individual Olympic medal in either sport.",
+            "event_type": "Achievement",
+            "trigger": "marked",
+            "arguments": [
+                {
+                    "role": "person",
+                    "argument": "Maltais"
+                },
+                {
+                    "role": "achievement",
+                    "argument": "first individual Olympic medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "A last-minute addition to the race following Czechian skater Martina Sablikova’s withdrawal, American Greta Myers finished 20th.",
+            "event_type": "Participation",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "position",
+                    "argument": "20th"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Competition continues Sunday, Feb. 8, with the men's 5000m.",
+            "event_type": "Scheduled",
+            "trigger": "continues",
+            "arguments": [
+                {
+                    "role": "event",
+                    "argument": "men's 5000m"
+                },
+                {
+                    "role": "date",
+                    "argument": "Sunday, Feb. 8"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "doc_id": "event2_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Eileen Gu of China saved her best for last Sunday at the Milan Cortina Games, defending her Olympic title in women's freeski halfpipe to earn a third medal",
+            "event_type": "Competition",
+            "trigger": "defending",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "Time",
+                    "argument": "last Sunday"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milan Cortina Games"
+                },
+                {
+                    "role": "Result",
+                    "argument": "third medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Gu opened her second with a giant 12.5-foot 900 Buick, then linked a 900 and a 700 with tail grabs plus a switch 700 before closing with massive back-to-back alley-oop flat 500s for a 94.00",
+            "event_type": "Performance",
+            "trigger": "opened",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Result",
+                    "argument": "94.00"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "She cleaned up the same line on her third run to post a 94.75",
+            "event_type": "Performance",
+            "trigger": "cleaned",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Result",
+                    "argument": "94.75"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Gu also claimed silver in big air (Day 10) and slopestyle (Day 3)",
+            "event_type": "Competition",
+            "trigger": "claimed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver in big air and slopestyle"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Gu broke into tears, revealing that her grandmother had died and that she learned about the news just after her record-setting run",
+            "event_type": "Emotional Reaction",
+            "trigger": "broke",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Time",
+                    "argument": "just after her record-setting run"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Li Fanghui landed silver with a 93.00",
+            "event_type": "Competition",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Li Fanghui"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver with a 93.00"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Zoe Atkin of Great Britain earned bronze with 92.50",
+            "event_type": "Competition",
+            "trigger": "earned",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Zoe Atkin"
+                },
+                {
+                    "role": "Result",
+                    "argument": "bronze with 92.50"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Americans Kate Gray and Svea Irving finished 10th and 11th",
+            "event_type": "Competition",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Kate Gray and Svea Irving"
+                },
+                {
+                    "role": "Result",
+                    "argument": "10th and 11th"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Abby Winterberger and Riley Jacobs did not advance to the final, placing 15th and 18th in qualifying",
+            "event_type": "Competition",
+            "trigger": "placing",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Abby Winterberger and Riley Jacobs"
+                },
+                {
+                    "role": "Result",
+                    "argument": "15th and 18th in qualifying"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "doc_id": "event6_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday",
+            "event_type": "Competition",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "event",
+                    "argument": "men’s 50-kilometer cross-country race"
+                },
+                {
+                    "role": "time",
+                    "argument": "Saturday"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Nyenget took silver and Iversen bronze, ensuring Norway swept the podium",
+            "event_type": "Competition",
+            "trigger": "took",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Nyenget"
+                },
+                {
+                    "role": "medal",
+                    "argument": "silver"
+                },
+                {
+                    "role": "participant",
+                    "argument": "Iversen"
+                },
+                {
+                    "role": "medal",
+                    "argument": "bronze"
+                },
+                {
+                    "role": "team",
+                    "argument": "Norway"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Ben Ogden, Schumacher’s U.S. teammate who already has two silver medals from sprint events in these Olympics, withdrew pre-race with a cold",
+            "event_type": "Withdrawal",
+            "trigger": "withdrew",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Ben Ogden"
+                },
+                {
+                    "role": "reason",
+                    "argument": "cold"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that",
+            "event_type": "Achievement",
+            "trigger": "snaring",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "medal",
+                    "argument": "gold"
+                },
+                {
+                    "role": "event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes, was no match for Pinheiro Braathen in the men’s giant slalom in Bormio",
+            "event_type": "Competition",
+            "trigger": "was no match",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Marco Odermatt"
+                },
+                {
+                    "role": "participant",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "event",
+                    "argument": "men’s giant slalom"
+                },
+                {
+                    "role": "location",
+                    "argument": "Bormio"
+                }
+            ]
+        }
+    ]
+}

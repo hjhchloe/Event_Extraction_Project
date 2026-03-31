@@ -1,0 +1,206 @@
+{
+    "doc_id": "event1_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Norway’s success at the 2026 Winter Olympics stems from a unique model prioritizing grassroots joy and long-term athlete well-being over prizes",
+            "event_type": "Achievement",
+            "trigger": "success",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "time",
+                    "argument": "2026 Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "As the Olympic flame was extinguished in the Verona Arena in February 2026",
+            "event_type": "Ceremony",
+            "trigger": "extinguished",
+            "arguments": [
+                {
+                    "role": "location",
+                    "argument": "Verona Arena"
+                },
+                {
+                    "role": "time",
+                    "argument": "February 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Norway, a nation of just 5.7 million people, had once again outclassed the world’s sporting superpowers on the largest stage of winter athletics",
+            "event_type": "Achievement",
+            "trigger": "outclassed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "location",
+                    "argument": "largest stage of winter athletics"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Johannes Høsflot Klæbo, who secured six gold medals in a single Games",
+            "event_type": "Achievement",
+            "trigger": "secured",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "quantity",
+                    "argument": "six gold medals"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Norway’s 18 gold medals represent the highest total ever achieved by any nation at a single Winter Olympics",
+            "event_type": "Achievement",
+            "trigger": "achieved",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "quantity",
+                    "argument": "18 gold medals"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Norway awards the Egebergs Ærespris, its highest award for athletes who has made outstanding achievements in one sport and has also excelled in others",
+            "event_type": "Award",
+            "trigger": "awards",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "award",
+                    "argument": "Egebergs Ærespris"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Wiklund in 2023 for her composite background in speed skating and orienteering",
+            "event_type": "Award",
+            "trigger": "awarded",
+            "arguments": [
+                {
+                    "role": "recipient",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "time",
+                    "argument": "2023"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Brå in 1988 for a career in both cross-country skiing and athletics",
+            "event_type": "Award",
+            "trigger": "awarded",
+            "arguments": [
+                {
+                    "role": "recipient",
+                    "argument": "Brå"
+                },
+                {
+                    "role": "time",
+                    "argument": "1988"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Norway, on the other hand, awards its champions zero euros in prize money",
+            "event_type": "Policy",
+            "trigger": "awards",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "policy",
+                    "argument": "zero euros in prize money"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Norsk Tipping, the Norwegian state gambling company, allocates 50–60% of its annual revenue to sports infrastructure",
+            "event_type": "Funding",
+            "trigger": "allocates",
+            "arguments": [
+                {
+                    "role": "organization",
+                    "argument": "Norsk Tipping"
+                },
+                {
+                    "role": "percentage",
+                    "argument": "50–60%"
+                },
+                {
+                    "role": "purpose",
+                    "argument": "sports infrastructure"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "In 2025 alone, nearly €400 million was funnelled into sports",
+            "event_type": "Funding",
+            "trigger": "funnelled",
+            "arguments": [
+                {
+                    "role": "time",
+                    "argument": "2025"
+                },
+                {
+                    "role": "amount",
+                    "argument": "€400 million"
+                },
+                {
+                    "role": "purpose",
+                    "argument": "sports"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Wiklund, intellectual stimulation acts as a form of recovery",
+            "event_type": "Recovery",
+            "trigger": "recovery",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "method",
+                    "argument": "intellectual stimulation"
+                }
+            ]
+        }
+    ]
+}

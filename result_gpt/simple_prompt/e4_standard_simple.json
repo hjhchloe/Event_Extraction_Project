@@ -1,0 +1,150 @@
+{
+    "doc_id": "event4_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Ilia Malinin became the top prospect for the gold medal at the Winter Olympics after an impressive performance in the team event, where he helped score 19 points for Team USA.",
+            "event_type": "Performance",
+            "trigger": "became",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "event",
+                    "argument": "team event"
+                },
+                {
+                    "role": "score",
+                    "argument": "19 points"
+                },
+                {
+                    "role": "team",
+                    "argument": "Team USA"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Malinin opened his short program in commanding fashion, positioning himself for a run at the top of the podium.",
+            "event_type": "Performance",
+            "trigger": "opened",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "program",
+                    "argument": "short program"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "a high-risk free skate unraveled when he fell twice, dropping him to an eighth-place finish and ending his individual medal hopes.",
+            "event_type": "Performance",
+            "trigger": "unraveled",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "program",
+                    "argument": "free skate"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "The short program took place on Tuesday, Feb. 10, where Malinin delivered an impressive performance as he scored 108.16 points to sit in first place.",
+            "event_type": "Competition",
+            "trigger": "took place",
+            "arguments": [
+                {
+                    "role": "date",
+                    "argument": "Tuesday, Feb. 10"
+                },
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "score",
+                    "argument": "108.16 points"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "just days later on Feb. 13, he struggled in the free skate, placing 15th after earning 156.33 points.",
+            "event_type": "Competition",
+            "trigger": "struggled",
+            "arguments": [
+                {
+                    "role": "date",
+                    "argument": "Feb. 13"
+                },
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                },
+                {
+                    "role": "program",
+                    "argument": "free skate"
+                },
+                {
+                    "role": "score",
+                    "argument": "156.33 points"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Kazakhstan’s Mikhail Shaidorov won the free skate with 198.64 points and ultimately secured the top overall score in the men’s singles competition.",
+            "event_type": "Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Mikhail Shaidorov"
+                },
+                {
+                    "role": "program",
+                    "argument": "free skate"
+                },
+                {
+                    "role": "score",
+                    "argument": "198.64 points"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Malinin fell twice—first on another quad lutz attempt and then again on a failed Salchow combination—bringing a difficult end to what had been expected to be a gold-medal performance.",
+            "event_type": "Performance",
+            "trigger": "fell",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "In a post-match interview, Malinin explained that he felt confident going on to the ice and that the program was going to go well.",
+            "event_type": "Interview",
+            "trigger": "explained",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Malinin"
+                }
+            ]
+        }
+    ]
+}

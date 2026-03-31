@@ -1,0 +1,102 @@
+{
+    "doc_id": "event2_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Eileen Gu of China saved her best for last Sunday at the Milan Cortina Games, defending her Olympic title in women's freeski halfpipe to earn a third medal",
+            "event_type": "Sports Competition",
+            "trigger": "defending",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "location",
+                    "argument": "Milan Cortina Games"
+                },
+                {
+                    "role": "title",
+                    "argument": "Olympic title in women's freeski halfpipe"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Gu also claimed silver in big air (Day 10) and slopestyle (Day 3), events won by Megan Oldham and Mathilde Gremaud.",
+            "event_type": "Sports Competition",
+            "trigger": "claimed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "medal",
+                    "argument": "silver"
+                },
+                {
+                    "role": "events",
+                    "argument": "big air and slopestyle"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Gu broke into tears, revealing that her grandmother had died and that she learned about the news just after her record-setting run.",
+            "event_type": "Personal",
+            "trigger": "revealing",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "news",
+                    "argument": "her grandmother had died"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Li Fanghui landed silver with a 93.00",
+            "event_type": "Sports Competition",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Li Fanghui"
+                },
+                {
+                    "role": "medal",
+                    "argument": "silver"
+                },
+                {
+                    "role": "score",
+                    "argument": "93.00"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Zoe Atkin of Great Britain, the reigning X Games and world champion, earned bronze with 92.50.",
+            "event_type": "Sports Competition",
+            "trigger": "earned",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Zoe Atkin"
+                },
+                {
+                    "role": "medal",
+                    "argument": "bronze"
+                },
+                {
+                    "role": "score",
+                    "argument": "92.50"
+                }
+            ]
+        }
+    ]
+}

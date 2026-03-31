@@ -1,0 +1,102 @@
+{
+    "doc_id": "event6_flash",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Johannes Høsflot Klæbo makes Winter Olympic history with a sixth gold medal at Milano Cortina 2026",
+            "event_type": "Achievement",
+            "trigger": "makes",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Result",
+                    "argument": "sixth gold medal"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milano Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Norway dominates the 50km classic",
+            "event_type": "Competition",
+            "trigger": "dominates",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Event",
+                    "argument": "50km classic"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Johannes Høsflot Klæbo capped a remarkable Milano Cortina 2026 campaign on Saturday (21 February), winning the men’s 50km mass start classic",
+            "event_type": "Competition",
+            "trigger": "winning",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Event",
+                    "argument": "men’s 50km mass start classic"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Saturday (21 February)"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Klæbo stopped the clock at 2:07:07.1, pulling away late to beat compatriot Martin Løwstrøm Nyenget by 17.5 seconds",
+            "event_type": "Competition",
+            "trigger": "beat",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Klæbo"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Martin Løwstrøm Nyenget"
+                },
+                {
+                    "role": "Result",
+                    "argument": "17.5 seconds"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Emil Iversen completing an all-Norwegian podium in third, 46.2 seconds back",
+            "event_type": "Competition",
+            "trigger": "completing",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Emil Iversen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "third"
+                },
+                {
+                    "role": "Result",
+                    "argument": "46.2 seconds back"
+                }
+            ]
+        }
+    ]
+}

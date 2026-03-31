@@ -1,0 +1,138 @@
+{
+    "doc_id": "event5_flash",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Lindsey Vonn crashed early in the women’s downhill",
+            "event_type": "Accident",
+            "trigger": "crashed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Time",
+                    "argument": "early"
+                },
+                {
+                    "role": "Place",
+                    "argument": "women’s downhill"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "dashing hopes of an Olympic medal at the Milan Cortina Olympics on Sunday",
+            "event_type": "Disappointment",
+            "trigger": "dashing",
+            "arguments": [
+                {
+                    "role": "Result",
+                    "argument": "hopes of an Olympic medal"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milan Cortina Olympics"
+                },
+                {
+                    "role": "Time",
+                    "argument": "on Sunday"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Vonn lost control over the opening traverse after cutting the line too tight",
+            "event_type": "Loss of Control",
+            "trigger": "lost",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Place",
+                    "argument": "opening traverse"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "was spun around in the air",
+            "event_type": "Spinning",
+            "trigger": "spun",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Place",
+                    "argument": "in the air"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "was heard screaming out after the crash",
+            "event_type": "Screaming",
+            "trigger": "screaming",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Time",
+                    "argument": "after the crash"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "was surrounded by medical personnel",
+            "event_type": "Assistance",
+            "trigger": "surrounded",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "medical personnel"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "was strapped to a gurney and flown away by a helicopter",
+            "event_type": "Evacuation",
+            "trigger": "flown",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "helicopter"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "possibly ending the skier’s storied career",
+            "event_type": "Career Ending",
+            "trigger": "ending",
+            "arguments": [
+                {
+                    "role": "Result",
+                    "argument": "skier’s storied career"
+                }
+            ]
+        }
+    ]
+}

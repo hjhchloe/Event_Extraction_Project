@@ -1,0 +1,134 @@
+{
+    "doc_id": "event7_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Hundreds of thousands of international tourists are expected to descend on Brazil over the next few days for carnival.",
+            "event_type": "Tourism",
+            "trigger": "expected to descend",
+            "arguments": [
+                {
+                    "role": "destination",
+                    "argument": "Brazil"
+                },
+                {
+                    "role": "time",
+                    "argument": "over the next few days"
+                },
+                {
+                    "role": "participants",
+                    "argument": "Hundreds of thousands of international tourists"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that.",
+            "event_type": "Sport Achievement",
+            "trigger": "snaring",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "achievement",
+                    "argument": "first medal at a Winter Olympics – and a gold"
+                },
+                {
+                    "role": "location",
+                    "argument": "Brazil"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "The reigning champion, Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes, was no match for Pinheiro Braathen in the men’s giant slalom in Bormio.",
+            "event_type": "Sport Competition",
+            "trigger": "was no match for",
+            "arguments": [
+                {
+                    "role": "competitor",
+                    "argument": "Marco Odermatt"
+                },
+                {
+                    "role": "winner",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "event",
+                    "argument": "men’s giant slalom"
+                },
+                {
+                    "role": "location",
+                    "argument": "Bormio"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Brazilian TV heralded this moment by overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One.",
+            "event_type": "Media Coverage",
+            "trigger": "heralded",
+            "arguments": [
+                {
+                    "role": "medium",
+                    "argument": "Brazilian TV"
+                },
+                {
+                    "role": "content",
+                    "argument": "overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "It has been pointed out that anyone aged 23 or under in Brazil has now seen their country win a Winter Olympic gold medal but not a football World Cup.",
+            "event_type": "Sport Achievement",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "country",
+                    "argument": "Brazil"
+                },
+                {
+                    "role": "achievement",
+                    "argument": "Winter Olympic gold medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "The story of his retirement at 23 – “I lost the reason why I began skiing” – and his comeback under Brazil’s flag is well-documented.",
+            "event_type": "Career Change",
+            "trigger": "retirement",
+            "arguments": [
+                {
+                    "role": "person",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "age",
+                    "argument": "23"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "A little samba shuffle came out on top of the podium in Bormio after a poignant moment when the national anthem was played.",
+            "event_type": "Victory Celebration",
+            "trigger": "came out on top",
+            "arguments": [
+                {
+                    "role": "location",
+                    "argument": "Bormio"
+                },
+                {
+                    "role": "activity",
+                    "argument": "samba shuffle"
+                }
+            ]
+        }
+    ]
+}

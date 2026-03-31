@@ -1,0 +1,130 @@
+{
+    "doc_id": "event3_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada in the gold medal game of the men's hockey tournament at the Olympic Winter Games Milano Cortina 2026 at Santaguilia Arena on Sunday.",
+            "event_type": "Sports Event",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Result",
+                    "argument": "Team USA a 2-1 win against Team Canada"
+                },
+                {
+                    "role": "Time",
+                    "argument": "1:41 into overtime"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Santaguilia Arena"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Sunday"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Pandemonium broke out after the Hughes’ goal; the players leaping onto the ice in waves, tossing equipment into the sky, bearhugging the New Jersey Devils forward along the wall in front of the penalty box.",
+            "event_type": "Celebration",
+            "trigger": "broke out",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "players"
+                },
+                {
+                    "role": "Cause",
+                    "argument": "Hughes’ goal"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "The Team USA goal song, “Free Bird,” played in the background, fighting with the “USA, USA,” chants from the crowd.",
+            "event_type": "Celebration",
+            "trigger": "played",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Team USA goal song, “Free Bird”"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "crowd"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Hughes was in the spotlight afterwards, but the victory was built on the back of goalie Connor Hellebuyck, who made 41 saves, many of the highlight-reel variety, especially during a 19-8 advantage by Canada in the second period.",
+            "event_type": "Sports Performance",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "41 saves"
+                },
+                {
+                    "role": "Time",
+                    "argument": "second period"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "The biggest save of the game came in the opening minutes of the third period.",
+            "event_type": "Sports Performance",
+            "trigger": "came",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "opening minutes of the third period"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Cale Makar scored, and Binnington made 26 saves for Canada, which played without Crosby, its captain, for a second straight game because of a lower-body injury he sustained in the quarterfinals against Team Czechia.",
+            "event_type": "Sports Event",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Cale Makar"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Matt Boldy gave the U.S. a 1-0 lead at 6:00 of the first, flipping the puck between Makar and Toews before gaining position on the latter and deked to his backhand before pushing the puck past Binnington.",
+            "event_type": "Sports Event",
+            "trigger": "gave",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Matt Boldy"
+                },
+                {
+                    "role": "Result",
+                    "argument": "U.S. a 1-0 lead"
+                },
+                {
+                    "role": "Time",
+                    "argument": "6:00 of the first"
+                }
+            ]
+        }
+    ]
+}

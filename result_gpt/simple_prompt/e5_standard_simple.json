@@ -1,0 +1,94 @@
+{
+    "doc_id": "event5_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "The Team USA three-time Olympic medallist clipped a gate and fell to the ground in pain, in what could be the last race of her legendary career.",
+            "event_type": "Accident",
+            "trigger": "fell",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "The Team USA three-time Olympic medallist"
+                },
+                {
+                    "role": "location",
+                    "argument": "the ground"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Lindsey Vonn's Olympic Milano Cortina 2026 Alpine skiing downhill dreams came to an end, as she crashed out of the race on Sunday (8 February).",
+            "event_type": "Accident",
+            "trigger": "crashed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "date",
+                    "argument": "Sunday (8 February)"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "The race was halted for more than 10 minutes before Vonn was airlifted away to Codivilla Hospital in Cortina for medical evaluation.",
+            "event_type": "Medical Transport",
+            "trigger": "airlifted",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "destination",
+                    "argument": "Codivilla Hospital in Cortina"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "The U.S. Alpine skiing legend suffered a ruptured ACL, bone bruising, and meniscal damage on 30 January in the later-cancelled Crans-Montana downhill.",
+            "event_type": "Injury",
+            "trigger": "suffered",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "The U.S. Alpine skiing legend"
+                },
+                {
+                    "role": "date",
+                    "argument": "30 January"
+                },
+                {
+                    "role": "location",
+                    "argument": "Crans-Montana downhill"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "after making the decision to race in Italy, she lined up 13th on the start list for the women's downhill.",
+            "event_type": "Competition",
+            "trigger": "lined up",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "she"
+                },
+                {
+                    "role": "location",
+                    "argument": "Italy"
+                },
+                {
+                    "role": "position",
+                    "argument": "13th"
+                }
+            ]
+        }
+    ]
+}

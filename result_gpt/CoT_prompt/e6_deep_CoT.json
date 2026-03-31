@@ -1,0 +1,162 @@
+{
+    "doc_id": "event6_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Johannes Høsflot Klæbo won his sixth gold medal of these Games when he beat his Norwegian teammate Martin Løwstrøm Nyenget by 17.4 seconds to win the men’s 50km classic.",
+            "event_type": "Winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Martin Løwstrøm Nyenget"
+                },
+                {
+                    "role": "Result",
+                    "argument": "sixth gold medal"
+                },
+                {
+                    "role": "Time",
+                    "argument": "after a little over two hours of racing"
+                },
+                {
+                    "role": "Place",
+                    "argument": "men’s 50km classic"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The triumph meant the 29-year-old set the record for the most gold medals in a single Winter Games, set by the US speed skater Eric Heiden when he won five at Lake Placid in 1980.",
+            "event_type": "Record Setting",
+            "trigger": "set",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Result",
+                    "argument": "record for the most gold medals in a single Winter Games"
+                },
+                {
+                    "role": "Comparison",
+                    "argument": "Eric Heiden"
+                },
+                {
+                    "role": "Time",
+                    "argument": "1980"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Lake Placid"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "In this past fortnight he has competed in 10 races across 115km, in six different events, in the space of just 14 days, and won every single one of them.",
+            "event_type": "Competing",
+            "trigger": "competed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "10 races"
+                },
+                {
+                    "role": "Distance",
+                    "argument": "115km"
+                },
+                {
+                    "role": "Time",
+                    "argument": "past fortnight"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Nobody has ever swept all the cross-country events in a single Olympics before.",
+            "event_type": "Winning",
+            "trigger": "swept",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Place",
+                    "argument": "cross-country events"
+                },
+                {
+                    "role": "Time",
+                    "argument": "single Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Klæbo finally made the move everyone had been waiting to see, wondering, all the while, whether he still had it in him after all this racing.",
+            "event_type": "Winning Move",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Time",
+                    "argument": "final uphill"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "He began this sport as a sprinter, competing in the 1,500m, but over time has moved up into marathon racing too, with the ultimate aim of winning this, the most prestigious event in the sport.",
+            "event_type": "Career Progression",
+            "trigger": "began",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Initial Event",
+                    "argument": "1,500m"
+                },
+                {
+                    "role": "Current Event",
+                    "argument": "marathon racing"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Klæbo invented one all of his own, an uphill running technique, a sort of high-tempo diagonal stride that he used to devastating effect in the cross-country classic sprint.",
+            "event_type": "Invention",
+            "trigger": "invented",
+            "arguments": [
+                {
+                    "role": "Inventor",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Invention",
+                    "argument": "uphill running technique"
+                },
+                {
+                    "role": "Usage",
+                    "argument": "cross-country classic sprint"
+                }
+            ]
+        }
+    ]
+}
