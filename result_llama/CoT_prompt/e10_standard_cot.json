@@ -1,0 +1,306 @@
+{
+    "doc_id": "event10_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Italy won its first gold medal of the Milano Cortina Games on Saturday",
+            "event_type": "Winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Italy"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Saturday"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milano Cortina Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "a roaring speedskating upset that saw the dominant Netherlands pushed out of the women's 3000 meters podium for the first time since 2010",
+            "event_type": "Upset",
+            "trigger": "upset",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Netherlands"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2010"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "women's 3000 meters"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Francesca Lollobrigida set a new Olympic record of 3 minutes, 54.28 seconds",
+            "event_type": "Record Setting",
+            "trigger": "set",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "Result",
+                    "argument": "3 minutes, 54.28 seconds"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "shaving more than two-and-a-half seconds off the mark set by Dutch legend Irene Schouten four years earlier in Beijing",
+            "event_type": "Record Breaking",
+            "trigger": "shaving",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "Previous Record Holder",
+                    "argument": "Irene Schouten"
+                },
+                {
+                    "role": "Time",
+                    "argument": "four years earlier"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Beijing"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "It was also two seconds ahead of runner-up Ragne Wiklund of Norway",
+            "event_type": "Comparison",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Ragne Wiklund"
+                },
+                {
+                    "role": "Result",
+                    "argument": "two seconds ahead"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Canada's Valerie Maltais finished third",
+            "event_type": "Finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Valerie Maltais"
+                },
+                {
+                    "role": "Result",
+                    "argument": "third"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Dutch skater Joy Beune, the reigning world champion in the 3000m, finished off the podium in 4th",
+            "event_type": "Finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Joy Beune"
+                },
+                {
+                    "role": "Result",
+                    "argument": "4th"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "It was the first time since the 2010 Vancouver Games that the Netherlands had not won a medal in this distance",
+            "event_type": "Non-Occurrence",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Netherlands"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2010 Vancouver Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Lollobrigida is from Frascati, a hill town just outside Rome",
+            "event_type": "Origin",
+            "trigger": "is",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lollobrigida"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Frascati"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "her great aunt was the late Gina Lollobrigida, a star actress of the 1950s and '60s",
+            "event_type": "Relation",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gina Lollobrigida"
+                },
+                {
+                    "role": "Relation",
+                    "argument": "great aunt of Francesca Lollobrigida"
+                },
+                {
+                    "role": "Time",
+                    "argument": "1950s and '60s"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "This was the fourth Olympics for Francesca Lollobrigida and her first gold",
+            "event_type": "Participation",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "She collected two medals at Beijing four years ago: a silver in the 3,000 and a bronze in the mass start",
+            "event_type": "Medal Collection",
+            "trigger": "collected",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "Time",
+                    "argument": "four years ago"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Beijing"
+                },
+                {
+                    "role": "Result",
+                    "argument": "two medals"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "A last-minute addition to Saturday's race was that of American skater Greta Myers",
+            "event_type": "Addition",
+            "trigger": "addition",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "Time",
+                    "argument": "last-minute"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Saturday's race"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "She was added to the lineup after Czech skater Martina Sablikova's withdrawal",
+            "event_type": "Addition",
+            "trigger": "added",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "Reason",
+                    "argument": "Martina Sablikova's withdrawal"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "The 21-year-old American did not initially qualify for the event but secured the first reserve quota spot after her performances on the 2025-26 World Cup circuit",
+            "event_type": "Qualification",
+            "trigger": "secured",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first reserve quota spot"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2025-26"
+                },
+                {
+                    "role": "Place",
+                    "argument": "World Cup circuit"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "She finished in 20th place",
+            "event_type": "Finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "Result",
+                    "argument": "20th place"
+                }
+            ]
+        }
+    ]
+}

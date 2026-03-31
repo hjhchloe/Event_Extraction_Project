@@ -1,0 +1,110 @@
+{
+    "doc_id": "event8_flash",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "France add relay gold to their growing biathlon medal haul at Milano Cortina 2026, with Simon delivering a composed final leg to seal the win.",
+            "event_type": "win",
+            "trigger": "add",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "France"
+                },
+                {
+                    "role": "location",
+                    "argument": "Milano Cortina 2026"
+                },
+                {
+                    "role": "participant",
+                    "argument": "Simon"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "France added another glittering chapter to their Milano Cortina 2026 biathlon campaign on Wednesday (18 February), storming to victory in the women’s 4x6km relay thanks to another display of supreme shooting — capped by a flawless anchor leg from Julia Simon.",
+            "event_type": "victory",
+            "trigger": "storming",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "France"
+                },
+                {
+                    "role": "location",
+                    "argument": "Milano Cortina 2026"
+                },
+                {
+                    "role": "date",
+                    "argument": "Wednesday (18 February)"
+                },
+                {
+                    "role": "participant",
+                    "argument": "Julia Simon"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon claimed Olympic gold in 1:10:22.7, holding off a late challenge from Sweden to win by more than 50 seconds.",
+            "event_type": "win",
+            "trigger": "claimed",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "The French quartet"
+                },
+                {
+                    "role": "participants",
+                    "argument": "Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon"
+                },
+                {
+                    "role": "opponent",
+                    "argument": "Sweden"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Sweden took silver in 1:11:14.0 (+51.3), while Norway completed the podium with bronze in 1:11:30.3 (+1:07.6).",
+            "event_type": "medal award",
+            "trigger": "took",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Sweden"
+                },
+                {
+                    "role": "medal",
+                    "argument": "silver"
+                },
+                {
+                    "role": "time",
+                    "argument": "1:11:14.0"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Sweden took silver in 1:11:14.0 (+51.3), while Norway completed the podium with bronze in 1:11:30.3 (+1:07.6).",
+            "event_type": "medal award",
+            "trigger": "completed",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "medal",
+                    "argument": "bronze"
+                },
+                {
+                    "role": "time",
+                    "argument": "1:11:30.3"
+                }
+            ]
+        }
+    ]
+}

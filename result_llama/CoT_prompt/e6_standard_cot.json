@@ -1,0 +1,226 @@
+{
+    "doc_id": "event6_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday",
+            "event_type": "Sports Competition",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Event",
+                    "argument": "men’s 50-kilometer cross-country race"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Saturday"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Klæbo made the decisive move with five kilometres remaining, first shedding his close friend Iversen, before sprinting past Nyenget on the final hill",
+            "event_type": "Sports Action",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Klæbo"
+                },
+                {
+                    "role": "Action",
+                    "argument": "decisive move"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Iversen"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Nyenget"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Nyenget took silver and Iversen bronze, ensuring Norway swept the podium",
+            "event_type": "Award Ceremony",
+            "trigger": "took",
+            "arguments": [
+                {
+                    "role": "Recipient",
+                    "argument": "Nyenget"
+                },
+                {
+                    "role": "Award",
+                    "argument": "silver"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Iversen"
+                },
+                {
+                    "role": "Award",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Klæbo said post-race. “It’s hard to find the words,”",
+            "event_type": "Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Klæbo"
+                },
+                {
+                    "role": "Statement",
+                    "argument": "It’s hard to find the words"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that",
+            "event_type": "Sports Achievement",
+            "trigger": "snaring",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Achievement",
+                    "argument": "first medal at a Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "The reigning champion, Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes, was no match for Pinheiro Braathen in the men’s giant slalom in Bormio",
+            "event_type": "Sports Competition",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Marco Odermatt"
+                },
+                {
+                    "role": "Event",
+                    "argument": "men’s giant slalom"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Bormio"
+                },
+                {
+                    "role": "Opponent",
+                    "argument": "Pinheiro Braathen"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Brazilian TV heralded this moment by overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One",
+            "event_type": "Broadcast",
+            "trigger": "heralded",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Brazilian TV"
+                },
+                {
+                    "role": "Event",
+                    "argument": "moment"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "The president, Luiz Inácio Lula da Silva, wrote. “This unprecedented result shows that Brazilian sport has no limits,”",
+            "event_type": "Statement",
+            "trigger": "wrote",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The president, Luiz Inácio Lula da Silva"
+                },
+                {
+                    "role": "Statement",
+                    "argument": "This unprecedented result shows that Brazilian sport has no limits"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Pinheiro Braathen harboured dreams of wearing the famous yellow shirt on the world stage",
+            "event_type": "Aspiration",
+            "trigger": "harboured",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "Aspiration",
+                    "argument": "wearing the famous yellow shirt on the world stage"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "He told his dad he wanted to be the best footballer in the world",
+            "event_type": "Statement",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "He"
+                },
+                {
+                    "role": "Statement",
+                    "argument": "he wanted to be the best footballer in the world"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Pinheiro Braathen says he is freer, more able to express himself",
+            "event_type": "Statement",
+            "trigger": "says",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "Statement",
+                    "argument": "he is freer, more able to express himself"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "A little samba shuffle came out on top of the podium in Bormio after a poignant moment when the national anthem was played",
+            "event_type": "Celebration",
+            "trigger": "came",
+            "arguments": [
+                {
+                    "role": "Event",
+                    "argument": "samba shuffle"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Bormio"
+                }
+            ]
+        }
+    ]
+}

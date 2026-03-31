@@ -1,0 +1,310 @@
+{
+    "doc_id": "event4_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "American figure skater Ilia Malinin was the favorite to win going into the 2026 Milano-Cortina Winter Games",
+            "event_type": "Prediction",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "2026 Milano-Cortina Winter Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "He became the top prospect for the gold medal at the Winter Olympics after an impressive performance in the team event",
+            "event_type": "Achievement",
+            "trigger": "became",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "team event"
+                },
+                {
+                    "role": "Result",
+                    "argument": "top prospect for the gold medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "He helped score 19 points for Team USA",
+            "event_type": "Contribution",
+            "trigger": "helped score",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Beneficiary",
+                    "argument": "Team USA"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "19 points"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Malinin opened his short program in commanding fashion",
+            "event_type": "Performance",
+            "trigger": "opened",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "short program"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "He fell twice, dropping him to an eighth-place finish",
+            "event_type": "Mistake",
+            "trigger": "fell",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Result",
+                    "argument": "eighth-place finish"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "The short program took place on Tuesday, Feb. 10",
+            "event_type": "Occurrence",
+            "trigger": "took place",
+            "arguments": [
+                {
+                    "role": "Event",
+                    "argument": "short program"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Tuesday, Feb. 10"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Malinin delivered an impressive performance as he scored 108.16 points",
+            "event_type": "Achievement",
+            "trigger": "delivered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Result",
+                    "argument": "108.16 points"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "He struggled in the free skate, placing 15th after earning 156.33 points",
+            "event_type": "Struggle",
+            "trigger": "struggled",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "free skate"
+                },
+                {
+                    "role": "Result",
+                    "argument": "15th place"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "156.33 points"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Kazakhstan’s Mikhail Shaidorov won the free skate with 198.64 points",
+            "event_type": "Victory",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Mikhail Shaidorov"
+                },
+                {
+                    "role": "Event",
+                    "argument": "free skate"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "198.64 points"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Malinin popped his quad-axel and completed a single instead",
+            "event_type": "Mistake",
+            "trigger": "popped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Result",
+                    "argument": "completed a single instead"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "He briefly regained momentum with a quad lutz",
+            "event_type": "Recovery",
+            "trigger": "regained",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "quad lutz"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "A planned quad loop was reduced to a double",
+            "event_type": "Mistake",
+            "trigger": "was reduced",
+            "arguments": [
+                {
+                    "role": "Event",
+                    "argument": "quad loop"
+                },
+                {
+                    "role": "Result",
+                    "argument": "double"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Malinin fell twice—first on another quad lutz attempt and then again on a failed Salchow combination",
+            "event_type": "Mistake",
+            "trigger": "fell",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "quad lutz attempt"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Salchow combination"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "The frustration could be felt from beyond the screen as he finished",
+            "event_type": "Emotion",
+            "trigger": "could be felt",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Emotion",
+                    "argument": "frustration"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "Malinin explained that he felt confident going on to the ice",
+            "event_type": "Statement",
+            "trigger": "explained",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Emotion",
+                    "argument": "confident"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "He believed that a combination of his overconfidence and the “Olympic atmosphere” played a role",
+            "event_type": "Belief",
+            "trigger": "believed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Cause",
+                    "argument": "overconfidence"
+                },
+                {
+                    "role": "Cause",
+                    "argument": "Olympic atmosphere"
+                }
+            ]
+        },
+        {
+            "event_id": "E17",
+            "event_mention": "Malinin received immense backlash for his performance on the ice",
+            "event_type": "Reaction",
+            "trigger": "received",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "performance on the ice"
+                },
+                {
+                    "role": "Result",
+                    "argument": "immense backlash"
+                }
+            ]
+        }
+    ]
+}

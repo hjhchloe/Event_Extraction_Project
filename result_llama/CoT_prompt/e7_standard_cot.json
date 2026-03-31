@@ -1,0 +1,262 @@
+{
+    "doc_id": "event7_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Hundreds of thousands of international tourists are expected to descend on Brazil over the next few days for carnival.",
+            "event_type": "Gathering",
+            "trigger": "descend",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "international tourists"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Brazil"
+                },
+                {
+                    "role": "Time",
+                    "argument": "the next few days"
+                },
+                {
+                    "role": "Purpose",
+                    "argument": "carnival"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "somebody performing samba on a raised platform",
+            "event_type": "Performance",
+            "trigger": "performing",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "somebody"
+                },
+                {
+                    "role": "Activity",
+                    "argument": "samba"
+                },
+                {
+                    "role": "Location",
+                    "argument": "a raised platform"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that.",
+            "event_type": "Achievement",
+            "trigger": "snaring",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "his country’s, and continent’s, first medal at a Winter Olympics"
+                },
+                {
+                    "role": "Type",
+                    "argument": "gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "The reigning champion, Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes, was no match for Pinheiro Braathen in the men’s giant slalom in Bormio.",
+            "event_type": "Competition",
+            "trigger": "leaves",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Marco Odermatt"
+                },
+                {
+                    "role": "Opponent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "Event",
+                    "argument": "men’s giant slalom"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Bormio"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Brazilian TV heralded this moment by overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One.",
+            "event_type": "Celebration",
+            "trigger": "heralded",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Brazilian TV"
+                },
+                {
+                    "role": "Action",
+                    "argument": "overlaying music"
+                },
+                {
+                    "role": "Reference",
+                    "argument": "Ayrton Senna’s grand prix victories"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "“This unprecedented result shows that Brazilian sport has no limits,” wrote the president, Luiz Inácio Lula da Silva.",
+            "event_type": "Statement",
+            "trigger": "wrote",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Luiz Inácio Lula da Silva"
+                },
+                {
+                    "role": "Content",
+                    "argument": "This unprecedented result shows that Brazilian sport has no limits"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Pinheiro Braathen harboured dreams of wearing the famous yellow shirt on the world stage.",
+            "event_type": "Aspiration",
+            "trigger": "harboured",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "Goal",
+                    "argument": "wearing the famous yellow shirt on the world stage"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "When he went back to Norway, the country of his birth, his father tried to take him skiing.",
+            "event_type": "Attempt",
+            "trigger": "tried",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "his father"
+                },
+                {
+                    "role": "Action",
+                    "argument": "take him skiing"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Norway"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "He told his dad he wanted to be the best footballer in the world.",
+            "event_type": "Statement",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "Content",
+                    "argument": "he wanted to be the best footballer in the world"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "his dad"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Eventually he made his name in elite skiing under Norway’s flag, drawing comparisons – as with any promising Norwegian athlete of a similar age – to Erling Haaland.",
+            "event_type": "Achievement",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "his name in elite skiing"
+                },
+                {
+                    "role": "Reference",
+                    "argument": "Erling Haaland"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "The story of his retirement at 23 – “I lost the reason why I began skiing” – and his comeback under Brazil’s flag is well-documented.",
+            "event_type": "Career Change",
+            "trigger": "retirement",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "Reason",
+                    "argument": "I lost the reason why I began skiing"
+                },
+                {
+                    "role": "Action",
+                    "argument": "comeback under Brazil’s flag"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "A little samba shuffle came out on top of the podium in Bormio after a poignant moment when the national anthem was played.",
+            "event_type": "Celebration",
+            "trigger": "came out",
+            "arguments": [
+                {
+                    "role": "Action",
+                    "argument": "a little samba shuffle"
+                },
+                {
+                    "role": "Location",
+                    "argument": "top of the podium in Bormio"
+                },
+                {
+                    "role": "Context",
+                    "argument": "after a poignant moment when the national anthem was played"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "“I’ve experienced it so many times as a fan of the Brazilian football team,” the gold medallist said.",
+            "event_type": "Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the gold medallist"
+                },
+                {
+                    "role": "Content",
+                    "argument": "I’ve experienced it so many times as a fan of the Brazilian football team"
+                }
+            ]
+        }
+    ]
+}

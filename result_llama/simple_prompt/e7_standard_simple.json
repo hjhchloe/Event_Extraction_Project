@@ -1,0 +1,242 @@
+{
+    "doc_id": "event7_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Hundreds of thousands of international tourists are expected to descend on Brazil over the next few days for carnival.",
+            "event_type": "gathering",
+            "trigger": "descend",
+            "arguments": [
+                {
+                    "role": "location",
+                    "argument": "Brazil"
+                },
+                {
+                    "role": "purpose",
+                    "argument": "carnival"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "somebody performing samba on a raised platform",
+            "event_type": "performance",
+            "trigger": "performing",
+            "arguments": [
+                {
+                    "role": "location",
+                    "argument": "the Dolomites"
+                },
+                {
+                    "role": "activity",
+                    "argument": "samba"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that",
+            "event_type": "achievement",
+            "trigger": "snaring",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "award",
+                    "argument": "gold medal"
+                },
+                {
+                    "role": "location",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "The reigning champion, Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes, was no match for Pinheiro Braathen in the men’s giant slalom in Bormio",
+            "event_type": "competition",
+            "trigger": "was no match",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Marco Odermatt"
+                },
+                {
+                    "role": "opponent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "location",
+                    "argument": "Bormio"
+                },
+                {
+                    "role": "activity",
+                    "argument": "men’s giant slalom"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Brazilian TV heralded this moment by overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One",
+            "event_type": "celebration",
+            "trigger": "heralded",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Brazilian TV"
+                },
+                {
+                    "role": "occasion",
+                    "argument": "Lucas Pinheiro Braathen's gold medal win"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "“This unprecedented result shows that Brazilian sport has no limits,” wrote the president, Luiz Inácio Lula da Silva",
+            "event_type": "statement",
+            "trigger": "wrote",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Luiz Inácio Lula da Silva"
+                },
+                {
+                    "role": "topic",
+                    "argument": "Brazilian sport"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Pinheiro Braathen harboured dreams of wearing the famous yellow shirt on the world stage",
+            "event_type": "aspiration",
+            "trigger": "harboured dreams",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "goal",
+                    "argument": "wearing the famous yellow shirt"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "When he went back to Norway, the country of his birth, his father tried to take him skiing",
+            "event_type": "attempt",
+            "trigger": "tried",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Pinheiro Braathen's father"
+                },
+                {
+                    "role": "patient",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "activity",
+                    "argument": "skiing"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "He told his dad he wanted to be the best footballer in the world",
+            "event_type": "expression",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "addressee",
+                    "argument": "his dad"
+                },
+                {
+                    "role": "goal",
+                    "argument": "being the best footballer in the world"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Eventually he made his name in elite skiing under Norway’s flag",
+            "event_type": "achievement",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "field",
+                    "argument": "elite skiing"
+                },
+                {
+                    "role": "location",
+                    "argument": "Norway"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "The story of his retirement at 23 – “I lost the reason why I began skiing” – and his comeback under Brazil’s flag is well-documented",
+            "event_type": "career change",
+            "trigger": "retirement",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "reason",
+                    "argument": "lost the reason why he began skiing"
+                },
+                {
+                    "role": "location",
+                    "argument": "Brazil"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "A little samba shuffle came out on top of the podium in Bormio after a poignant moment when the national anthem was played",
+            "event_type": "celebration",
+            "trigger": "came out",
+            "arguments": [
+                {
+                    "role": "location",
+                    "argument": "Bormio"
+                },
+                {
+                    "role": "activity",
+                    "argument": "samba shuffle"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "“I’ve experienced it so many times as a fan of the Brazilian football team,” the gold medallist said",
+            "event_type": "expression",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Pinheiro Braathen"
+                },
+                {
+                    "role": "topic",
+                    "argument": "hearing the national anthem"
+                }
+            ]
+        }
+    ]
+}

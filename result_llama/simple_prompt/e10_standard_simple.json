@@ -1,0 +1,254 @@
+{
+    "doc_id": "event10_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Italy won its first gold medal of the Milano Cortina Games on Saturday",
+            "event_type": "winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Italy"
+                },
+                {
+                    "role": "event",
+                    "argument": "Milano Cortina Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "a roaring speedskating upset that saw the dominant Netherlands pushed out of the women's 3000 meters podium for the first time since 2010",
+            "event_type": "upset",
+            "trigger": "upset",
+            "arguments": [
+                {
+                    "role": "loser",
+                    "argument": "Netherlands"
+                },
+                {
+                    "role": "event",
+                    "argument": "women's 3000 meters"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Francesca Lollobrigida set a new Olympic record — on her 35th birthday — of 3 minutes, 54.28 seconds",
+            "event_type": "record setting",
+            "trigger": "set",
+            "arguments": [
+                {
+                    "role": "record setter",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "record",
+                    "argument": "Olympic record"
+                },
+                {
+                    "role": "time",
+                    "argument": "3 minutes, 54.28 seconds"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "shaving more than two-and-a-half seconds off the mark set by Dutch legend Irene Schouten four years earlier in Beijing",
+            "event_type": "record breaking",
+            "trigger": "shaving",
+            "arguments": [
+                {
+                    "role": "previous record holder",
+                    "argument": "Irene Schouten"
+                },
+                {
+                    "role": "event",
+                    "argument": "Beijing"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "It was also two seconds ahead of runner-up Ragne Wiklund of Norway",
+            "event_type": "finishing",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "runner-up",
+                    "argument": "Ragne Wiklund"
+                },
+                {
+                    "role": "country",
+                    "argument": "Norway"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Canada's Valerie Maltais finished third",
+            "event_type": "finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "finisher",
+                    "argument": "Valerie Maltais"
+                },
+                {
+                    "role": "country",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "position",
+                    "argument": "third"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Dutch skater Joy Beune, the reigning world champion in the 3000m, finished off the podium in 4th",
+            "event_type": "finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "finisher",
+                    "argument": "Joy Beune"
+                },
+                {
+                    "role": "position",
+                    "argument": "4th"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "It was the first time since the 2010 Vancouver Games that the Netherlands had not won a medal in this distance",
+            "event_type": "non-occurrence",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "country",
+                    "argument": "Netherlands"
+                },
+                {
+                    "role": "event",
+                    "argument": "2010 Vancouver Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Lollobrigida is from Frascati, a hill town just outside Rome, and well-known for its white wine, and her great aunt was the late Gina Lollobrigida, a star actress of the 1950s and '60s",
+            "event_type": "biographical information",
+            "trigger": "is",
+            "arguments": [
+                {
+                    "role": "person",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "hometown",
+                    "argument": "Frascati"
+                },
+                {
+                    "role": "relative",
+                    "argument": "Gina Lollobrigida"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "This was the fourth Olympics for Francesca Lollobrigida and her first gold",
+            "event_type": "participation",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "event",
+                    "argument": "Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "She collected two medals at Beijing four years ago: a silver in the 3,000 and a bronze in the mass start",
+            "event_type": "medal winning",
+            "trigger": "collected",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "event",
+                    "argument": "Beijing"
+                },
+                {
+                    "role": "medals",
+                    "argument": "silver and bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "A last-minute addition to Saturday's race was that of American skater Greta Myers, who was added to the lineup after Czech skater Martina Sablikova's withdrawal",
+            "event_type": "addition",
+            "trigger": "was",
+            "arguments": [
+                {
+                    "role": "addition",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "event",
+                    "argument": "Saturday's race"
+                },
+                {
+                    "role": "withdrawal",
+                    "argument": "Martina Sablikova"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "The 21-year-old American did not initially qualify for the event but secured the first reserve quota spot after her performances on the 2025-26 World Cup circuit",
+            "event_type": "qualification",
+            "trigger": "secured",
+            "arguments": [
+                {
+                    "role": "qualifier",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "event",
+                    "argument": "2025-26 World Cup circuit"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "She finished in 20th place",
+            "event_type": "finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "finisher",
+                    "argument": "Greta Myers"
+                },
+                {
+                    "role": "position",
+                    "argument": "20th"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "doc_id": "event3_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Sunday (22 February) saw the clash of the ages, as the USA and Canada battled for the title of 2026 Olympic champion, with Jack Hughes securing the gold in 2-1 overtime victory.",
+            "event_type": "Sports Competition",
+            "trigger": "battled",
+            "arguments": [
+                {
+                    "role": "Team1",
+                    "argument": "USA"
+                },
+                {
+                    "role": "Team2",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Winner",
+                    "argument": "Jack Hughes"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Forty-six years to the day after the \"Miracle on Ice*\"* team played their way into ice hockey lore at Lake Placid 1980, the United States created a new Olympic memory for fans to dream about, defeating Canada 2-1 in overtime in the men’s final at Olympic Winter Games Milano Cortina 2026 on Sunday (22 February).",
+            "event_type": "Sports Competition",
+            "trigger": "defeating",
+            "arguments": [
+                {
+                    "role": "Team1",
+                    "argument": "United States"
+                },
+                {
+                    "role": "Team2",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Score",
+                    "argument": "2-1"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Jack Hughes was the hero, scoring the golden goal in overtime to secure gold for the Americans.",
+            "event_type": "Goal Scoring",
+            "trigger": "scoring",
+            "arguments": [
+                {
+                    "role": "Player",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Team",
+                    "argument": "Americans"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "U.S. goaltender Connor Hellebuyck (Winnipeg Jets) was the backbone of that victory, stopping 41 shots to keep the Americans’ dreams alive.",
+            "event_type": "Goalkeeping",
+            "trigger": "stopping",
+            "arguments": [
+                {
+                    "role": "Player",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Team",
+                    "argument": "Americans"
+                },
+                {
+                    "role": "Shots Saved",
+                    "argument": "41"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Quinn Hughes (Minnesota Wild) scored the overtime winner against Sweden in the quarter-final, and his brother Jack followed with an overtime winner in the final.",
+            "event_type": "Goal Scoring",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "Player",
+                    "argument": "Quinn Hughes"
+                },
+                {
+                    "role": "Opponent",
+                    "argument": "Sweden"
+                },
+                {
+                    "role": "Stage",
+                    "argument": "quarter-final"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Finland secured bronze one day earlier, defeating Slovakia 6-1 on Saturday (21 February).",
+            "event_type": "Sports Competition",
+            "trigger": "defeating",
+            "arguments": [
+                {
+                    "role": "Team1",
+                    "argument": "Finland"
+                },
+                {
+                    "role": "Team2",
+                    "argument": "Slovakia"
+                },
+                {
+                    "role": "Score",
+                    "argument": "6-1"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "the United States beat Canada in the women’s final (also a 2-1 overtime decision), with several members of those teams present to support the men from the stands in a lively Milano Santagiulia Ice Hockey Arena.",
+            "event_type": "Sports Competition",
+            "trigger": "beat",
+            "arguments": [
+                {
+                    "role": "Team1",
+                    "argument": "United States"
+                },
+                {
+                    "role": "Team2",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Score",
+                    "argument": "2-1"
+                }
+            ]
+        }
+    ]
+}

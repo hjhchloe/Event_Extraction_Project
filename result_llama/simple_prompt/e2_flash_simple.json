@@ -1,0 +1,58 @@
+{
+    "doc_id": "event2_flash",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Ailing Eileen Gu has her gold as she successfully defended her Olympic Freeski Halfpipe title",
+            "event_type": "winning",
+            "trigger": "defended",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Ailing Eileen Gu"
+                },
+                {
+                    "role": "title",
+                    "argument": "Olympic Freeski Halfpipe title"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Li Fanghui made it a one-two for People’s Republic of China",
+            "event_type": "ranking",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "ranker",
+                    "argument": "Li Fanghui"
+                },
+                {
+                    "role": "country",
+                    "argument": "People’s Republic of China"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Zoe Atkin of Great Britain taking bronze",
+            "event_type": "winning",
+            "trigger": "taking",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Zoe Atkin"
+                },
+                {
+                    "role": "country",
+                    "argument": "Great Britain"
+                },
+                {
+                    "role": "medal",
+                    "argument": "bronze"
+                }
+            ]
+        }
+    ]
+}

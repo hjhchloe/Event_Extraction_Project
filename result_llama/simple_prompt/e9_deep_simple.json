@@ -1,0 +1,270 @@
+{
+    "doc_id": "event9_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Germany swept the medals in the two-man race at the Milan Cortina Olympics on Tuesday night",
+            "event_type": "Sports Competition",
+            "trigger": "swept",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "Event",
+                    "argument": "two-man race"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Milan Cortina Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Lochner got his first gold medal while posting the biggest Olympic two-man winning margin in nearly a half-century",
+            "event_type": "Award Ceremony",
+            "trigger": "got",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Award",
+                    "argument": "gold medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Lochner teamed with Fleischhauer to finish the four-run competition in 3 minutes, 39.70 seconds",
+            "event_type": "Sports Competition",
+            "trigger": "teamed",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Partner",
+                    "argument": "Fleischhauer"
+                },
+                {
+                    "role": "Event",
+                    "argument": "four-run competition"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Lochner won by 1.34 seconds, the most lopsided margin in the Olympic two-man race in 46 years",
+            "event_type": "Sports Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic two-man race"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Francesco Friedrich, the gold medalist in two- and four-man at each of the last two Olympics, partnered with Alexander Schuller and was second",
+            "event_type": "Sports Competition",
+            "trigger": "partnered",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Francesco Friedrich"
+                },
+                {
+                    "role": "Partner",
+                    "argument": "Alexander Schuller"
+                },
+                {
+                    "role": "Event",
+                    "argument": "two- and four-man"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Adam Ammour finished off the sweep, teaming with Alexander Schaller to win bronze",
+            "event_type": "Sports Competition",
+            "trigger": "teaming",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Adam Ammour"
+                },
+                {
+                    "role": "Partner",
+                    "argument": "Alexander Schaller"
+                },
+                {
+                    "role": "Award",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Del Duca and Josh Williamson were fourth in 3:41.96 — matching the second-best effort by an American two-man sled in 70 years",
+            "event_type": "Sports Competition",
+            "trigger": "were",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Del Duca"
+                },
+                {
+                    "role": "Partner",
+                    "argument": "Josh Williamson"
+                },
+                {
+                    "role": "Event",
+                    "argument": "American two-man sled"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Steven Holcomb and Steven Langton won silver at the 2014 Sochi Games",
+            "event_type": "Sports Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Steven Holcomb"
+                },
+                {
+                    "role": "Partner",
+                    "argument": "Steven Langton"
+                },
+                {
+                    "role": "Award",
+                    "argument": "silver"
+                },
+                {
+                    "role": "Event",
+                    "argument": "2014 Sochi Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Todd Hays and Garrett Hines were fourth at the 2002 Salt Lake City Olympics",
+            "event_type": "Sports Competition",
+            "trigger": "were",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Todd Hays"
+                },
+                {
+                    "role": "Partner",
+                    "argument": "Garrett Hines"
+                },
+                {
+                    "role": "Event",
+                    "argument": "2002 Salt Lake City Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Del Duca had the third-fastest run in the fourth heat",
+            "event_type": "Sports Competition",
+            "trigger": "had",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Del Duca"
+                },
+                {
+                    "role": "Event",
+                    "argument": "fourth heat"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "The Romanian team of Mihai Tentea and George Iordache were fifth, matching that country’s best two-man Olympic finish since 1972",
+            "event_type": "Sports Competition",
+            "trigger": "were",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Mihai Tentea"
+                },
+                {
+                    "role": "Partner",
+                    "argument": "George Iordache"
+                },
+                {
+                    "role": "Event",
+                    "argument": "two-man Olympic finish"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Britain’s Brad Hall got a bronze medal at the World Cup two-man race in St. Moritz, Switzerland, last month",
+            "event_type": "Sports Competition",
+            "trigger": "got",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Brad Hall"
+                },
+                {
+                    "role": "Award",
+                    "argument": "bronze medal"
+                },
+                {
+                    "role": "Event",
+                    "argument": "World Cup two-man race"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Germany won 23 out of 24 medals in two-man races this winter",
+            "event_type": "Sports Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "Event",
+                    "argument": "two-man races"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Germany won 34 out of 35 two-man races at the World Cup, world championship and Olympic levels — taking 85 of a possible 105 medals",
+            "event_type": "Sports Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "Event",
+                    "argument": "two-man races"
+                }
+            ]
+        }
+    ]
+}

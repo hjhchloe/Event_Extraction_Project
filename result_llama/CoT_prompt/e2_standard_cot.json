@@ -1,0 +1,238 @@
+{
+    "doc_id": "event2_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Eileen Gu saved her best for last Sunday at the Milan Cortina Games, defending her Olympic title in women's freeski halfpipe to earn a third medal",
+            "event_type": "Sports Competition",
+            "trigger": "defending",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic title in women's freeski halfpipe"
+                },
+                {
+                    "role": "Time",
+                    "argument": "last Sunday"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milan Cortina Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Gu opened her second with a giant 12.5-foot 900 Buick, then linked a 900 and a 700 with tail grabs plus a switch 700 before closing with massive back-to-back alley-oop flat 500s for a 94.00",
+            "event_type": "Sports Action",
+            "trigger": "opened",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Action",
+                    "argument": "giant 12.5-foot 900 Buick"
+                },
+                {
+                    "role": "Result",
+                    "argument": "94.00"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Gu cleaned up the same line on her third run to post a 94.75",
+            "event_type": "Sports Action",
+            "trigger": "cleaned",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Action",
+                    "argument": "cleaned up the same line"
+                },
+                {
+                    "role": "Result",
+                    "argument": "94.75"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Gu also claimed silver in big air and slopestyle",
+            "event_type": "Sports Competition",
+            "trigger": "claimed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Event",
+                    "argument": "big air and slopestyle"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Gu said she was fighting every day",
+            "event_type": "Personal Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Statement",
+                    "argument": "fighting every day"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Gu's mother, Yan, spoke with her and said 'You’ve landed this run five times in training. It’s there, stop thinking so much'",
+            "event_type": "Conversation",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Yan"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Statement",
+                    "argument": "You’ve landed this run five times in training. It’s there, stop thinking so much"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Gu broke into tears during a post-event press conference, revealing that her grandmother had died",
+            "event_type": "Personal Reaction",
+            "trigger": "broke",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Cause",
+                    "argument": "her grandmother had died"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Gu promised her grandmother that she would be brave",
+            "event_type": "Personal Promise",
+            "trigger": "promised",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "her grandmother"
+                },
+                {
+                    "role": "Promise",
+                    "argument": "be brave"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Li Fanghui landed silver with a 93.00",
+            "event_type": "Sports Competition",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Li Fanghui"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver"
+                },
+                {
+                    "role": "Score",
+                    "argument": "93.00"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Zoe Atkin earned bronze with 92.50",
+            "event_type": "Sports Competition",
+            "trigger": "earned",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Zoe Atkin"
+                },
+                {
+                    "role": "Result",
+                    "argument": "bronze"
+                },
+                {
+                    "role": "Score",
+                    "argument": "92.50"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Atkin said she was really nervous",
+            "event_type": "Personal Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Atkin"
+                },
+                {
+                    "role": "Statement",
+                    "argument": "really nervous"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Abby Winterberger did not advance to the final, placing 15th in qualifying",
+            "event_type": "Sports Competition",
+            "trigger": "did not advance",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Abby Winterberger"
+                },
+                {
+                    "role": "Result",
+                    "argument": "did not advance"
+                },
+                {
+                    "role": "Rank",
+                    "argument": "15th"
+                }
+            ]
+        }
+    ]
+}

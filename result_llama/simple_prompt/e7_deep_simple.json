@@ -1,0 +1,246 @@
+{
+    "doc_id": "event7_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Braathen's victory",
+            "event_type": "winning",
+            "trigger": "victory",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "event",
+                    "argument": "Winter Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold",
+            "event_type": "winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "event",
+                    "argument": "Alpine skiing giant slalom"
+                },
+                {
+                    "role": "location",
+                    "argument": "Milano Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Braathen told reporters after the race",
+            "event_type": "telling",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "speaker",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "audience",
+                    "argument": "reporters"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Braathen switched from competing for Norway to the birth country of his mother",
+            "event_type": "switching",
+            "trigger": "switched",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "from",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "to",
+                    "argument": "birth country of his mother"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Braathen put himself in pole position for gold",
+            "event_type": "positioning",
+            "trigger": "put",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "position",
+                    "argument": "pole position for gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Braathen maintain his lead to secure the gold medal",
+            "event_type": "securing",
+            "trigger": "secure",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "thing secured",
+                    "argument": "gold medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Odermatt expressed his satisfaction with his performance",
+            "event_type": "expressing",
+            "trigger": "expressed",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Odermatt"
+                },
+                {
+                    "role": "thing expressed",
+                    "argument": "satisfaction"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Meillard won silver in the team combined event",
+            "event_type": "winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Meillard"
+                },
+                {
+                    "role": "event",
+                    "argument": "team combined event"
+                },
+                {
+                    "role": "medal",
+                    "argument": "silver"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Braathen was born in Oslo to a Norwegian father and Brazilian mother",
+            "event_type": "birth",
+            "trigger": "born",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "location",
+                    "argument": "Oslo"
+                },
+                {
+                    "role": "parents",
+                    "argument": "Norwegian father and Brazilian mother"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Braathen has put South American skiing firmly on the map",
+            "event_type": "putting",
+            "trigger": "put",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "thing put",
+                    "argument": "South American skiing"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Braathen held his nerve to deliver a gold-winning run",
+            "event_type": "delivering",
+            "trigger": "deliver",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "thing delivered",
+                    "argument": "gold-winning run"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Braathen became the first-ever athlete from a South American NOC to be crowned champion",
+            "event_type": "becoming",
+            "trigger": "became",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "title",
+                    "argument": "champion"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Braathen inspired some kids in Brazil",
+            "event_type": "inspiring",
+            "trigger": "inspire",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "audience",
+                    "argument": "kids in Brazil"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Braathen waved his nation's flag at the Opening Ceremony",
+            "event_type": "waving",
+            "trigger": "waved",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Braathen"
+                },
+                {
+                    "role": "thing waved",
+                    "argument": "nation's flag"
+                }
+            ]
+        }
+    ]
+}

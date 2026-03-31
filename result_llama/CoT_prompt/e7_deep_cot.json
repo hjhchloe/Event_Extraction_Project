@@ -1,0 +1,166 @@
+{
+    "doc_id": "event7_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026.",
+            "event_type": "Sports Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Saturday (14 February)"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milano Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Braathen put himself in pole position for gold with a leading time of 1:13.92 in Run 1",
+            "event_type": "Sports Competition",
+            "trigger": "put",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Time",
+                    "argument": "1:13.92"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Run 1"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "His second run saw him maintain his lead to secure the gold medal in a combined time of 2:25.00",
+            "event_type": "Sports Competition",
+            "trigger": "maintain",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2:25.00"
+                },
+                {
+                    "role": "Event",
+                    "argument": "second run"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Odermatt failed to win the gold he was so widely predicted to in Italy",
+            "event_type": "Sports Competition",
+            "trigger": "failed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Marco Odermatt"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Italy"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Braathen switched from competing for Norway to the birth country of his mother",
+            "event_type": "Career Change",
+            "trigger": "switched",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Origin",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Destination",
+                    "argument": "birth country of his mother"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Braathen has put South American skiing firmly on the map with some thrilling performances on the slopes",
+            "event_type": "Career Achievement",
+            "trigger": "put",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Location",
+                    "argument": "South America"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Braathen was keener to focus on the inspiration young people in Brazil could take from his history-making gold",
+            "event_type": "Inspirational Speech",
+            "trigger": "keener",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Audience",
+                    "argument": "young people in Brazil"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Braathen waved his nation’s flag at the Opening Ceremony",
+            "event_type": "Ceremonial Event",
+            "trigger": "waved",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Opening Ceremony"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Braathen has now seen it lifted high for the first time at a medal ceremony of the Olympic Winter Games",
+            "event_type": "Ceremonial Event",
+            "trigger": "lifted",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lucas Pinheiro Braathen"
+                },
+                {
+                    "role": "Event",
+                    "argument": "medal ceremony of the Olympic Winter Games"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,310 @@
+{
+    "doc_id": "event4_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Ilia Malinin arrived at his first Olympics as the no-brainer winner of the men’s figure-skating event",
+            "event_type": "Arrival",
+            "trigger": "arrived",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympics"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Malinin showed some fallibility and faltered in the short program of the team event",
+            "event_type": "Faltering",
+            "trigger": "faltered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "short program of the team event"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_type": "Winning",
+            "event_mention": "He won the free program segment in the team event",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "free program segment in the team event"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_type": "Finishing",
+            "event_mention": "He finished in first, nearly six points ahead of Kagiyama",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "individual men’s event"
+                },
+                {
+                    "role": "Result",
+                    "argument": "first place"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_type": "Introduction",
+            "event_mention": "After erupting in applause when he was introduced",
+            "trigger": "introduced",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_type": "Landing",
+            "event_mention": "He landed a clean quad flip to start the program",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Action",
+                    "argument": "quad flip"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_type": "Popping",
+            "event_mention": "He popped it in the air and only received points for a single axel",
+            "trigger": "popped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Action",
+                    "argument": "quad axel"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_type": "Faltering",
+            "event_mention": "He faltered on the planned quad loop and opened up again in the air",
+            "trigger": "faltered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Action",
+                    "argument": "quad loop"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_type": "Falling",
+            "event_mention": "He fell on two jumps",
+            "trigger": "fell",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Action",
+                    "argument": "jumps"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_type": "Earning",
+            "event_mention": "Mikhail Shaidorov from Kazakhstan, who landed five quad jumps to earn the gold",
+            "trigger": "earn",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Mikhail Shaidorov"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic men’s event"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_type": "Congratulating",
+            "event_mention": "Malinin congratulated Shaidorov and told him, “You deserve it”",
+            "trigger": "congratulated",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Mikhail Shaidorov"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_type": "Finishing",
+            "event_mention": "Malinin ended up in 8th place",
+            "trigger": "ended",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic men’s event"
+                },
+                {
+                    "role": "Result",
+                    "argument": "8th place"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_type": "Saying",
+            "event_mention": "“I just did my work,” he said after the event",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Mikhail Shaidorov"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_type": "Saying",
+            "event_mention": "“Especially going into that starting pose, I just felt like all the traumatic moments of my life really just started flooding my head”",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_type": "Meeting",
+            "event_mention": "Malinin met Richard at a gym over the summer",
+            "trigger": "met",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ilia Malinin"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Frederick Richard"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_type": "Skating",
+            "event_mention": "Chen had the opportunity to skate with Malinin when Malinin was younger",
+            "trigger": "skate",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Nathan Chen"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Ilia Malinin"
+                }
+            ]
+        },
+        {
+            "event_id": "E17",
+            "event_type": "Faltering",
+            "event_mention": "Nathan Chen faltered in the short program of the men’s event and finished 17th",
+            "trigger": "faltered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Nathan Chen"
+                },
+                {
+                    "role": "Event",
+                    "argument": "short program of the men’s event"
+                }
+            ]
+        },
+        {
+            "event_id": "E18",
+            "event_type": "Recovering",
+            "event_mention": "Chen was able to recover in the free program, completing five quad jumps",
+            "trigger": "recover",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Nathan Chen"
+                },
+                {
+                    "role": "Event",
+                    "argument": "free program"
+                }
+            ]
+        },
+        {
+            "event_id": "E19",
+            "event_type": "Saying",
+            "event_mention": "“He will be the greatest of all time,” says Richard",
+            "trigger": "says",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Frederick Richard"
+                }
+            ]
+        }
+    ]
+}

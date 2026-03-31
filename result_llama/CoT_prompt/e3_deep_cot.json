@@ -1,0 +1,194 @@
+{
+    "doc_id": "event3_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada",
+            "event_type": "Scoring",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Time",
+                    "argument": "1:41 into overtime"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Santaguilia Arena"
+                },
+                {
+                    "role": "Result",
+                    "argument": "Team USA won 2-1 against Team Canada"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The goal, off a pass from Zach Werenski during 3-on-3 play, slid through the five-hole of Canada goalie Jordan Binnington",
+            "event_type": "Passing",
+            "trigger": "pass",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Zach Werenski"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Time",
+                    "argument": "during 3-on-3 play"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "The win came on the 46th anniversary of the improbable 4-3 victory against the Soviet Union during the medal round in Lake Placid, New York",
+            "event_type": "Winning",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "46th anniversary"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Lake Placid, New York"
+                },
+                {
+                    "role": "Result",
+                    "argument": "USA won 4-3 against the Soviet Union"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Pandemonium broke out after the Hughes’ goal; the players leaping onto the ice in waves, tossing equipment into the sky",
+            "event_type": "Celebration",
+            "trigger": "broke out",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "after the Hughes’ goal"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Santaguilia Arena"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Connor Hellebuyck made 41 saves, many of the highlight-reel variety, especially during a 19-8 advantage by Canada in the second period",
+            "event_type": "Saving",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "41 saves"
+                },
+                {
+                    "role": "Time",
+                    "argument": "during a 19-8 advantage by Canada in the second period"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "The biggest save of the game came in the opening minutes of the third period",
+            "event_type": "Saving",
+            "trigger": "came",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "in the opening minutes of the third period"
+                },
+                {
+                    "role": "Agent",
+                    "argument": "Connor Hellebuyck"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Cale Makar scored, and Binnington made 26 saves for Canada",
+            "event_type": "Scoring",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Cale Makar"
+                },
+                {
+                    "role": "Time",
+                    "argument": "at 18:16 of the second period"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Matt Boldy gave the U.S. a 1-0 lead at 6:00 of the first, flipping the puck between Makar and Toews before gaining position on the latter and deked to his backhand before pushing the puck past Binnington",
+            "event_type": "Scoring",
+            "trigger": "gave",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Matt Boldy"
+                },
+                {
+                    "role": "Time",
+                    "argument": "at 6:00 of the first"
+                },
+                {
+                    "role": "Result",
+                    "argument": "U.S. led 1-0"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Hellebuyck helped force overtime by stopping all 14 shots he faced in the third",
+            "event_type": "Saving",
+            "trigger": "stopping",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "14 shots"
+                },
+                {
+                    "role": "Time",
+                    "argument": "in the third"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Canada had not lost an Olympic game involving NHL players since the 2010 Vancouver Games",
+            "event_type": "Losing",
+            "trigger": "lost",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "since the 2010 Vancouver Games"
+                },
+                {
+                    "role": "Result",
+                    "argument": "Canada lost to the USA"
+                }
+            ]
+        }
+    ]
+}

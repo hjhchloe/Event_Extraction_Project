@@ -1,0 +1,266 @@
+{
+    "doc_id": "event8_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Team France sewed up the gold medal after a stellar performance in the third leg of the women’s 4x6km biathlon relay on Wednesday at Milan Cortina 2026.",
+            "event_type": "winning",
+            "trigger": "sewed up",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Team France"
+                },
+                {
+                    "role": "event",
+                    "argument": "women’s 4x6km biathlon relay"
+                },
+                {
+                    "role": "location",
+                    "argument": "Milan Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Julia Simon of France skied across the finish line with the French flag at a cumulative time of 1 hour, 10 minutes, 22.7 seconds, after inheriting a substantial lead from teammate Oceane Michelon.",
+            "event_type": "finishing",
+            "trigger": "skied across",
+            "arguments": [
+                {
+                    "role": "athlete",
+                    "argument": "Julia Simon"
+                },
+                {
+                    "role": "team",
+                    "argument": "France"
+                },
+                {
+                    "role": "time",
+                    "argument": "1 hour, 10 minutes, 22.7 seconds"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Team Sweden won the silver medal after finishing 51.3 seconds behind, and Team Norway skied to bronze 1:07.6 behind France.",
+            "event_type": "winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Team Sweden"
+                },
+                {
+                    "role": "medal",
+                    "argument": "silver medal"
+                },
+                {
+                    "role": "time behind",
+                    "argument": "51.3 seconds"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Team Norway skied to bronze 1:07.6 behind France.",
+            "event_type": "winning",
+            "trigger": "skied to",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Team Norway"
+                },
+                {
+                    "role": "medal",
+                    "argument": "bronze"
+                },
+                {
+                    "role": "time behind",
+                    "argument": "1:07.6"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Camille Bened of France started the race before passing off to Lou Jeanmonnot.",
+            "event_type": "starting",
+            "trigger": "started",
+            "arguments": [
+                {
+                    "role": "athlete",
+                    "argument": "Camille Bened"
+                },
+                {
+                    "role": "team",
+                    "argument": "France"
+                },
+                {
+                    "role": "next athlete",
+                    "argument": "Lou Jeanmonnot"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "France, Norway, Sweden, and Germany used their extra rounds in the first two legs of the race, causing an early shakeup among the leaders.",
+            "event_type": "using extra rounds",
+            "trigger": "used",
+            "arguments": [
+                {
+                    "role": "teams",
+                    "argument": "France, Norway, Sweden, and Germany"
+                },
+                {
+                    "role": "part of race",
+                    "argument": "first two legs"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Michelon, the youngest member of Team France, moved to the front position and created a 47-second lead after shooting in the standing position.",
+            "event_type": "taking the lead",
+            "trigger": "moved to",
+            "arguments": [
+                {
+                    "role": "athlete",
+                    "argument": "Michelon"
+                },
+                {
+                    "role": "team",
+                    "argument": "Team France"
+                },
+                {
+                    "role": "time lead",
+                    "argument": "47-second"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Once Simon tapped into the race, she had a drama-free run around the course.",
+            "event_type": "running",
+            "trigger": "tapped into",
+            "arguments": [
+                {
+                    "role": "athlete",
+                    "argument": "Simon"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "After rapid-fire shooting in the final five shots, she turned the final portion of the race into a victory lap.",
+            "event_type": "shooting",
+            "trigger": "rapid-fire shooting",
+            "arguments": [
+                {
+                    "role": "athlete",
+                    "argument": "Simon"
+                },
+                {
+                    "role": "number of shots",
+                    "argument": "five"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Swedish sisters Elvira Oeberg and Hanna Oeberg (the team's anchor) battled it out with Team Norway for 2nd place.",
+            "event_type": "battling",
+            "trigger": "battled it out",
+            "arguments": [
+                {
+                    "role": "teams/athletes",
+                    "argument": "Elvira Oeberg, Hanna Oeberg, and Team Norway"
+                },
+                {
+                    "role": "position",
+                    "argument": "2nd place"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Hanna Oeberg held her pace against Maren Kirkeeide of Norway to secure the silver medal.",
+            "event_type": "securing",
+            "trigger": "held",
+            "arguments": [
+                {
+                    "role": "athlete",
+                    "argument": "Hanna Oeberg"
+                },
+                {
+                    "role": "opponent",
+                    "argument": "Maren Kirkeeide"
+                },
+                {
+                    "role": "medal",
+                    "argument": "silver medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "With the win, France becomes the first country to sweep all three biathlon relays — men's, women's and mixed.",
+            "event_type": "sweeping",
+            "trigger": "sweep",
+            "arguments": [
+                {
+                    "role": "country",
+                    "argument": "France"
+                },
+                {
+                    "role": "events",
+                    "argument": "men's, women's and mixed biathlon relays"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Simon earned her third gold medal and Jeanmonnot earned her fourth medal at these Winter Games.",
+            "event_type": "earning",
+            "trigger": "earned",
+            "arguments": [
+                {
+                    "role": "athlete",
+                    "argument": "Simon"
+                },
+                {
+                    "role": "medal",
+                    "argument": "third gold medal"
+                },
+                {
+                    "role": "athlete",
+                    "argument": "Jeanmonnot"
+                },
+                {
+                    "role": "medal",
+                    "argument": "fourth medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Team USA finished 18th with Deedra Irwin, Margie Freed, Lucinda Anderson, and Joanne Reid.",
+            "event_type": "finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "team",
+                    "argument": "Team USA"
+                },
+                {
+                    "role": "position",
+                    "argument": "18th"
+                },
+                {
+                    "role": "athletes",
+                    "argument": "Deedra Irwin, Margie Freed, Lucinda Anderson, and Joanne Reid"
+                }
+            ]
+        }
+    ]
+}

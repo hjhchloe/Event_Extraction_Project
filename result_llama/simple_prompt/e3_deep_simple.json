@@ -1,0 +1,218 @@
+{
+    "doc_id": "event3_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada",
+            "event_type": "Goal",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "Scorer",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Team",
+                    "argument": "Team USA"
+                },
+                {
+                    "role": "Opponent",
+                    "argument": "Team Canada"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The goal, off a pass from Zach Werenski during 3-on-3 play, slid through the five-hole of Canada goalie Jordan Binnington",
+            "event_type": "Pass",
+            "trigger": "pass",
+            "arguments": [
+                {
+                    "role": "Passer",
+                    "argument": "Zach Werenski"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Goalie",
+                    "argument": "Jordan Binnington"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Hughes was high-sticked earlier in the game",
+            "event_type": "Penalty",
+            "trigger": "high-sticked",
+            "arguments": [
+                {
+                    "role": "Player",
+                    "argument": "Jack Hughes"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Pandemonium broke out after the Hughes’ goal",
+            "event_type": "Celebration",
+            "trigger": "broke out",
+            "arguments": [
+                {
+                    "role": "Team",
+                    "argument": "Team USA"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Connor Hellebuyck made 41 saves, many of the highlight-reel variety",
+            "event_type": "Saves",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "Goalie",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Number of saves",
+                    "argument": "41"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "The biggest save of the game came in the opening minutes of the third period",
+            "event_type": "Save",
+            "trigger": "save",
+            "arguments": [
+                {
+                    "role": "Goalie",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Period",
+                    "argument": "third period"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Cale Makar scored, and Binnington made 26 saves for Canada",
+            "event_type": "Goal",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "Scorer",
+                    "argument": "Cale Makar"
+                },
+                {
+                    "role": "Team",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Goalie",
+                    "argument": "Jordan Binnington"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Makar tied at 1-1 at 18:16 of the second period with a snap shot",
+            "event_type": "Goal",
+            "trigger": "tied",
+            "arguments": [
+                {
+                    "role": "Scorer",
+                    "argument": "Cale Makar"
+                },
+                {
+                    "role": "Team",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Period",
+                    "argument": "second period"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Connor McDavid had a breakaway in the first period but was denied by Hellebuyck",
+            "event_type": "Breakaway",
+            "trigger": "had",
+            "arguments": [
+                {
+                    "role": "Player",
+                    "argument": "Connor McDavid"
+                },
+                {
+                    "role": "Goalie",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Period",
+                    "argument": "first period"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Nathan MacKinnon had a Grade-A chance at an open net in the third but missed",
+            "event_type": "Missed chance",
+            "trigger": "missed",
+            "arguments": [
+                {
+                    "role": "Player",
+                    "argument": "Nathan MacKinnon"
+                },
+                {
+                    "role": "Period",
+                    "argument": "third period"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Matt Boldy gave the U.S. a 1-0 lead at 6:00 of the first, flipping the puck between Makar and Toews",
+            "event_type": "Goal",
+            "trigger": "gave",
+            "arguments": [
+                {
+                    "role": "Scorer",
+                    "argument": "Matt Boldy"
+                },
+                {
+                    "role": "Team",
+                    "argument": "U.S."
+                },
+                {
+                    "role": "Period",
+                    "argument": "first period"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Hellebuyck helped force overtime by stopping all 14 shots he faced in the third",
+            "event_type": "Saves",
+            "trigger": "stopping",
+            "arguments": [
+                {
+                    "role": "Goalie",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Number of saves",
+                    "argument": "14"
+                },
+                {
+                    "role": "Period",
+                    "argument": "third period"
+                }
+            ]
+        }
+    ]
+}

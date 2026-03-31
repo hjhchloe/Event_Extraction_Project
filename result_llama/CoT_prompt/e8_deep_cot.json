@@ -1,0 +1,306 @@
+{
+  "doc_id": "event8_deep",
+  "prompt_type": "CoT",
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Team France sewed up the gold medal after a stellar performance in the third leg of the women’s 4x6km biathlon relay on Wednesday at Milan Cortina 2026.",
+      "event_type": "winning",
+      "trigger": "sewed up",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Team France"
+        },
+        {
+          "role": "Time",
+          "argument": "Wednesday"
+        },
+        {
+          "role": "Place",
+          "argument": "Milan Cortina 2026"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Julia Simon of France skied across the finish line with the French flag at a cumulative time of 1 hour, 10 minutes, 22.7 seconds, after inheriting a substantial lead from teammate Oceane Michelon.",
+      "event_type": "finishing",
+      "trigger": "skied across",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Julia Simon"
+        },
+        {
+          "role": "Time",
+          "argument": "1 hour, 10 minutes, 22.7 seconds"
+        },
+        {
+          "role": "Participant",
+          "argument": "Oceane Michelon"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_type": "winning",
+      "event_mention": "Team Sweden won the silver medal after finishing 51.3 seconds behind, and Team Norway skied to bronze 1:07.6 behind France.",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Team Sweden"
+        },
+        {
+          "role": "Result",
+          "argument": "silver medal"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_type": "winning",
+      "event_mention": "Team Sweden won the silver medal after finishing 51.3 seconds behind, and Team Norway skied to bronze 1:07.6 behind France.",
+      "trigger": "skied to",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Team Norway"
+        },
+        {
+          "role": "Result",
+          "argument": "bronze"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_type": "racing",
+      "event_mention": "In the women's 4x6km event, each member of a four-person team skies three laps and shoot twice, once prone and once standing.",
+      "trigger": "skies",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "each member of a four-person team"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_type": "starting",
+      "event_mention": "Camille Bened of France started the race before passing off to Lou Jeanmonnot.",
+      "trigger": "started",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Camille Bened"
+        },
+        {
+          "role": "Participant",
+          "argument": "Lou Jeanmonnot"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_type": "passing",
+      "event_mention": "Camille Bened of France started the race before passing off to Lou Jeanmonnot.",
+      "trigger": "passing off",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Camille Bened"
+        },
+        {
+          "role": "Recipient",
+          "argument": "Lou Jeanmonnot"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_type": "shooting",
+      "event_mention": "The conditions on Wednesday, which featured little wind, were perfect for shooting.",
+      "trigger": "shooting",
+      "arguments": [
+        {
+          "role": "Time",
+          "argument": "Wednesday"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_type": "using",
+      "event_mention": "France, Norway, Sweden, and Germany used their extra rounds in the first two legs of the race, causing an early shakeup among the leaders.",
+      "trigger": "used",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "France, Norway, Sweden, and Germany"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_type": "skiing",
+      "event_mention": "Once France moved into the second half of the relay, the team skied faster than the rest of the field.",
+      "trigger": "skied",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "France"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_type": "moving",
+      "event_mention": "Michelon, the youngest member of Team France, moved to the front position and created a 47-second lead after shooting in the standing position.",
+      "trigger": "moved",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Michelon"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_type": "shooting",
+      "event_mention": "Michelon, the youngest member of Team France, moved to the front position and created a 47-second lead after shooting in the standing position.",
+      "trigger": "shooting",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Michelon"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_type": "improving",
+      "event_mention": "With her proven speed from her silver-medal performance in the 7.5km sprint, she steadily improved the team's position.",
+      "trigger": "improved",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Michelon"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_type": "performing",
+      "event_mention": "With her proven speed from her silver-medal performance in the 7.5km sprint, she steadily improved the team's position.",
+      "trigger": "performance",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Michelon"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_type": "tapping",
+      "event_mention": "Once Simon tapped into the race, she had a drama-free run around the course.",
+      "trigger": "tapped",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Simon"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_type": "shooting",
+      "event_mention": "After rapid-fire shooting in the final five shots, she turned the final portion of the race into a victory lap.",
+      "trigger": "shooting",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Simon"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_type": "battling",
+      "event_mention": "Swedish sisters Elvira Oeberg and Hanna Oeberg (the team's anchor) battled it out with Team Norway for 2nd place.",
+      "trigger": "battled",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Elvira Oeberg and Hanna Oeberg"
+        },
+        {
+          "role": "Opponent",
+          "argument": "Team Norway"
+        }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_type": "securing",
+      "event_mention": "In the end, Hanna Oeberg held her pace against Maren Kirkeeide of Norway to secure the silver medal.",
+      "trigger": "secure",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Hanna Oeberg"
+        },
+        {
+          "role": "Result",
+          "argument": "silver medal"
+        },
+        {
+          "role": "Opponent",
+          "argument": "Maren Kirkeeide of Norway"
+        }
+      ]
+    },
+    {
+      "event_id": "E19",
+      "event_type": "sweeping",
+      "event_mention": "With the win, France becomes the first country to sweep all three biathlon relays — men's, women's and mixed.",
+      "trigger": "sweep",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "France"
+        }
+      ]
+    },
+    {
+      "event_id": "E20",
+      "event_type": "earning",
+      "event_mention": "Simon earned her third gold medal and Jeanmonnot earned her fourth medal at these Winter Games.",
+      "trigger": "earned",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Simon"
+        },
+        {
+          "role": "Result",
+          "argument": "third gold medal"
+        },
+        {
+          "role": "Agent",
+          "argument": "Jeanmonnot"
+        },
+        {
+          "role": "Result",
+          "argument": "fourth medal"
+        },
+        {
+          "role": "Event",
+          "argument": "these Winter Games"
+        }
+      ]
+    }
+  ]
+}

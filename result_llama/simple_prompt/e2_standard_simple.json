@@ -1,0 +1,246 @@
+{
+    "doc_id": "event2_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "San Francisco-born Eileen Gu of China saved her best for last Sunday at the Milan Cortina Games, defending her Olympic title in women's freeski halfpipe to earn a third medal in a final that ranked among the greatest displays the sport has ever seen.",
+            "event_type": "Sports Competition",
+            "trigger": "defending",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Milan Cortina Games"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Milan"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "After scrapping her first run, Gu opened her second with a giant 12.5-foot 900 Buick, then linked a 900 and a 700 with tail grabs plus a switch 700 before closing with massive back-to-back alley-oop flat 500s for a 94.00.",
+            "event_type": "Sports Action",
+            "trigger": "opened",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Action",
+                    "argument": "scrapping her first run"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "She cleaned up the same line on her third run to post a 94.75.",
+            "event_type": "Sports Action",
+            "trigger": "cleaned",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Action",
+                    "argument": "cleaned up the same line"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Gu also claimed silver in big air (Day 10) and slopestyle (Day 3), events won by Megan Oldham and Mathilde Gremaud.",
+            "event_type": "Award",
+            "trigger": "claimed",
+            "arguments": [
+                {
+                    "role": "Recipient",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Award",
+                    "argument": "silver"
+                },
+                {
+                    "role": "Event",
+                    "argument": "big air"
+                },
+                {
+                    "role": "Event",
+                    "argument": "slopestyle"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Gu said. \"Being able to lead the way and pioneer the sport is something I never imagined I’d be able to do but I’m really honored and proud that I have.\"",
+            "event_type": "Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "After landing low on her opening 900 Buick on Run 1 and bailing, Gu said she \"[didn't] fully believe in [her]self,\" perhaps because of \"Olympic jitters.\"",
+            "event_type": "Emotional State",
+            "trigger": "didn't fully believe",
+            "arguments": [
+                {
+                    "role": "Experiencer",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "She went to the corral and spoke with her mother, Yan, who was born in Beijing.",
+            "event_type": "Conversation",
+            "trigger": "spoke",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Addressee",
+                    "argument": "Yan"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_type": "Advice",
+            "event_mention": "[My mom] said, 'You’ve landed this run five times in training. It’s there, stop thinking so much.'",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Yan"
+                },
+                {
+                    "role": "Addressee",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "During a post-event press conference, Gu broke into tears, revealing that her grandmother had died and that she learned about the news just after her record-setting run.",
+            "event_type": "Emotional Response",
+            "trigger": "broke into tears",
+            "arguments": [
+                {
+                    "role": "Experiencer",
+                    "argument": "Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "\"I didn't promise her that I was going to win, but I did promise her that I was going to be brave like she has been brave,\" she said.",
+            "event_type": "Promise",
+            "trigger": "promise",
+            "arguments": [
+                {
+                    "role": "Promisor",
+                    "argument": "Gu"
+                },
+                {
+                    "role": "Promisee",
+                    "argument": "her grandmother"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Gu's compatriot and 2025 world silver medalist Li Fanghui landed silver with a 93.00, while Thursday's No. 1 qualifier Zoe Atkin of Great Britain, the reigning X Games and world champion, earned bronze with 92.50.",
+            "event_type": "Award",
+            "trigger": "landed",
+            "arguments": [
+                {
+                    "role": "Recipient",
+                    "argument": "Li Fanghui"
+                },
+                {
+                    "role": "Award",
+                    "argument": "silver"
+                },
+                {
+                    "role": "Recipient",
+                    "argument": "Zoe Atkin"
+                },
+                {
+                    "role": "Award",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "\"I was really nervous. I have more, that hopefully you’ll see going forward,\" Atkin said.",
+            "event_type": "Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Atkin"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "To me, standing on the podium is so amazing, especially after my last Olympics where I was quite disappointed with the way I skied.",
+            "event_type": "Emotional State",
+            "trigger": "amazing",
+            "arguments": [
+                {
+                    "role": "Experiencer",
+                    "argument": "Atkin"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Americans Kate Gray and Svea Irving finished 10th and 11th.",
+            "event_type": "Ranking",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Kate Gray"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Svea Irving"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "Fifteen-year-old Abby Winterberger — Team USA's youngest Winter Olympian since Tara Lipinski at Nagano 1998 — and Riley Jacobs did not advance to the final, placing 15th and 18th in qualifying.",
+            "event_type": "Elimination",
+            "trigger": "did not advance",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "Abby Winterberger"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Riley Jacobs"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "doc_id": "event5_flash",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Lindsey Vonn crashed early in the women’s downhill, dashing hopes of an Olympic medal at the Milan Cortina Olympics on Sunday.",
+            "event_type": "Crash",
+            "trigger": "crashed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Time",
+                    "argument": "early in the women’s downhill"
+                },
+                {
+                    "role": "Place",
+                    "argument": "the Milan Cortina Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The 41-year-old American tore the ACL in her left knee just nine days ago.",
+            "event_type": "Injury",
+            "trigger": "tore",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The 41-year-old American"
+                },
+                {
+                    "role": "Time",
+                    "argument": "just nine days ago"
+                },
+                {
+                    "role": "Result",
+                    "argument": "the ACL in her left knee"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Vonn lost control over the opening traverse after cutting the line too tight and was spun around in the air.",
+            "event_type": "Loss of Control",
+            "trigger": "lost control",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Place",
+                    "argument": "the opening traverse"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "She was heard screaming out after the crash as she was surrounded by medical personnel before she was strapped to a gurney and flown away by a helicopter, possibly ending the skier’s storied career.",
+            "event_type": "Reaction",
+            "trigger": "screaming",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "She"
+                },
+                {
+                    "role": "Time",
+                    "argument": "after the crash"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "medical personnel"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "She was heard screaming out after the crash as she was surrounded by medical personnel before she was strapped to a gurney and flown away by a helicopter, possibly ending the skier’s storied career.",
+            "event_type": "Transportation",
+            "trigger": "flown away",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "a helicopter"
+                },
+                {
+                    "role": "Patient",
+                    "argument": "She"
+                }
+            ]
+        }
+    ]
+}

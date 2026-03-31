@@ -1,0 +1,258 @@
+{
+    "doc_id": "event5_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Lindsey Vonn was awarded her first trophy for a 5th-place finish in a race at Afton Alps in Washington County, Minnesota, on Feb. 22, 1992.",
+            "event_type": "Award",
+            "trigger": "awarded",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Feb. 22, 1992"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Afton Alps in Washington County, Minnesota"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Vonn stood coiled in the start house at the top of the Olympia delle Tofane, one of her favorite places on Earth.",
+            "event_type": "Preparation",
+            "trigger": "stood",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Place",
+                    "argument": "the start house at the top of the Olympia delle Tofane"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Vonn pushed out, skated five times to create speed and then dropped into a tuck, for more speed.",
+            "event_type": "Racing",
+            "trigger": "pushed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "She clipped the fourth right-sided gate on the course just as she went airborne, was spun sideways in the air, landed violently with her skis perpendicular to the fall line, bounced hard on her head and shoulders and came to stop in the middle of the course, skis splayed awkwardly.",
+            "event_type": "Crash",
+            "trigger": "clipped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "A yellow rescue helicopter hovered overhead.",
+            "event_type": "Rescue",
+            "trigger": "hovered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "A yellow rescue helicopter"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Vonn was loaded onto an orange sled, tethered to the chopper and lifted into the bluebird sky, disappearing behind the towering Dolomites.",
+            "event_type": "Evacuation",
+            "trigger": "loaded",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Thirteen years ago she crashed at the World Championships in St. Anton, Austria, 152 miles northwest of Cortina, on another of the many mountains where Vonn made her living, and her life.",
+            "event_type": "Crash",
+            "trigger": "crashed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Thirteen years ago"
+                },
+                {
+                    "role": "Place",
+                    "argument": "the World Championships in St. Anton, Austria"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "She blew out her right knee in that crash, the one that was ultimately partially replaced, and was airlifted that day as well.",
+            "event_type": "Injury",
+            "trigger": "blew",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Body Part",
+                    "argument": "her right knee"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Johnson would eventually win the gold medal on the same course where her knee was wrecked four years ago, a performance deserving of telling and celebration, but which would be unfairly overwhelmed by Vonn's story.",
+            "event_type": "Win",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johnson"
+                },
+                {
+                    "role": "Award",
+                    "argument": "the gold medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Vonn underwent partial right knee replacement surgery in order to live and ski — not ski race — painlessly.",
+            "event_type": "Surgery",
+            "trigger": "underwent",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Body Part",
+                    "argument": "her right knee"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "She made a podium last year at the World Cup finals in Sun Valley, Idaho, and this year won two World Cup downhills, in St. Moritz and Zauchensee, Austria.",
+            "event_type": "Win",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Award",
+                    "argument": "two World Cup downhills"
+                },
+                {
+                    "role": "Place",
+                    "argument": "St. Moritz and Zauchensee, Austria"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "She crashed in Crans-Montana, and ruptured her left ACL while pushing the line high on a tricky course.",
+            "event_type": "Crash",
+            "trigger": "crashed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Crans-Montana"
+                },
+                {
+                    "role": "Body Part",
+                    "argument": "her left ACL"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Vonn announced on Feb. 3 that she would put a brace on her newly damaged left knee and race with it.",
+            "event_type": "Announcement",
+            "trigger": "announced",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Feb. 3"
+                },
+                {
+                    "role": "Body Part",
+                    "argument": "her left knee"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Vonn completed two training runs; if there was doubt about her claim to a starting spot — and there should not have been — those runs erased it.",
+            "event_type": "Training",
+            "trigger": "completed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "Johnson tore down the hill, almost Klammer-esque, losing form frequently, but never losing speed.",
+            "event_type": "Racing",
+            "trigger": "tore",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johnson"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "The U.S. Ski Team, which said, 'Lindsey Vonn sustained an injury, but is in stable condition and in good hands with a team of American and Italian physicians.'",
+            "event_type": "Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The U.S. Ski Team"
+                },
+                {
+                    "role": "Patient",
+                    "argument": "Lindsey Vonn"
+                }
+            ]
+        }
+    ]
+}

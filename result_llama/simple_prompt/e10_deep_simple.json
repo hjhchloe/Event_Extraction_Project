@@ -1,0 +1,294 @@
+{
+  "doc_id": "event10_deep",
+  "prompt_type": "simple",
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+      "event_type": "Competition Start",
+      "trigger": "got off to the hottest of starts",
+      "arguments": [
+        {
+          "role": "Competition",
+          "argument": "speed skating competition"
+        },
+        {
+          "role": "Location",
+          "argument": "2026 Winter Olympics"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics",
+      "event_type": "Gold Medal Win",
+      "trigger": "took home the first speed skating gold",
+      "arguments": [
+        {
+          "role": "Winner",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Competition",
+          "argument": "2026 Winter Olympics"
+        },
+        {
+          "role": "Medal",
+          "argument": "speed skating gold"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "skating the 3000m in Olympic record time",
+      "event_type": "Record Broken",
+      "trigger": "in Olympic record time",
+      "arguments": [
+        {
+          "role": "Skater",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Event",
+          "argument": "3000m"
+        },
+        {
+          "role": "Record",
+          "argument": "Olympic record"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "shaving over two-and-a-half seconds off the mark Dutch legend Irene Schouten set four years earlier",
+      "event_type": "Record Broken",
+      "trigger": "shaving over two-and-a-half seconds off the mark",
+      "arguments": [
+        {
+          "role": "New Record Holder",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Previous Record Holder",
+          "argument": "Irene Schouten"
+        },
+        {
+          "role": "Time Difference",
+          "argument": "two-and-a-half seconds"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world",
+      "event_type": "Competition Entry",
+      "trigger": "entered the competition",
+      "arguments": [
+        {
+          "role": "Skater",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Ranking",
+          "argument": "9th best women's long distance skater"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "She spent part of the season battling a viral infection",
+      "event_type": "Illness",
+      "trigger": "battling a viral infection",
+      "arguments": [
+        {
+          "role": "Person",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Illness",
+          "argument": "viral infection"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "She remained composed throughout the duration of the event, battling Canada's Valarie Maltais in a race that was neck-and-neck through the finish line",
+      "event_type": "Competition",
+      "trigger": "battling Canada's Valarie Maltais",
+      "arguments": [
+        {
+          "role": "Skater 1",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Skater 2",
+          "argument": "Valarie Maltais"
+        },
+        {
+          "role": "Competition",
+          "argument": "race"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "Lollobrigida told the media after her race Saturday",
+      "event_type": "Statement",
+      "trigger": "told the media",
+      "arguments": [
+        {
+          "role": "Speaker",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Audience",
+          "argument": "media"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "With the victory, Lollobrigida became the first Italian woman to win Olympic speed skating gold",
+      "event_type": "Milestone Achievement",
+      "trigger": "became the first Italian woman to win Olympic speed skating gold",
+      "arguments": [
+        {
+          "role": "Achiever",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Milestone",
+          "argument": "first Italian woman to win Olympic speed skating gold"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "The last time an Italian man won speed skating gold was in 2006",
+      "event_type": "Previous Achievement",
+      "trigger": "won speed skating gold",
+      "arguments": [
+        {
+          "role": "Achiever",
+          "argument": "Italian man"
+        },
+        {
+          "role": "Year",
+          "argument": "2006"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "Lollobrigida earned silver in the 300m and bronze in the mass start in Beijing",
+      "event_type": "Medal Win",
+      "trigger": "earned silver and bronze",
+      "arguments": [
+        {
+          "role": "Winner",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Medal 1",
+          "argument": "silver"
+        },
+        {
+          "role": "Medal 2",
+          "argument": "bronze"
+        },
+        {
+          "role": "Location",
+          "argument": "Beijing"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "Lollobrigida took a break from the sport, missing the entire 2022-23 season in order to start her family",
+      "event_type": "Career Break",
+      "trigger": "took a break from the sport",
+      "arguments": [
+        {
+          "role": "Person",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Reason",
+          "argument": "to start her family"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "She returned to competition in September 2023, just four months after giving birth",
+      "event_type": "Career Return",
+      "trigger": "returned to competition",
+      "arguments": [
+        {
+          "role": "Person",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Time",
+          "argument": "four months after giving birth"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "Eighteen months later, she claimed the 2025 world title in the 5000m",
+      "event_type": "Title Win",
+      "trigger": "claimed the 2025 world title",
+      "arguments": [
+        {
+          "role": "Winner",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Title",
+          "argument": "2025 world title"
+        },
+        {
+          "role": "Event",
+          "argument": "5000m"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "Wiklund entered Olympic competition on a high, taking gold in both the 1500m and 3000m at the 2026 European Championships",
+      "event_type": "Competition Entry",
+      "trigger": "entered Olympic competition",
+      "arguments": [
+        {
+          "role": "Skater",
+          "argument": "Ragne Wiklund"
+        },
+        {
+          "role": "Competition",
+          "argument": "Olympic competition"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "With her silver, she became the first Norwegian woman to make an Olympic speed skating podium since Bjørg Eva Jensen won the 3000m in 1980",
+      "event_type": "Milestone Achievement",
+      "trigger": "became the first Norwegian woman to make an Olympic speed skating podium",
+      "arguments": [
+        {
+          "role": "Achiever",
+          "argument": "Ragne Wiklund"
+        },
+        {
+          "role": "Milestone",
+          "argument": "first Norwegian woman to make an Olympic speed skating podium"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "Maltais helped Canada to 3000m relay silver in 2014 and team pursuit"
+    }
+  ]
+}

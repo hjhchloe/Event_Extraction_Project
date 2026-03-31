@@ -1,0 +1,262 @@
+{
+    "doc_id": "event1_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "As the Olympic flame was extinguished in the Verona Arena in February 2026",
+            "event_type": "Ceremony",
+            "trigger": "extinguished",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "February 2026"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Verona Arena"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Norway had once again outclassed the world’s sporting superpowers on the largest stage of winter athletics",
+            "event_type": "Competition",
+            "trigger": "outclassed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "world’s sporting superpowers"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Johannes Høsflot Klæbo secured six gold medals in a single Games",
+            "event_type": "Achievement",
+            "trigger": "secured",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Result",
+                    "argument": "six gold medals"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Norway claimed 21 medals in cross-country skiing, 17 in biathlon, and four in speed skating",
+            "event_type": "Competition",
+            "trigger": "claimed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Result",
+                    "argument": "21 medals in cross-country skiing, 17 in biathlon, and four in speed skating"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "The provisions regulate competition for youth to ensure that the “joy of sport” is not extinguished by early specialization or performance pressure",
+            "event_type": "Regulation",
+            "trigger": "regulate",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The provisions"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "youth"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Children are legally protected from being scored, ranked, or timed until the year they turn 11",
+            "event_type": "Protection",
+            "trigger": "protected",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Children"
+                },
+                {
+                    "role": "Time",
+                    "argument": "the year they turn 11"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Oddvar Brå emphasizes that this “cautious” approach is critical for sustaining long-term talent",
+            "event_type": "Statement",
+            "trigger": "emphasizes",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Oddvar Brå"
+                },
+                {
+                    "role": "Result",
+                    "argument": "sustaining long-term talent"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Wiklund highlights how the Norwegian Model allows more “talents to surface” because children are allowed to “try and fail in different things until you find what fits”",
+            "event_type": "Statement",
+            "trigger": "highlights",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "Result",
+                    "argument": "more “talents to surface”"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Norway awards the Egebergs Ærespris, its highest award for athletes who has made outstanding achievements in one sport and has also excelled in others",
+            "event_type": "Award",
+            "trigger": "awards",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Result",
+                    "argument": "Egebergs Ærespris"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Brå reflects that in his era, “psychological relaxation” was found in switching environments",
+            "event_type": "Reflection",
+            "trigger": "reflects",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Brå"
+                },
+                {
+                    "role": "Result",
+                    "argument": "psychological relaxation"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Host-nation Italy awarded approximately €213,000 for every trip to the top of the podium",
+            "event_type": "Award",
+            "trigger": "awarded",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Host-nation Italy"
+                },
+                {
+                    "role": "Result",
+                    "argument": "approximately €213,000"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Norsk Tipping, the Norwegian state gambling company, allocates 50–60% of its annual revenue to sports infrastructure",
+            "event_type": "Allocation",
+            "trigger": "allocates",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norsk Tipping"
+                },
+                {
+                    "role": "Result",
+                    "argument": "50–60% of its annual revenue"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Brå argues that inner power and motivation is required to sustain the 365-day-a-year training schedule needed for greatness",
+            "event_type": "Statement",
+            "trigger": "argues",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Brå"
+                },
+                {
+                    "role": "Result",
+                    "argument": "inner power and motivation"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Brå issues a troubling aspect about the rising cost of participation",
+            "event_type": "Statement",
+            "trigger": "issues",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Brå"
+                },
+                {
+                    "role": "Result",
+                    "argument": "rising cost of participation"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "The Norwegian approach distinguishes from the rigid, coach-led systems historically associated with Eastern Europe",
+            "event_type": "Comparison",
+            "trigger": "distinguishes",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The Norwegian approach"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Eastern Europe"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "Wiklund is completing a master’s degree in data science at NMBU in Norway",
+            "event_type": "Education",
+            "trigger": "completing",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Wiklund"
+                },
+                {
+                    "role": "Result",
+                    "argument": "master’s degree in data science"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "doc_id": "event1_flash",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Norway topped the medal standings at the Milano-Cortina 2026 Winter Olympics in Italy",
+            "event_type": "Competition",
+            "trigger": "topped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milano-Cortina 2026 Winter Olympics in Italy"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The United States finished second with 12 gold, 12 silver and 9 bronze medals",
+            "event_type": "Ranking",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The United States"
+                },
+                {
+                    "role": "Result",
+                    "argument": "second"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "The Netherlands finished third with 10 gold, 7 silver and 3 bronze medals",
+            "event_type": "Ranking",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The Netherlands"
+                },
+                {
+                    "role": "Result",
+                    "argument": "third"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Host nation Italy finished fourth with 10 gold, 6 silver and 14 bronze medals",
+            "event_type": "Ranking",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Italy"
+                },
+                {
+                    "role": "Result",
+                    "argument": "fourth"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Germany placed fifth with 8 gold, 10 silver and 8 bronze",
+            "event_type": "Ranking",
+            "trigger": "placed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "Result",
+                    "argument": "fifth"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "The Games, which opened on February 6, brought together 2,871 athletes from 92 countries",
+            "event_type": "Gathering",
+            "trigger": "opened",
+            "arguments": [
+                {
+                    "role": "Time",
+                    "argument": "February 6"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "2,871 athletes"
+                },
+                {
+                    "role": "Place",
+                    "argument": "92 countries"
+                }
+            ]
+        }
+    ]
+}

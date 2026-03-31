@@ -1,0 +1,150 @@
+{
+    "doc_id": "event9_flash",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Lochner and Fleischhauer dominated the competition across all four heats to upset two-time champion Francesco Friedrich in Milano Cortina 2026 on Tuesday (17 February).",
+            "event_type": "Competition",
+            "trigger": "dominated",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner and Fleischhauer"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Francesco Friedrich"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milano Cortina 2026"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Tuesday (17 February)"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Friedrich won silver to become the joint most decorated pilot in Olympic history.",
+            "event_type": "Award",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "German pilot Johannes Lochner delivered the four fastest heats in the two-man bobsleigh to bring the indomitable Francesco Friedrich’s reign to an end and win his first Olympic gold medal at the Olympic Winter Games Milano Cortina 2026 on Tuesday (17 February).",
+            "event_type": "Competition",
+            "trigger": "delivered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Johannes Lochner"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Francesco Friedrich"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Olympic Winter Games Milano Cortina 2026"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Tuesday (17 February)"
+                },
+                {
+                    "role": "Result",
+                    "argument": "Olympic gold medal"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Lochner and brakeman Georg Fleischhauer consolidated their vice-like grip on the top spot in the fourth and final heat with a combined winning time of 3:39.70 for a German clean sweep of the podium.",
+            "event_type": "Competition",
+            "trigger": "consolidated",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner and Georg Fleischhauer"
+                },
+                {
+                    "role": "Result",
+                    "argument": "combined winning time of 3:39.70"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "The duo finished more than a second ahead of two-time defending champion Friedrich in second place.",
+            "event_type": "Competition",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The duo"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "Result",
+                    "argument": "more than a second ahead"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "The 35-year-old Lochner upgraded his silver medal from four years ago at Beijing 2022, with two-time German 400m hurdles champion Fleischhauer winning gold on his Winter Olympic debut.",
+            "event_type": "Award",
+            "trigger": "upgraded",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Result",
+                    "argument": "silver medal"
+                },
+                {
+                    "role": "Time",
+                    "argument": "four years ago"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Beijing 2022"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "The 35-year-old Lochner upgraded his silver medal from four years ago at Beijing 2022, with two-time German 400m hurdles champion Fleischhauer winning gold on his Winter Olympic debut.",
+            "event_type": "Award",
+            "trigger": "winning",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Fleischhauer"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold"
+                }
+            ]
+        }
+    ]
+}

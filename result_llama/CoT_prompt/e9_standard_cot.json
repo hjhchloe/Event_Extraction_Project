@@ -1,0 +1,254 @@
+{
+    "doc_id": "event9_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Germany swept the medals at the Olympic two-man bobsleigh for the second Games in a row on Tuesday",
+            "event_type": "Medal Sweep",
+            "trigger": "swept",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic two-man bobsleigh"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Tuesday"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Lochner and Georg Fleischhauer dominated the event from start to finish",
+            "event_type": "Dominance",
+            "trigger": "dominated",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner and Georg Fleischhauer"
+                },
+                {
+                    "role": "Event",
+                    "argument": "event"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Adam Ammour and Alexander Schaller took bronze",
+            "event_type": "Medal Win",
+            "trigger": "took",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Adam Ammour and Alexander Schaller"
+                },
+                {
+                    "role": "Medal",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Beijing was the first time a country had swept the medals in any bobsleigh event",
+            "event_type": "Medal Sweep",
+            "trigger": "swept",
+            "arguments": [
+                {
+                    "role": "Event",
+                    "argument": "Beijing"
+                },
+                {
+                    "role": "Event",
+                    "argument": "bobsleigh event"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Lochner has been on top in the World Cup all season, winning six of the seven Two-Man races",
+            "event_type": "Winning Streak",
+            "trigger": "winning",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Event",
+                    "argument": "World Cup"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "six of the seven Two-Man races"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "He carried that form into the Olympics, taking a grip on the event on Monday",
+            "event_type": "Performance",
+            "trigger": "carried",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympics"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Monday"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Lochner opened a huge 0.8-second lead over Friedrich",
+            "event_type": "Lead",
+            "trigger": "opened",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "0.8-second"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Friedrich had to fight some early skids and clocked 55.01",
+            "event_type": "Performance",
+            "trigger": "fight",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "55.01"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Lochner signed off with the fastest time of the fourth run",
+            "event_type": "Fastest Time",
+            "trigger": "signed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Event",
+                    "argument": "fourth run"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Friedrich came into the Games level with fellow pilot Andre Lange and brakeman Kevin Kuske on four golds",
+            "event_type": "Medal Count",
+            "trigger": "came",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Andre Lange and Kevin Kuske"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "four golds"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Friedrich still trails Kuske in the all-time bobsleigh rankings",
+            "event_type": "Ranking",
+            "trigger": "trails",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Kuske"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Frankie Del Duca and Josh Williamson finished fourth",
+            "event_type": "Finish",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Frankie Del Duca and Josh Williamson"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "fourth"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Mihai Cristian Tentea and George Iordache produced a fabulous series of runs to take a surprise fifth place",
+            "event_type": "Finish",
+            "trigger": "produced",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Mihai Cristian Tentea and George Iordache"
+                },
+                {
+                    "role": "Quantity",
+                    "argument": "fifth place"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Germany won all three team bobsleigh golds in Beijing",
+            "event_type": "Medal Win",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "Event",
+                    "argument": "team bobsleigh golds"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Beijing"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+  "doc_id": "event10_deep",
+  "prompt_type": "CoT",
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+      "event_type": "Competition",
+      "trigger": "got off to the hottest of starts",
+      "arguments": [
+        {
+          "role": "Event",
+          "argument": "speed skating competition"
+        },
+        {
+          "role": "Time",
+          "argument": "2026 Winter Olympics"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics",
+      "event_type": "Award",
+      "trigger": "took home",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Event",
+          "argument": "speed skating gold"
+        },
+        {
+          "role": "Time",
+          "argument": "2026 Winter Olympics"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "skating the 3000m in Olympic record time",
+      "event_type": "Achievement",
+      "trigger": "skating",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Event",
+          "argument": "3000m"
+        },
+        {
+          "role": "Result",
+          "argument": "Olympic record time"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "shaving over two-and-a-half seconds off the mark Dutch legend Irene Schouten set four years earlier",
+      "event_type": "Record",
+      "trigger": "shaving",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Previous Holder",
+          "argument": "Irene Schouten"
+        },
+        {
+          "role": "Time",
+          "argument": "four years earlier"
+        },
+        {
+          "role": "Result",
+          "argument": "over two-and-a-half seconds"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world",
+      "event_type": "Ranking",
+      "trigger": "entered",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Rank",
+          "argument": "9th"
+        },
+        {
+          "role": "Event",
+          "argument": "women's long distance skater"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "She spent part of the season battling a viral infection",
+      "event_type": "Illness",
+      "trigger": "battling",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Cause",
+          "argument": "viral infection"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "finding her previous best finish in the 3000m (4th) at the 2025-26 Speed Skating World Cup opener in November",
+      "event_type": "Achievement",
+      "trigger": "finding",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Event",
+          "argument": "3000m"
+        },
+        {
+          "role": "Result",
+          "argument": "4th"
+        },
+        {
+          "role": "Time",
+          "argument": "2025-26 Speed Skating World Cup opener in November"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "She remained composed throughout the duration of the event, battling Canada's Valarie Maltais in a race that was neck-and-neck through the finish line",
+      "event_type": "Competition",
+      "trigger": "battling",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Opponent",
+          "argument": "Valarie Maltais"
+        },
+        {
+          "role": "Event",
+          "argument": "race"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "Her final time was over two seconds faster than 2nd-place finisher Ragne Wiklund's (3:56.540)",
+      "event_type": "Record",
+      "trigger": "was",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Result",
+          "argument": "over two seconds faster"
+        },
+        {
+          "role": "Opponent",
+          "argument": "Ragne Wiklund"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "Maltais rounded out the podium in 3rd",
+      "event_type": "Ranking",
+      "trigger": "rounded out",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Maltais"
+        },
+        {
+          "role": "Rank",
+          "argument": "3rd"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "Lollobrigida told the media after her race Saturday",
+      "event_type": "Statement",
+      "trigger": "told",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Time",
+          "argument": "Saturday"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "With the victory, Lollobrigida became the first Italian woman to win Olympic speed skating gold",
+      "event_type": "Achievement",
+      "trigger": "became",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Event",
+          "argument": "Olympic speed skating gold"
+        },
+        {
+          "role": "Result",
+          "argument": "first Italian woman"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "The last time an Italian man won speed skating gold was in 2006, when Italy last hosted the Olympics",
+      "event_type": "Record",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Italian man"
+        },
+        {
+          "role": "Event",
+          "argument": "speed skating gold"
+        },
+        {
+          "role": "Time",
+          "argument": "2006"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "In Beijing, Lollobrigida earned silver in the 300m and bronze in the mass start",
+      "event_type": "Award",
+      "trigger": "earned",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Event",
+          "argument": "300m and mass start"
+        },
+        {
+          "role": "Result",
+          "argument": "silver and bronze"
+        },
+        {
+          "role": "Time",
+          "argument": "In Beijing"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "After the Beijing Games, she took a break from the sport, missing the entire 2022-23 season",
+      "event_type": "Break",
+      "trigger": "took",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Event",
+          "argument": "Beijing Games"
+        },
+        {
+          "role": "Time",
+          "argument": "2022-23 season"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "She returned to competition in September 2023, just four months after giving birth",
+      "event_type": "Return",
+      "trigger": "returned",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lollobrigida"
+        },
+        {
+          "role": "Time",
+          "argument": "September 2023"
+        },
+        {
+          "role": "Cause",
+          "argument": "giving birth"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "Eighteen months later, she claimed the 2025 world title"
+    }
+  ]
+}

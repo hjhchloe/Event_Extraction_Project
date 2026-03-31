@@ -1,0 +1,198 @@
+{
+    "doc_id": "event5_standard",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "The Team USA three-time Olympic medallist clipped a gate and fell to the ground in pain, in what could be the last race of her legendary career.",
+            "event_type": "Accident",
+            "trigger": "clipped",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Team USA three-time Olympic medallist"
+                },
+                {
+                    "role": "Place",
+                    "argument": "ground"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Just a week after suffering a serious knee injury, Lindsey Vonn's Olympic Milano Cortina 2026 Alpine skiing downhill dreams came to an end, as she crashed out of the race on Sunday (8 February).",
+            "event_type": "Injury",
+            "trigger": "suffering",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lindsey Vonn"
+                },
+                {
+                    "role": "Time",
+                    "argument": "a week"
+                },
+                {
+                    "role": "Result",
+                    "argument": "serious knee injury"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "The three-time Olympic medallist screamed in pain as she fell to the ground after clipping a gate on a right-hand turn just seconds into her run.",
+            "event_type": "Accident",
+            "trigger": "clipping",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "three-time Olympic medallist"
+                },
+                {
+                    "role": "Place",
+                    "argument": "ground"
+                },
+                {
+                    "role": "Time",
+                    "argument": "seconds"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "The crowd fell silent for a full minute and her coach Aksel Lund Svindal looked on very concerned.",
+            "event_type": "Reaction",
+            "trigger": "fell",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "crowd"
+                },
+                {
+                    "role": "Time",
+                    "argument": "full minute"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Aksel Lund Svindal"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "The race was halted for more than 10 minutes before Vonn was airlifted away to Codivilla Hospital in Cortina for medical evaluation.",
+            "event_type": "Interruption",
+            "trigger": "halted",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "race"
+                },
+                {
+                    "role": "Time",
+                    "argument": "10 minutes"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Codivilla Hospital"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Vonn"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "The U.S. Alpine skiing legend suffered a ruptured ACL, bone bruising, and meniscal damage on 30 January in the later-cancelled Crans-Montana downhill,",
+            "event_type": "Injury",
+            "trigger": "suffered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "U.S. Alpine skiing legend"
+                },
+                {
+                    "role": "Time",
+                    "argument": "30 January"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Crans-Montana"
+                },
+                {
+                    "role": "Result",
+                    "argument": "ruptured ACL, bone bruising, and meniscal damage"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "However, after making the decision to race in Italy, she lined up 13th on the start list for the women's downhill.",
+            "event_type": "Decision",
+            "trigger": "making",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "she"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Italy"
+                },
+                {
+                    "role": "Result",
+                    "argument": "lined up 13th"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "The crash at the Tofane Alpine Skiing Centre is most likely to bring her Olympic campaign to a sad end.",
+            "event_type": "Accident",
+            "trigger": "crash",
+            "arguments": [
+                {
+                    "role": "Place",
+                    "argument": "Tofane Alpine Skiing Centre"
+                },
+                {
+                    "role": "Result",
+                    "argument": "Olympic campaign to a sad end"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Vonn is one of the most successful Alpine skiers in history, having won gold in downhill and bronze in super-G at Vancouver 2010, as well as bronze in downhill at PyeongChang 2018.",
+            "event_type": "Achievement",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Vonn"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold in downhill and bronze in super-G"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Vancouver 2010"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2010"
+                },
+                {
+                    "role": "Place",
+                    "argument": "PyeongChang 2018"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2018"
+                }
+            ]
+        }
+    ]
+}

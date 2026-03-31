@@ -1,0 +1,210 @@
+{
+    "doc_id": "event9_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Germany swept the medals at the Olympic two-man bobsleigh for the second Games in a row on Tuesday",
+            "event_type": "medal sweep",
+            "trigger": "swept",
+            "arguments": [
+                {
+                    "role": "country",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "event",
+                    "argument": "Olympic two-man bobsleigh"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Lochner and Georg Fleischhauer dominated the event from start to finish",
+            "event_type": "domination",
+            "trigger": "dominated",
+            "arguments": [
+                {
+                    "role": "participants",
+                    "argument": "Lochner and Georg Fleischhauer"
+                },
+                {
+                    "role": "event",
+                    "argument": "event"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Adam Ammour and Alexander Schaller took bronze",
+            "event_type": "medal win",
+            "trigger": "took",
+            "arguments": [
+                {
+                    "role": "participants",
+                    "argument": "Adam Ammour and Alexander Schaller"
+                },
+                {
+                    "role": "medal",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Beijing was the first time a country had swept the medals in any bobsleigh event",
+            "event_type": "medal sweep",
+            "trigger": "swept",
+            "arguments": [
+                {
+                    "role": "location",
+                    "argument": "Beijing"
+                },
+                {
+                    "role": "event",
+                    "argument": "bobsleigh event"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Lochner has been on top in the World Cup all season, winning six of the seven Two-Man races",
+            "event_type": "winning streak",
+            "trigger": "winning",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "event",
+                    "argument": "World Cup"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Lochner carried that form into the Olympics, taking a grip on the event on Monday",
+            "event_type": "competition lead",
+            "trigger": "taking",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "event",
+                    "argument": "Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Friedrich had to fight some early skids and clocked 55.01",
+            "event_type": "competition challenge",
+            "trigger": "fight",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Friedrich"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Lochner signed off with the fastest time of the fourth run",
+            "event_type": "fastest time",
+            "trigger": "signed",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "event",
+                    "argument": "fourth run"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Friedrich came into the Games level with fellow pilot Andre Lange and brakeman Kevin Kuske on four golds",
+            "event_type": "record tie",
+            "trigger": "came",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "fellow participants",
+                    "argument": "Andre Lange and Kevin Kuske"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Friedrich will get a chance to climb above him when all three German pilots go again in the four-man",
+            "event_type": "upcoming competition",
+            "trigger": "get",
+            "arguments": [
+                {
+                    "role": "participant",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "event",
+                    "argument": "four-man"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Americans Frankie Del Duca and Josh Williamson finished fourth",
+            "event_type": "competition finish",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "participants",
+                    "argument": "Frankie Del Duca and Josh Williamson"
+                },
+                {
+                    "role": "position",
+                    "argument": "fourth"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Romanian duo Mihai Cristian Tentea and George Iordache producing a fabulous series of runs to take a surprise fifth place",
+            "event_type": "competition finish",
+            "trigger": "take",
+            "arguments": [
+                {
+                    "role": "participants",
+                    "argument": "Mihai Cristian Tentea and George Iordache"
+                },
+                {
+                    "role": "position",
+                    "argument": "fifth"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Germany won all three team bobsleigh golds in Beijing",
+            "event_type": "medal win",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "country",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "event",
+                    "argument": "team bobsleigh"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "doc_id": "event6_flash",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Johannes Høsflot Klæbo makes Winter Olympic history with a sixth gold medal at Milano Cortina 2026, as Norway dominates the 50km classic.",
+            "event_type": "Historic Achievement",
+            "trigger": "makes",
+            "arguments": [
+                {
+                    "role": "Achiever",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympic"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Milano Cortina 2026"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Johannes Høsflot Klæbo capped a remarkable Milano Cortina 2026 campaign on Saturday (21 February), winning the men’s 50km mass start classic to claim his sixth gold medal of the Games — becoming the first athlete in any sport to win six Olympic gold medals at the same Winter Olympics.",
+            "event_type": "Winning",
+            "trigger": "winning",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Event",
+                    "argument": "men’s 50km mass start classic"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Milano Cortina 2026"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Saturday (21 February)"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Klæbo stopped the clock at 2:07:07.1, pulling away late to beat compatriot Martin Løwstrøm Nyenget by 17.5 seconds, with Emil Iversen completing an all-Norwegian podium in third, 46.2 seconds back.",
+            "event_type": "Racing",
+            "trigger": "stopped",
+            "arguments": [
+                {
+                    "role": "Racer",
+                    "argument": "Klæbo"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2:07:07.1"
+                },
+                {
+                    "role": "Opponent",
+                    "argument": "Martin Løwstrøm Nyenget"
+                },
+                {
+                    "role": "Opponent",
+                    "argument": "Emil Iversen"
+                }
+            ]
+        }
+    ]
+}

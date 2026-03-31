@@ -1,0 +1,62 @@
+{
+    "doc_id": "event3_flash",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "The United States captured its third Olympic men's ice hockey gold medal, and first in 46 years, by edging Canada 2-1 in overtime in a thrilling final at the Milan-Cortina Winter Olympics on Sunday.",
+            "event_type": "Sports Competition",
+            "trigger": "captured",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The United States"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Sunday"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milan-Cortina Winter Olympics"
+                },
+                {
+                    "role": "Result",
+                    "argument": "2-1 in overtime"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "edging Canada 2-1 in overtime in a thrilling final at the Milan-Cortina Winter Olympics on Sunday.",
+            "event_type": "Sports Competition",
+            "trigger": "edging",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The United States"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Sunday"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milan-Cortina Winter Olympics"
+                },
+                {
+                    "role": "Result",
+                    "argument": "2-1 in overtime"
+                }
+            ]
+        }
+    ]
+}

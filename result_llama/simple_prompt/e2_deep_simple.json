@@ -1,0 +1,282 @@
+{
+    "doc_id": "event2_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Eileen Gu got her gold",
+            "event_type": "winning",
+            "trigger": "got",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "award",
+                    "argument": "gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Gu nailed her final two runs of the halfpipe skiing",
+            "event_type": "competition",
+            "trigger": "nailed",
+            "arguments": [
+                {
+                    "role": "competitor",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "event",
+                    "argument": "halfpipe skiing"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Li Fanghui of China finished with a silver",
+            "event_type": "finishing",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "competitor",
+                    "argument": "Li Fanghui"
+                },
+                {
+                    "role": "award",
+                    "argument": "silver"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Zoe Atkin won the bronze",
+            "event_type": "winning",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "winner",
+                    "argument": "Zoe Atkin"
+                },
+                {
+                    "role": "award",
+                    "argument": "bronze"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Gu became the second person to win gold or silver in each of their first six Winter Olympic individual events",
+            "event_type": "achievement",
+            "trigger": "became",
+            "arguments": [
+                {
+                    "role": "achiever",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "achievement",
+                    "argument": "winning gold or silver in each of their first six Winter Olympic individual events"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "security had to compel Chinese fans to leave the freeski venue",
+            "event_type": "incident",
+            "trigger": "compel",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "security"
+                },
+                {
+                    "role": "affected",
+                    "argument": "Chinese fans"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Gu told reporters after the event",
+            "event_type": "statement",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "speaker",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "audience",
+                    "argument": "reporters"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Gu hadn't skied halfpipe in two months prior to the Olympics",
+            "event_type": "preparation",
+            "trigger": "hadn't skied",
+            "arguments": [
+                {
+                    "role": "competitor",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "event",
+                    "argument": "halfpipe"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Gu missed a halfpipe training session due to competing in the finals of Big Air",
+            "event_type": "conflict",
+            "trigger": "missed",
+            "arguments": [
+                {
+                    "role": "competitor",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "cause",
+                    "argument": "competing in the finals of Big Air"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Gu hadn't competed in Big Air in four years",
+            "event_type": "preparation",
+            "trigger": "hadn't competed",
+            "arguments": [
+                {
+                    "role": "competitor",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "event",
+                    "argument": "Big Air"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Gu grew emotional at the end of her Olympic press conference",
+            "event_type": "reaction",
+            "trigger": "grew emotional",
+            "arguments": [
+                {
+                    "role": "reactor",
+                    "argument": "Eileen Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Gu's grandmother had passed away",
+            "event_type": "death",
+            "trigger": "passed away",
+            "arguments": [
+                {
+                    "role": "deceased",
+                    "argument": "Gu's grandmother"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Vice President J.D. Vance weighed in on her choice to represent China",
+            "event_type": "comment",
+            "trigger": "weighed in",
+            "arguments": [
+                {
+                    "role": "commenter",
+                    "argument": "Vice President J.D. Vance"
+                },
+                {
+                    "role": "topic",
+                    "argument": "Gu's choice to represent China"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Gu replied in a playful manner to Vance's words",
+            "event_type": "response",
+            "trigger": "replied",
+            "arguments": [
+                {
+                    "role": "responder",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "stimulus",
+                    "argument": "Vance's words"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "Gu struggled with panic attacks",
+            "event_type": "struggle",
+            "trigger": "struggled",
+            "arguments": [
+                {
+                    "role": "sufferer",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "challenge",
+                    "argument": "panic attacks"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "Gu encountered online trolling",
+            "event_type": "incident",
+            "trigger": "encountered",
+            "arguments": [
+                {
+                    "role": "target",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "action",
+                    "argument": "online trolling"
+                }
+            ]
+        },
+        {
+            "event_id": "E17",
+            "event_mention": "Gu suffered several injuries",
+            "event_type": "injury",
+            "trigger": "suffered",
+            "arguments": [
+                {
+                    "role": "sufferer",
+                    "argument": "Eileen Gu"
+                }
+            ]
+        },
+        {
+            "event_id": "E18",
+            "event_mention": "Gu leaned on journaling to help her perspective",
+            "event_type": "coping",
+            "trigger": "leaned on",
+            "arguments": [
+                {
+                    "role": "coper",
+                    "argument": "Eileen Gu"
+                },
+                {
+                    "role": "method",
+                    "argument": "journaling"
+                }
+            ]
+        }
+    ]
+}

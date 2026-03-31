@@ -1,0 +1,226 @@
+{
+    "doc_id": "event6_deep",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Johannes Høsflot Klæbo won his sixth gold medal of these Games when he beat his Norwegian teammate Martin Løwstrøm Nyenget by 17.4 seconds to win the men’s 50km classic.",
+            "event_type": "Sports Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Event",
+                    "argument": "men’s 50km classic"
+                },
+                {
+                    "role": "Loser",
+                    "argument": "Martin Løwstrøm Nyenget"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The triumph meant the 29-year-old set the record for the most gold medals in a single Winter Games, set by the US speed skater Eric Heiden when he won five at Lake Placid in 1980.",
+            "event_type": "Record Setting",
+            "trigger": "set",
+            "arguments": [
+                {
+                    "role": "Record Setter",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Previous Record Holder",
+                    "argument": "Eric Heiden"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Games"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Klæbo now has 11 Olympic gold medals, which puts him one ahead of the entire country of India on the all-time table.",
+            "event_type": "Milestone Achievement",
+            "trigger": "has",
+            "arguments": [
+                {
+                    "role": "Achiever",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Milestone",
+                    "argument": "11 Olympic gold medals"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "In this past fortnight he has competed in 10 races across 115km, in six different events, in the space of just 14 days, and won every single one of them.",
+            "event_type": "Competition Streak",
+            "trigger": "competed",
+            "arguments": [
+                {
+                    "role": "Competitor",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Events",
+                    "argument": "10 races"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Nobody has ever swept all the cross-country events in a single Olympics before;",
+            "event_type": "Historic Achievement",
+            "trigger": "swept",
+            "arguments": [
+                {
+                    "role": "Achiever",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Event",
+                    "argument": "cross-country events"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Only the American swimmer Michael Phelps, with 23, has ever won more Olympic gold medals than Klæbo.",
+            "event_type": "Comparison",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Comparand",
+                    "argument": "Michael Phelps"
+                },
+                {
+                    "role": "Comparee",
+                    "argument": "Johannes Høsflot Klæbo"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "In this past week he has overtaken Laris Latynina, Carl Lewis, Katie Ledecky, Paavo Nurmi and everyone else in the Olympic pantheon.",
+            "event_type": "Ranking Change",
+            "trigger": "overtaken",
+            "arguments": [
+                {
+                    "role": "New Leader",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Previous Leaders",
+                    "argument": "Laris Latynina, Carl Lewis, Katie Ledecky, Paavo Nurmi"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Klæbo said after he had won his fifth gold on Wednesday.",
+            "event_type": "Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Johannes Høsflot Klæbo"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Iversen finally broke and slipped back halfway through the last lap, but Nyenget kept on.",
+            "event_type": "Racing Incident",
+            "trigger": "broke",
+            "arguments": [
+                {
+                    "role": "Racer",
+                    "argument": "Iversen"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Nyenget attacked twice in the final two kilometres but couldn’t shake off Klæbo",
+            "event_type": "Racing Incident",
+            "trigger": "attacked",
+            "arguments": [
+                {
+                    "role": "Attacker",
+                    "argument": "Nyenget"
+                },
+                {
+                    "role": "Defender",
+                    "argument": "Klæbo"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Klæbo finally made the move everyone had been waiting to see, wondering, all the while, whether he still had it in him after all this racing.",
+            "event_type": "Racing Incident",
+            "trigger": "made",
+            "arguments": [
+                {
+                    "role": "Racer",
+                    "argument": "Klæbo"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "He began this sport as a sprinter, competing in the 1,500m, but over time has moved up into marathon racing too, with the ultimate aim of winning this, the most prestigious event in the sport.",
+            "event_type": "Career Development",
+            "trigger": "began",
+            "arguments": [
+                {
+                    "role": "Athlete",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Sport",
+                    "argument": "sprinter"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "Klæbo invented one all of his own, an uphill running technique, a sort of high-tempo diagonal stride that he used to devastating effect in the cross-country classic sprint.",
+            "event_type": "Innovation",
+            "trigger": "invented",
+            "arguments": [
+                {
+                    "role": "Inventor",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Invention",
+                    "argument": "uphill running technique"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "“He’s the GOAT in the whole sport, the greatest skier we will ever see,” said France’s Theo Schley.",
+            "event_type": "Praise",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Theo Schley"
+                },
+                {
+                    "role": "Praisee",
+                    "argument": "Johannes Høsflot Klæbo"
+                }
+            ]
+        }
+    ]
+}

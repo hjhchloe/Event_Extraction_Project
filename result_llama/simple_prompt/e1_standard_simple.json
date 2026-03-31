@@ -1,0 +1,170 @@
+{
+    "doc_id": "event1_standard",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Norway has once again topped the Winter Olympics medal table, surpassing countries with far larger populations.",
+            "event_type": "Competition",
+            "trigger": "topped",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "The Scandinavian country won more gold medals (18) and more total medals (41) than the US, who came second in both categories (12 golds and 33 total medals).",
+            "event_type": "Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Winner",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Runner-up",
+                    "argument": "US"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Norway’s 18 golds were the most by a country in Winter Olympics history",
+            "event_type": "Record",
+            "trigger": "were",
+            "arguments": [
+                {
+                    "role": "Record Holder",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Johannes Høsflot Klæbo accounted for six golds on his own, more than the all but seven other countries at this year’s Games.",
+            "event_type": "Achievement",
+            "trigger": "accounted",
+            "arguments": [
+                {
+                    "role": "Achiever",
+                    "argument": "Johannes Høsflot Klæbo"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "The Netherlands, which excels in speed skating, also punched above its weight, finishing with 10 golds – the same as host nation Italy – despite its relatively small population of around 18m.",
+            "event_type": "Competition",
+            "trigger": "finishing",
+            "arguments": [
+                {
+                    "role": "Participant",
+                    "argument": "The Netherlands"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Great Britain enjoyed its best ever medal haul at a Winter Olympics with three golds, a silver and a bronze, as did Australia (three golds, two silver and a bronze).",
+            "event_type": "Achievement",
+            "trigger": "enjoyed",
+            "arguments": [
+                {
+                    "role": "Achiever",
+                    "argument": "Great Britain"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "The US finished in second place, the Americans’ 12 golds were the most at a Winter Olympics in the nation’s history.",
+            "event_type": "Record",
+            "trigger": "finished",
+            "arguments": [
+                {
+                    "role": "Runner-up",
+                    "argument": "US"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Norway’s success is nothing new. The Norwegians have won the most golds at every Winter Olympics since 2014 (they tied with Germany in 2018).",
+            "event_type": "Trend",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Leader",
+                    "argument": "Norway"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Winter Olympics"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "Morten Aasen, a former Norwegian Olympian, said in 2018",
+            "event_type": "Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Morten Aasen"
+                },
+                {
+                    "role": "Time",
+                    "argument": "2018"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Geir Jordet, a professor at the Norwegian School of Sports Sciences in Oslo, told CNN Sports his country’s athletic success comes down to a simple formula: “Collaboration, communication and care.”",
+            "event_type": "Statement",
+            "trigger": "told",
+            "arguments": [
+                {
+                    "role": "Speaker",
+                    "argument": "Geir Jordet"
+                },
+                {
+                    "role": "Audience",
+                    "argument": "CNN Sports"
+                }
+            ]
+        }
+    ]
+}

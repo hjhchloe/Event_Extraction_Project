@@ -1,0 +1,90 @@
+{
+    "doc_id": "event10_flash",
+    "prompt_type": "simple",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Francesca Lollobrigida powered to victory in the women’s speed skating 3000m",
+            "event_type": "competition",
+            "trigger": "powered to victory",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "event",
+                    "argument": "women’s speed skating 3000m"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Competing on her 35th birthday",
+            "event_type": "celebration",
+            "trigger": "Competing",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "occasion",
+                    "argument": "35th birthday"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "admitting she had been on the verge of quitting the sport due to a viral infection",
+            "event_type": "admission",
+            "trigger": "admitting",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "reason",
+                    "argument": "viral infection"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "the mother of one called it “the dream of the dream”",
+            "event_type": "statement",
+            "trigger": "called",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "Francesca Lollobrigida"
+                },
+                {
+                    "role": "statement",
+                    "argument": "“the dream of the dream”"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "a victory that ignited the Games for the host nation",
+            "event_type": "impact",
+            "trigger": "ignited",
+            "arguments": [
+                {
+                    "role": "agent",
+                    "argument": "victory"
+                },
+                {
+                    "role": "affected",
+                    "argument": "the Games"
+                },
+                {
+                    "role": "beneficiary",
+                    "argument": "host nation"
+                }
+            ]
+        }
+    ]
+}

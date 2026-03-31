@@ -1,0 +1,322 @@
+{
+  "doc_id": "event4_deep",
+  "prompt_type": "simple",
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Ilia Malinin arrived at his first Olympics as the no-brainer winner of the men’s figure-skating event",
+      "event_type": "Arrival",
+      "trigger": "arrived",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Location",
+          "argument": "Olympics"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Malinin showed some fallibility and faltered in the short program of the team event, finishing behind Japan’s Yuma Kagiyama",
+      "event_type": "Faltering",
+      "trigger": "faltered",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Event",
+          "argument": "team event"
+        },
+        {
+          "role": "Opponent",
+          "argument": "Yuma Kagiyama"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "He won the free program segment in the team event",
+      "event_type": "Winning",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Event",
+          "argument": "team event"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "Malinin finished in first, nearly six points ahead of Kagiyama in the individual men’s event",
+      "event_type": "Finishing",
+      "trigger": "finished",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Event",
+          "argument": "individual men’s event"
+        },
+        {
+          "role": "Opponent",
+          "argument": "Kagiyama"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Malinin took his starting position and his music began",
+      "event_type": "Start",
+      "trigger": "took",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "He landed a clean quad flip to start the program",
+      "event_type": "Landing",
+      "trigger": "landed",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Action",
+          "argument": "quad flip"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "He popped the quad axel in the air and only received points for a single axel",
+      "event_type": "Mistake",
+      "trigger": "popped",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Action",
+          "argument": "quad axel"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "He fell on the planned quad loop and opened up again in the air, completing only two rotations",
+      "event_type": "Falling",
+      "trigger": "fell",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Action",
+          "argument": "quad loop"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "He fell on two jumps, which resulted in an automatic two-point deduction",
+      "event_type": "Deduction",
+      "trigger": "fell",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Action",
+          "argument": "two jumps"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "Mikhail Shaidorov from Kazakhstan landed five quad jumps to earn the gold",
+      "event_type": "Winning",
+      "trigger": "earned",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Mikhail Shaidorov"
+        },
+        {
+          "role": "Event",
+          "argument": "Olympic men’s event"
+        },
+        {
+          "role": "Action",
+          "argument": "five quad jumps"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "Malinin congratulated Shaidorov and told him, “You deserve it”",
+      "event_type": "Congratulation",
+      "trigger": "congratulated",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Recipient",
+          "argument": "Mikhail Shaidorov"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "Kagiyama earned silver, and his teammate, Shun Sato, earned bronze",
+      "event_type": "Earning",
+      "trigger": "earned",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Kagiyama"
+        },
+        {
+          "role": "Medal",
+          "argument": "silver"
+        },
+        {
+          "role": "Participant",
+          "argument": "Shun Sato"
+        },
+        {
+          "role": "Medal",
+          "argument": "bronze"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "Malinin’s U.S. teammates, Andrew Torgashev and Maxim Naumov, struggled with some of their jumps and finished 12th and 20th, respectively",
+      "event_type": "Struggling",
+      "trigger": "struggled",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Andrew Torgashev"
+        },
+        {
+          "role": "Participant",
+          "argument": "Maxim Naumov"
+        },
+        {
+          "role": "Action",
+          "argument": "some of their jumps"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "Malinin said he “blew it” and acknowledged the impact of the pressure of competing at his first Olympics",
+      "event_type": "Acknowledgment",
+      "trigger": "acknowledged",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Event",
+          "argument": "Olympics"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "Nathan Chen faltered in the short program of the men’s event and finished 17th in the 2018 Olympics",
+      "event_type": "Faltering",
+      "trigger": "faltered",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Nathan Chen"
+        },
+        {
+          "role": "Event",
+          "argument": "2018 Olympics"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "Chen recovered in the free program, completing five quad jumps, which was enough to bring him to fifth place overall",
+      "event_type": "Recovery",
+      "trigger": "recovered",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Nathan Chen"
+        },
+        {
+          "role": "Event",
+          "argument": "free program"
+        },
+        {
+          "role": "Action",
+          "argument": "five quad jumps"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "Malinin met Richard at a gym over the summer and they shared tips",
+      "event_type": "Meeting",
+      "trigger": "met",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Participant",
+          "argument": "Frederick Richard"
+        }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "Malinin and Richard co-created National Backflip Day",
+      "event_type": "Creation",
+      "trigger": "co-created",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Participant",
+          "argument": "Frederick Richard"
+        },
+        {
+          "role": "Event",
+          "argument": "National Backflip Day"
+        }
+      ]
+    }
+  ]
+}

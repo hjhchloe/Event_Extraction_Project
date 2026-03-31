@@ -1,0 +1,262 @@
+{
+    "doc_id": "event9_deep",
+    "prompt_type": "CoT",
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Germany swept the medals in the two-man race at the Milan Cortina Olympics on Tuesday night",
+            "event_type": "Competition",
+            "trigger": "swept",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "Event",
+                    "argument": "two-man race"
+                },
+                {
+                    "role": "Place",
+                    "argument": "Milan Cortina Olympics"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Tuesday night"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Lochner got his first gold medal while posting the biggest Olympic two-man winning margin in nearly a half-century",
+            "event_type": "Award",
+            "trigger": "got",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Event",
+                    "argument": "gold medal"
+                },
+                {
+                    "role": "Result",
+                    "argument": "biggest Olympic two-man winning margin"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "Lochner teamed with Fleischhauer to finish the four-run competition in 3 minutes, 39.70 seconds",
+            "event_type": "Competition",
+            "trigger": "teamed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Fleischhauer"
+                },
+                {
+                    "role": "Event",
+                    "argument": "four-run competition"
+                },
+                {
+                    "role": "Result",
+                    "argument": "3 minutes, 39.70 seconds"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "Lochner won by 1.34 seconds, the most lopsided margin in the Olympic two-man race in 46 years",
+            "event_type": "Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Lochner"
+                },
+                {
+                    "role": "Result",
+                    "argument": "1.34 seconds"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic two-man race"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Friedrich partnered with Alexander Schuller and was second in 3:41.04",
+            "event_type": "Competition",
+            "trigger": "partnered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Alexander Schuller"
+                },
+                {
+                    "role": "Result",
+                    "argument": "second"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic two-man race"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Ammour finished off the sweep, teaming with Alexander Schaller to win bronze in 3:41.52",
+            "event_type": "Competition",
+            "trigger": "teaming",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ammour"
+                },
+                {
+                    "role": "Participant",
+                    "argument": "Alexander Schaller"
+                },
+                {
+                    "role": "Result",
+                    "argument": "bronze"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic two-man race"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "Del Duca and Josh Williamson were fourth in 3:41.96",
+            "event_type": "Competition",
+            "trigger": "were",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Del Duca and Josh Williamson"
+                },
+                {
+                    "role": "Result",
+                    "argument": "fourth"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic two-man race"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "Del Duca had the third-fastest run in the fourth heat",
+            "event_type": "Competition",
+            "trigger": "had",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Del Duca"
+                },
+                {
+                    "role": "Result",
+                    "argument": "third-fastest run"
+                },
+                {
+                    "role": "Event",
+                    "argument": "fourth heat"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "The Romanian team of Mihai Tentea and George Iordache were fifth",
+            "event_type": "Competition",
+            "trigger": "were",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "The Romanian team of Mihai Tentea and George Iordache"
+                },
+                {
+                    "role": "Result",
+                    "argument": "fifth"
+                },
+                {
+                    "role": "Event",
+                    "argument": "Olympic two-man race"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "Germany won 23 of them — including the three shiniest ones",
+            "event_type": "Competition",
+            "trigger": "won",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Germany"
+                },
+                {
+                    "role": "Result",
+                    "argument": "23"
+                },
+                {
+                    "role": "Event",
+                    "argument": "two-man races"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "Brad Hall got a bronze medal at the World Cup two-man race in St. Moritz, Switzerland, last month",
+            "event_type": "Award",
+            "trigger": "got",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Brad Hall"
+                },
+                {
+                    "role": "Event",
+                    "argument": "bronze medal"
+                },
+                {
+                    "role": "Place",
+                    "argument": "St. Moritz, Switzerland"
+                },
+                {
+                    "role": "Time",
+                    "argument": "last month"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Friedrich said. “We have to say congrats to Hansi,”",
+            "event_type": "Communication",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Friedrich"
+                },
+                {
+                    "role": "Message",
+                    "argument": "congrats to Hansi"
+                }
+            ]
+        }
+    ]
+}
