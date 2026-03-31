@@ -1,0 +1,161 @@
+{
+    "summary": {
+        "gold_events": 5,
+        "pred_events": 3,
+        "gold_arguments": 12,
+        "pred_arguments": 6
+    },
+    "trigger_identification": {
+        "precision": 0.6667,
+        "recall": 0.4,
+        "f1": 0.5
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.8333,
+        "recall": 0.4167,
+        "f1": 0.5556
+    },
+    "argument_classification": {
+        "precision": 0.8333,
+        "recall": 0.4167,
+        "f1": 0.5556
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Ailing Eileen Gu has her gold",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "gold",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ailing Eileen Gu",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Ailing Eileen Gu has her gold as she successfully defended her Olympic Freeski Halfpipe title",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "defended",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ailing Eileen Gu"
+                    },
+                    {
+                        "role": "title",
+                        "argument": "Olympic Freeski Halfpipe"
+                    }
+                ]
+            },
+            "similarity": 0.7263,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Li Fanghui made it a one-two for People’s Republic of China",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Li Fanghui",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "People’s Republic of China",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "a one-two",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Li Fanghui made it a one-two for People’s Republic of China",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Li Fanghui"
+                    },
+                    {
+                        "role": "team",
+                        "argument": "People’s Republic of China"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Zoe Atkin of Great Britain taking bronze",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "taking",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Zoe Atkin",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Great Britain",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Zoe Atkin of Great Britain taking bronze",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "taking",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Zoe Atkin"
+                    },
+                    {
+                        "role": "team",
+                        "argument": "Great Britain"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

@@ -1,0 +1,456 @@
+{
+    "summary": {
+        "gold_events": 18,
+        "pred_events": 9,
+        "gold_arguments": 46,
+        "pred_arguments": 20
+    },
+    "trigger_identification": {
+        "precision": 0.6667,
+        "recall": 0.3333,
+        "f1": 0.4444
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.75,
+        "recall": 0.3261,
+        "f1": 0.4545
+    },
+    "argument_classification": {
+        "precision": 0.75,
+        "recall": 0.3261,
+        "f1": 0.4545
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "defending her Olympic title in women's freeski halfpipe",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "defending",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Eileen Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "Olympic title in women's freeski halfpipe",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milan Cortina Games",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "last Sunday",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Eileen Gu of China saved her best for last Sunday at the Milan Cortina Games, defending her Olympic title in women's freeski halfpipe to earn a third medal",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "defending",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Eileen Gu"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "last Sunday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan Cortina Games"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "third medal"
+                    }
+                ]
+            },
+            "similarity": 0.6643,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Gu opened her second with a giant 12.5-foot 900 Buick",
+                "event_type": "Competition_Action",
+                "normalized_event_type": "Competition_Action",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "her second run",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Gu opened her second with a giant 12.5-foot 900 Buick, then linked a 900 and a 700 with tail grabs plus a switch 700 before closing with massive back-to-back alley-oop flat 500s for a 94.00",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "94.00"
+                    }
+                ]
+            },
+            "similarity": 0.8548,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "She cleaned up the same line on her third run to post a 94.75",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "post",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "94.75",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "third run",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "She cleaned up the same line on her third run to post a 94.75",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "cleaned",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "94.75"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Gu also claimed silver in big air",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "big air",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Gu also claimed silver in big air (Day 10) and slopestyle (Day 3)",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver in big air and slopestyle"
+                    }
+                ]
+            },
+            "similarity": 0.8317,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "her grandmother had died",
+                "event_type": "Personal",
+                "normalized_event_type": "Personal",
+                "trigger": "died",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "her grandmother",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Gu broke into tears, revealing that her grandmother had died and that she learned about the news just after her record-setting run",
+                "event_type": "Emotional Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "broke",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "just after her record-setting run"
+                    }
+                ]
+            },
+            "similarity": 0.605,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Li Fanghui landed silver with a 93.00",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "landed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Li Fanghui",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "93.00",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Li Fanghui landed silver with a 93.00",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "landed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Li Fanghui"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver with a 93.00"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E15",
+                "event_mention": "Zoe Atkin of Great Britain earned bronze with 92.50",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "earned",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Zoe Atkin",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "92.50",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Great Britain",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Zoe Atkin of Great Britain earned bronze with 92.50",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "earned",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Zoe Atkin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze with 92.50"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "Kate Gray and Svea Irving finished 10th and 11th",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Kate Gray",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Svea Irving",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "10th and 11th",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Americans Kate Gray and Svea Irving finished 10th and 11th",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Kate Gray and Svea Irving"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "10th and 11th"
+                    }
+                ]
+            },
+            "similarity": 0.9754,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Abby Winterberger and Riley Jacobs did not advance to the final",
+                "event_type": "Competition_Qualification",
+                "normalized_event_type": "Competition_Qualification",
+                "trigger": "advance",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Abby Winterberger",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Riley Jacobs",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "did not advance to the final",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Abby Winterberger and Riley Jacobs did not advance to the final, placing 15th and 18th in qualifying",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "placing",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Abby Winterberger and Riley Jacobs"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "15th and 18th in qualifying"
+                    }
+                ]
+            },
+            "similarity": 0.935,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}

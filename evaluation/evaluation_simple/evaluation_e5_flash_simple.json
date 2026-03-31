@@ -1,0 +1,216 @@
+{
+    "summary": {
+        "gold_events": 12,
+        "pred_events": 4,
+        "gold_arguments": 25,
+        "pred_arguments": 10
+    },
+    "trigger_identification": {
+        "precision": 0.5,
+        "recall": 0.1667,
+        "f1": 0.25
+    },
+    "trigger_classification": {
+        "precision": 0.5,
+        "recall": 0.1667,
+        "f1": 0.25
+    },
+    "argument_identification": {
+        "precision": 0.7,
+        "recall": 0.28,
+        "f1": 0.4
+    },
+    "argument_classification": {
+        "precision": 0.6,
+        "recall": 0.24,
+        "f1": 0.3429
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Lindsey Vonn crashed early in the women’s downhill",
+                "event_type": "Incident",
+                "normalized_event_type": "Incident",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the women’s downhill",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Lindsey Vonn crashed early in the women’s downhill, dashing hopes of an Olympic medal at the Milan Cortina Olympics on Sunday.",
+                "event_type": "Accident",
+                "normalized_event_type": "Incident",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milan Cortina Olympics"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Sunday"
+                    }
+                ]
+            },
+            "similarity": 0.8971,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "The 41-year-old American tore the ACL in her left knee just nine days ago",
+                "event_type": "Incident",
+                "normalized_event_type": "Incident",
+                "trigger": "tore",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The 41-year-old American",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the ACL in her left knee",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "just nine days ago",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The 41-year-old American tore the ACL in her left knee just nine days ago.",
+                "event_type": "Injury",
+                "normalized_event_type": "Incident",
+                "trigger": "tore",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The 41-year-old American"
+                    },
+                    {
+                        "role": "injury",
+                        "argument": "ACL in her left knee"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "just nine days ago"
+                    }
+                ]
+            },
+            "similarity": 0.994,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Vonn lost control over the opening traverse",
+                "event_type": "LossOfControl",
+                "normalized_event_type": "LossOfControl",
+                "trigger": "lost",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "control",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "the opening traverse",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Vonn lost control over the opening traverse after cutting the line too tight and was spun around in the air.",
+                "event_type": "Accident",
+                "normalized_event_type": "Incident",
+                "trigger": "lost control",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "opening traverse"
+                    }
+                ]
+            },
+            "similarity": 0.8385,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "She was heard screaming out after the crash",
+                "event_type": "Expression",
+                "normalized_event_type": "Expression",
+                "trigger": "screaming",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "She",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "after the crash",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "She was heard screaming out after the crash as she was surrounded by medical personnel before she was strapped to a gurney and flown away by a helicopter.",
+                "event_type": "Emergency Response",
+                "normalized_event_type": "Incident",
+                "trigger": "surrounded",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "She"
+                    },
+                    {
+                        "role": "agent",
+                        "argument": "medical personnel"
+                    }
+                ]
+            },
+            "similarity": 0.8334,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}

@@ -1,0 +1,554 @@
+{
+    "summary": {
+        "gold_events": 18,
+        "pred_events": 11,
+        "gold_arguments": 54,
+        "pred_arguments": 34
+    },
+    "trigger_identification": {
+        "precision": 0.5455,
+        "recall": 0.3333,
+        "f1": 0.4138
+    },
+    "trigger_classification": {
+        "precision": 0.3636,
+        "recall": 0.2222,
+        "f1": 0.2759
+    },
+    "argument_identification": {
+        "precision": 0.7647,
+        "recall": 0.4815,
+        "f1": 0.5909
+    },
+    "argument_classification": {
+        "precision": 0.3529,
+        "recall": 0.2222,
+        "f1": 0.2727
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Braathen’s victory also makes him the first athlete from South America to medal at the Winter Games",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "medal",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "Winter Games",
+                        "role_original": "Event"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "first athlete from South America to medal",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Braathen’s victory also makes him the first athlete from South America to medal at the Winter Games",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "makes",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "achievement",
+                        "argument": "first athlete from South America to medal at the Winter Games"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Swiss stars Marco Odermatt and Loïc Meillard winning silver and bronze, respectively",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "winning",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Marco Odermatt",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Loïc Meillard",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Meillard, who also won silver in the team combined event alongside Odermatt",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Meillard"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "team combined event"
+                    },
+                    {
+                        "role": "teammate",
+                        "argument": "Odermatt"
+                    }
+                ]
+            },
+            "similarity": 0.6895,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lucas Pinheiro Braathen",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "Alpine skiing giant slalom gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Saturday (14 February)",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milano Cortina 2026",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "competition",
+                        "argument": "Alpine skiing giant slalom"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "gold"
+                    },
+                    {
+                        "role": "date",
+                        "argument": "Saturday (14 February)"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 4
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "The 25-year-old’s victory at the Stelvio Ski Centre makes him the first Brazilian and first South American ever to claim a medal at the Winter Games",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "claim",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Stelvio Ski Centre",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "Winter Games",
+                        "role_original": "Event"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "first Brazilian and first South American to claim a medal",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Braathen held his nerve to deliver a gold-winning run and become the first-ever athlete from a South American NOC to be crowned champion at the Winter Games",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "held",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "achievement",
+                        "argument": "first-ever athlete from a South American NOC to be crowned champion at the Winter Games"
+                    }
+                ]
+            },
+            "similarity": 0.6328,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "an elated Braathen told reporters after the race",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "reporters",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "after the race",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Braathen told reporters after the race",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "speaker",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "audience",
+                        "argument": "reporters"
+                    },
+                    {
+                        "role": "context",
+                        "argument": "after the race"
+                    }
+                ]
+            },
+            "similarity": 0.9399,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "put himself in pole position for gold with a leading time of 1:13.92 in Run 1",
+                "event_type": "CompetitionPerformance",
+                "normalized_event_type": "CompetitionPerformance",
+                "trigger": "put",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "1:13.92",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "Stage",
+                        "argument": "Run 1",
+                        "role_original": "Stage"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Braathen put himself in pole position for gold with a leading time of 1:13.92 in Run 1",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "put",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "position",
+                        "argument": "pole position for gold"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:13.92"
+                    },
+                    {
+                        "role": "run",
+                        "argument": "Run 1"
+                    }
+                ]
+            },
+            "similarity": 0.8463,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "His second run saw him maintain his lead to secure the gold medal in a combined time of 2:25.00",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "secure",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "gold medal",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "2:25.00",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "Stage",
+                        "argument": "second run",
+                        "role_original": "Stage"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "His second run saw him maintain his lead to secure the gold medal in a combined time of 2:25.00",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "maintain",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "gold"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "2:25.00"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Odermatt failed to win the gold he was so widely predicted to in Italy",
+                "event_type": "CompetitionOutcome",
+                "normalized_event_type": "CompetitionOutcome",
+                "trigger": "failed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Odermatt",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "win the gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Italy",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Odermatt failed to win the gold he was so widely predicted to in Italy",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "failed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Odermatt"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "gold"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Italy"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "the Swiss skier expressed his satisfaction with his performance at these Games",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "expressed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Odermatt",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "these Games",
+                        "role_original": "Event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "the Swiss skier expressed his satisfaction with his performance at these Games",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "expressed",
+                "arguments": [
+                    {
+                        "role": "speaker",
+                        "argument": "the Swiss skier"
+                    },
+                    {
+                        "role": "emotion",
+                        "argument": "satisfaction"
+                    },
+                    {
+                        "role": "context",
+                        "argument": "his performance at these Games"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "Braathen has now seen it lifted high for the first time at a medal ceremony of the Olympic Winter Games",
+                "event_type": "Ceremony",
+                "normalized_event_type": "Ceremony",
+                "trigger": "lifted",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "medal ceremony of the Olympic Winter Games",
+                        "role_original": "Event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Braathen has now seen it lifted high for the first time at a medal ceremony of the Olympic Winter Games",
+                "event_type": "Ceremony",
+                "normalized_event_type": "Ceremony",
+                "trigger": "lifted",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "context",
+                        "argument": "medal ceremony of the Olympic Winter Games"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        }
+    ]
+}

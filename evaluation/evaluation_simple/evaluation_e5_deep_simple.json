@@ -1,0 +1,521 @@
+{
+    "summary": {
+        "gold_events": 25,
+        "pred_events": 16,
+        "gold_arguments": 55,
+        "pred_arguments": 22
+    },
+    "trigger_identification": {
+        "precision": 0.625,
+        "recall": 0.4,
+        "f1": 0.4878
+    },
+    "trigger_classification": {
+        "precision": 0.1875,
+        "recall": 0.12,
+        "f1": 0.1463
+    },
+    "argument_identification": {
+        "precision": 0.7727,
+        "recall": 0.3091,
+        "f1": 0.4416
+    },
+    "argument_classification": {
+        "precision": 0.5909,
+        "recall": 0.2364,
+        "f1": 0.3377
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "awarded to her for a 5th-place finish in a race at Afton Alps in Washington County, Minnesota, on Feb. 22, 1992",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "awarded",
+                "arguments": [
+                    {
+                        "role": "recipient",
+                        "argument": "Lindsey Vonn",
+                        "role_original": "Recipient"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "5th-place finish",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Afton Alps in Washington County, Minnesota",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Feb. 22, 1992",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Lindsey Vonn's 5th-place finish in a race at Afton Alps in Washington County, Minnesota, on Feb. 22, 1992.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "finish",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Afton Alps, Washington County, Minnesota"
+                    },
+                    {
+                        "role": "date",
+                        "argument": "Feb. 22, 1992"
+                    }
+                ]
+            },
+            "similarity": 0.7557,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Vonn said on the day",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "said",
+                "arguments": [
+                    {
+                        "role": "speaker",
+                        "argument": "Vonn",
+                        "role_original": "Speaker"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "the day",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "Vonn completed two training runs",
+                "event_type": "Preparation",
+                "normalized_event_type": "Status",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.6198,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Sunday morning in Cortina d'Ampezzo ... Vonn stood coiled in the start house",
+                "event_type": "Positioning",
+                "normalized_event_type": "Positioning",
+                "trigger": "stood",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "start house at the top of the Olympia delle Tofane",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Sunday morning",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Vonn stood coiled in the start house at the top of the Olympia delle Tofane",
+                "event_type": "Preparation",
+                "normalized_event_type": "Status",
+                "trigger": "stood",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Olympia delle Tofane"
+                    }
+                ]
+            },
+            "similarity": 0.6809,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "she prepared herself as the 13th starter in the downhill at the Milan Cortina Olympic Games",
+                "event_type": "Status",
+                "normalized_event_type": "Status",
+                "trigger": "prepared",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "downhill at the Milan Cortina Olympic Games",
+                        "role_original": "Event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Vonn prepared herself as the 13th starter in the downhill at the Milan Cortina Olympic Games",
+                "event_type": "Preparation",
+                "normalized_event_type": "Status",
+                "trigger": "prepared",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "Milan Cortina Olympic Games"
+                    }
+                ]
+            },
+            "similarity": 0.8713,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Vonn pushed out, skated five times to create speed and then dropped into a tuck",
+                "event_type": "SportsAction",
+                "normalized_event_type": "SportsAction",
+                "trigger": "pushed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Agent"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Vonn pushed out, skated five times to create speed and then dropped into a tuck",
+                "event_type": "Action",
+                "normalized_event_type": "Performance",
+                "trigger": "pushed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "she clipped the fourth right-sided gate on the course just as she went airborne",
+                "event_type": "Collision",
+                "normalized_event_type": "Collision",
+                "trigger": "clipped",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "Object",
+                        "argument": "the fourth right-sided gate on the course",
+                        "role_original": "Object"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "she clipped the fourth right-sided gate on the course just as she went airborne",
+                "event_type": "Accident",
+                "normalized_event_type": "Incident",
+                "trigger": "clipped",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E13",
+                "event_mention": "Vonn was loaded onto an orange sled",
+                "event_type": "RescueTransport",
+                "normalized_event_type": "RescueTransport",
+                "trigger": "loaded",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "Vehicle",
+                        "argument": "orange sled",
+                        "role_original": "Vehicle"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Vonn was loaded onto an orange sled, tethered to the chopper and lifted into the bluebird sky",
+                "event_type": "Rescue",
+                "normalized_event_type": "Incident",
+                "trigger": "loaded",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.7107,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "Johnson would eventually win the gold medal",
+                "event_type": "CompetitionWin",
+                "normalized_event_type": "CompetitionWin",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Breezy Johnson",
+                        "role_original": "Winner"
+                    },
+                    {
+                        "role": "Prize",
+                        "argument": "gold medal",
+                        "role_original": "Prize"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Johnson would eventually win the gold medal",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Breezy Johnson"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "Goggia won the bronze medal",
+                "event_type": "CompetitionWin",
+                "normalized_event_type": "CompetitionWin",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Sofia Goggia",
+                        "role_original": "Winner"
+                    },
+                    {
+                        "role": "Prize",
+                        "argument": "bronze medal",
+                        "role_original": "Prize"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Goggia won the bronze medal",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Sofia Goggia"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E20",
+                "event_mention": "Jackie Wiles ... finished 4th",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Jackie Wiles",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "4th",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Jackie Wiles finished 4th",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Jackie Wiles"
+                    }
+                ]
+            },
+            "similarity": 0.9511,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "Vonn underwent partial right knee replacement surgery",
+                "event_type": "MedicalProcedure",
+                "normalized_event_type": "MedicalProcedure",
+                "trigger": "underwent",
+                "arguments": [
+                    {
+                        "role": "Patient",
+                        "argument": "Vonn",
+                        "role_original": "Patient"
+                    },
+                    {
+                        "role": "Procedure",
+                        "argument": "partial right knee replacement surgery",
+                        "role_original": "Procedure"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Two years ago",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "Vonn underwent partial right knee replacement surgery",
+                "event_type": "Medical",
+                "normalized_event_type": "Incident",
+                "trigger": "underwent",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E24",
+                "event_mention": "Vonn announced on Feb. 3 that she would put a brace on her newly damaged left knee and race with it",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "announced",
+                "arguments": [
+                    {
+                        "role": "speaker",
+                        "argument": "Vonn",
+                        "role_original": "Speaker"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Feb. 3",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E13",
+                "event_mention": "Vonn announced on Feb. 3 that she would put a brace on her newly damaged left knee and race with it",
+                "event_type": "Announcement",
+                "normalized_event_type": "Communication",
+                "trigger": "announced",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn"
+                    },
+                    {
+                        "role": "date",
+                        "argument": "Feb. 3"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        }
+    ]
+}

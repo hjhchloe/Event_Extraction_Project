@@ -1,0 +1,127 @@
+{
+    "summary": {
+        "gold_events": 8,
+        "pred_events": 2,
+        "gold_arguments": 22,
+        "pred_arguments": 6
+    },
+    "trigger_identification": {
+        "precision": 0.5,
+        "recall": 0.125,
+        "f1": 0.2
+    },
+    "trigger_classification": {
+        "precision": 0.5,
+        "recall": 0.125,
+        "f1": 0.2
+    },
+    "argument_identification": {
+        "precision": 0.6667,
+        "recall": 0.1818,
+        "f1": 0.2857
+    },
+    "argument_classification": {
+        "precision": 0.5,
+        "recall": 0.1364,
+        "f1": 0.2143
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Francesca Lollobrigida powered to victory in the women’s speed skating 3000m",
+                "event_type": "SportsVictory",
+                "normalized_event_type": "SportsVictory",
+                "trigger": "victory",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "women’s speed skating 3000m",
+                        "role_original": "Event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Francesca Lollobrigida powered to victory in the women’s speed skating 3000m to deliver Italy’s first gold medal of Milano Cortina 2026 in a new Olympic record time of 3:54.28.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "powered to victory",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "women’s speed skating 3000m"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "Italy’s first gold medal of Milano Cortina 2026"
+                    },
+                    {
+                        "role": "record",
+                        "argument": "new Olympic record time of 3:54.28"
+                    }
+                ]
+            },
+            "similarity": 0.8918,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Weeks after admitting she had been on the verge of quitting the sport due to a viral infection",
+                "event_type": "Status",
+                "normalized_event_type": "Status",
+                "trigger": "admitting",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "content",
+                        "argument": "she had been on the verge of quitting the sport due to a viral infection",
+                        "role_original": "Content"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Weeks after",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "admitting she had been on the verge of quitting the sport due to a viral infection",
+                "event_type": "Admission",
+                "normalized_event_type": "Status",
+                "trigger": "admitting",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "reason",
+                        "argument": "viral infection"
+                    }
+                ]
+            },
+            "similarity": 0.9604,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        }
+    ]
+}

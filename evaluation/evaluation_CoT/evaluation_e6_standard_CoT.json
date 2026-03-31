@@ -1,0 +1,212 @@
+{
+    "summary": {
+        "gold_events": 23,
+        "pred_events": 6,
+        "gold_arguments": 54,
+        "pred_arguments": 14
+    },
+    "trigger_identification": {
+        "precision": 0.6667,
+        "recall": 0.1739,
+        "f1": 0.2759
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.6429,
+        "recall": 0.1667,
+        "f1": 0.2647
+    },
+    "argument_classification": {
+        "precision": 0.5714,
+        "recall": 0.1481,
+        "f1": 0.2353
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday.",
+                "event_type": "Sports_Competition_Win",
+                "normalized_event_type": "Sports_Competition_Win",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Johannes Høsflot Klæbo",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "men’s 50-kilometer cross-country race",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Saturday",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Tesero, Italy",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "men’s 50-kilometer cross-country race"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    }
+                ]
+            },
+            "similarity": 0.967,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "claiming his sixth gold medal to complete the most dominant individual performance in Winter Olympics history.",
+                "event_type": "Award_Achievement",
+                "normalized_event_type": "Award_Achievement",
+                "trigger": "claiming",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Johannes Høsflot Klæbo",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "sixth gold medal",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "claiming his sixth gold medal to complete the most dominant individual performance in Winter Olympics history",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "claiming",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "sixth gold medal"
+                    }
+                ]
+            },
+            "similarity": 0.9783,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Nyenget took silver and Iversen bronze.",
+                "event_type": "Award_Achievement",
+                "normalized_event_type": "Award_Achievement",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Martin Løwstrøm Nyenget",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver medal",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Nyenget took silver and Iversen bronze, ensuring Norway swept the podium",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Nyenget"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver"
+                    }
+                ]
+            },
+            "similarity": 0.7872,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "Nyenget took silver and Iversen bronze.",
+                "event_type": "Award_Achievement",
+                "normalized_event_type": "Award_Achievement",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Emil Iversen",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze medal",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Nyenget took silver and Iversen bronze, ensuring Norway swept the podium",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Iversen"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "similarity": 0.7872,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

@@ -1,0 +1,360 @@
+{
+    "summary": {
+        "gold_events": 17,
+        "pred_events": 7,
+        "gold_arguments": 41,
+        "pred_arguments": 18
+    },
+    "trigger_identification": {
+        "precision": 0.4286,
+        "recall": 0.1765,
+        "f1": 0.25
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.5556,
+        "recall": 0.2439,
+        "f1": 0.339
+    },
+    "argument_classification": {
+        "precision": 0.2778,
+        "recall": 0.122,
+        "f1": 0.1695
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Hundreds of thousands of international tourists are expected to descend on Brazil over the next few days for carnival.",
+                "event_type": "Travel",
+                "normalized_event_type": "Travel",
+                "trigger": "descend",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Hundreds of thousands of international tourists",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Brazil",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "over the next few days",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "action",
+                        "argument": "for carnival",
+                        "role_original": "Purpose"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Hundreds of thousands of international tourists are expected to descend on Brazil over the next few days for carnival.",
+                "event_type": "Tourism",
+                "normalized_event_type": "Tourism",
+                "trigger": "expected to descend",
+                "arguments": [
+                    {
+                        "role": "destination",
+                        "argument": "Brazil"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "over the next few days"
+                    },
+                    {
+                        "role": "participants",
+                        "argument": "Hundreds of thousands of international tourists"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that.",
+                "event_type": "Medal_Win",
+                "normalized_event_type": "Medal_Win",
+                "trigger": "snaring",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lucas Pinheiro Braathen",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "first medal at a Winter Olympics",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "a gold",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that.",
+                "event_type": "Sport Achievement",
+                "normalized_event_type": "Sport Achievement",
+                "trigger": "snaring",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "achievement",
+                        "argument": "first medal at a Winter Olympics – and a gold"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Brazil"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "The reigning champion, Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes.",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "leaves",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Marco Odermatt of Switzerland",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "without a title",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "these Games",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "The reigning champion, Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes, was no match for Pinheiro Braathen in the men’s giant slalom in Bormio.",
+                "event_type": "Sport Competition",
+                "normalized_event_type": "Sport Competition",
+                "trigger": "was no match for",
+                "arguments": [
+                    {
+                        "role": "competitor",
+                        "argument": "Marco Odermatt"
+                    },
+                    {
+                        "role": "winner",
+                        "argument": "Pinheiro Braathen"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "men’s giant slalom"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Bormio"
+                    }
+                ]
+            },
+            "similarity": 0.6375,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Brazilian TV heralded this moment by overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One.",
+                "event_type": "Broadcast_Action",
+                "normalized_event_type": "Broadcast_Action",
+                "trigger": "overlaying",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Brazilian TV",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "recipient",
+                        "argument": "its coverage",
+                        "role_original": "Target"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Brazilian TV heralded this moment by overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One.",
+                "event_type": "Media Coverage",
+                "normalized_event_type": "Media Coverage",
+                "trigger": "heralded",
+                "arguments": [
+                    {
+                        "role": "medium",
+                        "argument": "Brazilian TV"
+                    },
+                    {
+                        "role": "content",
+                        "argument": "overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "anyone aged 23 or under in Brazil has now seen their country win a Winter Olympic gold medal but not a football World Cup.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "their country",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "a Winter Olympic gold medal",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "It has been pointed out that anyone aged 23 or under in Brazil has now seen their country win a Winter Olympic gold medal but not a football World Cup.",
+                "event_type": "Sport Achievement",
+                "normalized_event_type": "Sport Achievement",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "country",
+                        "argument": "Brazil"
+                    },
+                    {
+                        "role": "achievement",
+                        "argument": "Winter Olympic gold medal"
+                    }
+                ]
+            },
+            "similarity": 0.989,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E13",
+                "event_mention": "The story of his retirement at 23.",
+                "event_type": "Retirement",
+                "normalized_event_type": "Retirement",
+                "trigger": "retirement",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "his",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "at 23",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "The story of his retirement at 23 – “I lost the reason why I began skiing” – and his comeback under Brazil’s flag is well-documented.",
+                "event_type": "Career Change",
+                "normalized_event_type": "Career Change",
+                "trigger": "retirement",
+                "arguments": [
+                    {
+                        "role": "person",
+                        "argument": "Pinheiro Braathen"
+                    },
+                    {
+                        "role": "age",
+                        "argument": "23"
+                    }
+                ]
+            },
+            "similarity": 0.6001,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "A little samba shuffle came out on top of the podium in Bormio after a poignant moment when the national anthem was played.",
+                "event_type": "Ceremony",
+                "normalized_event_type": "Ceremony",
+                "trigger": "played",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "the national anthem",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "A little samba shuffle came out on top of the podium in Bormio after a poignant moment when the national anthem was played.",
+                "event_type": "Victory Celebration",
+                "normalized_event_type": "Victory Celebration",
+                "trigger": "came out on top",
+                "arguments": [
+                    {
+                        "role": "location",
+                        "argument": "Bormio"
+                    },
+                    {
+                        "role": "activity",
+                        "argument": "samba shuffle"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        }
+    ]
+}

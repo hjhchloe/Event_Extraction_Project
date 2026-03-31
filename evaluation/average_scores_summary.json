@@ -1,0 +1,210 @@
+{
+    "simple_prompt": {
+        "overall": {
+            "file_count": 30,
+            "average_scores": {
+                "trigger_identification": {
+                    "precision": 0.6174,
+                    "recall": 0.2999,
+                    "f1": 0.3911
+                },
+                "trigger_classification": {
+                    "precision": 0.1622,
+                    "recall": 0.0755,
+                    "f1": 0.1008
+                },
+                "argument_identification": {
+                    "precision": 0.678,
+                    "recall": 0.3309,
+                    "f1": 0.4266
+                },
+                "argument_classification": {
+                    "precision": 0.4509,
+                    "recall": 0.2196,
+                    "f1": 0.2851
+                }
+            }
+        },
+        "by_context": {
+            "flash": {
+                "file_count": 10,
+                "average_scores": {
+                    "trigger_identification": {
+                        "precision": 0.6433,
+                        "recall": 0.377,
+                        "f1": 0.464
+                    },
+                    "trigger_classification": {
+                        "precision": 0.2257,
+                        "recall": 0.0975,
+                        "f1": 0.1336
+                    },
+                    "argument_identification": {
+                        "precision": 0.6307,
+                        "recall": 0.4162,
+                        "f1": 0.4788
+                    },
+                    "argument_classification": {
+                        "precision": 0.4586,
+                        "recall": 0.2848,
+                        "f1": 0.3371
+                    }
+                }
+            },
+            "standard": {
+                "file_count": 10,
+                "average_scores": {
+                    "trigger_identification": {
+                        "precision": 0.626,
+                        "recall": 0.218,
+                        "f1": 0.3149
+                    },
+                    "trigger_classification": {
+                        "precision": 0.0775,
+                        "recall": 0.0232,
+                        "f1": 0.0353
+                    },
+                    "argument_identification": {
+                        "precision": 0.692,
+                        "recall": 0.2574,
+                        "f1": 0.3654
+                    },
+                    "argument_classification": {
+                        "precision": 0.4002,
+                        "recall": 0.1558,
+                        "f1": 0.2183
+                    }
+                }
+            },
+            "deep": {
+                "file_count": 10,
+                "average_scores": {
+                    "trigger_identification": {
+                        "precision": 0.5828,
+                        "recall": 0.3047,
+                        "f1": 0.3943
+                    },
+                    "trigger_classification": {
+                        "precision": 0.1833,
+                        "recall": 0.1056,
+                        "f1": 0.1336
+                    },
+                    "argument_identification": {
+                        "precision": 0.7113,
+                        "recall": 0.3191,
+                        "f1": 0.4356
+                    },
+                    "argument_classification": {
+                        "precision": 0.4938,
+                        "recall": 0.2184,
+                        "f1": 0.2997
+                    }
+                }
+            }
+        }
+    },
+    "CoT_prompt": {
+        "overall": {
+            "file_count": 30,
+            "average_scores": {
+                "trigger_identification": {
+                    "precision": 0.7138,
+                    "recall": 0.4133,
+                    "f1": 0.5082
+                },
+                "trigger_classification": {
+                    "precision": 0.1542,
+                    "recall": 0.0817,
+                    "f1": 0.1049
+                },
+                "argument_identification": {
+                    "precision": 0.7359,
+                    "recall": 0.4163,
+                    "f1": 0.5161
+                },
+                "argument_classification": {
+                    "precision": 0.5713,
+                    "recall": 0.3277,
+                    "f1": 0.4036
+                }
+            }
+        },
+        "by_context": {
+            "flash": {
+                "file_count": 10,
+                "average_scores": {
+                    "trigger_identification": {
+                        "precision": 0.8053,
+                        "recall": 0.585,
+                        "f1": 0.6642
+                    },
+                    "trigger_classification": {
+                        "precision": 0.1903,
+                        "recall": 0.1131,
+                        "f1": 0.1393
+                    },
+                    "argument_identification": {
+                        "precision": 0.7743,
+                        "recall": 0.5651,
+                        "f1": 0.6417
+                    },
+                    "argument_classification": {
+                        "precision": 0.5953,
+                        "recall": 0.4506,
+                        "f1": 0.5039
+                    }
+                }
+            },
+            "standard": {
+                "file_count": 10,
+                "average_scores": {
+                    "trigger_identification": {
+                        "precision": 0.6436,
+                        "recall": 0.3002,
+                        "f1": 0.4012
+                    },
+                    "trigger_classification": {
+                        "precision": 0.0911,
+                        "recall": 0.0403,
+                        "f1": 0.0553
+                    },
+                    "argument_identification": {
+                        "precision": 0.7409,
+                        "recall": 0.3213,
+                        "f1": 0.4398
+                    },
+                    "argument_classification": {
+                        "precision": 0.5768,
+                        "recall": 0.2488,
+                        "f1": 0.3413
+                    }
+                }
+            },
+            "deep": {
+                "file_count": 10,
+                "average_scores": {
+                    "trigger_identification": {
+                        "precision": 0.6926,
+                        "recall": 0.3547,
+                        "f1": 0.4591
+                    },
+                    "trigger_classification": {
+                        "precision": 0.1811,
+                        "recall": 0.0918,
+                        "f1": 0.12
+                    },
+                    "argument_identification": {
+                        "precision": 0.6926,
+                        "recall": 0.3625,
+                        "f1": 0.4669
+                    },
+                    "argument_classification": {
+                        "precision": 0.5417,
+                        "recall": 0.2836,
+                        "f1": 0.3657
+                    }
+                }
+            }
+        }
+    }
+}

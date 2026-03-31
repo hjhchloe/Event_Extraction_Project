@@ -1,0 +1,446 @@
+{
+    "summary": {
+        "gold_events": 22,
+        "pred_events": 12,
+        "gold_arguments": 58,
+        "pred_arguments": 26
+    },
+    "trigger_identification": {
+        "precision": 0.6667,
+        "recall": 0.3636,
+        "f1": 0.4706
+    },
+    "trigger_classification": {
+        "precision": 0.3333,
+        "recall": 0.1818,
+        "f1": 0.2353
+    },
+    "argument_identification": {
+        "precision": 0.6923,
+        "recall": 0.3103,
+        "f1": 0.4286
+    },
+    "argument_classification": {
+        "precision": 0.5,
+        "recall": 0.2241,
+        "f1": 0.3095
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "the Olympic flame was extinguished in the Verona Arena in February 2026",
+                "event_type": "Ceremony",
+                "normalized_event_type": "Ceremony",
+                "trigger": "extinguished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Olympic flame",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Verona Arena",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "February 2026",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "As the Olympic flame was extinguished in the Verona Arena in February 2026",
+                "event_type": "Ceremony",
+                "normalized_event_type": "Ceremony",
+                "trigger": "extinguished",
+                "arguments": [
+                    {
+                        "role": "location",
+                        "argument": "Verona Arena"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "February 2026"
+                    }
+                ]
+            },
+            "similarity": 0.9919,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Norway had once again outclassed the world’s sporting superpowers",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "outclassed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "world’s sporting superpowers",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Norway, a nation of just 5.7 million people, had once again outclassed the world’s sporting superpowers on the largest stage of winter athletics",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "outclassed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "largest stage of winter athletics"
+                    }
+                ]
+            },
+            "similarity": 0.8098,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Johannes Høsflot Klæbo secured six gold medals in a single Games",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "secured",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Johannes Høsflot Klæbo",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "six gold medals",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "a single Games",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Johannes Høsflot Klæbo, who secured six gold medals in a single Games",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "secured",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "six gold medals"
+                    }
+                ]
+            },
+            "similarity": 0.9872,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Norway’s 18 gold medals represent the highest total ever achieved by any nation at a single Winter Olympics",
+                "event_type": "Record",
+                "normalized_event_type": "Record",
+                "trigger": "achieved",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "18 gold medals",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Norway’s 18 gold medals represent the highest total ever achieved by any nation at a single Winter Olympics",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "achieved",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "18 gold medals"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E15",
+                "event_mention": "Wiklund practiced orienteering as her primary sport at WANG Elite Sports Upper Secondary School",
+                "event_type": "Training",
+                "normalized_event_type": "Training",
+                "trigger": "practiced",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ragne Wiklund",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "orienteering",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "WANG Elite Sports Upper Secondary School",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Wiklund in 2023 for her composite background in speed skating and orienteering",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "awarded",
+                "arguments": [
+                    {
+                        "role": "recipient",
+                        "argument": "Wiklund"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "2023"
+                    }
+                ]
+            },
+            "similarity": 0.6899,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Norway awards the Egebergs Ærespris",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "awards",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Egebergs Ærespris",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Norway awards the Egebergs Ærespris, its highest award for athletes who has made outstanding achievements in one sport and has also excelled in others",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "awards",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "Egebergs Ærespris"
+                    }
+                ]
+            },
+            "similarity": 0.8026,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "Brå in 1988 for a career in both cross-country skiing and athletics",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "awarded",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Oddvar Brå",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1988",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Brå in 1988 for a career in both cross-country skiing and athletics",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "awarded",
+                "arguments": [
+                    {
+                        "role": "recipient",
+                        "argument": "Brå"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1988"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E20",
+                "event_mention": "Norsk Tipping allocates 50–60% of its annual revenue to sports infrastructure",
+                "event_type": "FundingAllocation",
+                "normalized_event_type": "FundingAllocation",
+                "trigger": "allocates",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norsk Tipping",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "sports infrastructure",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "50–60% of its annual revenue",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Norsk Tipping, the Norwegian state gambling company, allocates 50–60% of its annual revenue to sports infrastructure",
+                "event_type": "Funding",
+                "normalized_event_type": "Policy",
+                "trigger": "allocates",
+                "arguments": [
+                    {
+                        "role": "organization",
+                        "argument": "Norsk Tipping"
+                    },
+                    {
+                        "role": "percentage",
+                        "argument": "50–60%"
+                    },
+                    {
+                        "role": "purpose",
+                        "argument": "sports infrastructure"
+                    }
+                ]
+            },
+            "similarity": 0.8639,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "In 2025 alone, nearly €400 million was funnelled into sports",
+                "event_type": "Policy",
+                "normalized_event_type": "Policy",
+                "trigger": "funnelled",
+                "arguments": [
+                    {
+                        "role": "quantity",
+                        "argument": "nearly €400 million",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "sports",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "2025",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "In 2025 alone, nearly €400 million was funnelled into sports",
+                "event_type": "Funding",
+                "normalized_event_type": "Policy",
+                "trigger": "funnelled",
+                "arguments": [
+                    {
+                        "role": "time",
+                        "argument": "2025"
+                    },
+                    {
+                        "role": "amount",
+                        "argument": "€400 million"
+                    },
+                    {
+                        "role": "purpose",
+                        "argument": "sports"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 3
+        }
+    ]
+}

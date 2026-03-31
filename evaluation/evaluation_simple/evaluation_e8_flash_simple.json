@@ -1,0 +1,239 @@
+{
+    "summary": {
+        "gold_events": 7,
+        "pred_events": 6,
+        "gold_arguments": 19,
+        "pred_arguments": 18
+    },
+    "trigger_identification": {
+        "precision": 0.5,
+        "recall": 0.4286,
+        "f1": 0.4615
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.6667,
+        "recall": 0.6316,
+        "f1": 0.6486
+    },
+    "argument_classification": {
+        "precision": 0.5,
+        "recall": 0.4737,
+        "f1": 0.4865
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "France added another glittering chapter to their Milano Cortina 2026 biathlon campaign on Wednesday (18 February), storming to victory in the women’s 4x6km relay",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "storming to victory",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "France",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "women’s 4x6km relay",
+                        "role_original": "Event"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Wednesday (18 February)",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milano Cortina 2026 biathlon campaign",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "France added another glittering chapter to their Milano Cortina 2026 biathlon campaign on Wednesday (18 February), storming to victory in the women’s 4x6km relay",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "storming",
+                "arguments": [
+                    {
+                        "role": "Team",
+                        "argument": "France"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "women’s 4x6km relay"
+                    },
+                    {
+                        "role": "Date",
+                        "argument": "Wednesday (18 February)"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon claimed Olympic gold in 1:10:22.7",
+                "event_type": "Medal_Award",
+                "normalized_event_type": "Medal_Award",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Julia Simon",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "Olympic gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:10:22.7",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon claimed Olympic gold in 1:10:22.7",
+                "event_type": "Medal Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "Participants",
+                        "argument": "Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon"
+                    },
+                    {
+                        "role": "Medal",
+                        "argument": "Olympic gold"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:10:22.7"
+                    }
+                ]
+            },
+            "similarity": 0.9976,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Sweden took silver in 1:11:14.0 (+51.3)",
+                "event_type": "Medal_Award",
+                "normalized_event_type": "Medal_Award",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Sweden",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:11:14.0 (+51.3)",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Sweden took silver in 1:11:14.0 (+51.3)",
+                "event_type": "Medal Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "Team",
+                        "argument": "Sweden"
+                    },
+                    {
+                        "role": "Medal",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:11:14.0 (+51.3)"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Norway completed the podium with bronze in 1:11:30.3 (+1:07.6)",
+                "event_type": "Medal_Award",
+                "normalized_event_type": "Medal_Award",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:11:30.3 (+1:07.6)",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Norway completed the podium with bronze in 1:11:30.3 (+1:07.6)",
+                "event_type": "Medal Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "Team",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Medal",
+                        "argument": "bronze"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:11:30.3 (+1:07.6)"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        }
+    ]
+}

@@ -1,0 +1,380 @@
+{
+    "summary": {
+        "gold_events": 14,
+        "pred_events": 8,
+        "gold_arguments": 44,
+        "pred_arguments": 19
+    },
+    "trigger_identification": {
+        "precision": 0.625,
+        "recall": 0.3571,
+        "f1": 0.4545
+    },
+    "trigger_classification": {
+        "precision": 0.125,
+        "recall": 0.0714,
+        "f1": 0.0909
+    },
+    "argument_identification": {
+        "precision": 0.8947,
+        "recall": 0.3864,
+        "f1": 0.5397
+    },
+    "argument_classification": {
+        "precision": 0.5789,
+        "recall": 0.25,
+        "f1": 0.3492
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "the Germans swept the medals in the two-man race at the Milan Cortina Olympics on Tuesday night",
+                "event_type": "Sports Competition Result",
+                "normalized_event_type": "Sports Competition Result",
+                "trigger": "swept",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "the Germans",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "medals in the two-man race",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "the Milan Cortina Olympics",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Tuesday night",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "the Germans swept the medals in the two-man race at the Milan Cortina Olympics on Tuesday night",
+                "event_type": "Medal Sweep",
+                "normalized_event_type": "Competition",
+                "trigger": "swept",
+                "arguments": [
+                    {
+                        "role": "Location",
+                        "argument": "Milan Cortina Olympics"
+                    },
+                    {
+                        "role": "Participants",
+                        "argument": "the Germans"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Tuesday night"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Lochner got his first gold medal while posting the biggest Olympic two-man winning margin in nearly a half-century",
+                "event_type": "Sports Award",
+                "normalized_event_type": "Sports Award",
+                "trigger": "got",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Johannes Lochner",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "his first gold medal",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Lochner got his first gold medal while posting the biggest Olympic two-man winning margin in nearly a half-century",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "got",
+                "arguments": [
+                    {
+                        "role": "Winner",
+                        "argument": "Lochner"
+                    },
+                    {
+                        "role": "Medal",
+                        "argument": "gold"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Frank Del Duca and Josh Williamson were fourth",
+                "event_type": "Sports Competition Result",
+                "normalized_event_type": "Sports Competition Result",
+                "trigger": "were",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Frank Del Duca and Josh Williamson",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "fourth",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Del Duca and Josh Williamson were fourth in 3:41.96",
+                "event_type": "Competition Finish",
+                "normalized_event_type": "Competition",
+                "trigger": "were fourth",
+                "arguments": [
+                    {
+                        "role": "Participants",
+                        "argument": "Del Duca and Josh Williamson"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "3:41.96"
+                    }
+                ]
+            },
+            "similarity": 0.8901,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Lochner teamed with Fleischhauer to finish the four-run competition in 3 minutes, 39.70 seconds for his third Olympic medal",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "finish",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lochner",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Fleischhauer",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "3 minutes, 39.70 seconds",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Lochner teamed with Fleischhauer to finish the four-run competition in 3 minutes, 39.70 seconds for his third Olympic medal",
+                "event_type": "Competition Finish",
+                "normalized_event_type": "Competition",
+                "trigger": "finish",
+                "arguments": [
+                    {
+                        "role": "Participants",
+                        "argument": "Lochner and Fleischhauer"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "3 minutes, 39.70 seconds"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Francesco Friedrich partnered with Alexander Schuller and was second in 3:41.04",
+                "event_type": "Sports Competition Result",
+                "normalized_event_type": "Sports Competition Result",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesco Friedrich and Alexander Schuller",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "second",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "3:41.04",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Francesco Friedrich, the gold medalist in two- and four-man at each of the last two Olympics, partnered with Alexander Schuller and was second in 3:41.04",
+                "event_type": "Competition Finish",
+                "normalized_event_type": "Competition",
+                "trigger": "was second",
+                "arguments": [
+                    {
+                        "role": "Participants",
+                        "argument": "Francesco Friedrich and Alexander Schuller"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "3:41.04"
+                    }
+                ]
+            },
+            "similarity": 0.787,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "Adam Ammour finished off the sweep, teaming with Alexander Schaller to win bronze in 3:41.52",
+                "event_type": "Sports Competition Result",
+                "normalized_event_type": "Sports Competition Result",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Adam Ammour",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Alexander Schaller",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "3:41.52",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Adam Ammour finished off the sweep, teaming with Alexander Schaller to win bronze in 3:41.52",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "Participants",
+                        "argument": "Adam Ammour and Alexander Schaller"
+                    },
+                    {
+                        "role": "Medal",
+                        "argument": "bronze"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "3:41.52"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Britain’s Brad Hall got a bronze medal at the World Cup two-man race in St. Moritz, Switzerland, last month",
+                "event_type": "Sports Award",
+                "normalized_event_type": "Sports Award",
+                "trigger": "got",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Brad Hall",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze medal",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "St. Moritz, Switzerland",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "last month",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Britain’s Brad Hall got a bronze medal at the World Cup two-man race in St. Moritz, Switzerland, last month",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "got",
+                "arguments": [
+                    {
+                        "role": "Winner",
+                        "argument": "Brad Hall"
+                    },
+                    {
+                        "role": "Medal",
+                        "argument": "bronze"
+                    },
+                    {
+                        "role": "Location",
+                        "argument": "St. Moritz, Switzerland"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "last month"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 4
+        }
+    ]
+}

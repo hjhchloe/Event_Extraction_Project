@@ -1,0 +1,623 @@
+{
+    "summary": {
+        "gold_events": 24,
+        "pred_events": 15,
+        "gold_arguments": 56,
+        "pred_arguments": 24
+    },
+    "trigger_identification": {
+        "precision": 0.8,
+        "recall": 0.5,
+        "f1": 0.6154
+    },
+    "trigger_classification": {
+        "precision": 0.3333,
+        "recall": 0.2083,
+        "f1": 0.2564
+    },
+    "argument_identification": {
+        "precision": 0.9583,
+        "recall": 0.4107,
+        "f1": 0.575
+    },
+    "argument_classification": {
+        "precision": 0.5417,
+        "recall": 0.2321,
+        "f1": 0.325
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Eileen Gu got her gold",
+                "event_type": "Win_Award",
+                "normalized_event_type": "Win_Award",
+                "trigger": "got",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Eileen Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "the final day of competition",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milano Cortina Olympic Games",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Eileen Gu got her gold.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "got",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Eileen Gu"
+                    },
+                    {
+                        "role": "object",
+                        "argument": "gold"
+                    }
+                ]
+            },
+            "similarity": 0.99,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Gu nailed her final two runs of the halfpipe skiing at the Livigno Snow Park",
+                "event_type": "Sport_Performance",
+                "normalized_event_type": "Sport_Performance",
+                "trigger": "nailed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "final two runs of the halfpipe skiing",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Livigno Snow Park",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Gu nailed her final two runs of the halfpipe skiing at the Livigno Snow Park",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "nailed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Livigno Snow Park"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Li Fanghui of China finished with a silver",
+                "event_type": "Win_Award",
+                "normalized_event_type": "Win_Award",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Li Fanghui",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Li Fanghui of China finished with a silver",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Li Fanghui"
+                    },
+                    {
+                        "role": "object",
+                        "argument": "silver"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Great Britain’s Zoe Atkin won the bronze",
+                "event_type": "Win_Award",
+                "normalized_event_type": "Win_Award",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Zoe Atkin",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Great Britain’s Zoe Atkin won the bronze",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Zoe Atkin"
+                    },
+                    {
+                        "role": "object",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Gu became the second person to win gold or silver in each of their first six Winter Olympic individual events",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "second person to win gold or silver in each of their first six Winter Olympic individual events",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Gu became the second person to win gold or silver in each of their first six Winter Olympic individual events",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "security had to compel Chinese fans to leave the freeski venue in Livigno",
+                "event_type": "Force_Action",
+                "normalized_event_type": "Force_Action",
+                "trigger": "compel",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "security",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Chinese fans",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "freeski venue in Livigno",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "security had to compel Chinese fans to leave the freeski venue in Livigno",
+                "event_type": "Security",
+                "normalized_event_type": "Policy",
+                "trigger": "compel",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "security"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Chinese fans"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "freeski venue in Livigno"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Gu told reporters after the event",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "reporters",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "after the event",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Gu told reporters after the event",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "speaker",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "audience",
+                        "argument": "reporters"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Gu missed a halfpipe training session due to competing in the finals of Big Air",
+                "event_type": "Miss_Event",
+                "normalized_event_type": "Miss_Event",
+                "trigger": "missed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "halfpipe training session",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Gu noted that she hadn’t skied halfpipe in two months prior to the Olympics",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "noted",
+                "arguments": [
+                    {
+                        "role": "speaker",
+                        "argument": "Gu"
+                    }
+                ]
+            },
+            "similarity": 0.6059,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "Gu grew emotional at the end of her Olympic press conference",
+                "event_type": "Emotion",
+                "normalized_event_type": "Emotion",
+                "trigger": "grew",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "at the end of her Olympic press conference",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Gu grew emotional at the end of her Olympic press conference",
+                "event_type": "Emotional",
+                "normalized_event_type": "Reaction",
+                "trigger": "grew emotional",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E13",
+                "event_mention": "her grandmother had passed away",
+                "event_type": "Personal",
+                "normalized_event_type": "Personal",
+                "trigger": "passed away",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "her grandmother",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "she had just found out that her grandmother, who had been sick, had passed away",
+                "event_type": "Death",
+                "normalized_event_type": "Personal",
+                "trigger": "passed away",
+                "arguments": [
+                    {
+                        "role": "deceased",
+                        "argument": "her grandmother"
+                    }
+                ]
+            },
+            "similarity": 0.8505,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "Gu replied in a playful manner to Vance’s words",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "replied",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Vance’s words",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "Gu replied in a playful manner to Vance’s words",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "replied",
+                "arguments": [
+                    {
+                        "role": "speaker",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "audience",
+                        "argument": "Vance"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Gu struggled with panic attacks",
+                "event_type": "Health_Condition",
+                "normalized_event_type": "Health_Condition",
+                "trigger": "struggled",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "panic attacks",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E13",
+                "event_mention": "Gu struggled with panic attacks and encountered online trolling",
+                "event_type": "Adversity",
+                "normalized_event_type": "Reaction",
+                "trigger": "struggled",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu"
+                    }
+                ]
+            },
+            "similarity": 0.7562,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "She also suffered several injuries in the lead-up to the Games",
+                "event_type": "Incident",
+                "normalized_event_type": "Incident",
+                "trigger": "suffered",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "several injuries",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "in the lead-up to the Games",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "Gu suffered several injuries in the lead-up to the Games",
+                "event_type": "Injury",
+                "normalized_event_type": "Incident",
+                "trigger": "suffered",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu"
+                    }
+                ]
+            },
+            "similarity": 0.6347,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E20",
+                "event_mention": "Gu wrote in her journal in December after winning a World Cup event in China",
+                "event_type": "Writing",
+                "normalized_event_type": "Writing",
+                "trigger": "wrote",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Gu",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "December",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E15",
+                "event_mention": "Gu wrote in her journal in December, after winning a World Cup event in China",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "wrote",
+                "arguments": [
+                    {
+                        "role": "author",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "December"
+                    }
+                ]
+            },
+            "similarity": 0.9951,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

@@ -1,0 +1,291 @@
+{
+    "summary": {
+        "gold_events": 21,
+        "pred_events": 6,
+        "gold_arguments": 49,
+        "pred_arguments": 13
+    },
+    "trigger_identification": {
+        "precision": 0.8333,
+        "recall": 0.2381,
+        "f1": 0.3704
+    },
+    "trigger_classification": {
+        "precision": 0.1667,
+        "recall": 0.0476,
+        "f1": 0.0741
+    },
+    "argument_identification": {
+        "precision": 0.9231,
+        "recall": 0.2449,
+        "f1": 0.3871
+    },
+    "argument_classification": {
+        "precision": 0.6923,
+        "recall": 0.1837,
+        "f1": 0.2903
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Italy won its first gold medal of the Milano Cortina Games on Saturday",
+                "event_type": "SportsWin",
+                "normalized_event_type": "SportsWin",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Italy",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "first gold medal of the Milano Cortina Games",
+                        "role_original": "Award"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Saturday",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Italy won its first gold medal of the Milano Cortina Games on Saturday",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Italy"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first gold medal of the Milano Cortina Games"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Francesca Lollobrigida set a new Olympic record — on her 35th birthday — of 3 minutes, 54.28 seconds",
+                "event_type": "RecordSet",
+                "normalized_event_type": "RecordSet",
+                "trigger": "set",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "a new Olympic record of 3 minutes, 54.28 seconds",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "her 35th birthday",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Francesca Lollobrigida set a new Olympic record — on her 35th birthday — of 3 minutes, 54.28 seconds",
+                "event_type": "RecordSetting",
+                "normalized_event_type": "Record",
+                "trigger": "set",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "on her 35th birthday"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "new Olympic record of 3 minutes, 54.28 seconds"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Dutch skater Joy Beune finished off the podium in 4th",
+                "event_type": "SportsPlacement",
+                "normalized_event_type": "SportsPlacement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Joy Beune",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "4th",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Dutch skater Joy Beune, the reigning world champion in the 3000m, finished off the podium in 4th",
+                "event_type": "CompetitionResult",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Dutch skater Joy Beune"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "off the podium in 4th"
+                    }
+                ]
+            },
+            "similarity": 0.9096,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "American skater Greta Myers was added to the lineup",
+                "event_type": "RosterAddition",
+                "normalized_event_type": "RosterAddition",
+                "trigger": "added",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Greta Myers",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "the lineup",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "A last-minute addition to Saturday's race was that of American skater Greta Myers",
+                "event_type": "Participation",
+                "normalized_event_type": "Achievement",
+                "trigger": "addition",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "American skater Greta Myers"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    }
+                ]
+            },
+            "similarity": 0.8679,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "Czech skater Martina Sablikova's withdrawal",
+                "event_type": "Status",
+                "normalized_event_type": "Status",
+                "trigger": "withdrawal",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Martina Sablikova",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Czech skater Martina Sablikova's withdrawal",
+                "event_type": "Withdrawal",
+                "normalized_event_type": "Status",
+                "trigger": "withdrawal",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Czech skater Martina Sablikova"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "She finished in 20th place",
+                "event_type": "SportsPlacement",
+                "normalized_event_type": "SportsPlacement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Greta Myers",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "20th place",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "She finished in 20th place",
+                "event_type": "CompetitionResult",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "20th place"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

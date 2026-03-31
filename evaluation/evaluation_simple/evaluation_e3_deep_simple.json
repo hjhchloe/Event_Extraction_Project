@@ -1,0 +1,339 @@
+{
+    "summary": {
+        "gold_events": 21,
+        "pred_events": 6,
+        "gold_arguments": 60,
+        "pred_arguments": 20
+    },
+    "trigger_identification": {
+        "precision": 0.1667,
+        "recall": 0.0476,
+        "f1": 0.0741
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.4,
+        "recall": 0.1333,
+        "f1": 0.2
+    },
+    "argument_classification": {
+        "precision": 0.35,
+        "recall": 0.1167,
+        "f1": 0.175
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada in the gold medal game",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Jack Hughes",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Team USA",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Team Canada",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:41 into overtime",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Santaguilia Arena",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "2-1 win",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada in the gold medal game of the men's hockey tournament at the Olympic Winter Games Milano Cortina 2026 at Santaguilia Arena on Sunday.",
+                "event_type": "Sports Event",
+                "normalized_event_type": "Competition",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "scorer",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "team",
+                        "argument": "Team USA"
+                    },
+                    {
+                        "role": "opponent",
+                        "argument": "Team Canada"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Santaguilia Arena"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:41 into overtime"
+                    }
+                ]
+            },
+            "similarity": 0.9386,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 5
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "Pandemonium broke out after the Hughes’ goal",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "broke out",
+                "arguments": [
+                    {
+                        "role": "cause",
+                        "argument": "Hughes’ goal",
+                        "role_original": "Cause"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Pandemonium broke out after the Hughes’ goal; the players leaping onto the ice in waves, tossing equipment into the sky, bearhugging the New Jersey Devils forward along the wall in front of the penalty box.",
+                "event_type": "Celebration",
+                "normalized_event_type": "Reaction",
+                "trigger": "Pandemonium broke out",
+                "arguments": [
+                    {
+                        "role": "participants",
+                        "argument": "players"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "ice in front of the penalty box"
+                    }
+                ]
+            },
+            "similarity": 0.7908,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Connor Hellebuyck made 41 saves",
+                "event_type": "Sports_Defense",
+                "normalized_event_type": "Sports_Defense",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Connor Hellebuyck",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "41 saves",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Hughes was in the spotlight afterwards, but the victory was built on the back of goalie Connor Hellebuyck, who made 41 saves, many of the highlight-reel variety, especially during a 19-8 advantage by Canada in the second period.",
+                "event_type": "Sports Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "made 41 saves",
+                "arguments": [
+                    {
+                        "role": "performer",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "team",
+                        "argument": "Team USA"
+                    },
+                    {
+                        "role": "opponent",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "second period"
+                    }
+                ]
+            },
+            "similarity": 0.7071,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E13",
+                "event_mention": "Hellebuyck stretched his stick behind him in a final act of desperation and the puck struck it",
+                "event_type": "Sports_Save",
+                "normalized_event_type": "Sports_Save",
+                "trigger": "struck",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Connor Hellebuyck",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "puck",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "The biggest save of the game came in the opening minutes of the third period. Defenseman Devon Toews was in the slot, the puck on his stick, looking at an empty net. As he shot, Hellebuyck stretched his stick behind him in a final act of desperation and the puck struck it, skittering away from the net.",
+                "event_type": "Sports Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "save",
+                "arguments": [
+                    {
+                        "role": "performer",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "opponent",
+                        "argument": "Devon Toews"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "opening minutes of the third period"
+                    }
+                ]
+            },
+            "similarity": 0.6204,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E15",
+                "event_mention": "Binnington made 26 saves for Canada",
+                "event_type": "Sports_Defense",
+                "normalized_event_type": "Sports_Defense",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Jordan Binnington",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "26 saves",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Canada",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Cale Makar scored, and Binnington made 26 saves for Canada, which played without Crosby, its captain, for a second straight game because of a lower-body injury he sustained in the quarterfinals against Team Czechia.",
+                "event_type": "Sports Event",
+                "normalized_event_type": "Competition",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "scorer",
+                        "argument": "Cale Makar"
+                    },
+                    {
+                        "role": "team",
+                        "argument": "Canada"
+                    }
+                ]
+            },
+            "similarity": 0.7305,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Makar tied at 1-1 at 18:16 of the second period with a snap shot",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "tied",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Cale Makar",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "18:16 of the second period",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "1-1 tie",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Matt Boldy gave the U.S. a 1-0 lead at 6:00 of the first, flipping the puck between Makar and Toews before gaining position on the latter and deked to his backhand before pushing the puck past Binnington.",
+                "event_type": "Sports Event",
+                "normalized_event_type": "Competition",
+                "trigger": "gave",
+                "arguments": [
+                    {
+                        "role": "scorer",
+                        "argument": "Matt Boldy"
+                    },
+                    {
+                        "role": "team",
+                        "argument": "U.S."
+                    },
+                    {
+                        "role": "opponent",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "6:00 of the first"
+                    }
+                ]
+            },
+            "similarity": 0.6116,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        }
+    ]
+}

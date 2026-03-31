@@ -1,0 +1,574 @@
+{
+    "summary": {
+        "gold_events": 29,
+        "pred_events": 14,
+        "gold_arguments": 70,
+        "pred_arguments": 34
+    },
+    "trigger_identification": {
+        "precision": 0.6429,
+        "recall": 0.3103,
+        "f1": 0.4186
+    },
+    "trigger_classification": {
+        "precision": 0.1429,
+        "recall": 0.069,
+        "f1": 0.093
+    },
+    "argument_identification": {
+        "precision": 0.7353,
+        "recall": 0.3571,
+        "f1": 0.4808
+    },
+    "argument_classification": {
+        "precision": 0.5882,
+        "recall": 0.2857,
+        "f1": 0.3846
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+                "event_type": "Competition_Start",
+                "normalized_event_type": "Competition_Start",
+                "trigger": "got off",
+                "arguments": [
+                    {
+                        "role": "event",
+                        "argument": "speed skating competition",
+                        "role_original": "Event"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "2026 Winter Olympics",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "got off to the hottest of starts",
+                "arguments": [
+                    {
+                        "role": "event",
+                        "argument": "speed skating competition"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "2026 Winter Olympics"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics.",
+                "event_type": "Win_Medal",
+                "normalized_event_type": "Win_Medal",
+                "trigger": "took home",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "first speed skating gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "2026 Winter Olympics",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics in a surprisingly dominant performance.",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "took home",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "gold"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "speed skating"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "2026 Winter Olympics"
+                    }
+                ]
+            },
+            "similarity": 0.9867,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world.",
+                "event_type": "Competition_Entry",
+                "normalized_event_type": "Competition_Entry",
+                "trigger": "entered",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "competition",
+                        "role_original": "Event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world.",
+                "event_type": "Participation",
+                "normalized_event_type": "Achievement",
+                "trigger": "entered",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "ranking",
+                        "argument": "9th best women's long distance skater"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "She spent part of the season battling a viral infection.",
+                "event_type": "Health_Condition",
+                "normalized_event_type": "Health_Condition",
+                "trigger": "battling",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "cause",
+                        "argument": "viral infection",
+                        "role_original": "Cause"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "She spent part of the season battling a viral infection.",
+                "event_type": "Health",
+                "normalized_event_type": "Incident",
+                "trigger": "battling",
+                "arguments": [
+                    {
+                        "role": "person",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "condition",
+                        "argument": "viral infection"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Lollobrigida tore away from the ice and down the tunnels of the Milano Speed Skating Stadium.",
+                "event_type": "Movement",
+                "normalized_event_type": "Movement",
+                "trigger": "tore away",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milano Speed Skating Stadium",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Lollobrigida tore away from the ice and down the tunnels of the Milano Speed Skating Stadium, looking for her son, Tommaso.",
+                "event_type": "Personal",
+                "normalized_event_type": "Personal",
+                "trigger": "looking for",
+                "arguments": [
+                    {
+                        "role": "person",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "target",
+                        "argument": "her son, Tommaso"
+                    }
+                ]
+            },
+            "similarity": 0.8426,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "She returned to competition in September 2023.",
+                "event_type": "Return_To_Competition",
+                "normalized_event_type": "Return_To_Competition",
+                "trigger": "returned",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "September 2023",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "She returned to competition in September 2023, just four months after giving birth.",
+                "event_type": "Return",
+                "normalized_event_type": "Status",
+                "trigger": "returned",
+                "arguments": [
+                    {
+                        "role": "person",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "competition"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "September 2023"
+                    }
+                ]
+            },
+            "similarity": 0.8832,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "she claimed the 2025 world title in the 5000m.",
+                "event_type": "Win_Title",
+                "normalized_event_type": "Win_Title",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Francesca Lollobrigida",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "2025 world title",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "5000m",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Eighteen months later, she claimed the 2025 world title in the 5000m.",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "title",
+                        "argument": "2025 world title"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "5000m"
+                    }
+                ]
+            },
+            "similarity": 0.9609,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "Wiklund took gold in both the 1500m and 3000m at the 2026 European Championships.",
+                "event_type": "Win_Medal",
+                "normalized_event_type": "Win_Medal",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ragne Wiklund",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "1500m and 3000m",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "2026 European Championships",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "She took gold in both the 1500m and 3000m at the 2026 European Championships.",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "took gold",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "Wiklund"
+                    },
+                    {
+                        "role": "events",
+                        "argument": "1500m and 3000m"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "2026 European Championships"
+                    }
+                ]
+            },
+            "similarity": 0.7346,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "With her silver, she became the first Norwegian woman to make an Olympic speed skating podium since Bjørg Eva Jensen won the 3000m in 1980.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ragne Wiklund",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "first Norwegian woman to make an Olympic speed skating podium since 1980",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "With her silver, she became the first Norwegian woman to make an Olympic speed skating podium since Bjørg Eva Jensen won the 3000m in 1980.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "person",
+                        "argument": "Wiklund"
+                    },
+                    {
+                        "role": "achievement",
+                        "argument": "first Norwegian woman to make an Olympic speed skating podium"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E23",
+                "event_mention": "the podium finish marked her first individual Olympic medal in either sport.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "marked",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Valarie Maltais",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "first individual Olympic medal",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "For Maltais, the podium finish marked her first individual Olympic medal in either sport.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "marked",
+                "arguments": [
+                    {
+                        "role": "person",
+                        "argument": "Maltais"
+                    },
+                    {
+                        "role": "achievement",
+                        "argument": "first individual Olympic medal"
+                    }
+                ]
+            },
+            "similarity": 0.8898,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E26",
+                "event_mention": "American Greta Myers finished 20th.",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Greta Myers",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "20th place",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E13",
+                "event_mention": "A last-minute addition to the race following Czechian skater Martina Sablikova’s withdrawal, American Greta Myers finished 20th.",
+                "event_type": "Participation",
+                "normalized_event_type": "Achievement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "position",
+                        "argument": "20th"
+                    }
+                ]
+            },
+            "similarity": 0.7813,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E28",
+                "event_mention": "Competition continues Sunday, Feb. 8, with the men's 5000m.",
+                "event_type": "Competition_Schedule",
+                "normalized_event_type": "Competition_Schedule",
+                "trigger": "continues",
+                "arguments": [
+                    {
+                        "role": "event",
+                        "argument": "men's 5000m",
+                        "role_original": "Event"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Sunday, Feb. 8",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "Competition continues Sunday, Feb. 8, with the men's 5000m.",
+                "event_type": "Scheduled",
+                "normalized_event_type": "Status",
+                "trigger": "continues",
+                "arguments": [
+                    {
+                        "role": "event",
+                        "argument": "men's 5000m"
+                    },
+                    {
+                        "role": "date",
+                        "argument": "Sunday, Feb. 8"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

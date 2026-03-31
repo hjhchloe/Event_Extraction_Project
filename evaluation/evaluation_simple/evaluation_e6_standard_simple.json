@@ -1,0 +1,187 @@
+{
+    "summary": {
+        "gold_events": 23,
+        "pred_events": 5,
+        "gold_arguments": 54,
+        "pred_arguments": 17
+    },
+    "trigger_identification": {
+        "precision": 0.6,
+        "recall": 0.1304,
+        "f1": 0.2143
+    },
+    "trigger_classification": {
+        "precision": 0.2,
+        "recall": 0.0435,
+        "f1": 0.0714
+    },
+    "argument_identification": {
+        "precision": 0.4118,
+        "recall": 0.1296,
+        "f1": 0.1972
+    },
+    "argument_classification": {
+        "precision": 0.2941,
+        "recall": 0.0926,
+        "f1": 0.1408
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday.",
+                "event_type": "Sports_Competition_Win",
+                "normalized_event_type": "Sports_Competition_Win",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Johannes Høsflot Klæbo",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "men’s 50-kilometer cross-country race",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Saturday",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Tesero, Italy",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "men’s 50-kilometer cross-country race"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Saturday"
+                    }
+                ]
+            },
+            "similarity": 0.967,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Nyenget took silver and Iversen bronze.",
+                "event_type": "Award_Achievement",
+                "normalized_event_type": "Award_Achievement",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Martin Løwstrøm Nyenget",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver medal",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Nyenget took silver and Iversen bronze, ensuring Norway swept the podium",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Nyenget"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Iversen"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "bronze"
+                    },
+                    {
+                        "role": "team",
+                        "argument": "Norway"
+                    }
+                ]
+            },
+            "similarity": 0.7872,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "Ben Ogden withdrew pre-race with a cold.",
+                "event_type": "Status",
+                "normalized_event_type": "Status",
+                "trigger": "withdrew",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ben Ogden",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "pre-race",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "cause",
+                        "argument": "a cold",
+                        "role_original": "Reason"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Ben Ogden, Schumacher’s U.S. teammate who already has two silver medals from sprint events in these Olympics, withdrew pre-race with a cold",
+                "event_type": "Withdrawal",
+                "normalized_event_type": "Status",
+                "trigger": "withdrew",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ben Ogden"
+                    },
+                    {
+                        "role": "reason",
+                        "argument": "cold"
+                    }
+                ]
+            },
+            "similarity": 0.6145,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        }
+    ]
+}
