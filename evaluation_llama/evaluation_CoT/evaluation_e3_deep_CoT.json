@@ -1,0 +1,402 @@
+{
+    "summary": {
+        "gold_events": 21,
+        "pred_events": 10,
+        "gold_arguments": 60,
+        "pred_arguments": 27
+    },
+    "trigger_identification": {
+        "precision": 0.5,
+        "recall": 0.2381,
+        "f1": 0.3226
+    },
+    "trigger_classification": {
+        "precision": 0.1,
+        "recall": 0.0476,
+        "f1": 0.0645
+    },
+    "argument_identification": {
+        "precision": 0.4815,
+        "recall": 0.2167,
+        "f1": 0.2989
+    },
+    "argument_classification": {
+        "precision": 0.3333,
+        "recall": 0.15,
+        "f1": 0.2069
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada in the gold medal game",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Team USA"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Team Canada"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:41 into overtime"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Santaguilia Arena"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2-1 win"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada",
+                "event_type": "Scoring",
+                "normalized_event_type": "Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:41 into overtime"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Santaguilia Arena"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "Team USA won 2-1 against Team Canada"
+                    }
+                ]
+            },
+            "similarity": 0.9845,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 4
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "The goal, off a pass from Zach Werenski during 3-on-3 play",
+                "event_type": "Sports_Pass",
+                "normalized_event_type": "Sports_Pass",
+                "trigger": "pass",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Zach Werenski"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Jack Hughes"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The goal, off a pass from Zach Werenski during 3-on-3 play, slid through the five-hole of Canada goalie Jordan Binnington",
+                "event_type": "Passing",
+                "normalized_event_type": "Passing",
+                "trigger": "pass",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Zach Werenski"
+                    },
+                    {
+                        "role": "Recipient",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "during 3-on-3 play"
+                    }
+                ]
+            },
+            "similarity": 0.7464,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "the improbable 4-3 victory against the Soviet Union during the medal round in Lake Placid, New York",
+                "event_type": "Sports_Victory",
+                "normalized_event_type": "Sports_Victory",
+                "trigger": "victory",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "United States"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Soviet Union"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Lake Placid, New York"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "4-3 victory"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "The win came on the 46th anniversary of the improbable 4-3 victory against the Soviet Union during the medal round in Lake Placid, New York",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "Time",
+                        "argument": "46th anniversary"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Lake Placid, New York"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "USA won 4-3 against the Soviet Union"
+                    }
+                ]
+            },
+            "similarity": 0.9387,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "Pandemonium broke out after the Hughes’ goal",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "broke out",
+                "arguments": [
+                    {
+                        "role": "Cause",
+                        "argument": "Hughes’ goal"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Pandemonium broke out after the Hughes’ goal; the players leaping onto the ice in waves, tossing equipment into the sky",
+                "event_type": "Celebration",
+                "normalized_event_type": "Reaction",
+                "trigger": "broke out",
+                "arguments": [
+                    {
+                        "role": "Time",
+                        "argument": "after the Hughes’ goal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Santaguilia Arena"
+                    }
+                ]
+            },
+            "similarity": 0.7592,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Connor Hellebuyck made 41 saves",
+                "event_type": "Sports_Defense",
+                "normalized_event_type": "Sports_Defense",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "41 saves"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Connor Hellebuyck made 41 saves, many of the highlight-reel variety, especially during a 19-8 advantage by Canada in the second period",
+                "event_type": "Saving",
+                "normalized_event_type": "Saving",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "41 saves"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "during a 19-8 advantage by Canada in the second period"
+                    }
+                ]
+            },
+            "similarity": 0.8261,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "As he shot, Hellebuyck stretched his stick behind him and the puck struck it",
+                "event_type": "Sports_Shot",
+                "normalized_event_type": "Sports_Shot",
+                "trigger": "shot",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Devon Toews"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "puck"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Hellebuyck helped force overtime by stopping all 14 shots he faced in the third",
+                "event_type": "Saving",
+                "normalized_event_type": "Saving",
+                "trigger": "stopping",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "14 shots"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "in the third"
+                    }
+                ]
+            },
+            "similarity": 0.6095,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Cale Makar scored",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Cale Makar"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Canada"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Cale Makar scored, and Binnington made 26 saves for Canada",
+                "event_type": "Scoring",
+                "normalized_event_type": "Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Cale Makar"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "at 18:16 of the second period"
+                    }
+                ]
+            },
+            "similarity": 0.7232,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Makar tied at 1-1 at 18:16 of the second period with a snap shot",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "tied",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Cale Makar"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "18:16 of the second period"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "1-1 tie"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Matt Boldy gave the U.S. a 1-0 lead at 6:00 of the first, flipping the puck between Makar and Toews before gaining position on the latter and deked to his backhand before pushing the puck past Binnington",
+                "event_type": "Scoring",
+                "normalized_event_type": "Scoring",
+                "trigger": "gave",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Matt Boldy"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "at 6:00 of the first"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "U.S. led 1-0"
+                    }
+                ]
+            },
+            "similarity": 0.612,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}

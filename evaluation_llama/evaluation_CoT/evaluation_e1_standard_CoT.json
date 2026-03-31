@@ -1,0 +1,366 @@
+{
+    "summary": {
+        "gold_events": 15,
+        "pred_events": 10,
+        "gold_arguments": 35,
+        "pred_arguments": 21
+    },
+    "trigger_identification": {
+        "precision": 0.7,
+        "recall": 0.4667,
+        "f1": 0.56
+    },
+    "trigger_classification": {
+        "precision": 0.5,
+        "recall": 0.3333,
+        "f1": 0.4
+    },
+    "argument_identification": {
+        "precision": 0.6667,
+        "recall": 0.4,
+        "f1": 0.5
+    },
+    "argument_classification": {
+        "precision": 0.4762,
+        "recall": 0.2857,
+        "f1": 0.3571
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Norway has once again topped the Winter Olympics medal table",
+                "event_type": "Ranking",
+                "normalized_event_type": "Ranking",
+                "trigger": "topped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Winter Olympics medal table"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Norway has once again topped the Winter Olympics medal table, surpassing countries with far larger populations.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "topped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "Winter Olympics medal table"
+                    }
+                ]
+            },
+            "similarity": 0.9035,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "The Scandinavian country won more gold medals (18) and more total medals (41) than the US",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The Scandinavian country"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "gold medals"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "18"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The Scandinavian country won more gold medals (18) and more total medals (41) than the US, who came second in both categories (12 golds and 33 total medals).",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "US"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold medals and total medals"
+                    }
+                ]
+            },
+            "similarity": 0.9699,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Johannes Høsflot Klæbo accounted for six golds on his own",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "accounted",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "golds"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "six"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Johannes Høsflot Klæbo accounted for six golds on his own, more than the all but seven other countries at this year’s Games.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "accounted",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "six golds"
+                    }
+                ]
+            },
+            "similarity": 0.8755,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "The Netherlands, which excels in speed skating",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "excels",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The Netherlands"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "speed skating"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "The Netherlands, which excels in speed skating, also punched above its weight, finishing with 10 golds – the same as host nation Italy – despite its relatively small population of around 18m.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "punched",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The Netherlands"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "10 golds"
+                    }
+                ]
+            },
+            "similarity": 0.776,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Great Britain enjoyed its best ever medal haul at a Winter Olympics with three golds, a silver and a bronze",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "enjoyed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Great Britain"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "medal haul"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Great Britain enjoyed its best ever medal haul at a Winter Olympics with three golds, a silver and a bronze, as did Australia (three golds, two silver and a bronze).",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "enjoyed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Great Britain"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "best ever medal haul"
+                    }
+                ]
+            },
+            "similarity": 0.9315,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "The Norwegians have won the most golds at every Winter Olympics since 2014",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The Norwegians"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "golds"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "since 2014"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Norway’s success is nothing new. The Norwegians have won the most golds at every Winter Olympics since 2014 (they tied with Germany in 2018).",
+                "event_type": "Trend",
+                "normalized_event_type": "Trend",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "since 2014"
+                    }
+                ]
+            },
+            "similarity": 0.8815,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Morten Aasen, a former Norwegian Olympian, said in 2018",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "said",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Morten Aasen"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2018"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Morten Aasen, a former Norwegian Olympian, said in 2018",
+                "event_type": "Statement",
+                "normalized_event_type": "Communication",
+                "trigger": "said",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Morten Aasen"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2018"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E15",
+                "event_mention": "Geir Jordet told CNN Sports his country’s athletic success comes down to a simple formula",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Geir Jordet"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "CNN Sports"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Geir Jordet, a professor at the Norwegian School of Sports Sciences in Oslo, told CNN Sports his country’s athletic success comes down to a simple formula: “Collaboration, communication and care.”",
+                "event_type": "Statement",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Geir Jordet"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "athletic success formula"
+                    }
+                ]
+            },
+            "similarity": 0.76,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        }
+    ]
+}

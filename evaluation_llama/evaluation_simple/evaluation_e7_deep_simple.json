@@ -1,0 +1,398 @@
+{
+    "summary": {
+        "gold_events": 18,
+        "pred_events": 14,
+        "gold_arguments": 54,
+        "pred_arguments": 32
+    },
+    "trigger_identification": {
+        "precision": 0.3571,
+        "recall": 0.2778,
+        "f1": 0.3125
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.5,
+        "recall": 0.2963,
+        "f1": 0.3721
+    },
+    "argument_classification": {
+        "precision": 0.2812,
+        "recall": 0.1667,
+        "f1": 0.2093
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Braathen’s victory also makes him the first athlete from South America to medal at the Winter Games",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "medal",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Winter Games"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first athlete from South America to medal"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "Braathen became the first-ever athlete from a South American NOC to be crowned champion",
+                "event_type": "becoming",
+                "normalized_event_type": "becoming",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "title",
+                        "argument": "champion"
+                    }
+                ]
+            },
+            "similarity": 0.7678,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Swiss stars Marco Odermatt and Loïc Meillard winning silver and bronze, respectively",
+                "event_type": "CompetitionResult",
+                "normalized_event_type": "Competition",
+                "trigger": "winning",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Marco Odermatt"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Loïc Meillard"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Meillard won silver in the team combined event",
+                "event_type": "winning",
+                "normalized_event_type": "winning",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "Meillard"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "team combined event"
+                    },
+                    {
+                        "role": "medal",
+                        "argument": "silver"
+                    }
+                ]
+            },
+            "similarity": 0.6428,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026",
+                "event_type": "CompetitionResult",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "Alpine skiing giant slalom gold"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (14 February)"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold",
+                "event_type": "winning",
+                "normalized_event_type": "winning",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "Alpine skiing giant slalom"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 0.949,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "an elated Braathen told reporters after the race",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "reporters"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "after the race"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Braathen told reporters after the race",
+                "event_type": "telling",
+                "normalized_event_type": "telling",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "speaker",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "audience",
+                        "argument": "reporters"
+                    }
+                ]
+            },
+            "similarity": 0.9399,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Braathen, who two years ago switched from competing for Norway to the birth country of his mother",
+                "event_type": "AffiliationChange",
+                "normalized_event_type": "AffiliationChange",
+                "trigger": "switched",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "birth country of his mother"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Braathen switched from competing for Norway to the birth country of his mother",
+                "event_type": "switching",
+                "normalized_event_type": "switching",
+                "trigger": "switched",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "from",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "to",
+                        "argument": "birth country of his mother"
+                    }
+                ]
+            },
+            "similarity": 0.9819,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "Born in Oslo to a Norwegian father and Brazilian mother",
+                "event_type": "Birth",
+                "normalized_event_type": "Birth",
+                "trigger": "Born",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Oslo"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Braathen was born in Oslo to a Norwegian father and Brazilian mother",
+                "event_type": "birth",
+                "normalized_event_type": "birth",
+                "trigger": "born",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Oslo"
+                    },
+                    {
+                        "role": "parents",
+                        "argument": "Norwegian father and Brazilian mother"
+                    }
+                ]
+            },
+            "similarity": 0.7514,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E15",
+                "event_mention": "Braathen held his nerve to deliver a gold-winning run",
+                "event_type": "CompetitionPerformance",
+                "normalized_event_type": "CompetitionPerformance",
+                "trigger": "deliver",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold-winning run"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Braathen held his nerve to deliver a gold-winning run",
+                "event_type": "delivering",
+                "normalized_event_type": "delivering",
+                "trigger": "deliver",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "thing delivered",
+                        "argument": "gold-winning run"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Only eight days after waving his nation’s flag at the Opening Ceremony",
+                "event_type": "CeremonialAction",
+                "normalized_event_type": "CeremonialAction",
+                "trigger": "waving",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Opening Ceremony"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "eight days earlier"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "Braathen waved his nation's flag at the Opening Ceremony",
+                "event_type": "waving",
+                "normalized_event_type": "waving",
+                "trigger": "waved",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "thing waved",
+                        "argument": "nation's flag"
+                    }
+                ]
+            },
+            "similarity": 0.6262,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}

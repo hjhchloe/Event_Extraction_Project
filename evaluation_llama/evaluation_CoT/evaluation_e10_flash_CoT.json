@@ -1,0 +1,302 @@
+{
+    "summary": {
+        "gold_events": 8,
+        "pred_events": 6,
+        "gold_arguments": 22,
+        "pred_arguments": 15
+    },
+    "trigger_identification": {
+        "precision": 0.8333,
+        "recall": 0.625,
+        "f1": 0.7143
+    },
+    "trigger_classification": {
+        "precision": 0.6667,
+        "recall": 0.5,
+        "f1": 0.5714
+    },
+    "argument_identification": {
+        "precision": 0.9333,
+        "recall": 0.6364,
+        "f1": 0.7568
+    },
+    "argument_classification": {
+        "precision": 0.4667,
+        "recall": 0.3182,
+        "f1": 0.3784
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Competing on her 35th birthday",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "Competing",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "her 35th birthday"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "women’s speed skating 3000m"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Competing on her 35th birthday, Francesca Lollobrigida powered to victory in the women’s speed skating 3000m",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "competing",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "her 35th birthday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 0.6707,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Francesca Lollobrigida powered to victory in the women’s speed skating 3000m",
+                "event_type": "SportsVictory",
+                "normalized_event_type": "SportsVictory",
+                "trigger": "victory",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "women’s speed skating 3000m"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Francesca Lollobrigida powered to victory in the women’s speed skating 3000m",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "powered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "women’s speed skating 3000m"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "deliver Italy’s first gold medal of Milano Cortina 2026",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "deliver",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Recipient",
+                        "argument": "Italy"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "first gold medal of Milano Cortina 2026"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "deliver Italy’s first gold medal of Milano Cortina 2026",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "deliver",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "Italy’s first gold medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Weeks after admitting she had been on the verge of quitting the sport due to a viral infection",
+                "event_type": "Admission",
+                "normalized_event_type": "Status",
+                "trigger": "admitting",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Content",
+                        "argument": "she had been on the verge of quitting the sport due to a viral infection"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Weeks after"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "admitting she had been on the verge of quitting the sport due to a viral infection",
+                "event_type": "Admission",
+                "normalized_event_type": "Status",
+                "trigger": "admitting",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Cause",
+                        "argument": "viral infection"
+                    }
+                ]
+            },
+            "similarity": 0.9604,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "she had been on the verge of quitting the sport due to a viral infection",
+                "event_type": "PotentialQuit",
+                "normalized_event_type": "PotentialQuit",
+                "trigger": "quitting",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Activity",
+                        "argument": "the sport"
+                    },
+                    {
+                        "role": "Cause",
+                        "argument": "a viral infection"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "she had been on the verge of quitting the sport",
+                "event_type": "Quitting",
+                "normalized_event_type": "Status",
+                "trigger": "quitting",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "the sport"
+                    }
+                ]
+            },
+            "similarity": 0.8137,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "a victory that ignited the Games for the host nation",
+                "event_type": "Ignition",
+                "normalized_event_type": "Ceremony",
+                "trigger": "ignited",
+                "arguments": [
+                    {
+                        "role": "Cause",
+                        "argument": "victory"
+                    },
+                    {
+                        "role": "Affected",
+                        "argument": "the Games"
+                    },
+                    {
+                        "role": "Beneficiary",
+                        "argument": "the host nation"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "a victory that ignited the Games for the host nation",
+                "event_type": "Ignition",
+                "normalized_event_type": "Ceremony",
+                "trigger": "ignited",
+                "arguments": [
+                    {
+                        "role": "Cause",
+                        "argument": "a victory"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "the Games"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "the host nation"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 3
+        }
+    ]
+}

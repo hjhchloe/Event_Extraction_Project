@@ -1,0 +1,186 @@
+{
+    "summary": {
+        "gold_events": 23,
+        "pred_events": 12,
+        "gold_arguments": 54,
+        "pred_arguments": 31
+    },
+    "trigger_identification": {
+        "precision": 0.1667,
+        "recall": 0.087,
+        "f1": 0.1143
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.2258,
+        "recall": 0.1296,
+        "f1": 0.1647
+    },
+    "argument_classification": {
+        "precision": 0.129,
+        "recall": 0.0741,
+        "f1": 0.0941
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday.",
+                "event_type": "Sports_Competition_Win",
+                "normalized_event_type": "Sports_Competition_Win",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "men’s 50-kilometer cross-country race"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Tesero, Italy"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "men’s 50-kilometer cross-country race"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    }
+                ]
+            },
+            "similarity": 0.967,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Saturday’s race was another display of Klæbo’s superiority over the field, outlasting Norwegian teammates Emil Iversen and Martin Løwstrøm Nyenget on the final lap to win in 2 hours, 7 minutes and 4 seconds.",
+                "event_type": "Sports_Competition_Win",
+                "normalized_event_type": "Sports_Competition_Win",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Emil Iversen and Martin Løwstrøm Nyenget"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "2 hours, 7 minutes and 4 seconds"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Klæbo made the decisive move with five kilometres remaining, first shedding his close friend Iversen, before sprinting past Nyenget on the final hill",
+                "event_type": "Sports Action",
+                "normalized_event_type": "Sports Action",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Klæbo"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "decisive move"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Iversen"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Nyenget"
+                    }
+                ]
+            },
+            "similarity": 0.6113,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Nyenget took silver and Iversen bronze.",
+                "event_type": "Award_Achievement",
+                "normalized_event_type": "Award_Achievement",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Martin Løwstrøm Nyenget"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver medal"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Nyenget took silver and Iversen bronze, ensuring Norway swept the podium",
+                "event_type": "Award Ceremony",
+                "normalized_event_type": "Award Ceremony",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "Recipient",
+                        "argument": "Nyenget"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "Recipient",
+                        "argument": "Iversen"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "similarity": 0.7872,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

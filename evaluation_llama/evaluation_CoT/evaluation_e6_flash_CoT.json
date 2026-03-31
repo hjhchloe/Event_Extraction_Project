@@ -1,0 +1,222 @@
+{
+    "summary": {
+        "gold_events": 9,
+        "pred_events": 4,
+        "gold_arguments": 24,
+        "pred_arguments": 13
+    },
+    "trigger_identification": {
+        "precision": 0.75,
+        "recall": 0.3333,
+        "f1": 0.4615
+    },
+    "trigger_classification": {
+        "precision": 0.25,
+        "recall": 0.1111,
+        "f1": 0.1538
+    },
+    "argument_identification": {
+        "precision": 0.7692,
+        "recall": 0.4167,
+        "f1": 0.5405
+    },
+    "argument_classification": {
+        "precision": 0.6923,
+        "recall": 0.375,
+        "f1": 0.4865
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo makes Winter Olympic history with a sixth gold medal at Milano Cortina 2026",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "makes",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "a sixth gold medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo makes Winter Olympic history with a sixth gold medal at Milano Cortina 2026, as Norway dominates the 50km classic.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "makes",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 0.9472,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Johannes Høsflot Klæbo capped a remarkable Milano Cortina 2026 campaign on Saturday (21 February)",
+                "event_type": "Completion",
+                "normalized_event_type": "Completion",
+                "trigger": "capped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Milano Cortina 2026 campaign"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (21 February)"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Johannes Høsflot Klæbo capped a remarkable Milano Cortina 2026 campaign on Saturday (21 February), winning the men’s 50km mass start classic to claim his sixth gold medal of the Games — becoming the first athlete in any sport to win six Olympic gold medals at the same Winter Olympics.",
+                "event_type": "Win",
+                "normalized_event_type": "Win",
+                "trigger": "winning",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (21 February)"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "sixth gold medal"
+                    }
+                ]
+            },
+            "similarity": 0.651,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Klæbo stopped the clock at 2:07:07.1",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "stopped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2:07:07.1"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Klæbo stopped the clock at 2:07:07.1, pulling away late to beat compatriot Martin Løwstrøm Nyenget by 17.5 seconds, with Emil Iversen completing an all-Norwegian podium in third, 46.2 seconds back.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "stopped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2:07:07.1"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Martin Løwstrøm Nyenget"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Emil Iversen"
+                    }
+                ]
+            },
+            "similarity": 0.7724,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "pulling away late to beat compatriot Martin Løwstrøm Nyenget by 17.5 seconds",
+                "event_type": "Competition_Beat",
+                "normalized_event_type": "Competition_Beat",
+                "trigger": "beat",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Martin Løwstrøm Nyenget"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "17.5 seconds"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Klæbo stopped the clock at 2:07:07.1, pulling away late to beat compatriot Martin Løwstrøm Nyenget by 17.5 seconds, with Emil Iversen completing an all-Norwegian podium in third, 46.2 seconds back.",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "beat",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Martin Løwstrøm Nyenget"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "17.5 seconds"
+                    }
+                ]
+            },
+            "similarity": 0.7077,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        }
+    ]
+}

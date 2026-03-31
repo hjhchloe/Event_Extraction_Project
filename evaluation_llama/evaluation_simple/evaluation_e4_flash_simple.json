@@ -1,0 +1,306 @@
+{
+    "summary": {
+        "gold_events": 9,
+        "pred_events": 6,
+        "gold_arguments": 23,
+        "pred_arguments": 16
+    },
+    "trigger_identification": {
+        "precision": 0.8333,
+        "recall": 0.5556,
+        "f1": 0.6667
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.8125,
+        "recall": 0.5652,
+        "f1": 0.6667
+    },
+    "argument_classification": {
+        "precision": 0.5,
+        "recall": 0.3478,
+        "f1": 0.4103
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Ilia Malinin missed out on a medal in a stunning and dramatic men's figure skating final at the Winter Olympics today.",
+                "event_type": "Competition Outcome",
+                "normalized_event_type": "Competition Outcome",
+                "trigger": "missed out",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "a medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Winter Olympics"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "today"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Ilia Malinin missed out on a medal in a stunning and dramatic men's figure skating final at the Winter Olympics today.",
+                "event_type": "competition",
+                "normalized_event_type": "competition",
+                "trigger": "missed out",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "men's figure skating final"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Winter Olympics"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "The 21-year-old American fell twice in his final free skate.",
+                "event_type": "Accident/Fall",
+                "normalized_event_type": "Accident/Fall",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "The 21-year-old American"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "twice"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "his final free skate"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The 21-year-old American fell twice in his final free skate to score 156.33 and finish eighth",
+                "event_type": "fall",
+                "normalized_event_type": "fall",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "action",
+                        "argument": "final free skate"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "score 156.33 and finish eighth"
+                    }
+                ]
+            },
+            "similarity": 0.9208,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Mikhail Shaidorov of Kazakhstan won gold.",
+                "event_type": "Competition Victory",
+                "normalized_event_type": "Competition Victory",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Mikhail Shaidorov"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Kazakhstan"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Mikhail Shaidorov of Kazakhstan won gold.",
+                "event_type": "win",
+                "normalized_event_type": "win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Mikhail Shaidorov"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "gold"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Kazakhstan"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Malinin won team gold here at the Milan Cortina Games.",
+                "event_type": "Competition Victory",
+                "normalized_event_type": "Competition Victory",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "team gold"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan Cortina Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Malinin won team gold here at the Milan Cortina Games",
+                "event_type": "win",
+                "normalized_event_type": "win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "team gold"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milan Cortina Games"
+                    }
+                ]
+            },
+            "similarity": 0.9891,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "Yuma Kagiyama won silver.",
+                "event_type": "Competition Victory",
+                "normalized_event_type": "Competition Victory",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Yuma Kagiyama"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Yuma Kagiyama won silver",
+                "event_type": "win",
+                "normalized_event_type": "win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Yuma Kagiyama"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "silver"
+                    }
+                ]
+            },
+            "similarity": 0.9938,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Shun Sato bronze.",
+                "event_type": "Competition Victory",
+                "normalized_event_type": "Competition Victory",
+                "trigger": "bronze",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Shun Sato"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Shun Sato bronze",
+                "event_type": "win",
+                "normalized_event_type": "win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Shun Sato"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "similarity": 0.9893,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

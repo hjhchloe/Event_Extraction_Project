@@ -1,0 +1,178 @@
+{
+    "summary": {
+        "gold_events": 9,
+        "pred_events": 3,
+        "gold_arguments": 24,
+        "pred_arguments": 11
+    },
+    "trigger_identification": {
+        "precision": 0.6667,
+        "recall": 0.2222,
+        "f1": 0.3333
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.6364,
+        "recall": 0.2917,
+        "f1": 0.4
+    },
+    "argument_classification": {
+        "precision": 0.3636,
+        "recall": 0.1667,
+        "f1": 0.2286
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo makes Winter Olympic history with a sixth gold medal at Milano Cortina 2026",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "makes",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "a sixth gold medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo makes Winter Olympic history with a sixth gold medal at Milano Cortina 2026, as Norway dominates the 50km classic.",
+                "event_type": "Historic Achievement",
+                "normalized_event_type": "Historic Achievement",
+                "trigger": "makes",
+                "arguments": [
+                    {
+                        "role": "Achiever",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Winter Olympic"
+                    },
+                    {
+                        "role": "Location",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 0.9472,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Johannes Høsflot Klæbo capped a remarkable Milano Cortina 2026 campaign on Saturday (21 February)",
+                "event_type": "Completion",
+                "normalized_event_type": "Completion",
+                "trigger": "capped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Milano Cortina 2026 campaign"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (21 February)"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Johannes Høsflot Klæbo capped a remarkable Milano Cortina 2026 campaign on Saturday (21 February), winning the men’s 50km mass start classic to claim his sixth gold medal of the Games — becoming the first athlete in any sport to win six Olympic gold medals at the same Winter Olympics.",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "winning",
+                "arguments": [
+                    {
+                        "role": "Winner",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "men’s 50km mass start classic"
+                    },
+                    {
+                        "role": "Location",
+                        "argument": "Milano Cortina 2026"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (21 February)"
+                    }
+                ]
+            },
+            "similarity": 0.651,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Klæbo stopped the clock at 2:07:07.1",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "stopped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2:07:07.1"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Klæbo stopped the clock at 2:07:07.1, pulling away late to beat compatriot Martin Løwstrøm Nyenget by 17.5 seconds, with Emil Iversen completing an all-Norwegian podium in third, 46.2 seconds back.",
+                "event_type": "Racing",
+                "normalized_event_type": "Racing",
+                "trigger": "stopped",
+                "arguments": [
+                    {
+                        "role": "Racer",
+                        "argument": "Klæbo"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2:07:07.1"
+                    },
+                    {
+                        "role": "Opponent",
+                        "argument": "Martin Løwstrøm Nyenget"
+                    },
+                    {
+                        "role": "Opponent",
+                        "argument": "Emil Iversen"
+                    }
+                ]
+            },
+            "similarity": 0.7724,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

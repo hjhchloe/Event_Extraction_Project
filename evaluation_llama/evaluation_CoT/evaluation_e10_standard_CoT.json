@@ -1,0 +1,694 @@
+{
+    "summary": {
+        "gold_events": 21,
+        "pred_events": 16,
+        "gold_arguments": 49,
+        "pred_arguments": 43
+    },
+    "trigger_identification": {
+        "precision": 0.5625,
+        "recall": 0.4286,
+        "f1": 0.4865
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.6744,
+        "recall": 0.5918,
+        "f1": 0.6304
+    },
+    "argument_classification": {
+        "precision": 0.3953,
+        "recall": 0.3469,
+        "f1": 0.3696
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Italy won its first gold medal of the Milano Cortina Games on Saturday",
+                "event_type": "SportsWin",
+                "normalized_event_type": "SportsWin",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Italy"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "first gold medal of the Milano Cortina Games"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Italy won its first gold medal of the Milano Cortina Games on Saturday",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Italy"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina Games"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "a roaring speedskating upset that saw the dominant Netherlands pushed out of the women's 3000 meters podium",
+                "event_type": "SportsUpset",
+                "normalized_event_type": "SportsUpset",
+                "trigger": "upset",
+                "arguments": [
+                    {
+                        "role": "Affected",
+                        "argument": "the dominant Netherlands"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "women's 3000 meters"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "a roaring speedskating upset that saw the dominant Netherlands pushed out of the women's 3000 meters podium for the first time since 2010",
+                "event_type": "Upset",
+                "normalized_event_type": "Upset",
+                "trigger": "upset",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Netherlands"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2010"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "women's 3000 meters"
+                    }
+                ]
+            },
+            "similarity": 0.9622,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Francesca Lollobrigida set a new Olympic record — on her 35th birthday — of 3 minutes, 54.28 seconds",
+                "event_type": "RecordSet",
+                "normalized_event_type": "RecordSet",
+                "trigger": "set",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "a new Olympic record of 3 minutes, 54.28 seconds"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "her 35th birthday"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Francesca Lollobrigida set a new Olympic record of 3 minutes, 54.28 seconds",
+                "event_type": "Record Setting",
+                "normalized_event_type": "Record",
+                "trigger": "set",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "3 minutes, 54.28 seconds"
+                    }
+                ]
+            },
+            "similarity": 0.9322,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "shaving more than two-and-a-half seconds off the mark set by Dutch legend Irene Schouten four years earlier in Beijing",
+                "event_type": "PerformanceImprovement",
+                "normalized_event_type": "PerformanceImprovement",
+                "trigger": "shaving",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "more than two-and-a-half seconds"
+                    },
+                    {
+                        "role": "Reference",
+                        "argument": "the mark set by Dutch legend Irene Schouten"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "shaving more than two-and-a-half seconds off the mark set by Dutch legend Irene Schouten four years earlier in Beijing",
+                "event_type": "Record Breaking",
+                "normalized_event_type": "Record Breaking",
+                "trigger": "shaving",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Previous Record Holder",
+                        "argument": "Irene Schouten"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "four years earlier"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Beijing"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Ragne Wiklund of Norway was runner-up",
+                "event_type": "SportsPlacement",
+                "normalized_event_type": "SportsPlacement",
+                "trigger": "runner-up",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Ragne Wiklund"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "second"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "It was also two seconds ahead of runner-up Ragne Wiklund of Norway",
+                "event_type": "Comparison",
+                "normalized_event_type": "Comparison",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Ragne Wiklund"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "two seconds ahead"
+                    }
+                ]
+            },
+            "similarity": 0.8618,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "Canada's Valerie Maltais finished third",
+                "event_type": "SportsPlacement",
+                "normalized_event_type": "SportsPlacement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Valerie Maltais"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "third"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Canada's Valerie Maltais finished third",
+                "event_type": "Finishing",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Valerie Maltais"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "third"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Dutch skater Joy Beune finished off the podium in 4th",
+                "event_type": "SportsPlacement",
+                "normalized_event_type": "SportsPlacement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Joy Beune"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "4th"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Dutch skater Joy Beune, the reigning world champion in the 3000m, finished off the podium in 4th",
+                "event_type": "Finishing",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Joy Beune"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "4th"
+                    }
+                ]
+            },
+            "similarity": 0.9096,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "the Netherlands had not won a medal in this distance since the 2010 Vancouver Games",
+                "event_type": "SportsNonWin",
+                "normalized_event_type": "SportsNonWin",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "the Netherlands"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "a medal"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "since the 2010 Vancouver Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "It was the first time since the 2010 Vancouver Games that the Netherlands had not won a medal in this distance",
+                "event_type": "Non-Occurrence",
+                "normalized_event_type": "Non-Occurrence",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Netherlands"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2010 Vancouver Games"
+                    }
+                ]
+            },
+            "similarity": 0.9751,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "her great aunt was the late Gina Lollobrigida",
+                "event_type": "FamilyRelation",
+                "normalized_event_type": "FamilyRelation",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Relative",
+                        "argument": "Gina Lollobrigida"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "her great aunt was the late Gina Lollobrigida, a star actress of the 1950s and '60s",
+                "event_type": "Relation",
+                "normalized_event_type": "Relation",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gina Lollobrigida"
+                    },
+                    {
+                        "role": "Relation",
+                        "argument": "great aunt of Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1950s and '60s"
+                    }
+                ]
+            },
+            "similarity": 0.8866,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "This was the fourth Olympics for Francesca Lollobrigida",
+                "event_type": "SportsParticipation",
+                "normalized_event_type": "SportsParticipation",
+                "trigger": "Olympics",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "fourth"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "This was the fourth Olympics for Francesca Lollobrigida and her first gold",
+                "event_type": "Participation",
+                "normalized_event_type": "Achievement",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first gold"
+                    }
+                ]
+            },
+            "similarity": 0.9187,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "She collected two medals at Beijing four years ago",
+                "event_type": "SportsAward",
+                "normalized_event_type": "SportsAward",
+                "trigger": "collected",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "two medals"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Beijing"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "four years ago"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "She collected two medals at Beijing four years ago: a silver in the 3,000 and a bronze in the mass start",
+                "event_type": "Medal Collection",
+                "normalized_event_type": "Medal Collection",
+                "trigger": "collected",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "four years ago"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Beijing"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "two medals"
+                    }
+                ]
+            },
+            "similarity": 0.8958,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 4
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "American skater Greta Myers was added to the lineup",
+                "event_type": "RosterAddition",
+                "normalized_event_type": "RosterAddition",
+                "trigger": "added",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "the lineup"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E13",
+                "event_mention": "A last-minute addition to Saturday's race was that of American skater Greta Myers",
+                "event_type": "Addition",
+                "normalized_event_type": "Addition",
+                "trigger": "addition",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "last-minute"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Saturday's race"
+                    }
+                ]
+            },
+            "similarity": 0.8679,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "Czech skater Martina Sablikova's withdrawal",
+                "event_type": "Withdrawal",
+                "normalized_event_type": "Status",
+                "trigger": "withdrawal",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Martina Sablikova"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "She was added to the lineup after Czech skater Martina Sablikova's withdrawal",
+                "event_type": "Addition",
+                "normalized_event_type": "Addition",
+                "trigger": "added",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "Reason",
+                        "argument": "Martina Sablikova's withdrawal"
+                    }
+                ]
+            },
+            "similarity": 0.9191,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "The 21-year-old American did not initially qualify for the event",
+                "event_type": "QualificationFailure",
+                "normalized_event_type": "QualificationFailure",
+                "trigger": "qualify",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "the event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E15",
+                "event_mention": "The 21-year-old American did not initially qualify for the event but secured the first reserve quota spot after her performances on the 2025-26 World Cup circuit",
+                "event_type": "Qualification",
+                "normalized_event_type": "Qualification",
+                "trigger": "secured",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first reserve quota spot"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2025-26"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "World Cup circuit"
+                    }
+                ]
+            },
+            "similarity": 0.7383,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "She finished in 20th place",
+                "event_type": "SportsPlacement",
+                "normalized_event_type": "SportsPlacement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "20th place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E16",
+                "event_mention": "She finished in 20th place",
+                "event_type": "Finishing",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Greta Myers"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "20th place"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

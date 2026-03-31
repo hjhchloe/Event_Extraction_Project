@@ -1,0 +1,250 @@
+{
+    "summary": {
+        "gold_events": 6,
+        "pred_events": 6,
+        "gold_arguments": 16,
+        "pred_arguments": 13
+    },
+    "trigger_identification": {
+        "precision": 0.6667,
+        "recall": 0.6667,
+        "f1": 0.6667
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.7692,
+        "recall": 0.625,
+        "f1": 0.6897
+    },
+    "argument_classification": {
+        "precision": 0.4615,
+        "recall": 0.375,
+        "f1": 0.4138
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "The United States finished second with 12 gold, 12 silver and 9 bronze medals",
+                "event_type": "Competition_Placement",
+                "normalized_event_type": "Competition_Placement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The United States"
+                    },
+                    {
+                        "role": "rank",
+                        "argument": "second"
+                    },
+                    {
+                        "role": "medals",
+                        "argument": "12 gold, 12 silver and 9 bronze medals"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The United States finished second with 12 gold, 12 silver and 9 bronze medals",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "The United States"
+                    },
+                    {
+                        "role": "Position",
+                        "argument": "second"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "the Netherlands in third with 10 gold, 7 silver and 3 bronze",
+                "event_type": "Competition_Placement",
+                "normalized_event_type": "Competition_Placement",
+                "trigger": "followed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "the Netherlands"
+                    },
+                    {
+                        "role": "rank",
+                        "argument": "third"
+                    },
+                    {
+                        "role": "medals",
+                        "argument": "10 gold, 7 silver and 3 bronze"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "The Netherlands finished third with 10 gold, 7 silver and 3 bronze medals",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "The Netherlands"
+                    },
+                    {
+                        "role": "Position",
+                        "argument": "third"
+                    }
+                ]
+            },
+            "similarity": 0.8864,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Host nation Italy finished fourth with 10 gold, 6 silver and 14 bronze medals",
+                "event_type": "Competition_Placement",
+                "normalized_event_type": "Competition_Placement",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Host nation Italy"
+                    },
+                    {
+                        "role": "rank",
+                        "argument": "fourth"
+                    },
+                    {
+                        "role": "medals",
+                        "argument": "10 gold, 6 silver and 14 bronze medals"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Host nation Italy finished fourth with 10 gold, 6 silver and 14 bronze medals",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Italy"
+                    },
+                    {
+                        "role": "Position",
+                        "argument": "fourth"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Germany placed fifth with 8 gold, 10 silver and 8 bronze",
+                "event_type": "Competition_Placement",
+                "normalized_event_type": "Competition_Placement",
+                "trigger": "placed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Germany"
+                    },
+                    {
+                        "role": "rank",
+                        "argument": "fifth"
+                    },
+                    {
+                        "role": "medals",
+                        "argument": "8 gold, 10 silver and 8 bronze"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Germany placed fifth with 8 gold, 10 silver and 8 bronze",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "placed",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Germany"
+                    },
+                    {
+                        "role": "Position",
+                        "argument": "fifth"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "The Games, which opened on February 6",
+                "event_type": "Event_Opening",
+                "normalized_event_type": "Event_Opening",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "event",
+                        "argument": "The Games"
+                    },
+                    {
+                        "role": "date",
+                        "argument": "February 6"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "The Games, which opened on February 6, brought together 2,871 athletes from 92 countries",
+                "event_type": "Gathering",
+                "normalized_event_type": "Gathering",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "Event",
+                        "argument": "The Games"
+                    },
+                    {
+                        "role": "Date",
+                        "argument": "February 6"
+                    },
+                    {
+                        "role": "Participants",
+                        "argument": "2,871 athletes from 92 countries"
+                    }
+                ]
+            },
+            "similarity": 0.6475,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

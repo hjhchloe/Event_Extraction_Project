@@ -1,0 +1,294 @@
+{
+    "summary": {
+        "gold_events": 17,
+        "pred_events": 7,
+        "gold_arguments": 41,
+        "pred_arguments": 18
+    },
+    "trigger_identification": {
+        "precision": 0.7143,
+        "recall": 0.2941,
+        "f1": 0.4167
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.5556,
+        "recall": 0.2439,
+        "f1": 0.339
+    },
+    "argument_classification": {
+        "precision": 0.5,
+        "recall": 0.2195,
+        "f1": 0.3051
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "The Team USA three-time Olympic medallist clipped a gate",
+                "event_type": "Accident",
+                "normalized_event_type": "Incident",
+                "trigger": "clipped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The Team USA three-time Olympic medallist"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "a gate"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "The Team USA three-time Olympic medallist clipped a gate and fell to the ground in pain, in what could be the last race of her legendary career.",
+                "event_type": "accident",
+                "normalized_event_type": "accident",
+                "trigger": "clipped",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "Team USA three-time Olympic medallist"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "ground"
+                    }
+                ]
+            },
+            "similarity": 0.776,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "fell to the ground in pain",
+                "event_type": "Injury",
+                "normalized_event_type": "Incident",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The Team USA three-time Olympic medallist"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "the ground"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "The three-time Olympic medallist screamed in pain as she fell to the ground after clipping a gate on a right-hand turn just seconds into her run.",
+                "event_type": "accident",
+                "normalized_event_type": "accident",
+                "trigger": "clipping",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "three-time Olympic medallist"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "ground"
+                    }
+                ]
+            },
+            "similarity": 0.6427,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "The crowd fell silent for a full minute",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "fell silent",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The crowd"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "for a full minute"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "The crowd fell silent for a full minute and her coach Aksel Lund Svindal looked on very concerned.",
+                "event_type": "reaction",
+                "normalized_event_type": "reaction",
+                "trigger": "fell silent",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "crowd"
+                    },
+                    {
+                        "role": "observer",
+                        "argument": "Aksel Lund Svindal"
+                    }
+                ]
+            },
+            "similarity": 0.6692,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "The race was halted for more than 10 minutes",
+                "event_type": "CompetitionSuspension",
+                "normalized_event_type": "CompetitionSuspension",
+                "trigger": "halted",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "The race"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "for more than 10 minutes"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "The race was halted for more than 10 minutes before Vonn was airlifted away to Codivilla Hospital in Cortina for medical evaluation.",
+                "event_type": "interruption",
+                "normalized_event_type": "interruption",
+                "trigger": "halted",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "race"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Codivilla Hospital"
+                    },
+                    {
+                        "role": "patient",
+                        "argument": "Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.703,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "The U.S. Alpine skiing legend suffered a ruptured ACL, bone bruising, and meniscal damage on 30 January",
+                "event_type": "Injury",
+                "normalized_event_type": "Incident",
+                "trigger": "suffered",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "The U.S. Alpine skiing legend"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "a ruptured ACL, bone bruising, and meniscal damage"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "30 January"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "The U.S. Alpine skiing legend suffered a ruptured ACL, bone bruising, and meniscal damage on 30 January in the later-cancelled Crans-Montana downhill",
+                "event_type": "injury",
+                "normalized_event_type": "injury",
+                "trigger": "suffered",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "U.S. Alpine skiing legend"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Crans-Montana"
+                    },
+                    {
+                        "role": "injury",
+                        "argument": "ruptured ACL, bone bruising, and meniscal damage"
+                    }
+                ]
+            },
+            "similarity": 0.9254,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "having won gold in downhill and bronze in super-G at Vancouver 2010",
+                "event_type": "CompetitionResult",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold in downhill and bronze in super-G"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Vancouver 2010"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Vonn is one of the most successful Alpine skiers in history, having won gold in downhill and bronze in super-G at Vancouver 2010, as well as bronze in downhill at PyeongChang 2018.",
+                "event_type": "achievement",
+                "normalized_event_type": "achievement",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Vancouver 2010"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "PyeongChang 2018"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "gold in downhill and bronze in super-G"
+                    }
+                ]
+            },
+            "similarity": 0.6472,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        }
+    ]
+}

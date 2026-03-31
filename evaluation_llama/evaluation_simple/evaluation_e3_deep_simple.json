@@ -1,0 +1,518 @@
+{
+    "summary": {
+        "gold_events": 21,
+        "pred_events": 12,
+        "gold_arguments": 60,
+        "pred_arguments": 29
+    },
+    "trigger_identification": {
+        "precision": 0.75,
+        "recall": 0.4286,
+        "f1": 0.5455
+    },
+    "trigger_classification": {
+        "precision": 0.0833,
+        "recall": 0.0476,
+        "f1": 0.0606
+    },
+    "argument_identification": {
+        "precision": 0.6552,
+        "recall": 0.3167,
+        "f1": 0.427
+    },
+    "argument_classification": {
+        "precision": 0.1034,
+        "recall": 0.05,
+        "f1": 0.0674
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada in the gold medal game",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Team USA"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Team Canada"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:41 into overtime"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Santaguilia Arena"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2-1 win"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada",
+                "event_type": "Goal",
+                "normalized_event_type": "Goal",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Scorer",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Team",
+                        "argument": "Team USA"
+                    },
+                    {
+                        "role": "Opponent",
+                        "argument": "Team Canada"
+                    }
+                ]
+            },
+            "similarity": 0.9845,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "The goal, off a pass from Zach Werenski during 3-on-3 play",
+                "event_type": "Sports_Pass",
+                "normalized_event_type": "Sports_Pass",
+                "trigger": "pass",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Zach Werenski"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Jack Hughes"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The goal, off a pass from Zach Werenski during 3-on-3 play, slid through the five-hole of Canada goalie Jordan Binnington",
+                "event_type": "Pass",
+                "normalized_event_type": "Pass",
+                "trigger": "pass",
+                "arguments": [
+                    {
+                        "role": "Passer",
+                        "argument": "Zach Werenski"
+                    },
+                    {
+                        "role": "Recipient",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Goalie",
+                        "argument": "Jordan Binnington"
+                    }
+                ]
+            },
+            "similarity": 0.7464,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "he was high-sticked earlier in the game",
+                "event_type": "Sports_Foul",
+                "normalized_event_type": "Sports_Foul",
+                "trigger": "high-sticked",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "earlier in the game"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Hughes was high-sticked earlier in the game",
+                "event_type": "Penalty",
+                "normalized_event_type": "Penalty",
+                "trigger": "high-sticked",
+                "arguments": [
+                    {
+                        "role": "Player",
+                        "argument": "Jack Hughes"
+                    }
+                ]
+            },
+            "similarity": 0.7073,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "Pandemonium broke out after the Hughes’ goal",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "broke out",
+                "arguments": [
+                    {
+                        "role": "Cause",
+                        "argument": "Hughes’ goal"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Pandemonium broke out after the Hughes’ goal",
+                "event_type": "Celebration",
+                "normalized_event_type": "Reaction",
+                "trigger": "broke out",
+                "arguments": [
+                    {
+                        "role": "Team",
+                        "argument": "Team USA"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Connor Hellebuyck made 41 saves",
+                "event_type": "Sports_Defense",
+                "normalized_event_type": "Sports_Defense",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "41 saves"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Connor Hellebuyck made 41 saves, many of the highlight-reel variety",
+                "event_type": "Saves",
+                "normalized_event_type": "Saves",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "Goalie",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Number of saves",
+                        "argument": "41"
+                    }
+                ]
+            },
+            "similarity": 0.8834,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "As he shot, Hellebuyck stretched his stick behind him and the puck struck it",
+                "event_type": "Sports_Shot",
+                "normalized_event_type": "Sports_Shot",
+                "trigger": "shot",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Devon Toews"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "puck"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "Hellebuyck helped force overtime by stopping all 14 shots he faced in the third",
+                "event_type": "Saves",
+                "normalized_event_type": "Saves",
+                "trigger": "stopping",
+                "arguments": [
+                    {
+                        "role": "Goalie",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Number of saves",
+                        "argument": "14"
+                    },
+                    {
+                        "role": "Period",
+                        "argument": "third period"
+                    }
+                ]
+            },
+            "similarity": 0.6095,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Cale Makar scored",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Cale Makar"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Canada"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Cale Makar scored, and Binnington made 26 saves for Canada",
+                "event_type": "Goal",
+                "normalized_event_type": "Goal",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Scorer",
+                        "argument": "Cale Makar"
+                    },
+                    {
+                        "role": "Team",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Goalie",
+                        "argument": "Jordan Binnington"
+                    }
+                ]
+            },
+            "similarity": 0.7232,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Makar tied at 1-1 at 18:16 of the second period with a snap shot",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "tied",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Cale Makar"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "18:16 of the second period"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "1-1 tie"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Makar tied at 1-1 at 18:16 of the second period with a snap shot",
+                "event_type": "Goal",
+                "normalized_event_type": "Goal",
+                "trigger": "tied",
+                "arguments": [
+                    {
+                        "role": "Scorer",
+                        "argument": "Cale Makar"
+                    },
+                    {
+                        "role": "Team",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Period",
+                        "argument": "second period"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "Connor McDavid had a breakaway in the first period but was denied by Hellebuyck",
+                "event_type": "Sports_Save",
+                "normalized_event_type": "Sports_Save",
+                "trigger": "denied",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Connor McDavid"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "first period"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Connor McDavid had a breakaway in the first period but was denied by Hellebuyck",
+                "event_type": "Breakaway",
+                "normalized_event_type": "Breakaway",
+                "trigger": "had",
+                "arguments": [
+                    {
+                        "role": "Player",
+                        "argument": "Connor McDavid"
+                    },
+                    {
+                        "role": "Goalie",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Period",
+                        "argument": "first period"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "Nathan MacKinnon had a Grade-A chance at an open net in the third but missed",
+                "event_type": "Sports_Miss",
+                "normalized_event_type": "Sports_Miss",
+                "trigger": "missed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Nathan MacKinnon"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "third period"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Nathan MacKinnon had a Grade-A chance at an open net in the third but missed",
+                "event_type": "Missed chance",
+                "normalized_event_type": "Missed chance",
+                "trigger": "missed",
+                "arguments": [
+                    {
+                        "role": "Player",
+                        "argument": "Nathan MacKinnon"
+                    },
+                    {
+                        "role": "Period",
+                        "argument": "third period"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E20",
+                "event_mention": "Matt Boldy gave the U.S. a 1-0 lead at 6:00 of the first",
+                "event_type": "Sports_Scoring",
+                "normalized_event_type": "Sports_Scoring",
+                "trigger": "gave",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Matt Boldy"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "U.S."
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "1-0 lead"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "6:00 of the first"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Matt Boldy gave the U.S. a 1-0 lead at 6:00 of the first, flipping the puck between Makar and Toews",
+                "event_type": "Goal",
+                "normalized_event_type": "Goal",
+                "trigger": "gave",
+                "arguments": [
+                    {
+                        "role": "Scorer",
+                        "argument": "Matt Boldy"
+                    },
+                    {
+                        "role": "Team",
+                        "argument": "U.S."
+                    },
+                    {
+                        "role": "Period",
+                        "argument": "first period"
+                    }
+                ]
+            },
+            "similarity": 0.8071,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

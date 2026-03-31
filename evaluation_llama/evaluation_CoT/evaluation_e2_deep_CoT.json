@@ -1,0 +1,29 @@
+{
+    "summary": {
+        "gold_events": 24,
+        "pred_events": 19,
+        "gold_arguments": 56,
+        "pred_arguments": 38
+    },
+    "trigger_identification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "matched_events": []
+}

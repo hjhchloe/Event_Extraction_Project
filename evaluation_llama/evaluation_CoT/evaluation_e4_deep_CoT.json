@@ -1,0 +1,602 @@
+{
+    "summary": {
+        "gold_events": 30,
+        "pred_events": 19,
+        "gold_arguments": 64,
+        "pred_arguments": 42
+    },
+    "trigger_identification": {
+        "precision": 0.5263,
+        "recall": 0.3333,
+        "f1": 0.4082
+    },
+    "trigger_classification": {
+        "precision": 0.0526,
+        "recall": 0.0333,
+        "f1": 0.0408
+    },
+    "argument_identification": {
+        "precision": 0.4524,
+        "recall": 0.2969,
+        "f1": 0.3585
+    },
+    "argument_classification": {
+        "precision": 0.2381,
+        "recall": 0.1562,
+        "f1": 0.1887
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Ilia Malinin arrived at his first Olympics",
+                "event_type": "Arrival",
+                "normalized_event_type": "Status",
+                "trigger": "arrived",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "his first Olympics"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Ilia Malinin arrived at his first Olympics as the no-brainer winner of the men’s figure-skating event",
+                "event_type": "Arrival",
+                "normalized_event_type": "Status",
+                "trigger": "arrived",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Olympics"
+                    },
+                    {
+                        "role": "Location",
+                        "argument": "Olympics"
+                    }
+                ]
+            },
+            "similarity": 0.8256,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Malinin faltered in the short program of the team event",
+                "event_type": "Performance_Error",
+                "normalized_event_type": "Performance_Error",
+                "trigger": "faltered",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "short program of the team event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Malinin showed some fallibility and faltered in the short program of the team event",
+                "event_type": "Faltering",
+                "normalized_event_type": "Faltering",
+                "trigger": "faltered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "short program of the team event"
+                    }
+                ]
+            },
+            "similarity": 0.9468,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "finishing behind Japan’s Yuma Kagiyama",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "finishing",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Yuma Kagiyama"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "He finished in first, nearly six points ahead of Kagiyama",
+                "event_type": "Finishing",
+                "normalized_event_type": "Competition",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "individual men’s event"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first place"
+                    }
+                ]
+            },
+            "similarity": 0.6482,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "He won the free program segment in the team event",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "free program segment in the team event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "He won the free program segment in the team event",
+                "event_type": "Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "free program segment in the team event"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "He landed a clean quad flip to start the program",
+                "event_type": "Athletic_Action",
+                "normalized_event_type": "Athletic_Action",
+                "trigger": "landed",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "He"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "a clean quad flip"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "He landed a clean quad flip to start the program",
+                "event_type": "Landing",
+                "normalized_event_type": "Landing",
+                "trigger": "landed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "quad flip"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "he popped it in the air and only received points for a single axel",
+                "event_type": "Athletic_Error",
+                "normalized_event_type": "Athletic_Error",
+                "trigger": "popped",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "he"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "a single axel"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "He popped it in the air and only received points for a single axel",
+                "event_type": "Popping",
+                "normalized_event_type": "Popping",
+                "trigger": "popped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "quad axel"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "then faltered on the planned quad loop",
+                "event_type": "Performance_Error",
+                "normalized_event_type": "Performance_Error",
+                "trigger": "faltered",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "he"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "planned quad loop"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "He faltered on the planned quad loop and opened up again in the air",
+                "event_type": "Faltering",
+                "normalized_event_type": "Faltering",
+                "trigger": "faltered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "quad loop"
+                    }
+                ]
+            },
+            "similarity": 0.8221,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "he fell on that jump",
+                "event_type": "Athletic_Fall",
+                "normalized_event_type": "Athletic_Fall",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "he"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "He fell on two jumps",
+                "event_type": "Falling",
+                "normalized_event_type": "Falling",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "jumps"
+                    }
+                ]
+            },
+            "similarity": 0.8404,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "the surprise Olympic men’s champion is Mikhail Shaidorov from Kazakhstan",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "champion",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Mikhail Shaidorov"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Olympic men’s event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Mikhail Shaidorov from Kazakhstan, who landed five quad jumps to earn the gold",
+                "event_type": "Earning",
+                "normalized_event_type": "Earning",
+                "trigger": "earn",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Mikhail Shaidorov"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Olympic men’s event"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold"
+                    }
+                ]
+            },
+            "similarity": 0.6117,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "Malinin congratulated Shaidorov",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "congratulated",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Shaidorov"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Malinin congratulated Shaidorov and told him, “You deserve it”",
+                "event_type": "Congratulating",
+                "normalized_event_type": "Congratulating",
+                "trigger": "congratulated",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Recipient",
+                        "argument": "Mikhail Shaidorov"
+                    }
+                ]
+            },
+            "similarity": 0.8428,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E22",
+                "event_mention": "Team USA selected him to skate both portions of the men’s program",
+                "event_type": "Selection",
+                "normalized_event_type": "Status",
+                "trigger": "selected",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Team USA"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E15",
+                "event_mention": "Team USA selected him to skate both portions of the men’s program in that event",
+                "event_type": "Skating",
+                "normalized_event_type": "Skating",
+                "trigger": "skate",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "men’s program"
+                    }
+                ]
+            },
+            "similarity": 0.9687,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E24",
+                "event_mention": "earning Malinin and his teammates gold",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "earning",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin and his teammates"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E16",
+                "event_mention": "earning Malinin, and his teammates, gold",
+                "event_type": "Earning",
+                "normalized_event_type": "Earning",
+                "trigger": "earning",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "team event"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold"
+                    }
+                ]
+            },
+            "similarity": 0.9892,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E25",
+                "event_mention": "Nathan Chen faltered in the short program of the men’s event",
+                "event_type": "Performance_Error",
+                "normalized_event_type": "Performance_Error",
+                "trigger": "faltered",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Nathan Chen"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "short program of the men’s event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E17",
+                "event_mention": "Nathan Chen faltered in the short program of the men’s event and finished 17th",
+                "event_type": "Faltering",
+                "normalized_event_type": "Faltering",
+                "trigger": "faltered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Nathan Chen"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "short program of the men’s event"
+                    }
+                ]
+            },
+            "similarity": 0.9542,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E26",
+                "event_mention": "Chen completed five quad jumps",
+                "event_type": "Athletic_Action",
+                "normalized_event_type": "Athletic_Action",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Chen"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "five quad jumps"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E18",
+                "event_mention": "Chen was able to recover in the free program, completing five quad jumps",
+                "event_type": "Recovering",
+                "normalized_event_type": "Recovering",
+                "trigger": "recover",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Nathan Chen"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "free program"
+                    }
+                ]
+            },
+            "similarity": 0.8484,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}

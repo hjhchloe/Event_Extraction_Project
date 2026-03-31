@@ -1,0 +1,326 @@
+{
+    "summary": {
+        "gold_events": 22,
+        "pred_events": 15,
+        "gold_arguments": 58,
+        "pred_arguments": 30
+    },
+    "trigger_identification": {
+        "precision": 0.4,
+        "recall": 0.2727,
+        "f1": 0.3243
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.4,
+        "recall": 0.2069,
+        "f1": 0.2727
+    },
+    "argument_classification": {
+        "precision": 0.2,
+        "recall": 0.1034,
+        "f1": 0.1364
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "the Olympic flame was extinguished in the Verona Arena in February 2026",
+                "event_type": "Ceremony",
+                "normalized_event_type": "Ceremony",
+                "trigger": "extinguished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Olympic flame"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Verona Arena"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "February 2026"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "the Olympic flame was extinguished in the Verona Arena in February 2026",
+                "event_type": "ceremony",
+                "normalized_event_type": "ceremony",
+                "trigger": "extinguished",
+                "arguments": [
+                    {
+                        "role": "location",
+                        "argument": "Verona Arena"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "February 2026"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Norway had once again outclassed the world’s sporting superpowers",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "outclassed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "world’s sporting superpowers"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Norway had once again outclassed the world’s sporting superpowers on the largest stage of winter athletics",
+                "event_type": "competition",
+                "normalized_event_type": "competition",
+                "trigger": "outclassed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "opponent",
+                        "argument": "world’s sporting superpowers"
+                    }
+                ]
+            },
+            "similarity": 0.8436,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Johannes Høsflot Klæbo secured six gold medals in a single Games",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "secured",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "six gold medals"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "a single Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Johannes Høsflot Klæbo secured six gold medals in a single Games to bring his career total to 11",
+                "event_type": "achievement",
+                "normalized_event_type": "achievement",
+                "trigger": "secured",
+                "arguments": [
+                    {
+                        "role": "athlete",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "six gold medals"
+                    }
+                ]
+            },
+            "similarity": 0.973,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Norway’s 18 gold medals represent the highest total ever achieved by any nation at a single Winter Olympics",
+                "event_type": "Record",
+                "normalized_event_type": "Record",
+                "trigger": "achieved",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "18 gold medals"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Norway claimed 21 medals in cross-country skiing, 17 in biathlon, and four in speed skating",
+                "event_type": "competition",
+                "normalized_event_type": "competition",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "21 medals in cross-country skiing, 17 in biathlon, and four in speed skating"
+                    }
+                ]
+            },
+            "similarity": 0.7114,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Norway awards the Egebergs Ærespris",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "awards",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Egebergs Ærespris"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Norway awards the Egebergs Ærespris, its highest award for athletes who has made outstanding achievements in one sport and has also excelled in others",
+                "event_type": "award ceremony",
+                "normalized_event_type": "award ceremony",
+                "trigger": "awards",
+                "arguments": [
+                    {
+                        "role": "award",
+                        "argument": "Egebergs Ærespris"
+                    },
+                    {
+                        "role": "recipient",
+                        "argument": "athletes"
+                    }
+                ]
+            },
+            "similarity": 0.8026,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E20",
+                "event_mention": "Norsk Tipping allocates 50–60% of its annual revenue to sports infrastructure",
+                "event_type": "FundingAllocation",
+                "normalized_event_type": "FundingAllocation",
+                "trigger": "allocates",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norsk Tipping"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "sports infrastructure"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "50–60% of its annual revenue"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "Norsk Tipping, the Norwegian state gambling company, allocates 50–60% of its annual revenue to sports infrastructure",
+                "event_type": "funding",
+                "normalized_event_type": "funding",
+                "trigger": "allocates",
+                "arguments": [
+                    {
+                        "role": "funder",
+                        "argument": "Norsk Tipping"
+                    },
+                    {
+                        "role": "amount",
+                        "argument": "50–60% of its annual revenue"
+                    }
+                ]
+            },
+            "similarity": 0.8639,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E22",
+                "event_mention": "she is completing a master’s degree in data science at NMBU in Norway",
+                "event_type": "Education",
+                "normalized_event_type": "Education",
+                "trigger": "completing",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ragne Wiklund"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "master’s degree in data science"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "NMBU in Norway"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E15",
+                "event_mention": "Wiklund is completing a master’s degree in data science at NMBU in Norway",
+                "event_type": "education",
+                "normalized_event_type": "education",
+                "trigger": "completing",
+                "arguments": [
+                    {
+                        "role": "student",
+                        "argument": "Wiklund"
+                    },
+                    {
+                        "role": "institution",
+                        "argument": "NMBU in Norway"
+                    }
+                ]
+            },
+            "similarity": 0.7405,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

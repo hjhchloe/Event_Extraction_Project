@@ -1,0 +1,614 @@
+{
+    "summary": {
+        "gold_events": 25,
+        "pred_events": 16,
+        "gold_arguments": 55,
+        "pred_arguments": 31
+    },
+    "trigger_identification": {
+        "precision": 0.6875,
+        "recall": 0.44,
+        "f1": 0.5366
+    },
+    "trigger_classification": {
+        "precision": 0.1875,
+        "recall": 0.12,
+        "f1": 0.1463
+    },
+    "argument_identification": {
+        "precision": 0.7419,
+        "recall": 0.4182,
+        "f1": 0.5349
+    },
+    "argument_classification": {
+        "precision": 0.5161,
+        "recall": 0.2909,
+        "f1": 0.3721
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "awarded to her for a 5th-place finish in a race at Afton Alps in Washington County, Minnesota, on Feb. 22, 1992",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "awarded",
+                "arguments": [
+                    {
+                        "role": "Recipient",
+                        "argument": "Lindsey Vonn"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "5th-place finish"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Afton Alps in Washington County, Minnesota"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Feb. 22, 1992"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Lindsey Vonn was awarded her first trophy for a 5th-place finish in a race at Afton Alps in Washington County, Minnesota, on Feb. 22, 1992.",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "awarded",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lindsey Vonn"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Feb. 22, 1992"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Afton Alps in Washington County, Minnesota"
+                    }
+                ]
+            },
+            "similarity": 0.7833,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Sunday morning in Cortina d'Ampezzo ... Vonn stood coiled in the start house",
+                "event_type": "Positioning",
+                "normalized_event_type": "Positioning",
+                "trigger": "stood",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "start house at the top of the Olympia delle Tofane"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Sunday morning"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Vonn stood coiled in the start house at the top of the Olympia delle Tofane, one of her favorite places on Earth.",
+                "event_type": "Preparation",
+                "normalized_event_type": "Status",
+                "trigger": "stood",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "the start house at the top of the Olympia delle Tofane"
+                    }
+                ]
+            },
+            "similarity": 0.628,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Vonn pushed out, skated five times to create speed and then dropped into a tuck",
+                "event_type": "SportsAction",
+                "normalized_event_type": "SportsAction",
+                "trigger": "pushed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Vonn pushed out, skated five times to create speed and then dropped into a tuck, for more speed.",
+                "event_type": "Racing",
+                "normalized_event_type": "Racing",
+                "trigger": "pushed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.9789,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "she clipped the fourth right-sided gate on the course just as she went airborne",
+                "event_type": "Collision",
+                "normalized_event_type": "Collision",
+                "trigger": "clipped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Object",
+                        "argument": "the fourth right-sided gate on the course"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "She clipped the fourth right-sided gate on the course just as she went airborne, was spun sideways in the air, landed violently with her skis perpendicular to the fall line, bounced hard on her head and shoulders and came to stop in the middle of the course, skis splayed awkwardly.",
+                "event_type": "Crash",
+                "normalized_event_type": "Crash",
+                "trigger": "clipped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.7785,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "Ten minutes later a yellow rescue helicopter hovered overhead",
+                "event_type": "Rescue",
+                "normalized_event_type": "Incident",
+                "trigger": "hovered",
+                "arguments": [
+                    {
+                        "role": "Vehicle",
+                        "argument": "yellow rescue helicopter"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Ten minutes later"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "A yellow rescue helicopter hovered overhead.",
+                "event_type": "Rescue",
+                "normalized_event_type": "Incident",
+                "trigger": "hovered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "A yellow rescue helicopter"
+                    }
+                ]
+            },
+            "similarity": 0.8682,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E13",
+                "event_mention": "Vonn was loaded onto an orange sled",
+                "event_type": "RescueTransport",
+                "normalized_event_type": "RescueTransport",
+                "trigger": "loaded",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Vehicle",
+                        "argument": "orange sled"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Vonn was loaded onto an orange sled, tethered to the chopper and lifted into the bluebird sky, disappearing behind the towering Dolomites.",
+                "event_type": "Evacuation",
+                "normalized_event_type": "Incident",
+                "trigger": "loaded",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.6611,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E15",
+                "event_mention": "she ruptured her ACL",
+                "event_type": "Injury",
+                "normalized_event_type": "Incident",
+                "trigger": "ruptured",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "BodyPart",
+                        "argument": "ACL"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "She crashed in Crans-Montana, and ruptured her left ACL while pushing the line high on a tricky course.",
+                "event_type": "Crash",
+                "normalized_event_type": "Crash",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Crans-Montana"
+                    },
+                    {
+                        "role": "Body Part",
+                        "argument": "her left ACL"
+                    }
+                ]
+            },
+            "similarity": 0.7477,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "she crashed at the World Championships in St. Anton, Austria",
+                "event_type": "Accident",
+                "normalized_event_type": "Incident",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "World Championships in St. Anton, Austria"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Thirteen years ago"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Thirteen years ago she crashed at the World Championships in St. Anton, Austria, 152 miles northwest of Cortina, on another of the many mountains where Vonn made her living, and her life.",
+                "event_type": "Crash",
+                "normalized_event_type": "Crash",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Thirteen years ago"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "the World Championships in St. Anton, Austria"
+                    }
+                ]
+            },
+            "similarity": 0.7064,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "She blew out her right knee in that crash",
+                "event_type": "Injury",
+                "normalized_event_type": "Incident",
+                "trigger": "blew out",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "BodyPart",
+                        "argument": "right knee"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "She blew out her right knee in that crash, the one that was ultimately partially replaced, and was airlifted that day as well.",
+                "event_type": "Injury",
+                "normalized_event_type": "Incident",
+                "trigger": "blew",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Body Part",
+                        "argument": "her right knee"
+                    }
+                ]
+            },
+            "similarity": 0.8418,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "Johnson would eventually win the gold medal",
+                "event_type": "CompetitionWin",
+                "normalized_event_type": "CompetitionWin",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "Winner",
+                        "argument": "Breezy Johnson"
+                    },
+                    {
+                        "role": "Prize",
+                        "argument": "gold medal"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Johnson would eventually win the gold medal on the same course where her knee was wrecked four years ago, a performance deserving of telling and celebration, but which would be unfairly overwhelmed by Vonn's story.",
+                "event_type": "Win",
+                "normalized_event_type": "Win",
+                "trigger": "win",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johnson"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "the gold medal"
+                    }
+                ]
+            },
+            "similarity": 0.7918,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "Vonn underwent partial right knee replacement surgery",
+                "event_type": "MedicalProcedure",
+                "normalized_event_type": "MedicalProcedure",
+                "trigger": "underwent",
+                "arguments": [
+                    {
+                        "role": "Patient",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Procedure",
+                        "argument": "partial right knee replacement surgery"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Two years ago"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Vonn underwent partial right knee replacement surgery in order to live and ski — not ski race — painlessly.",
+                "event_type": "Surgery",
+                "normalized_event_type": "Surgery",
+                "trigger": "underwent",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Body Part",
+                        "argument": "her right knee"
+                    }
+                ]
+            },
+            "similarity": 0.8265,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E22",
+                "event_mention": "She made a podium last year at the World Cup finals in Sun Valley, Idaho",
+                "event_type": "CompetitionResult",
+                "normalized_event_type": "Competition",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "podium"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "World Cup finals in Sun Valley, Idaho"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "last year"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "She made a podium last year at the World Cup finals in Sun Valley, Idaho, and this year won two World Cup downhills, in St. Moritz and Zauchensee, Austria.",
+                "event_type": "Win",
+                "normalized_event_type": "Win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "two World Cup downhills"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "St. Moritz and Zauchensee, Austria"
+                    }
+                ]
+            },
+            "similarity": 0.8229,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E24",
+                "event_mention": "Vonn announced on Feb. 3 that she would put a brace on her newly damaged left knee and race with it",
+                "event_type": "Announcement",
+                "normalized_event_type": "Communication",
+                "trigger": "announced",
+                "arguments": [
+                    {
+                        "role": "Speaker",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Feb. 3"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E13",
+                "event_mention": "Vonn announced on Feb. 3 that she would put a brace on her newly damaged left knee and race with it.",
+                "event_type": "Announcement",
+                "normalized_event_type": "Communication",
+                "trigger": "announced",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Feb. 3"
+                    },
+                    {
+                        "role": "Body Part",
+                        "argument": "her left knee"
+                    }
+                ]
+            },
+            "similarity": 0.9854,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E25",
+                "event_mention": "Vonn completed two training runs",
+                "event_type": "SportsAction",
+                "normalized_event_type": "SportsAction",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "two training runs"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "Vonn completed two training runs; if there was doubt about her claim to a starting spot — and there should not have been — those runs erased it.",
+                "event_type": "Training",
+                "normalized_event_type": "Training",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.8262,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}

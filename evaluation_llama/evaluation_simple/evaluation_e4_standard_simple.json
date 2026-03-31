@@ -1,0 +1,630 @@
+{
+    "summary": {
+        "gold_events": 28,
+        "pred_events": 17,
+        "gold_arguments": 57,
+        "pred_arguments": 23
+    },
+    "trigger_identification": {
+        "precision": 0.6471,
+        "recall": 0.3929,
+        "f1": 0.4889
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.7826,
+        "recall": 0.3158,
+        "f1": 0.45
+    },
+    "argument_classification": {
+        "precision": 0.1304,
+        "recall": 0.0526,
+        "f1": 0.075
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "American figure skater Ilia Malinin was the favorite to win going into the 2026 Milano-Cortina Winter Games",
+                "event_type": "Expectation",
+                "normalized_event_type": "Status",
+                "trigger": "favorite",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "2026 Milano-Cortina Winter Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "American figure skater Ilia Malinin was the favorite to win going into the 2026 Milano-Cortina Winter Games, having been the 2024 and 2025 world champion.",
+                "event_type": "Becoming favorite",
+                "normalized_event_type": "Becoming favorite",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "2026 Milano-Cortina Winter Games"
+                    }
+                ]
+            },
+            "similarity": 0.9675,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "He became the top prospect for the gold medal at the Winter Olympics after an impressive performance in the team event",
+                "event_type": "StatusChange",
+                "normalized_event_type": "StatusChange",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Winter Olympics"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "He became the top prospect for the gold medal at the Winter Olympics after an impressive performance in the team event, where he helped score 19 points for Team USA.",
+                "event_type": "Becoming top prospect",
+                "normalized_event_type": "Becoming top prospect",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Winter Olympics"
+                    },
+                    {
+                        "role": "Team",
+                        "argument": "Team USA"
+                    }
+                ]
+            },
+            "similarity": 0.8208,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Malinin opened his short program in commanding fashion",
+                "event_type": "PerformanceStart",
+                "normalized_event_type": "PerformanceStart",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "short program"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Malinin opened his short program in commanding fashion, positioning himself for a run at the top of the podium.",
+                "event_type": "Opening short program",
+                "normalized_event_type": "Opening short program",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.836,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "dropping him to an eighth-place finish",
+                "event_type": "Ranking",
+                "normalized_event_type": "Ranking",
+                "trigger": "dropping",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "eighth-place finish"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "However, a high-risk free skate unraveled when he fell twice, dropping him to an eighth-place finish and ending his individual medal hopes.",
+                "event_type": "Unraveling of free skate",
+                "normalized_event_type": "Unraveling of free skate",
+                "trigger": "unraveled",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.6084,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Malinin delivered an impressive performance as he scored 108.16 points to sit in first place",
+                "event_type": "Scoring",
+                "normalized_event_type": "Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "108.16 points"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "The short program took place on Tuesday, Feb. 10, where Malinin delivered an impressive performance as he scored 108.16 points to sit in first place.",
+                "event_type": "Short program",
+                "normalized_event_type": "Short program",
+                "trigger": "took place",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Date",
+                        "argument": "Tuesday, Feb. 10"
+                    }
+                ]
+            },
+            "similarity": 0.7492,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "on Feb. 13, he struggled in the free skate",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "struggled",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Feb. 13"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "free skate"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "However, just days later on Feb. 13, he struggled in the free skate, placing 15th after earning 156.33 points.",
+                "event_type": "Struggling in free skate",
+                "normalized_event_type": "Struggling in free skate",
+                "trigger": "struggled",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Date",
+                        "argument": "Feb. 13"
+                    }
+                ]
+            },
+            "similarity": 0.8067,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Kazakhstan’s Mikhail Shaidorov won the free skate with 198.64 points",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Mikhail Shaidorov"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "free skate"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "198.64 points"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Kazakhstan’s Mikhail Shaidorov won the free skate with 198.64 points and ultimately secured the top overall score in the men’s singles competition while Malinin’s combined total left him eighth overall.",
+                "event_type": "Winning free skate",
+                "normalized_event_type": "Winning free skate",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Mikhail Shaidorov"
+                    },
+                    {
+                        "role": "Competition",
+                        "argument": "men’s singles competition"
+                    }
+                ]
+            },
+            "similarity": 0.9539,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "he popped his quad-axel and completed a single instead",
+                "event_type": "TechnicalAction",
+                "normalized_event_type": "TechnicalAction",
+                "trigger": "popped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "quad-axel"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Gasps filled the air as he popped his quad-axel and completed a single instead.",
+                "event_type": "Popping quad-axel",
+                "normalized_event_type": "Popping quad-axel",
+                "trigger": "popped",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.8256,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "He briefly regained momentum with a quad lutz",
+                "event_type": "TechnicalAction",
+                "normalized_event_type": "TechnicalAction",
+                "trigger": "regained",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "quad lutz"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "He briefly regained momentum with a quad lutz, but the program continued to unravel.",
+                "event_type": "Regaining momentum",
+                "normalized_event_type": "Regaining momentum",
+                "trigger": "regained",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.8443,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E20",
+                "event_mention": "A planned quad loop was reduced to a double",
+                "event_type": "TechnicalChange",
+                "normalized_event_type": "TechnicalChange",
+                "trigger": "reduced",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "quad loop"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "double"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "A planned quad loop was reduced to a double, disrupting his technical base value.",
+                "event_type": "Reducing quad loop",
+                "normalized_event_type": "Reducing quad loop",
+                "trigger": "was reduced",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.8398,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "Malinin fell twice—first on another quad lutz attempt",
+                "event_type": "Fall",
+                "normalized_event_type": "Fall",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Later in the skate, Malinin fell twice—first on another quad lutz attempt and then again on a failed Salchow combination—bringing a difficult end to what had been expected to be a gold-medal performance.",
+                "event_type": "Falling",
+                "normalized_event_type": "Falling",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.8115,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E23",
+                "event_mention": "As Malinin struck his final pose",
+                "event_type": "PerformanceEnd",
+                "normalized_event_type": "PerformanceEnd",
+                "trigger": "struck",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "final pose"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "As Malinin struck his final pose, the cameras zoomed in on his anguished expression and his clear eagerness to step off the ice.",
+                "event_type": "Striking final pose",
+                "normalized_event_type": "Striking final pose",
+                "trigger": "struck",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.7021,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E25",
+                "event_mention": "he dropped his face into his hands",
+                "event_type": "EmotionalReaction",
+                "normalized_event_type": "EmotionalReaction",
+                "trigger": "dropped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E13",
+                "event_mention": "The weight of the performance seemed to hit him all at once; after acknowledging the crowd, his composure gave way and he dropped his face into his hands, processing a routine that had slipped far from expectations.",
+                "event_type": "Losing composure",
+                "normalized_event_type": "Losing composure",
+                "trigger": "gave way",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.6003,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E26",
+                "event_mention": "In a post-match interview, Malinin explained that he felt confident going on to the ice",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "explained",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "post-match interview"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "In a post-match interview, Malinin explained that he felt confident going on to the ice and that the program was going to go well.",
+                "event_type": "Explaining performance",
+                "normalized_event_type": "Explaining performance",
+                "trigger": "explained",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.9226,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E27",
+                "event_mention": "Malinin said, “I blew it.”",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "said",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E16",
+                "event_mention": "Reflecting on his thoughts when the music ended, Malinin said, “I blew it. That’s honestly the first thing that came to my mind: there’s no way that just happened.",
+                "event_type": "Reflecting on performance",
+                "normalized_event_type": "Reflecting on performance",
+                "trigger": "said",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.8003,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E28",
+                "event_mention": "Malinin received immense backlash for his performance on the ice",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "received",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "immense backlash"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E17",
+                "event_mention": "As the self-proclaimed “Quad God,” Malinin received immense backlash for his performance on the ice—a reminder of the pressure that comes with being center stage at the Olympics.",
+                "event_type": "Receiving backlash",
+                "normalized_event_type": "Receiving backlash",
+                "trigger": "received",
+                "arguments": [
+                    {
+                        "role": "Person",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.7992,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}

@@ -1,0 +1,649 @@
+{
+    "summary": {
+        "gold_events": 29,
+        "pred_events": 17,
+        "gold_arguments": 70,
+        "pred_arguments": 47
+    },
+    "trigger_identification": {
+        "precision": 0.7059,
+        "recall": 0.4138,
+        "f1": 0.5217
+    },
+    "trigger_classification": {
+        "precision": 0.1176,
+        "recall": 0.069,
+        "f1": 0.087
+    },
+    "argument_identification": {
+        "precision": 0.5957,
+        "recall": 0.4,
+        "f1": 0.4786
+    },
+    "argument_classification": {
+        "precision": 0.3617,
+        "recall": 0.2429,
+        "f1": 0.2906
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+                "event_type": "Competition_Start",
+                "normalized_event_type": "Competition_Start",
+                "trigger": "got off",
+                "arguments": [
+                    {
+                        "role": "Event",
+                        "argument": "speed skating competition"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "2026 Winter Olympics"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "got off to the hottest of starts",
+                "arguments": [
+                    {
+                        "role": "Event",
+                        "argument": "speed skating competition"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2026 Winter Olympics"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics.",
+                "event_type": "Win_Medal",
+                "normalized_event_type": "Win_Medal",
+                "trigger": "took home",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first speed skating gold"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "2026 Winter Olympics"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "took home",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "speed skating gold"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2026 Winter Olympics"
+                    }
+                ]
+            },
+            "similarity": 0.9771,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "skating the 3000m in Olympic record time",
+                "event_type": "Sport_Performance",
+                "normalized_event_type": "Sport_Performance",
+                "trigger": "skating",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "3000m"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "skating the 3000m in Olympic record time",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "skating",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "3000m"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "Olympic record time"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "shaving over two-and-a-half seconds off the mark Dutch legend Irene Schouten set four years earlier in Beijing.",
+                "event_type": "Record_Break",
+                "normalized_event_type": "Record_Break",
+                "trigger": "shaving",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Irene Schouten's mark"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Beijing"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "four years earlier"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "shaving over two-and-a-half seconds off the mark Dutch legend Irene Schouten set four years earlier",
+                "event_type": "Record",
+                "normalized_event_type": "Record",
+                "trigger": "shaving",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Previous Holder",
+                        "argument": "Irene Schouten"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "four years earlier"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "over two-and-a-half seconds"
+                    }
+                ]
+            },
+            "similarity": 0.9527,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world.",
+                "event_type": "Competition_Entry",
+                "normalized_event_type": "Competition_Entry",
+                "trigger": "entered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "competition"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world",
+                "event_type": "Ranking",
+                "normalized_event_type": "Ranking",
+                "trigger": "entered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "Rank",
+                        "argument": "9th"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "women's long distance skater"
+                    }
+                ]
+            },
+            "similarity": 0.9765,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "She spent part of the season battling a viral infection.",
+                "event_type": "Health_Condition",
+                "normalized_event_type": "Health_Condition",
+                "trigger": "battling",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Cause",
+                        "argument": "viral infection"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "She spent part of the season battling a viral infection",
+                "event_type": "Illness",
+                "normalized_event_type": "Illness",
+                "trigger": "battling",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "Cause",
+                        "argument": "viral infection"
+                    }
+                ]
+            },
+            "similarity": 0.9924,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "Her final time was over two seconds faster than 2nd-place finisher Ragne Wiklund's.",
+                "event_type": "Race_Result",
+                "normalized_event_type": "Race_Result",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Ragne Wiklund"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Her final time was over two seconds faster than 2nd-place finisher Ragne Wiklund's (3:56.540)",
+                "event_type": "Record",
+                "normalized_event_type": "Record",
+                "trigger": "was",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "over two seconds faster"
+                    },
+                    {
+                        "role": "Opponent",
+                        "argument": "Ragne Wiklund"
+                    }
+                ]
+            },
+            "similarity": 0.9679,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Maltais rounded out the podium in 3rd.",
+                "event_type": "Podium_Finish",
+                "normalized_event_type": "Podium_Finish",
+                "trigger": "rounded out",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Valarie Maltais"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "3rd place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Maltais rounded out the podium in 3rd",
+                "event_type": "Ranking",
+                "normalized_event_type": "Ranking",
+                "trigger": "rounded out",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Maltais"
+                    },
+                    {
+                        "role": "Rank",
+                        "argument": "3rd"
+                    }
+                ]
+            },
+            "similarity": 0.9867,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "Lollobrigida told the media after her race Saturday.",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Recipient",
+                        "argument": "the media"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Lollobrigida told the media after her race Saturday",
+                "event_type": "Statement",
+                "normalized_event_type": "Communication",
+                "trigger": "told",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday"
+                    }
+                ]
+            },
+            "similarity": 0.9895,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Lollobrigida became the first Italian woman to win Olympic speed skating gold.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first Italian woman to win Olympic speed skating gold"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "With the victory, Lollobrigida became the first Italian woman to win Olympic speed skating gold",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Olympic speed skating gold"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first Italian woman"
+                    }
+                ]
+            },
+            "similarity": 0.9751,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "In Beijing, Lollobrigida earned silver in the 300m and bronze in the mass start.",
+                "event_type": "Win_Medal",
+                "normalized_event_type": "Win_Medal",
+                "trigger": "earned",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver in the 300m"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Beijing"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "In Beijing, Lollobrigida earned silver in the 300m and bronze in the mass start",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "earned",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "300m and mass start"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver and bronze"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "In Beijing"
+                    }
+                ]
+            },
+            "similarity": 0.9903,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E15",
+                "event_mention": "After the Beijing Games, she took a break from the sport.",
+                "event_type": "Break_From_Sport",
+                "normalized_event_type": "Break_From_Sport",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "After the Beijing Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E15",
+                "event_mention": "After the Beijing Games, she took a break from the sport, missing the entire 2022-23 season",
+                "event_type": "Break",
+                "normalized_event_type": "Break",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Beijing Games"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2022-23 season"
+                    }
+                ]
+            },
+            "similarity": 0.8312,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "She returned to competition in September 2023.",
+                "event_type": "Return_To_Competition",
+                "normalized_event_type": "Return_To_Competition",
+                "trigger": "returned",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "September 2023"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E16",
+                "event_mention": "She returned to competition in September 2023, just four months after giving birth",
+                "event_type": "Return",
+                "normalized_event_type": "Status",
+                "trigger": "returned",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lollobrigida"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "September 2023"
+                    },
+                    {
+                        "role": "Cause",
+                        "argument": "giving birth"
+                    }
+                ]
+            },
+            "similarity": 0.8377,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "she claimed the 2025 world title in the 5000m.",
+                "event_type": "Win_Title",
+                "normalized_event_type": "Win_Title",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Francesca Lollobrigida"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2025 world title"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "5000m"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E17",
+                "event_mention": "Eighteen months later, she claimed the 2025 world title",
+                "event_type": "",
+                "normalized_event_type": "",
+                "trigger": "",
+                "arguments": []
+            },
+            "similarity": 0.8753,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        }
+    ]
+}

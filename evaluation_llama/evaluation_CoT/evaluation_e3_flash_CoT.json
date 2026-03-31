@@ -1,0 +1,154 @@
+{
+    "summary": {
+        "gold_events": 2,
+        "pred_events": 2,
+        "gold_arguments": 9,
+        "pred_arguments": 10
+    },
+    "trigger_identification": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.6,
+        "recall": 0.6667,
+        "f1": 0.6316
+    },
+    "argument_classification": {
+        "precision": 0.5,
+        "recall": 0.5556,
+        "f1": 0.5263
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "The United States captured its third Olympic men's ice hockey gold medal",
+                "event_type": "SportsVictory",
+                "normalized_event_type": "SportsVictory",
+                "trigger": "captured",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The United States"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Olympic men's ice hockey gold medal"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "third"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "The United States captured its third Olympic men's ice hockey gold medal, and first in 46 years, by edging Canada 2-1 in overtime in a thrilling final at the Milan-Cortina Winter Olympics on Sunday.",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "captured",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The United States"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Sunday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan-Cortina Winter Olympics"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2-1 in overtime"
+                    }
+                ]
+            },
+            "similarity": 0.873,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "by edging Canada 2-1 in overtime in a thrilling final at the Milan-Cortina Winter Olympics on Sunday",
+                "event_type": "SportsMatchResult",
+                "normalized_event_type": "SportsMatchResult",
+                "trigger": "edging",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The United States"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "2-1"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Sunday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "the Milan-Cortina Winter Olympics"
+                    },
+                    {
+                        "role": "Condition",
+                        "argument": "in overtime"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "edging Canada 2-1 in overtime in a thrilling final at the Milan-Cortina Winter Olympics on Sunday.",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "edging",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The United States"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Sunday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan-Cortina Winter Olympics"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2-1 in overtime"
+                    }
+                ]
+            },
+            "similarity": 0.8688,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 5
+        }
+    ]
+}

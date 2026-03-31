@@ -1,0 +1,430 @@
+{
+    "summary": {
+        "gold_events": 17,
+        "pred_events": 9,
+        "gold_arguments": 43,
+        "pred_arguments": 20
+    },
+    "trigger_identification": {
+        "precision": 0.7778,
+        "recall": 0.4118,
+        "f1": 0.5385
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.9,
+        "recall": 0.4186,
+        "f1": 0.5714
+    },
+    "argument_classification": {
+        "precision": 0.6,
+        "recall": 0.2791,
+        "f1": 0.381
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "France won the women's 4x6km biathlon relay at the Milan-Cortina Winter Olympics on Wednesday",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "France"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "women's 4x6km biathlon relay"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan-Cortina Winter Olympics"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Wednesday"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "France won the women's 4x6km biathlon relay at the Milan-Cortina Winter Olympics on Wednesday",
+                "event_type": "winning",
+                "normalized_event_type": "winning",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "France"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "women's 4x6km biathlon relay"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milan-Cortina Winter Olympics"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "The victory completed a clean sweep of all three biathlon relay titles at these Games for France",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "France"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "a clean sweep of all three biathlon relay titles"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "these Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The victory completed a clean sweep of all three biathlon relay titles at these Games for France",
+                "event_type": "sweep",
+                "normalized_event_type": "sweep",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "France"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "biathlon relay titles"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Bened, skiing the opening leg, incurred an early penalty loop",
+                "event_type": "Penalty",
+                "normalized_event_type": "Penalty",
+                "trigger": "incurred",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Bened"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "an early penalty loop"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Bened, skiing the opening leg, incurred an early penalty loop and dropped the team 55 seconds off the pace",
+                "event_type": "incurring penalty",
+                "normalized_event_type": "incurring penalty",
+                "trigger": "incurred",
+                "arguments": [
+                    {
+                        "role": "person",
+                        "argument": "Bened"
+                    },
+                    {
+                        "role": "penalty",
+                        "argument": "early penalty loop"
+                    }
+                ]
+            },
+            "similarity": 0.8854,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Her teammates delivered near-perfect shooting and strong skiing to claw back",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "delivered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Her teammates"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "near-perfect shooting and strong skiing"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Her teammates, however, delivered near-perfect shooting and strong skiing to claw back",
+                "event_type": "comeback",
+                "normalized_event_type": "comeback",
+                "trigger": "claw back",
+                "arguments": [
+                    {
+                        "role": "team",
+                        "argument": "French women"
+                    }
+                ]
+            },
+            "similarity": 0.9832,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "before Simon sealed the win on the anchor leg",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "sealed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Simon"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "the win"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "anchor leg"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Simon sealed the win on the anchor leg",
+                "event_type": "winning",
+                "normalized_event_type": "winning",
+                "trigger": "sealed",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "Simon"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "anchor leg"
+                    }
+                ]
+            },
+            "similarity": 0.9694,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Sweden finished second with one penalty loop and seven spares",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Sweden"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "second"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "one penalty loop and seven spares"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Sweden finished second with one penalty loop and seven spares, trailing France by 51.3 seconds",
+                "event_type": "finishing",
+                "normalized_event_type": "finishing",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "team",
+                        "argument": "Sweden"
+                    },
+                    {
+                        "role": "position",
+                        "argument": "second"
+                    }
+                ]
+            },
+            "similarity": 0.9223,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "Norway claimed bronze with seven spares",
+                "event_type": "Medal_Award",
+                "normalized_event_type": "Medal_Award",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "seven spares"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Norway claimed bronze with seven spares, one minute 7.6 seconds behind the winner",
+                "event_type": "finishing",
+                "normalized_event_type": "finishing",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "team",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "position",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "similarity": 0.8547,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "Simon collected her third individual gold medal of the Games",
+                "event_type": "Medal_Award",
+                "normalized_event_type": "Medal_Award",
+                "trigger": "collected",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Simon"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "third individual gold medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "the Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Simon collected her third individual gold medal of the Games following her triumphs in the mixed relay and women's 15km individual",
+                "event_type": "receiving award",
+                "normalized_event_type": "receiving award",
+                "trigger": "collected",
+                "arguments": [
+                    {
+                        "role": "winner",
+                        "argument": "Simon"
+                    },
+                    {
+                        "role": "award",
+                        "argument": "individual gold medal"
+                    }
+                ]
+            },
+            "similarity": 0.8382,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "The men's 15km mass start will be held on Friday",
+                "event_type": "Competition_Schedule",
+                "normalized_event_type": "Competition_Schedule",
+                "trigger": "held",
+                "arguments": [
+                    {
+                        "role": "Event",
+                        "argument": "men's 15km mass start"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Friday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan-Cortina Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "The final two biathlon competitions of the Milan-Cortina Games, the men's 15km mass start and women's 12.5km mass start, will be held on Friday and Saturday, respectively",
+                "event_type": "scheduling",
+                "normalized_event_type": "scheduling",
+                "trigger": "will be held",
+                "arguments": [
+                    {
+                        "role": "event",
+                        "argument": "men's 15km mass start"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "women's 12.5km mass start"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milan-Cortina Games"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Friday and Saturday"
+                    }
+                ]
+            },
+            "similarity": 0.6311,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        }
+    ]
+}

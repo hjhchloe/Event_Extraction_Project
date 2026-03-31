@@ -1,0 +1,178 @@
+{
+    "summary": {
+        "gold_events": 3,
+        "pred_events": 3,
+        "gold_arguments": 10,
+        "pred_arguments": 9
+    },
+    "trigger_identification": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+    },
+    "trigger_classification": {
+        "precision": 0.3333,
+        "recall": 0.3333,
+        "f1": 0.3333
+    },
+    "argument_identification": {
+        "precision": 0.6667,
+        "recall": 0.6,
+        "f1": 0.6316
+    },
+    "argument_classification": {
+        "precision": 0.5556,
+        "recall": 0.5,
+        "f1": 0.5263
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026.",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Alpine skiing giant slalom"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (14 February)"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (14 February)"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "The 25-year-old’s victory at the Stelvio Ski Centre makes him the first Brazilian and first South American ever to claim a medal at the Winter Games.",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "victory",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "The 25-year-old"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Stelvio Ski Centre"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The 25-year-old’s victory at the Stelvio Ski Centre makes him the first Brazilian and first South American ever to claim a medal at the Winter Games.",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "victory",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Stelvio Ski Centre"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first Brazilian and first South American to claim a medal at the Winter Games"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "The 25-year-old’s victory at the Stelvio Ski Centre makes him the first Brazilian and first South American ever to claim a medal at the Winter Games.",
+                "event_type": "Medal_Claim",
+                "normalized_event_type": "Medal_Claim",
+                "trigger": "claim",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "him"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "a medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "the Winter Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "The 25-year-old’s victory at the Stelvio Ski Centre makes him the first Brazilian and first South American ever to claim a medal at the Winter Games.",
+                "event_type": "Claiming",
+                "normalized_event_type": "Claiming",
+                "trigger": "claim",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first Brazilian and first South American to claim a medal at the Winter Games"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Winter Games"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

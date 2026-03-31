@@ -1,0 +1,502 @@
+{
+    "summary": {
+        "gold_events": 20,
+        "pred_events": 14,
+        "gold_arguments": 51,
+        "pred_arguments": 27
+    },
+    "trigger_identification": {
+        "precision": 0.5,
+        "recall": 0.35,
+        "f1": 0.4118
+    },
+    "trigger_classification": {
+        "precision": 0.0714,
+        "recall": 0.05,
+        "f1": 0.0588
+    },
+    "argument_identification": {
+        "precision": 0.7037,
+        "recall": 0.3725,
+        "f1": 0.4872
+    },
+    "argument_classification": {
+        "precision": 0.1481,
+        "recall": 0.0784,
+        "f1": 0.1026
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo won his sixth gold medal of these Games when he beat his Norwegian teammate Martin Løwstrøm Nyenget by 17.4 seconds to win the men’s 50km classic.",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Martin Løwstrøm Nyenget"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "men’s 50km classic"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "17.4 seconds"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Johannes Høsflot Klæbo won his sixth gold medal of these Games when he beat his Norwegian teammate Martin Løwstrøm Nyenget by 17.4 seconds to win the men’s 50km classic.",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Winner",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "men’s 50km classic"
+                    },
+                    {
+                        "role": "Loser",
+                        "argument": "Martin Løwstrøm Nyenget"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Johannes Høsflot Klæbo beat his Norwegian teammate Martin Løwstrøm Nyenget by 17.4 seconds.",
+                "event_type": "Competition_Defeat",
+                "normalized_event_type": "Competition_Defeat",
+                "trigger": "beat",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Martin Løwstrøm Nyenget"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "17.4 seconds"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Nyenget attacked twice in the final two kilometres but couldn’t shake off Klæbo",
+                "event_type": "Racing Incident",
+                "normalized_event_type": "Racing Incident",
+                "trigger": "attacked",
+                "arguments": [
+                    {
+                        "role": "Attacker",
+                        "argument": "Nyenget"
+                    },
+                    {
+                        "role": "Defender",
+                        "argument": "Klæbo"
+                    }
+                ]
+            },
+            "similarity": 0.6286,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "The 29-year-old set the record for the most gold medals in a single Winter Games.",
+                "event_type": "Record_Set",
+                "normalized_event_type": "Record_Set",
+                "trigger": "set",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "record for the most gold medals in a single Winter Games"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The triumph meant the 29-year-old set the record for the most gold medals in a single Winter Games, set by the US speed skater Eric Heiden when he won five at Lake Placid in 1980.",
+                "event_type": "Record Setting",
+                "normalized_event_type": "Record",
+                "trigger": "set",
+                "arguments": [
+                    {
+                        "role": "Record Setter",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Previous Record Holder",
+                        "argument": "Eric Heiden"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Winter Games"
+                    }
+                ]
+            },
+            "similarity": 0.8171,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "In this past fortnight he has competed in 10 races across 115km.",
+                "event_type": "Competition_Participation",
+                "normalized_event_type": "Competition_Participation",
+                "trigger": "competed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "10 races"
+                    },
+                    {
+                        "role": "Distance",
+                        "argument": "115km"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "this past fortnight"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "In this past fortnight he has competed in 10 races across 115km, in six different events, in the space of just 14 days, and won every single one of them.",
+                "event_type": "Competition Streak",
+                "normalized_event_type": "Competition Streak",
+                "trigger": "competed",
+                "arguments": [
+                    {
+                        "role": "Competitor",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Events",
+                        "argument": "10 races"
+                    }
+                ]
+            },
+            "similarity": 0.9064,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "He has overtaken Laris Latynina, Carl Lewis, Katie Ledecky, Paavo Nurmi and everyone else in the Olympic pantheon.",
+                "event_type": "Ranking_Change",
+                "normalized_event_type": "Ranking_Change",
+                "trigger": "overtaken",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Laris Latynina"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Carl Lewis"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Katie Ledecky"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Paavo Nurmi"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "In this past week he has overtaken Laris Latynina, Carl Lewis, Katie Ledecky, Paavo Nurmi and everyone else in the Olympic pantheon.",
+                "event_type": "Ranking Change",
+                "normalized_event_type": "Ranking Change",
+                "trigger": "overtaken",
+                "arguments": [
+                    {
+                        "role": "New Leader",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Previous Leaders",
+                        "argument": "Laris Latynina, Carl Lewis, Katie Ledecky, Paavo Nurmi"
+                    }
+                ]
+            },
+            "similarity": 0.9872,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "Klæbo said after he had won his fifth gold on Wednesday.",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "fifth gold"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Wednesday"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Klæbo said after he had won his fifth gold on Wednesday.",
+                "event_type": "Statement",
+                "normalized_event_type": "Communication",
+                "trigger": "said",
+                "arguments": [
+                    {
+                        "role": "Speaker",
+                        "argument": "Johannes Høsflot Klæbo"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Iversen finally broke and slipped back halfway through the last lap.",
+                "event_type": "Competition_PositionChange",
+                "normalized_event_type": "Competition_PositionChange",
+                "trigger": "slipped",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Iversen"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "halfway through the last lap"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Iversen finally broke and slipped back halfway through the last lap, but Nyenget kept on.",
+                "event_type": "Racing Incident",
+                "normalized_event_type": "Racing Incident",
+                "trigger": "broke",
+                "arguments": [
+                    {
+                        "role": "Racer",
+                        "argument": "Iversen"
+                    }
+                ]
+            },
+            "similarity": 0.8634,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Klæbo finally made the move on the final uphill.",
+                "event_type": "Competition_Move",
+                "normalized_event_type": "Competition_Move",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "final uphill"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Klæbo finally made the move everyone had been waiting to see, wondering, all the while, whether he still had it in him after all this racing.",
+                "event_type": "Racing Incident",
+                "normalized_event_type": "Racing Incident",
+                "trigger": "made",
+                "arguments": [
+                    {
+                        "role": "Racer",
+                        "argument": "Klæbo"
+                    }
+                ]
+            },
+            "similarity": 0.6445,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "He began this sport as a sprinter, competing in the 1,500m.",
+                "event_type": "Competition_Participation",
+                "normalized_event_type": "Competition_Participation",
+                "trigger": "competing",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "1,500m"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "He began this sport as a sprinter, competing in the 1,500m, but over time has moved up into marathon racing too, with the ultimate aim of winning this, the most prestigious event in the sport.",
+                "event_type": "Career Development",
+                "normalized_event_type": "Career Development",
+                "trigger": "began",
+                "arguments": [
+                    {
+                        "role": "Athlete",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Sport",
+                        "argument": "sprinter"
+                    }
+                ]
+            },
+            "similarity": 0.7737,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "Klæbo invented an uphill running technique.",
+                "event_type": "Creation",
+                "normalized_event_type": "Creation",
+                "trigger": "invented",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "uphill running technique"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E13",
+                "event_mention": "Klæbo invented one all of his own, an uphill running technique, a sort of high-tempo diagonal stride that he used to devastating effect in the cross-country classic sprint.",
+                "event_type": "Innovation",
+                "normalized_event_type": "Creation",
+                "trigger": "invented",
+                "arguments": [
+                    {
+                        "role": "Inventor",
+                        "argument": "Johannes Høsflot Klæbo"
+                    },
+                    {
+                        "role": "Invention",
+                        "argument": "uphill running technique"
+                    }
+                ]
+            },
+            "similarity": 0.9029,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Theo Schley said Klæbo is the GOAT in the whole sport.",
+                "event_type": "Statement",
+                "normalized_event_type": "Communication",
+                "trigger": "said",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Theo Schley"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Johannes Høsflot Klæbo"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "“He’s the GOAT in the whole sport, the greatest skier we will ever see,” said France’s Theo Schley.",
+                "event_type": "Praise",
+                "normalized_event_type": "Praise",
+                "trigger": "said",
+                "arguments": [
+                    {
+                        "role": "Speaker",
+                        "argument": "Theo Schley"
+                    },
+                    {
+                        "role": "Praisee",
+                        "argument": "Johannes Høsflot Klæbo"
+                    }
+                ]
+            },
+            "similarity": 0.6489,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

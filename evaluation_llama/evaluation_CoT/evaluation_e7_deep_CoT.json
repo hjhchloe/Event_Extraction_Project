@@ -1,0 +1,362 @@
+{
+    "summary": {
+        "gold_events": 18,
+        "pred_events": 9,
+        "gold_arguments": 54,
+        "pred_arguments": 22
+    },
+    "trigger_identification": {
+        "precision": 0.4444,
+        "recall": 0.2222,
+        "f1": 0.2963
+    },
+    "trigger_classification": {
+        "precision": 0.1111,
+        "recall": 0.0556,
+        "f1": 0.0741
+    },
+    "argument_identification": {
+        "precision": 0.8182,
+        "recall": 0.3333,
+        "f1": 0.4737
+    },
+    "argument_classification": {
+        "precision": 0.5455,
+        "recall": 0.2222,
+        "f1": 0.3158
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Braathen’s victory also makes him the first athlete from South America to medal at the Winter Games",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "medal",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Winter Games"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first athlete from South America to medal"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Braathen has now seen it lifted high for the first time at a medal ceremony of the Olympic Winter Games",
+                "event_type": "Ceremonial Event",
+                "normalized_event_type": "Ceremonial Event",
+                "trigger": "lifted",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "medal ceremony of the Olympic Winter Games"
+                    }
+                ]
+            },
+            "similarity": 0.6383,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Lucas Pinheiro Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026",
+                "event_type": "CompetitionResult",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "Alpine skiing giant slalom gold"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (14 February)"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Braathen won Alpine skiing giant slalom gold in a thrilling competition on Saturday (14 February) at Milano Cortina 2026.",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Saturday (14 February)"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 0.8533,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Braathen, who two years ago switched from competing for Norway to the birth country of his mother",
+                "event_type": "AffiliationChange",
+                "normalized_event_type": "AffiliationChange",
+                "trigger": "switched",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "birth country of his mother"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Braathen switched from competing for Norway to the birth country of his mother",
+                "event_type": "Career Change",
+                "normalized_event_type": "Career Change",
+                "trigger": "switched",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Origin",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Destination",
+                        "argument": "birth country of his mother"
+                    }
+                ]
+            },
+            "similarity": 0.9819,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "put himself in pole position for gold with a leading time of 1:13.92 in Run 1",
+                "event_type": "CompetitionPerformance",
+                "normalized_event_type": "CompetitionPerformance",
+                "trigger": "put",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "1:13.92"
+                    },
+                    {
+                        "role": "Stage",
+                        "argument": "Run 1"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Braathen put himself in pole position for gold with a leading time of 1:13.92 in Run 1",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "put",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:13.92"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Run 1"
+                    }
+                ]
+            },
+            "similarity": 0.8463,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "His second run saw him maintain his lead to secure the gold medal in a combined time of 2:25.00",
+                "event_type": "CompetitionResult",
+                "normalized_event_type": "Competition",
+                "trigger": "secure",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold medal"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "2:25.00"
+                    },
+                    {
+                        "role": "Stage",
+                        "argument": "second run"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "His second run saw him maintain his lead to secure the gold medal in a combined time of 2:25.00",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "maintain",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "2:25.00"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "second run"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Odermatt failed to win the gold he was so widely predicted to in Italy",
+                "event_type": "CompetitionOutcome",
+                "normalized_event_type": "CompetitionOutcome",
+                "trigger": "failed",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Odermatt"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "win the gold"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Italy"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Odermatt failed to win the gold he was so widely predicted to in Italy",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "failed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Marco Odermatt"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Italy"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Only eight days after waving his nation’s flag at the Opening Ceremony",
+                "event_type": "CeremonialAction",
+                "normalized_event_type": "CeremonialAction",
+                "trigger": "waving",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Braathen"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Opening Ceremony"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "eight days earlier"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Braathen waved his nation’s flag at the Opening Ceremony",
+                "event_type": "Ceremonial Event",
+                "normalized_event_type": "Ceremonial Event",
+                "trigger": "waved",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lucas Pinheiro Braathen"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Opening Ceremony"
+                    }
+                ]
+            },
+            "similarity": 0.6321,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

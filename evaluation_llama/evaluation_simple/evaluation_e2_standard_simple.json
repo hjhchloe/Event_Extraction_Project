@@ -1,0 +1,438 @@
+{
+    "summary": {
+        "gold_events": 18,
+        "pred_events": 15,
+        "gold_arguments": 46,
+        "pred_arguments": 30
+    },
+    "trigger_identification": {
+        "precision": 0.4,
+        "recall": 0.3333,
+        "f1": 0.3636
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.5667,
+        "recall": 0.3696,
+        "f1": 0.4474
+    },
+    "argument_classification": {
+        "precision": 0.2333,
+        "recall": 0.1522,
+        "f1": 0.1842
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "defending her Olympic title in women's freeski halfpipe",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "defending",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Eileen Gu"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "Olympic title in women's freeski halfpipe"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan Cortina Games"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "last Sunday"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "San Francisco-born Eileen Gu of China saved her best for last Sunday at the Milan Cortina Games, defending her Olympic title in women's freeski halfpipe to earn a third medal in a final that ranked among the greatest displays the sport has ever seen.",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "defending",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Eileen Gu"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "Milan Cortina Games"
+                    },
+                    {
+                        "role": "Location",
+                        "argument": "Milan"
+                    }
+                ]
+            },
+            "similarity": 0.6272,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Gu opened her second with a giant 12.5-foot 900 Buick",
+                "event_type": "Competition_Action",
+                "normalized_event_type": "Competition_Action",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "her second run"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "After scrapping her first run, Gu opened her second with a giant 12.5-foot 900 Buick, then linked a 900 and a 700 with tail grabs plus a switch 700 before closing with massive back-to-back alley-oop flat 500s for a 94.00.",
+                "event_type": "Sports Action",
+                "normalized_event_type": "Sports Action",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "scrapping her first run"
+                    }
+                ]
+            },
+            "similarity": 0.8261,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "She cleaned up the same line on her third run to post a 94.75",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "post",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "94.75"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "third run"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "She cleaned up the same line on her third run to post a 94.75.",
+                "event_type": "Sports Action",
+                "normalized_event_type": "Sports Action",
+                "trigger": "cleaned",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "cleaned up the same line"
+                    }
+                ]
+            },
+            "similarity": 0.9969,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Gu also claimed silver in big air",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "big air"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Gu also claimed silver in big air (Day 10) and slopestyle (Day 3), events won by Megan Oldham and Mathilde Gremaud.",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "Recipient",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "big air"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "slopestyle"
+                    }
+                ]
+            },
+            "similarity": 0.7623,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "After landing low on her opening 900 Buick on Run 1 and bailing",
+                "event_type": "Competition_Action",
+                "normalized_event_type": "Competition_Action",
+                "trigger": "bailing",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Run 1"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "After landing low on her opening 900 Buick on Run 1 and bailing, Gu said she \"[didn't] fully believe in [her]self,\" perhaps because of \"Olympic jitters.\"",
+                "event_type": "Emotional State",
+                "normalized_event_type": "Emotional State",
+                "trigger": "didn't fully believe",
+                "arguments": [
+                    {
+                        "role": "Experiencer",
+                        "argument": "Gu"
+                    }
+                ]
+            },
+            "similarity": 0.6568,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Gu went to the corral and spoke with her mother",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "spoke",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "her mother, Yan"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "the corral"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "She went to the corral and spoke with her mother, Yan, who was born in Beijing.",
+                "event_type": "Conversation",
+                "normalized_event_type": "Conversation",
+                "trigger": "spoke",
+                "arguments": [
+                    {
+                        "role": "Speaker",
+                        "argument": "Gu"
+                    },
+                    {
+                        "role": "Addressee",
+                        "argument": "Yan"
+                    }
+                ]
+            },
+            "similarity": 0.7142,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Li Fanghui landed silver with a 93.00",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "landed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Li Fanghui"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "93.00"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Gu's compatriot and 2025 world silver medalist Li Fanghui landed silver with a 93.00, while Thursday's No. 1 qualifier Zoe Atkin of Great Britain, the reigning X Games and world champion, earned bronze with 92.50.",
+                "event_type": "Award",
+                "normalized_event_type": "Competition",
+                "trigger": "landed",
+                "arguments": [
+                    {
+                        "role": "Recipient",
+                        "argument": "Li Fanghui"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "Recipient",
+                        "argument": "Zoe Atkin"
+                    },
+                    {
+                        "role": "Award",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "similarity": 0.6836,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E16",
+                "event_mention": "Kate Gray and Svea Irving finished 10th and 11th",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Kate Gray"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Svea Irving"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "10th and 11th"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "Americans Kate Gray and Svea Irving finished 10th and 11th.",
+                "event_type": "Ranking",
+                "normalized_event_type": "Ranking",
+                "trigger": "finished",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Kate Gray"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Svea Irving"
+                    }
+                ]
+            },
+            "similarity": 0.9542,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "Abby Winterberger and Riley Jacobs did not advance to the final",
+                "event_type": "Competition_Qualification",
+                "normalized_event_type": "Competition_Qualification",
+                "trigger": "advance",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Abby Winterberger"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Riley Jacobs"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "did not advance to the final"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E15",
+                "event_mention": "Fifteen-year-old Abby Winterberger — Team USA's youngest Winter Olympian since Tara Lipinski at Nagano 1998 — and Riley Jacobs did not advance to the final, placing 15th and 18th in qualifying.",
+                "event_type": "Elimination",
+                "normalized_event_type": "Elimination",
+                "trigger": "did not advance",
+                "arguments": [
+                    {
+                        "role": "Participant",
+                        "argument": "Abby Winterberger"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Riley Jacobs"
+                    }
+                ]
+            },
+            "similarity": 0.6774,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

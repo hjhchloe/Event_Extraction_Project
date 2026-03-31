@@ -1,0 +1,378 @@
+{
+    "summary": {
+        "gold_events": 22,
+        "pred_events": 7,
+        "gold_arguments": 74,
+        "pred_arguments": 20
+    },
+    "trigger_identification": {
+        "precision": 0.4286,
+        "recall": 0.1364,
+        "f1": 0.2069
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.5,
+        "recall": 0.1351,
+        "f1": 0.2128
+    },
+    "argument_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Sunday (22 February) saw the clash of the ages, as the USA and Canada battled for the title of 2026 Olympic champion",
+                "event_type": "Competition_Action",
+                "normalized_event_type": "Competition_Action",
+                "trigger": "battled",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "the USA and Canada"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "the title of 2026 Olympic champion"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Sunday (22 February)"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Sunday (22 February) saw the clash of the ages, as the USA and Canada battled for the title of 2026 Olympic champion, with Jack Hughes securing the gold in 2-1 overtime victory.",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "battled",
+                "arguments": [
+                    {
+                        "role": "Team1",
+                        "argument": "USA"
+                    },
+                    {
+                        "role": "Team2",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Winner",
+                        "argument": "Jack Hughes"
+                    }
+                ]
+            },
+            "similarity": 0.8343,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Jack Hughes securing the gold in 2-1 overtime victory",
+                "event_type": "Medal_Achievement",
+                "normalized_event_type": "Medal_Achievement",
+                "trigger": "securing",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold"
+                    },
+                    {
+                        "role": "Attribute",
+                        "argument": "2-1 overtime victory"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Jack Hughes was the hero, scoring the golden goal in overtime to secure gold for the Americans.",
+                "event_type": "Goal Scoring",
+                "normalized_event_type": "Goal Scoring",
+                "trigger": "scoring",
+                "arguments": [
+                    {
+                        "role": "Player",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Team",
+                        "argument": "Americans"
+                    }
+                ]
+            },
+            "similarity": 0.7831,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "the United States created a new Olympic memory for fans to dream about, defeating Canada 2-1 in overtime in the men’s final at Olympic Winter Games Milano Cortina 2026 on Sunday (22 February)",
+                "event_type": "Competition_Result",
+                "normalized_event_type": "Competition_Result",
+                "trigger": "defeating",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "the United States"
+                    },
+                    {
+                        "role": "Target",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2-1 in overtime"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Sunday (22 February)"
+                    },
+                    {
+                        "role": "Location",
+                        "argument": "Olympic Winter Games Milano Cortina 2026"
+                    },
+                    {
+                        "role": "Attribute",
+                        "argument": "the men’s final"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Forty-six years to the day after the \"Miracle on Ice*\"* team played their way into ice hockey lore at Lake Placid 1980, the United States created a new Olympic memory for fans to dream about, defeating Canada 2-1 in overtime in the men’s final at Olympic Winter Games Milano Cortina 2026 on Sunday (22 February).",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "defeating",
+                "arguments": [
+                    {
+                        "role": "Team1",
+                        "argument": "United States"
+                    },
+                    {
+                        "role": "Team2",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Score",
+                        "argument": "2-1"
+                    }
+                ]
+            },
+            "similarity": 0.8053,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Jack Hughes was the hero, scoring the golden goal in overtime to secure gold for the Americans.",
+                "event_type": "Competition_Action",
+                "normalized_event_type": "Competition_Action",
+                "trigger": "scoring",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Jack Hughes"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "the golden goal"
+                    },
+                    {
+                        "role": "Attribute",
+                        "argument": "in overtime"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Quinn Hughes (Minnesota Wild) scored the overtime winner against Sweden in the quarter-final, and his brother Jack followed with an overtime winner in the final.",
+                "event_type": "Goal Scoring",
+                "normalized_event_type": "Goal Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "Player",
+                        "argument": "Quinn Hughes"
+                    },
+                    {
+                        "role": "Opponent",
+                        "argument": "Sweden"
+                    },
+                    {
+                        "role": "Stage",
+                        "argument": "quarter-final"
+                    }
+                ]
+            },
+            "similarity": 0.6241,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "U.S. goaltender Connor Hellebuyck (Winnipeg Jets) was the backbone of that victory, stopping 41 shots to keep the Americans’ dreams alive.",
+                "event_type": "Competition_Action",
+                "normalized_event_type": "Competition_Action",
+                "trigger": "stopping",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "41 shots"
+                    },
+                    {
+                        "role": "Attribute",
+                        "argument": "to keep the Americans’ dreams alive"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "U.S. goaltender Connor Hellebuyck (Winnipeg Jets) was the backbone of that victory, stopping 41 shots to keep the Americans’ dreams alive.",
+                "event_type": "Goalkeeping",
+                "normalized_event_type": "Goalkeeping",
+                "trigger": "stopping",
+                "arguments": [
+                    {
+                        "role": "Player",
+                        "argument": "Connor Hellebuyck"
+                    },
+                    {
+                        "role": "Team",
+                        "argument": "Americans"
+                    },
+                    {
+                        "role": "Shots Saved",
+                        "argument": "41"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "With both the United States and Canada icing fully NHL-based rosters, the men’s Olympic ice hockey final truly delivered the highest level of international play possible.",
+                "event_type": "Contextual_Background",
+                "normalized_event_type": "Contextual_Background",
+                "trigger": "delivered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "the men’s Olympic ice hockey final"
+                    },
+                    {
+                        "role": "Target",
+                        "argument": "the United States and Canada"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "the highest level of international play possible"
+                    },
+                    {
+                        "role": "Attribute",
+                        "argument": "both teams icing fully NHL-based rosters"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "the United States beat Canada in the women’s final (also a 2-1 overtime decision), with several members of those teams present to support the men from the stands in a lively Milano Santagiulia Ice Hockey Arena.",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "beat",
+                "arguments": [
+                    {
+                        "role": "Team1",
+                        "argument": "United States"
+                    },
+                    {
+                        "role": "Team2",
+                        "argument": "Canada"
+                    },
+                    {
+                        "role": "Score",
+                        "argument": "2-1"
+                    }
+                ]
+            },
+            "similarity": 0.6159,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "Finland secured bronze one day earlier, defeating Slovakia 6-1 on Saturday (21 February).",
+                "event_type": "Medal_Achievement",
+                "normalized_event_type": "Medal_Achievement",
+                "trigger": "secured",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Finland"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "one day earlier"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Finland secured bronze one day earlier, defeating Slovakia 6-1 on Saturday (21 February).",
+                "event_type": "Sports Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "defeating",
+                "arguments": [
+                    {
+                        "role": "Team1",
+                        "argument": "Finland"
+                    },
+                    {
+                        "role": "Team2",
+                        "argument": "Slovakia"
+                    },
+                    {
+                        "role": "Score",
+                        "argument": "6-1"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}
