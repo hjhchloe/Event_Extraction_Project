@@ -1,0 +1,16 @@
+import json
+
+raw_text = """
+Hundreds of thousands of international tourists are expected to descend on Brazil over the next few days for carnival. But you didn’t need to go further than the Dolomites on Saturday to see somebody performing samba on a raised platform.
+Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that. The reigning champion, Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes, was no match for Pinheiro Braathen in the men’s giant slalom in Bormio.
+Brazilian TV heralded this moment by overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One. “This unprecedented result shows that Brazilian sport has no limits,” wrote the president, Luiz Inácio Lula da Silva. “It broadens the horizon of sport in our nation.” It has been pointed out that anyone aged 23 or under in Brazil has now seen their country win a Winter Olympic gold medal but not a football World Cup.
+From the age of three to 11, living in Brazil with his mother after his parents’ divorce and playing football, Pinheiro Braathen harboured dreams of wearing the famous yellow shirt on the world stage. “My first role models were Ronaldinho, it was Ronaldo,” he said on Saturday. When he went back to Norway, the country of his birth, his father tried to take him skiing. “I told him: ‘I’m Brazilian, it’s not in our blood,’” his son said. “‘My feet are made for beaches.’” He told his dad he wanted to be the best footballer in the world.
+Team sports proved too limiting for a maverick, a misfit. Eventually he made his name in elite skiing under Norway’s flag, drawing comparisons – as with any promising Norwegian athlete of a similar age – to Erling Haaland. That the 25-year-old might now be just as famous a face in Brazil as one of the best footballers on the planet is as ironic as it is impressive.
+The glare, the pressure on young Norwegian skiers to fit the mould, appeared too much. The story of his retirement at 23 – “I lost the reason why I began skiing” – and his comeback under Brazil’s flag is well-documented. Pinheiro Braathen says he is freer, more able to express himself. He models, he has his own skincare brand.
+A little samba shuffle came out on top of the podium in Bormio after a poignant moment when the national anthem was played. “I’ve experienced it so many times as a fan of the Brazilian football team,” the gold medallist said. “Being the reason that I get to hear and share that song in a stadium in the middle of mountains, because of a Winter Olympic gold medal for these colours, I’m beyond proud.”
+"""
+
+data = {"text": raw_text}
+
+with open('text/event7_standard_text.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
