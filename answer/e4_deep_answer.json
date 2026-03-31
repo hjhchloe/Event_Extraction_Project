@@ -1,0 +1,500 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Ilia Malinin arrived at his first Olympics",
+      "event_type": "Arrival",
+      "trigger": "arrived",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Place",
+          "argument": "his first Olympics"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Malinin faltered in the short program of the team event",
+      "event_type": "Performance_Error",
+      "trigger": "faltered",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Place",
+          "argument": "short program of the team event"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "finishing behind Japan’s Yuma Kagiyama",
+      "event_type": "Competition_Result",
+      "trigger": "finishing",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Participant",
+          "argument": "Yuma Kagiyama"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "He won the free program segment in the team event",
+      "event_type": "Competition_Win",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Place",
+          "argument": "free program segment in the team event"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "finished in first, nearly six points ahead of Kagiyama",
+      "event_type": "Competition_Result",
+      "trigger": "finished",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Participant",
+          "argument": "Kagiyama"
+        },
+        {
+          "role": "Quantity",
+          "argument": "nearly six points"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "the Milano Ice Skating Arena fell silent as Malinin took his starting position",
+      "event_type": "Movement",
+      "trigger": "took",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Place",
+          "argument": "Milano Ice Skating Arena"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "He landed a clean quad flip to start the program",
+      "event_type": "Athletic_Action",
+      "trigger": "landed",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "He"
+        },
+        {
+          "role": "Result",
+          "argument": "a clean quad flip"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "he popped it in the air and only received points for a single axel",
+      "event_type": "Athletic_Error",
+      "trigger": "popped",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "he"
+        },
+        {
+          "role": "Result",
+          "argument": "a single axel"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "he landed a solid quad lutz",
+      "event_type": "Athletic_Action",
+      "trigger": "landed",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "he"
+        },
+        {
+          "role": "Result",
+          "argument": "a solid quad lutz"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "then faltered on the planned quad loop",
+      "event_type": "Performance_Error",
+      "trigger": "faltered",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "he"
+        },
+        {
+          "role": "Result",
+          "argument": "planned quad loop"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "he fell on that jump",
+      "event_type": "Athletic_Fall",
+      "trigger": "fell",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "he"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "He attempted to make up points with another jump combination",
+      "event_type": "Attempt",
+      "trigger": "attempted",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "He"
+        },
+        {
+          "role": "Participant",
+          "argument": "another jump combination"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "fell again on the first jump after doubling it",
+      "event_type": "Athletic_Fall",
+      "trigger": "fell",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "he"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "the judges gave him under one point",
+      "event_type": "Scoring",
+      "trigger": "gave",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "the judges"
+        },
+        {
+          "role": "Participant",
+          "argument": "him"
+        },
+        {
+          "role": "Quantity",
+          "argument": "under one point"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "he fell on two jumps",
+      "event_type": "Athletic_Fall",
+      "trigger": "fell",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "he"
+        },
+        {
+          "role": "Quantity",
+          "argument": "two jumps"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "the surprise Olympic men’s champion is Mikhail Shaidorov from Kazakhstan",
+      "event_type": "Competition_Win",
+      "trigger": "champion",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Mikhail Shaidorov"
+        },
+        {
+          "role": "Place",
+          "argument": "Olympic men’s event"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "who landed five quad jumps to earn the gold",
+      "event_type": "Athletic_Action",
+      "trigger": "landed",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Mikhail Shaidorov"
+        },
+        {
+          "role": "Quantity",
+          "argument": "five quad jumps"
+        }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "Malinin congratulated Shaidorov",
+      "event_type": "Communication",
+      "trigger": "congratulated",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Participant",
+          "argument": "Shaidorov"
+        }
+      ]
+    },
+    {
+      "event_id": "E19",
+      "event_mention": "Kagiyama earned silver",
+      "event_type": "Competition_Result",
+      "trigger": "earned",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Kagiyama"
+        },
+        {
+          "role": "Result",
+          "argument": "silver"
+        }
+      ]
+    },
+    {
+      "event_id": "E20",
+      "event_mention": "Shun Sato skated another powerful program for bronze",
+      "event_type": "Athletic_Action",
+      "trigger": "skated",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Shun Sato"
+        },
+        {
+          "role": "Result",
+          "argument": "bronze"
+        }
+      ]
+    },
+    {
+      "event_id": "E21",
+      "event_mention": "whose parents were killed in a plane crash last January",
+      "event_type": "Death",
+      "trigger": "killed",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "parents of Maxim Naumov"
+        },
+        {
+          "role": "Cause",
+          "argument": "plane crash"
+        },
+        {
+          "role": "Time",
+          "argument": "last January"
+        }
+      ]
+    },
+    {
+      "event_id": "E22",
+      "event_mention": "Team USA selected him to skate both portions of the men’s program",
+      "event_type": "Selection",
+      "trigger": "selected",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Team USA"
+        },
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        }
+      ]
+    },
+    {
+      "event_id": "E23",
+      "event_mention": "his clutch performance in the free pulled the U.S. ahead of Japan by one point",
+      "event_type": "Competition_Result",
+      "trigger": "pulled",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "the U.S."
+        },
+        {
+          "role": "Participant",
+          "argument": "Japan"
+        },
+        {
+          "role": "Quantity",
+          "argument": "one point"
+        }
+      ]
+    },
+    {
+      "event_id": "E24",
+      "event_mention": "earning Malinin and his teammates gold",
+      "event_type": "Competition_Win",
+      "trigger": "earning",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin and his teammates"
+        },
+        {
+          "role": "Result",
+          "argument": "gold"
+        }
+      ]
+    },
+    {
+      "event_id": "E25",
+      "event_mention": "Nathan Chen faltered in the short program of the men’s event",
+      "event_type": "Performance_Error",
+      "trigger": "faltered",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Nathan Chen"
+        },
+        {
+          "role": "Place",
+          "argument": "short program of the men’s event"
+        }
+      ]
+    },
+    {
+      "event_id": "E26",
+      "event_mention": "Chen completed five quad jumps",
+      "event_type": "Athletic_Action",
+      "trigger": "completed",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Chen"
+        },
+        {
+          "role": "Quantity",
+          "argument": "five quad jumps"
+        }
+      ]
+    },
+    {
+      "event_id": "E27",
+      "event_mention": "Malinin managed to complete one backflip toward the end of his program",
+      "event_type": "Athletic_Action",
+      "trigger": "complete",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Result",
+          "argument": "one backflip"
+        }
+      ]
+    },
+    {
+      "event_id": "E28",
+      "event_mention": "Together, they co-created National Backflip Day",
+      "event_type": "Creation",
+      "trigger": "co-created",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Malinin and Frederick Richard"
+        },
+        {
+          "role": "Result",
+          "argument": "National Backflip Day"
+        },
+        {
+          "role": "Time",
+          "argument": "December 21"
+        }
+      ]
+    },
+    {
+      "event_id": "E29",
+      "event_mention": "Malinin met Richard at a gym over the summer",
+      "event_type": "Meeting",
+      "trigger": "met",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Participant",
+          "argument": "Richard"
+        },
+        {
+          "role": "Place",
+          "argument": "a gym"
+        },
+        {
+          "role": "Time",
+          "argument": "over the summer"
+        }
+      ]
+    },
+    {
+      "event_id": "E30",
+      "event_mention": "they shared tips",
+      "event_type": "Communication",
+      "trigger": "shared",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin and Richard"
+        }
+      ]
+    }
+  ]
+}

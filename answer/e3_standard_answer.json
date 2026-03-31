@@ -1,0 +1,476 @@
+{
+    "events": [
+        {
+            "event_id": "E1",
+            "event_mention": "Sunday (22 February) saw the clash of the ages, as the USA and Canada battled for the title of 2026 Olympic champion",
+            "event_type": "Competition_Action",
+            "trigger": "battled",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the USA and Canada"
+                },
+                {
+                    "role": "Result",
+                    "argument": "the title of 2026 Olympic champion"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Sunday (22 February)"
+                }
+            ]
+        },
+        {
+            "event_id": "E2",
+            "event_mention": "Jack Hughes securing the gold in 2-1 overtime victory",
+            "event_type": "Medal_Achievement",
+            "trigger": "securing",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "2-1 overtime victory"
+                }
+            ]
+        },
+        {
+            "event_id": "E3",
+            "event_mention": "the United States created a new Olympic memory for fans to dream about, defeating Canada 2-1 in overtime in the men’s final at Olympic Winter Games Milano Cortina 2026 on Sunday (22 February)",
+            "event_type": "Competition_Result",
+            "trigger": "defeating",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the United States"
+                },
+                {
+                    "role": "Target",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Result",
+                    "argument": "2-1 in overtime"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Sunday (22 February)"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Olympic Winter Games Milano Cortina 2026"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "the men’s final"
+                }
+            ]
+        },
+        {
+            "event_id": "E4",
+            "event_mention": "It marks the third Olympic gold medal for the United States in men’s ice hockey, and the first since their win in Upstate New York.",
+            "event_type": "Medal_Achievement",
+            "trigger": "marks",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the United States"
+                },
+                {
+                    "role": "Result",
+                    "argument": "the third Olympic gold medal in men’s ice hockey"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "the first since their win in Upstate New York"
+                }
+            ]
+        },
+        {
+            "event_id": "E5",
+            "event_mention": "Jack Hughes was the hero, scoring the golden goal in overtime to secure gold for the Americans.",
+            "event_type": "Competition_Action",
+            "trigger": "scoring",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Result",
+                    "argument": "the golden goal"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "in overtime"
+                }
+            ]
+        },
+        {
+            "event_id": "E6",
+            "event_mention": "Jack Hughes was the hero, scoring the golden goal in overtime to secure gold for the Americans.",
+            "event_type": "Medal_Achievement",
+            "trigger": "secure",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the Americans"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "through the golden goal in overtime"
+                }
+            ]
+        },
+        {
+            "event_id": "E7",
+            "event_mention": "“It doesn’t matter about the goal. Just an unbelievable team, unbelievable team win. We’re so proud to be American and to win for our country, to win for the USA Hockey brotherhood,” said the star forward",
+            "event_type": "Official_Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Result",
+                    "argument": "“It doesn’t matter about the goal. Just an unbelievable team, unbelievable team win. We’re so proud to be American and to win for our country, to win for the USA Hockey brotherhood”"
+                }
+            ]
+        },
+        {
+            "event_id": "E8",
+            "event_mention": "“Listen – they probably outplayed us a little bit tonight. Our goalie stood on his head, though, and in overtime, we both have skilled players, so anything can happen.”",
+            "event_type": "Official_Statement",
+            "trigger": "outplayed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Target",
+                    "argument": "us"
+                },
+                {
+                    "role": "Result",
+                    "argument": "“Listen – they probably outplayed us a little bit tonight. Our goalie stood on his head, though, and in overtime, we both have skilled players, so anything can happen.”"
+                },
+                {
+                    "role": "Time",
+                    "argument": "tonight"
+                }
+            ]
+        },
+        {
+            "event_id": "E9",
+            "event_mention": "U.S. goaltender Connor Hellebuyck (Winnipeg Jets) was the backbone of that victory, stopping 41 shots to keep the Americans’ dreams alive.",
+            "event_type": "Competition_Action",
+            "trigger": "stopping",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Connor Hellebuyck"
+                },
+                {
+                    "role": "Result",
+                    "argument": "41 shots"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "to keep the Americans’ dreams alive"
+                }
+            ]
+        },
+        {
+            "event_id": "E10",
+            "event_mention": "“Unbelievable game by Hellebuyck,” Hughes added.",
+            "event_type": "Official_Statement",
+            "trigger": "added",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Hughes"
+                },
+                {
+                    "role": "Result",
+                    "argument": "“Unbelievable game by Hellebuyck”"
+                }
+            ]
+        },
+        {
+            "event_id": "E11",
+            "event_mention": "“He was our best player tonight by a mile. That’s just a gutsy win. That’s American hockey right there.”",
+            "event_type": "Official_Statement",
+            "trigger": "win",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Hughes"
+                },
+                {
+                    "role": "Result",
+                    "argument": "“He was our best player tonight by a mile. That’s just a gutsy win. That’s American hockey right there.”"
+                },
+                {
+                    "role": "Time",
+                    "argument": "tonight"
+                }
+            ]
+        },
+        {
+            "event_id": "E12",
+            "event_mention": "Quinn Hughes (Minnesota Wild) scored the overtime winner against Sweden in the quarter-final",
+            "event_type": "Competition_Result",
+            "trigger": "scored",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Quinn Hughes"
+                },
+                {
+                    "role": "Target",
+                    "argument": "Sweden"
+                },
+                {
+                    "role": "Result",
+                    "argument": "the overtime winner"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "in the quarter-final"
+                }
+            ]
+        },
+        {
+            "event_id": "E13",
+            "event_mention": "his brother Jack followed with an overtime winner in the final",
+            "event_type": "Competition_Result",
+            "trigger": "followed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Jack Hughes"
+                },
+                {
+                    "role": "Result",
+                    "argument": "an overtime winner"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "in the final"
+                }
+            ]
+        },
+        {
+            "event_id": "E14",
+            "event_mention": "Their mother, Ellen, who works with the USA Hockey women’s team, also celebrated gold as the American women captured the Olympic title.",
+            "event_type": "Ceremony_&_Social",
+            "trigger": "celebrated",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Ellen"
+                },
+                {
+                    "role": "Result",
+                    "argument": "gold"
+                }
+            ]
+        },
+        {
+            "event_id": "E15",
+            "event_mention": "the American women captured the Olympic title",
+            "event_type": "Medal_Achievement",
+            "trigger": "captured",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the American women"
+                },
+                {
+                    "role": "Result",
+                    "argument": "the Olympic title"
+                }
+            ]
+        },
+        {
+            "event_id": "E16",
+            "event_mention": "“He just loves the game more than anyone,\" Quinn said of his brother, still on the ice.",
+            "event_type": "Official_Statement",
+            "trigger": "said",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Quinn"
+                },
+                {
+                    "role": "Target",
+                    "argument": "his brother"
+                },
+                {
+                    "role": "Result",
+                    "argument": "“He just loves the game more than anyone”"
+                },
+                {
+                    "role": "Location",
+                    "argument": "on the ice"
+                }
+            ]
+        },
+        {
+            "event_id": "E17",
+            "event_mention": "\"In this tournament, he showed he’s clearly one of the best players in the world.”",
+            "event_type": "Official_Statement",
+            "trigger": "showed",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Quinn"
+                },
+                {
+                    "role": "Target",
+                    "argument": "he"
+                },
+                {
+                    "role": "Result",
+                    "argument": "\"In this tournament, he showed he’s clearly one of the best players in the world.”"
+                },
+                {
+                    "role": "Time",
+                    "argument": "In this tournament"
+                }
+            ]
+        },
+        {
+            "event_id": "E18",
+            "event_mention": "With both the United States and Canada icing fully NHL-based rosters, the men’s Olympic ice hockey final truly delivered the highest level of international play possible.",
+            "event_type": "Contextual_Background",
+            "trigger": "delivered",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the men’s Olympic ice hockey final"
+                },
+                {
+                    "role": "Target",
+                    "argument": "the United States and Canada"
+                },
+                {
+                    "role": "Result",
+                    "argument": "the highest level of international play possible"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "both teams icing fully NHL-based rosters"
+                }
+            ]
+        },
+        {
+            "event_id": "E19",
+            "event_mention": "Finland secured bronze one day earlier, defeating Slovakia 6-1 on Saturday (21 February).",
+            "event_type": "Medal_Achievement",
+            "trigger": "secured",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Finland"
+                },
+                {
+                    "role": "Result",
+                    "argument": "bronze"
+                },
+                {
+                    "role": "Time",
+                    "argument": "one day earlier"
+                }
+            ]
+        },
+        {
+            "event_id": "E20",
+            "event_mention": "Finland secured bronze one day earlier, defeating Slovakia 6-1 on Saturday (21 February).",
+            "event_type": "Competition_Result",
+            "trigger": "defeating",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "Finland"
+                },
+                {
+                    "role": "Target",
+                    "argument": "Slovakia"
+                },
+                {
+                    "role": "Result",
+                    "argument": "6-1"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Saturday (21 February)"
+                }
+            ]
+        },
+        {
+            "event_id": "E21",
+            "event_mention": "Earlier in the week, the United States beat Canada in the women’s final (also a 2-1 overtime decision)",
+            "event_type": "Competition_Result",
+            "trigger": "beat",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "the United States"
+                },
+                {
+                    "role": "Target",
+                    "argument": "Canada"
+                },
+                {
+                    "role": "Result",
+                    "argument": "2-1 overtime decision"
+                },
+                {
+                    "role": "Time",
+                    "argument": "Earlier in the week"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "the women’s final"
+                }
+            ]
+        },
+        {
+            "event_id": "E22",
+            "event_mention": "several members of those teams present to support the men from the stands in a lively Milano Santagiulia Ice Hockey Arena",
+            "event_type": "Ceremony_&_Social",
+            "trigger": "support",
+            "arguments": [
+                {
+                    "role": "Agent",
+                    "argument": "several members of those teams"
+                },
+                {
+                    "role": "Target",
+                    "argument": "the men"
+                },
+                {
+                    "role": "Location",
+                    "argument": "Milano Santagiulia Ice Hockey Arena"
+                },
+                {
+                    "role": "Attribute",
+                    "argument": "from the stands"
+                }
+            ]
+        }
+    ]
+}

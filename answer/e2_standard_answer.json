@@ -1,0 +1,332 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "defending her Olympic title in women's freeski halfpipe",
+      "event_type": "Competition_Win",
+      "trigger": "defending",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Eileen Gu"
+        },
+        {
+          "role": "Result",
+          "argument": "Olympic title in women's freeski halfpipe"
+        },
+        {
+          "role": "Place",
+          "argument": "Milan Cortina Games"
+        },
+        {
+          "role": "Time",
+          "argument": "last Sunday"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "to earn a third medal",
+      "event_type": "Achievement",
+      "trigger": "earn",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Eileen Gu"
+        },
+        {
+          "role": "Result",
+          "argument": "third medal"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "After scrapping her first run",
+      "event_type": "Competition_Action",
+      "trigger": "scrapping",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Gu"
+        },
+        {
+          "role": "Participant",
+          "argument": "her first run"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "Gu opened her second with a giant 12.5-foot 900 Buick",
+      "event_type": "Competition_Action",
+      "trigger": "opened",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Gu"
+        },
+        {
+          "role": "Participant",
+          "argument": "her second run"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "She cleaned up the same line on her third run to post a 94.75",
+      "event_type": "Competition_Result",
+      "trigger": "post",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Gu"
+        },
+        {
+          "role": "Result",
+          "argument": "94.75"
+        },
+        {
+          "role": "Participant",
+          "argument": "third run"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "Gu also claimed silver in big air",
+      "event_type": "Competition_Result",
+      "trigger": "claimed",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Gu"
+        },
+        {
+          "role": "Result",
+          "argument": "silver"
+        },
+        {
+          "role": "Participant",
+          "argument": "big air"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "Gu also claimed silver in slopestyle",
+      "event_type": "Competition_Result",
+      "trigger": "claimed",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Gu"
+        },
+        {
+          "role": "Result",
+          "argument": "silver"
+        },
+        {
+          "role": "Participant",
+          "argument": "slopestyle"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "events won by Megan Oldham",
+      "event_type": "Competition_Win",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Megan Oldham"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "events won by Mathilde Gremaud",
+      "event_type": "Competition_Win",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Mathilde Gremaud"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "After landing low on her opening 900 Buick on Run 1 and bailing",
+      "event_type": "Competition_Action",
+      "trigger": "bailing",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Gu"
+        },
+        {
+          "role": "Participant",
+          "argument": "Run 1"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "Gu went to the corral and spoke with her mother",
+      "event_type": "Communication",
+      "trigger": "spoke",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Gu"
+        },
+        {
+          "role": "Participant",
+          "argument": "her mother, Yan"
+        },
+        {
+          "role": "Place",
+          "argument": "the corral"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "her grandmother had died",
+      "event_type": "Death",
+      "trigger": "died",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "her grandmother"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "she learned about the news just after her record-setting run",
+      "event_type": "Information_Acquisition",
+      "trigger": "learned",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Gu"
+        },
+        {
+          "role": "Time",
+          "argument": "just after her record-setting run"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "Li Fanghui landed silver with a 93.00",
+      "event_type": "Competition_Result",
+      "trigger": "landed",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Li Fanghui"
+        },
+        {
+          "role": "Result",
+          "argument": "silver"
+        },
+        {
+          "role": "Quantity",
+          "argument": "93.00"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "Zoe Atkin of Great Britain earned bronze with 92.50",
+      "event_type": "Competition_Result",
+      "trigger": "earned",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Zoe Atkin"
+        },
+        {
+          "role": "Result",
+          "argument": "bronze"
+        },
+        {
+          "role": "Quantity",
+          "argument": "92.50"
+        },
+        {
+          "role": "Place",
+          "argument": "Great Britain"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "Kate Gray and Svea Irving finished 10th and 11th",
+      "event_type": "Competition_Result",
+      "trigger": "finished",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Kate Gray"
+        },
+        {
+          "role": "Participant",
+          "argument": "Svea Irving"
+        },
+        {
+          "role": "Result",
+          "argument": "10th and 11th"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "Abby Winterberger and Riley Jacobs did not advance to the final",
+      "event_type": "Competition_Qualification",
+      "trigger": "advance",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Abby Winterberger"
+        },
+        {
+          "role": "Participant",
+          "argument": "Riley Jacobs"
+        },
+        {
+          "role": "Result",
+          "argument": "did not advance to the final"
+        }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "placing 15th and 18th in qualifying",
+      "event_type": "Competition_Result",
+      "trigger": "placing",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Abby Winterberger"
+        },
+        {
+          "role": "Participant",
+          "argument": "Riley Jacobs"
+        },
+        {
+          "role": "Result",
+          "argument": "15th and 18th"
+        },
+        {
+          "role": "Participant",
+          "argument": "qualifying"
+        }
+      ]
+    }
+  ]
+}

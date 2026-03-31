@@ -1,0 +1,116 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "The United States finished second with 12 gold, 12 silver and 9 bronze medals",
+      "event_type": "Competition_Placement",
+      "trigger": "finished",
+      "arguments": [
+        {
+          "role": "participant",
+          "argument": "The United States"
+        },
+        {
+          "role": "rank",
+          "argument": "second"
+        },
+        {
+          "role": "medals",
+          "argument": "12 gold, 12 silver and 9 bronze medals"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "the Netherlands in third with 10 gold, 7 silver and 3 bronze",
+      "event_type": "Competition_Placement",
+      "trigger": "followed",
+      "arguments": [
+        {
+          "role": "participant",
+          "argument": "the Netherlands"
+        },
+        {
+          "role": "rank",
+          "argument": "third"
+        },
+        {
+          "role": "medals",
+          "argument": "10 gold, 7 silver and 3 bronze"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "Host nation Italy finished fourth with 10 gold, 6 silver and 14 bronze medals",
+      "event_type": "Competition_Placement",
+      "trigger": "finished",
+      "arguments": [
+        {
+          "role": "participant",
+          "argument": "Host nation Italy"
+        },
+        {
+          "role": "rank",
+          "argument": "fourth"
+        },
+        {
+          "role": "medals",
+          "argument": "10 gold, 6 silver and 14 bronze medals"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "Germany placed fifth with 8 gold, 10 silver and 8 bronze",
+      "event_type": "Competition_Placement",
+      "trigger": "placed",
+      "arguments": [
+        {
+          "role": "participant",
+          "argument": "Germany"
+        },
+        {
+          "role": "rank",
+          "argument": "fifth"
+        },
+        {
+          "role": "medals",
+          "argument": "8 gold, 10 silver and 8 bronze"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "The Games, which opened on February 6",
+      "event_type": "Event_Opening",
+      "trigger": "opened",
+      "arguments": [
+        {
+          "role": "event",
+          "argument": "The Games"
+        },
+        {
+          "role": "date",
+          "argument": "February 6"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "brought together 2,871 athletes from 92 countries",
+      "event_type": "Participation",
+      "trigger": "brought together",
+      "arguments": [
+        {
+          "role": "participants",
+          "argument": "2,871 athletes"
+        },
+        {
+          "role": "countries",
+          "argument": "92 countries"
+        }
+      ]
+    }
+  ]
+}

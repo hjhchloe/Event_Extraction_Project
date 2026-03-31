@@ -1,0 +1,136 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "France added another glittering chapter to their Milano Cortina 2026 biathlon campaign on Wednesday (18 February), storming to victory in the women’s 4x6km relay",
+      "event_type": "Competition_Win",
+      "trigger": "storming to victory",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "France"
+        },
+        {
+          "role": "Event",
+          "argument": "women’s 4x6km relay"
+        },
+        {
+          "role": "Time",
+          "argument": "Wednesday (18 February)"
+        },
+        {
+          "role": "Place",
+          "argument": "Milano Cortina 2026 biathlon campaign"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "capped by a flawless anchor leg from Julia Simon",
+      "event_type": "Performance",
+      "trigger": "capped",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Julia Simon"
+        },
+        {
+          "role": "Result",
+          "argument": "flawless anchor leg"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon claimed Olympic gold in 1:10:22.7",
+      "event_type": "Medal_Award",
+      "trigger": "claimed",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Julia Simon"
+        },
+        {
+          "role": "Result",
+          "argument": "Olympic gold"
+        },
+        {
+          "role": "Time",
+          "argument": "1:10:22.7"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "holding off a late challenge from Sweden",
+      "event_type": "Competition",
+      "trigger": "challenge",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Sweden"
+        },
+        {
+          "role": "Participant",
+          "argument": "The French quartet"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "to win by more than 50 seconds",
+      "event_type": "Competition_Win",
+      "trigger": "win",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "The French quartet"
+        },
+        {
+          "role": "Quantity",
+          "argument": "more than 50 seconds"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "Sweden took silver in 1:11:14.0 (+51.3)",
+      "event_type": "Medal_Award",
+      "trigger": "took",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Sweden"
+        },
+        {
+          "role": "Result",
+          "argument": "silver"
+        },
+        {
+          "role": "Time",
+          "argument": "1:11:14.0 (+51.3)"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "Norway completed the podium with bronze in 1:11:30.3 (+1:07.6)",
+      "event_type": "Medal_Award",
+      "trigger": "completed",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Norway"
+        },
+        {
+          "role": "Result",
+          "argument": "bronze"
+        },
+        {
+          "role": "Time",
+          "argument": "1:11:30.3 (+1:07.6)"
+        }
+      ]
+    }
+  ]
+}

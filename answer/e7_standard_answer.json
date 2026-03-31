@@ -1,0 +1,304 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Hundreds of thousands of international tourists are expected to descend on Brazil over the next few days for carnival.",
+      "event_type": "Travel",
+      "trigger": "descend",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Hundreds of thousands of international tourists"
+        },
+        {
+          "role": "Place",
+          "argument": "Brazil"
+        },
+        {
+          "role": "Time",
+          "argument": "over the next few days"
+        },
+        {
+          "role": "Purpose",
+          "argument": "for carnival"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "But you didn’t need to go further than the Dolomites on Saturday to see somebody performing samba on a raised platform.",
+      "event_type": "Performance",
+      "trigger": "performing",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "somebody"
+        },
+        {
+          "role": "Activity",
+          "argument": "samba"
+        },
+        {
+          "role": "Place",
+          "argument": "a raised platform"
+        },
+        {
+          "role": "Time",
+          "argument": "Saturday"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "Lucas Pinheiro Braathen entered Brazilian sporting folklore by snaring his country’s, and continent’s, first medal at a Winter Olympics – and a gold at that.",
+      "event_type": "Medal_Win",
+      "trigger": "snaring",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lucas Pinheiro Braathen"
+        },
+        {
+          "role": "Participant",
+          "argument": "first medal at a Winter Olympics"
+        },
+        {
+          "role": "Result",
+          "argument": "a gold"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "The reigning champion, Marco Odermatt of Switzerland, who leaves these Games without a title after being fancied for multiple successes.",
+      "event_type": "Competition_Result",
+      "trigger": "leaves",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Marco Odermatt of Switzerland"
+        },
+        {
+          "role": "Result",
+          "argument": "without a title"
+        },
+        {
+          "role": "Place",
+          "argument": "these Games"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Brazilian TV heralded this moment by overlaying on to its coverage the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One.",
+      "event_type": "Broadcast_Action",
+      "trigger": "overlaying",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Brazilian TV"
+        },
+        {
+          "role": "Participant",
+          "argument": "the same music that ran alongside Ayrton Senna’s grand prix victories in Formula One"
+        },
+        {
+          "role": "Target",
+          "argument": "its coverage"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "“This unprecedented result shows that Brazilian sport has no limits,” wrote the president, Luiz Inácio Lula da Silva.",
+      "event_type": "Statement",
+      "trigger": "wrote",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Luiz Inácio Lula da Silva"
+        },
+        {
+          "role": "Content",
+          "argument": "This unprecedented result shows that Brazilian sport has no limits"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "anyone aged 23 or under in Brazil has now seen their country win a Winter Olympic gold medal but not a football World Cup.",
+      "event_type": "Victory",
+      "trigger": "win",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "their country"
+        },
+        {
+          "role": "Participant",
+          "argument": "a Winter Olympic gold medal"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "living in Brazil with his mother after his parents’ divorce and playing football",
+      "event_type": "Divorce",
+      "trigger": "divorce",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "his parents"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "living in Brazil with his mother after his parents’ divorce and playing football",
+      "event_type": "Sport_Play",
+      "trigger": "playing",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Pinheiro Braathen"
+        },
+        {
+          "role": "Participant",
+          "argument": "football"
+        },
+        {
+          "role": "Place",
+          "argument": "Brazil"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "When he went back to Norway, the country of his birth, his father tried to take him skiing.",
+      "event_type": "Travel",
+      "trigger": "went",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "he"
+        },
+        {
+          "role": "Place",
+          "argument": "Norway"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "his father tried to take him skiing.",
+      "event_type": "Attempt",
+      "trigger": "tried",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "his father"
+        },
+        {
+          "role": "Participant",
+          "argument": "him"
+        },
+        {
+          "role": "Activity",
+          "argument": "skiing"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "Eventually he made his name in elite skiing under Norway’s flag.",
+      "event_type": "Achievement",
+      "trigger": "made",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "he"
+        },
+        {
+          "role": "Field",
+          "argument": "elite skiing"
+        },
+        {
+          "role": "Affiliation",
+          "argument": "Norway’s flag"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "The story of his retirement at 23.",
+      "event_type": "Retirement",
+      "trigger": "retirement",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "his"
+        },
+        {
+          "role": "Time",
+          "argument": "at 23"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "his comeback under Brazil’s flag is well-documented.",
+      "event_type": "Comeback",
+      "trigger": "comeback",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "his"
+        },
+        {
+          "role": "Affiliation",
+          "argument": "Brazil’s flag"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "he has his own skincare brand.",
+      "event_type": "Business_Ownership",
+      "trigger": "has",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "he"
+        },
+        {
+          "role": "Participant",
+          "argument": "his own skincare brand"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "A little samba shuffle came out on top of the podium in Bormio after a poignant moment when the national anthem was played.",
+      "event_type": "Ceremony",
+      "trigger": "played",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "the national anthem"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "“I’ve experienced it so many times as a fan of the Brazilian football team,” the gold medallist said.",
+      "event_type": "Statement",
+      "trigger": "said",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "the gold medallist"
+        }
+      ]
+    }
+  ]
+}

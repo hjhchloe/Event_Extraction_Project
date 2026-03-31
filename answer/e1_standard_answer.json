@@ -1,0 +1,264 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Norway has once again topped the Winter Olympics medal table",
+      "event_type": "Ranking",
+      "trigger": "topped",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Norway"
+        },
+        {
+          "role": "Place",
+          "argument": "Winter Olympics medal table"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "surpassing countries with far larger populations",
+      "event_type": "Competition",
+      "trigger": "surpassing",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Norway"
+        },
+        {
+          "role": "Participant",
+          "argument": "countries with far larger populations"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "The Scandinavian country won more gold medals (18) and more total medals (41) than the US",
+      "event_type": "Winning",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "The Scandinavian country"
+        },
+        {
+          "role": "Participant",
+          "argument": "gold medals"
+        },
+        {
+          "role": "Quantity",
+          "argument": "18"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "the US, who came second in both categories",
+      "event_type": "Ranking",
+      "trigger": "came",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "the US"
+        },
+        {
+          "role": "Result",
+          "argument": "second"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Johannes Høsflot Klæbo accounted for six golds on his own",
+      "event_type": "Achievement",
+      "trigger": "accounted",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Participant",
+          "argument": "golds"
+        },
+        {
+          "role": "Quantity",
+          "argument": "six"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "they outperformed winter-sports nations with far larger populations",
+      "event_type": "Competition",
+      "trigger": "outperformed",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Norway"
+        },
+        {
+          "role": "Participant",
+          "argument": "winter-sports nations with far larger populations"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "The Netherlands, which excels in speed skating",
+      "event_type": "Performance",
+      "trigger": "excels",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "The Netherlands"
+        },
+        {
+          "role": "Participant",
+          "argument": "speed skating"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "finishing with 10 golds – the same as host nation Italy",
+      "event_type": "CompetitionResult",
+      "trigger": "finishing",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "The Netherlands"
+        },
+        {
+          "role": "Participant",
+          "argument": "golds"
+        },
+        {
+          "role": "Quantity",
+          "argument": "10"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "Great Britain enjoyed its best ever medal haul at a Winter Olympics with three golds, a silver and a bronze",
+      "event_type": "Achievement",
+      "trigger": "enjoyed",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Great Britain"
+        },
+        {
+          "role": "Participant",
+          "argument": "medal haul"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "the US finished in second place",
+      "event_type": "Ranking",
+      "trigger": "finished",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "the US"
+        },
+        {
+          "role": "Result",
+          "argument": "second place"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "The Norwegians have won the most golds at every Winter Olympics since 2014",
+      "event_type": "Winning",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "The Norwegians"
+        },
+        {
+          "role": "Participant",
+          "argument": "golds"
+        },
+        {
+          "role": "Time",
+          "argument": "since 2014"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "they tied with Germany in 2018",
+      "event_type": "CompetitionResult",
+      "trigger": "tied",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Norway"
+        },
+        {
+          "role": "Participant",
+          "argument": "Germany"
+        },
+        {
+          "role": "Time",
+          "argument": "2018"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "children becoming discouraged and quitting sports before they have time to develop their potential",
+      "event_type": "QuitActivity",
+      "trigger": "quitting",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "children"
+        },
+        {
+          "role": "Participant",
+          "argument": "sports"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "Morten Aasen, a former Norwegian Olympian, said in 2018",
+      "event_type": "Communication",
+      "trigger": "said",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Morten Aasen"
+        },
+        {
+          "role": "Time",
+          "argument": "2018"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "Geir Jordet told CNN Sports his country’s athletic success comes down to a simple formula",
+      "event_type": "Communication",
+      "trigger": "told",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Geir Jordet"
+        },
+        {
+          "role": "Participant",
+          "argument": "CNN Sports"
+        }
+      ]
+    }
+  ]
+}

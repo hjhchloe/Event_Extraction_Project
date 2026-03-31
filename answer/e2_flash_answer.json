@@ -1,0 +1,92 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "After two silvers at the Games",
+      "event_type": "Achievement",
+      "trigger": "silvers",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ailing Eileen Gu"
+        },
+        {
+          "role": "Quantity",
+          "argument": "two"
+        },
+        {
+          "role": "Place",
+          "argument": "the Games"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Ailing Eileen Gu has her gold",
+      "event_type": "Achievement",
+      "trigger": "gold",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ailing Eileen Gu"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "she successfully defended her Olympic Freeski Halfpipe title",
+      "event_type": "Competition_Win",
+      "trigger": "defended",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Ailing Eileen Gu"
+        },
+        {
+          "role": "Result",
+          "argument": "Olympic Freeski Halfpipe title"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "Li Fanghui made it a one-two for People’s Republic of China",
+      "event_type": "Competition_Result",
+      "trigger": "made",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Li Fanghui"
+        },
+        {
+          "role": "Participant",
+          "argument": "People’s Republic of China"
+        },
+        {
+          "role": "Result",
+          "argument": "a one-two"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Zoe Atkin of Great Britain taking bronze",
+      "event_type": "Achievement",
+      "trigger": "taking",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Zoe Atkin"
+        },
+        {
+          "role": "Participant",
+          "argument": "Great Britain"
+        },
+        {
+          "role": "Result",
+          "argument": "bronze"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Jack Hughes scored one of the most dramatic goals in Olympic hockey history, 1:41 into overtime to give Team USA a 2-1 win against Team Canada in the gold medal game",
+      "event_type": "Sports_Scoring",
+      "trigger": "scored",
+      "arguments": [
+        { "role": "Agent", 
+        "argument": "Jack Hughes" },
+        { "role": "Participant", "argument": "Team USA" },
+        { "role": "Participant", "argument": "Team Canada" },
+        { "role": "Time", "argument": "1:41 into overtime" },
+        { "role": "Place", "argument": "Santaguilia Arena" },
+        { "role": "Result", "argument": "2-1 win" }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "The goal, off a pass from Zach Werenski during 3-on-3 play",
+      "event_type": "Sports_Pass",
+      "trigger": "pass",
+      "arguments": [
+        { "role": "Agent", "argument": "Zach Werenski" },
+        { "role": "Participant", "argument": "Jack Hughes" }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "the puck slid through the five-hole of Canada goalie Jordan Binnington",
+      "event_type": "Sports_Play",
+      "trigger": "slid",
+      "arguments": [
+        { "role": "Participant", "argument": "puck" },
+        { "role": "Participant", "argument": "Jordan Binnington" }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "delivered the much-awaited gold medal for this American squad",
+      "event_type": "Sports_Victory",
+      "trigger": "delivered",
+      "arguments": [
+        { "role": "Agent", "argument": "Jack Hughes' goal" },
+        { "role": "Participant", "argument": "American squad" },
+        { "role": "Result", "argument": "gold medal" }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "the improbable 4-3 victory against the Soviet Union during the medal round in Lake Placid, New York",
+      "event_type": "Sports_Victory",
+      "trigger": "victory",
+      "arguments": [
+        { "role": "Participant", "argument": "United States" },
+        { "role": "Participant", "argument": "Soviet Union" },
+        { "role": "Place", "argument": "Lake Placid, New York" },
+        { "role": "Result", "argument": "4-3 victory" }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "he was high-sticked earlier in the game",
+      "event_type": "Sports_Foul",
+      "trigger": "high-sticked",
+      "arguments": [
+        { "role": "Participant", "argument": "Jack Hughes" },
+        { "role": "Time", "argument": "earlier in the game" }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "the Americans defeated the Canadians in round-robin play",
+      "event_type": "Sports_Victory",
+      "trigger": "defeated",
+      "arguments": [
+        { "role": "Agent", "argument": "Americans" },
+        { "role": "Participant", "argument": "Canadians" },
+        { "role": "Time", "argument": "2010 Vancouver Games" }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "Canada got revenge in overtime of that tournament, winning on a Golden Goal by Sidney Crosby",
+      "event_type": "Sports_Scoring",
+      "trigger": "winning",
+      "arguments": [
+        { "role": "Agent", "argument": "Sidney Crosby" },
+        { "role": "Participant", "argument": "Canada" },
+        { "role": "Time", "argument": "overtime of that tournament" },
+        { "role": "Result", "argument": "Golden Goal" }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "Four years later, it defeated Sweden for gold",
+      "event_type": "Sports_Victory",
+      "trigger": "defeated",
+      "arguments": [
+        { "role": "Agent", "argument": "Canada" },
+        { "role": "Participant", "argument": "Sweden" },
+        { "role": "Result", "argument": "gold" }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "Pandemonium broke out after the Hughes’ goal",
+      "event_type": "Reaction",
+      "trigger": "broke out",
+      "arguments": [
+        { "role": "Cause", "argument": "Hughes’ goal" }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "Connor Hellebuyck made 41 saves",
+      "event_type": "Sports_Defense",
+      "trigger": "made",
+      "arguments": [
+        { "role": "Agent", "argument": "Connor Hellebuyck" },
+        { "role": "Quantity", "argument": "41 saves" }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "As he shot, Hellebuyck stretched his stick behind him and the puck struck it",
+      "event_type": "Sports_Shot",
+      "trigger": "shot",
+      "arguments": [
+        { "role": "Agent", "argument": "Devon Toews" },
+        { "role": "Participant", "argument": "puck" }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "Hellebuyck stretched his stick behind him in a final act of desperation and the puck struck it",
+      "event_type": "Sports_Save",
+      "trigger": "struck",
+      "arguments": [
+        { "role": "Agent", "argument": "Connor Hellebuyck" },
+        { "role": "Participant", "argument": "puck" }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "Cale Makar scored",
+      "event_type": "Sports_Scoring",
+      "trigger": "scored",
+      "arguments": [
+        { "role": "Agent", "argument": "Cale Makar" },
+        { "role": "Participant", "argument": "Canada" }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "Binnington made 26 saves for Canada",
+      "event_type": "Sports_Defense",
+      "trigger": "made",
+      "arguments": [
+        { "role": "Agent", "argument": "Jordan Binnington" },
+        { "role": "Quantity", "argument": "26 saves" },
+        { "role": "Participant", "argument": "Canada" }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "he sustained a lower-body injury in the quarterfinals against Team Czechia",
+      "event_type": "Injury",
+      "trigger": "sustained",
+      "arguments": [
+        { "role": "Participant", "argument": "Sidney Crosby" },
+        { "role": "Participant", "argument": "lower-body injury" },
+        { "role": "Opponent", "argument": "Team Czechia" },
+        { "role": "Time", "argument": "quarterfinals" }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "Makar tied at 1-1 at 18:16 of the second period with a snap shot",
+      "event_type": "Sports_Scoring",
+      "trigger": "tied",
+      "arguments": [
+        { "role": "Agent", "argument": "Cale Makar" },
+        { "role": "Time", "argument": "18:16 of the second period" },
+        { "role": "Result", "argument": "1-1 tie" }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "Connor McDavid had a breakaway in the first period but was denied by Hellebuyck",
+      "event_type": "Sports_Save",
+      "trigger": "denied",
+      "arguments": [
+        { "role": "Agent", "argument": "Connor Hellebuyck" },
+        { "role": "Participant", "argument": "Connor McDavid" },
+        { "role": "Time", "argument": "first period" }
+      ]
+    },
+    {
+      "event_id": "E19",
+      "event_mention": "Nathan MacKinnon had a Grade-A chance at an open net in the third but missed",
+      "event_type": "Sports_Miss",
+      "trigger": "missed",
+      "arguments": [
+        { "role": "Agent", "argument": "Nathan MacKinnon" },
+        { "role": "Time", "argument": "third period" }
+      ]
+    },
+    {
+      "event_id": "E20",
+      "event_mention": "Matt Boldy gave the U.S. a 1-0 lead at 6:00 of the first",
+      "event_type": "Sports_Scoring",
+      "trigger": "gave",
+      "arguments": [
+        { "role": "Agent", "argument": "Matt Boldy" },
+        { "role": "Participant", "argument": "U.S." },
+        { "role": "Result", "argument": "1-0 lead" },
+        { "role": "Time", "argument": "6:00 of the first" }
+      ]
+    },
+    {
+      "event_id": "E21",
+      "event_mention": "Hellebuyck helped force overtime by stopping all 14 shots he faced in the third",
+      "event_type": "Sports_Defense",
+      "trigger": "stopping",
+      "arguments": [
+        { "role": "Agent", "argument": "Connor Hellebuyck" },
+        { "role": "Quantity", "argument": "14 shots" },
+        { "role": "Time", "argument": "third period" }
+      ]
+    }
+  ]
+}

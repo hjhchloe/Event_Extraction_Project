@@ -1,0 +1,168 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Ilia Malinin missed out on a medal in a stunning and dramatic men's figure skating final at the Winter Olympics today.",
+      "event_type": "Competition Outcome",
+      "trigger": "missed out",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Ilia Malinin"
+        },
+        {
+          "role": "Result",
+          "argument": "a medal"
+        },
+        {
+          "role": "Place",
+          "argument": "Winter Olympics"
+        },
+        {
+          "role": "Time",
+          "argument": "today"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "The 21-year-old American fell twice in his final free skate.",
+      "event_type": "Accident/Fall",
+      "trigger": "fell",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "The 21-year-old American"
+        },
+        {
+          "role": "Quantity",
+          "argument": "twice"
+        },
+        {
+          "role": "Place",
+          "argument": "his final free skate"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "The 21-year-old American fell twice in his final free skate to score 156.33.",
+      "event_type": "Scoring",
+      "trigger": "score",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "The 21-year-old American"
+        },
+        {
+          "role": "Quantity",
+          "argument": "156.33"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "The 21-year-old American ... finish eighth.",
+      "event_type": "Competition Ranking",
+      "trigger": "finish",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "The 21-year-old American"
+        },
+        {
+          "role": "Result",
+          "argument": "eighth"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Mikhail Shaidorov of Kazakhstan won gold.",
+      "event_type": "Competition Victory",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Mikhail Shaidorov"
+        },
+        {
+          "role": "Place",
+          "argument": "Kazakhstan"
+        },
+        {
+          "role": "Result",
+          "argument": "gold"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "Malinin won team gold here at the Milan Cortina Games.",
+      "event_type": "Competition Victory",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Result",
+          "argument": "team gold"
+        },
+        {
+          "role": "Place",
+          "argument": "Milan Cortina Games"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "Malinin ... fell short today.",
+      "event_type": "Competition Failure",
+      "trigger": "fell short",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Malinin"
+        },
+        {
+          "role": "Time",
+          "argument": "today"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "Yuma Kagiyama won silver.",
+      "event_type": "Competition Victory",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Yuma Kagiyama"
+        },
+        {
+          "role": "Result",
+          "argument": "silver"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "Shun Sato bronze.",
+      "event_type": "Competition Victory",
+      "trigger": "bronze",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Shun Sato"
+        },
+        {
+          "role": "Result",
+          "argument": "bronze"
+        }
+      ]
+    }
+  ]
+}

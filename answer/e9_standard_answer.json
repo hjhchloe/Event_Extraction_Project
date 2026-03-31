@@ -1,0 +1,364 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Germany swept the medals at the Olympic two-man bobsleigh for the second Games in a row on Tuesday",
+      "event_type": "Sports_Result",
+      "trigger": "swept",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Germany"
+        },
+        {
+          "role": "Event",
+          "argument": "Olympic two-man bobsleigh"
+        },
+        {
+          "role": "Time",
+          "argument": "Tuesday"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Johannes Lochner won two silvers in Beijing",
+      "event_type": "Sports_Result",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Lochner"
+        },
+        {
+          "role": "Quantity",
+          "argument": "two silvers"
+        },
+        {
+          "role": "Place",
+          "argument": "Beijing"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "Lochner and Georg Fleischhauer dominated the event from start to finish",
+      "event_type": "Sports_Performance",
+      "trigger": "dominated",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lochner and Georg Fleischhauer"
+        },
+        {
+          "role": "Participant",
+          "argument": "the event"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "Francesco Friedrich had been seeking a record fifth gold",
+      "event_type": "Sports_Attempt",
+      "trigger": "seeking",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesco Friedrich"
+        },
+        {
+          "role": "Quantity",
+          "argument": "a record fifth gold"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Adam Ammour and Alexander Schaller took bronze",
+      "event_type": "Sports_Result",
+      "trigger": "took",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Adam Ammour and Alexander Schaller"
+        },
+        {
+          "role": "Result",
+          "argument": "bronze"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "Beijing was the first time a country had swept the medals in any bobsleigh event",
+      "event_type": "Sports_Result",
+      "trigger": "swept",
+      "arguments": [
+        {
+          "role": "Place",
+          "argument": "Beijing"
+        },
+        {
+          "role": "Participant",
+          "argument": "a country"
+        },
+        {
+          "role": "Event",
+          "argument": "bobsleigh event"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "Germany have done it again in the same event",
+      "event_type": "Sports_Result",
+      "trigger": "done",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Germany"
+        },
+        {
+          "role": "Event",
+          "argument": "the same event"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "Lochner has been on top in the World Cup all season, winning six of the seven Two-Man races",
+      "event_type": "Sports_Result",
+      "trigger": "winning",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Lochner"
+        },
+        {
+          "role": "Quantity",
+          "argument": "six of the seven Two-Man races"
+        },
+        {
+          "role": "Event",
+          "argument": "World Cup"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "Tuesday’s medallists filled all three podium places in six of the seven races",
+      "event_type": "Sports_Result",
+      "trigger": "filling",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Tuesday’s medallists"
+        },
+        {
+          "role": "Quantity",
+          "argument": "all three podium places"
+        },
+        {
+          "role": "Event",
+          "argument": "six of the seven races"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "He carried that form into the Olympics",
+      "event_type": "Sports_Participation",
+      "trigger": "carried",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "He"
+        },
+        {
+          "role": "Event",
+          "argument": "the Olympics"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "he opened a huge 0.8-second lead over Friedrich on Monday",
+      "event_type": "Sports_Lead",
+      "trigger": "opened",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "he"
+        },
+        {
+          "role": "Participant",
+          "argument": "Friedrich"
+        },
+        {
+          "role": "Quantity",
+          "argument": "0.8-second lead"
+        },
+        {
+          "role": "Time",
+          "argument": "Monday"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "Friedrich clocked 55.01",
+      "event_type": "Sports_Performance",
+      "trigger": "clocked",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Friedrich"
+        },
+        {
+          "role": "Quantity",
+          "argument": "55.01"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "He signed off with the fastest time of the fourth run",
+      "event_type": "Sports_Performance",
+      "trigger": "signed off",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "He"
+        },
+        {
+          "role": "Result",
+          "argument": "the fastest time of the fourth run"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "Francesco Friedrich came into the Games level with Andre Lange and Kevin Kuske on four golds",
+      "event_type": "Sports_Standing",
+      "trigger": "came",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesco Friedrich"
+        },
+        {
+          "role": "Event",
+          "argument": "the Games"
+        },
+        {
+          "role": "Quantity",
+          "argument": "four golds"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "after adding a silver",
+      "event_type": "Sports_Result",
+      "trigger": "adding",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesco Friedrich"
+        },
+        {
+          "role": "Result",
+          "argument": "a silver"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "training starts on Wednesday morning",
+      "event_type": "Sports_Event_Start",
+      "trigger": "starts",
+      "arguments": [
+        {
+          "role": "Event",
+          "argument": "training"
+        },
+        {
+          "role": "Time",
+          "argument": "Wednesday morning"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "Americans Frankie Del Duca and Josh Williamson finished fourth",
+      "event_type": "Sports_Result",
+      "trigger": "finished",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Frankie Del Duca and Josh Williamson"
+        },
+        {
+          "role": "Result",
+          "argument": "fourth"
+        }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "Romanian duo Mihai Cristian Tentea and George Iordache took a surprise fifth place",
+      "event_type": "Sports_Result",
+      "trigger": "took",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Mihai Cristian Tentea and George Iordache"
+        },
+        {
+          "role": "Result",
+          "argument": "fifth place"
+        }
+      ]
+    },
+    {
+      "event_id": "E19",
+      "event_mention": "Germany won all three team bobsleigh golds in Beijing",
+      "event_type": "Sports_Result",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Germany"
+        },
+        {
+          "role": "Quantity",
+          "argument": "all three team bobsleigh golds"
+        },
+        {
+          "role": "Place",
+          "argument": "Beijing"
+        }
+      ]
+    },
+    {
+      "event_id": "E20",
+      "event_mention": "the monobob went to the United States this week",
+      "event_type": "Sports_Result",
+      "trigger": "went",
+      "arguments": [
+        {
+          "role": "Result",
+          "argument": "monobob"
+        },
+        {
+          "role": "Agent",
+          "argument": "the United States"
+        },
+        {
+          "role": "Time",
+          "argument": "this week"
+        }
+      ]
+    }
+  ]
+}

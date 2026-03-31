@@ -1,0 +1,156 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Competing on her 35th birthday",
+      "event_type": "Competition",
+      "trigger": "Competing",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Time",
+          "argument": "her 35th birthday"
+        },
+        {
+          "role": "Event",
+          "argument": "women’s speed skating 3000m"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Francesca Lollobrigida powered to victory in the women’s speed skating 3000m",
+      "event_type": "SportsVictory",
+      "trigger": "victory",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Event",
+          "argument": "women’s speed skating 3000m"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "deliver Italy’s first gold medal of Milano Cortina 2026",
+      "event_type": "Award",
+      "trigger": "deliver",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Recipient",
+          "argument": "Italy"
+        },
+        {
+          "role": "Award",
+          "argument": "first gold medal of Milano Cortina 2026"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "in a new Olympic record time of 3:54.28",
+      "event_type": "RecordSet",
+      "trigger": "record",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Result",
+          "argument": "Olympic record time of 3:54.28"
+        },
+        {
+          "role": "Event",
+          "argument": "women’s speed skating 3000m"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Weeks after admitting she had been on the verge of quitting the sport due to a viral infection",
+      "event_type": "Admission",
+      "trigger": "admitting",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Content",
+          "argument": "she had been on the verge of quitting the sport due to a viral infection"
+        },
+        {
+          "role": "Time",
+          "argument": "Weeks after"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "she had been on the verge of quitting the sport due to a viral infection",
+      "event_type": "PotentialQuit",
+      "trigger": "quitting",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Activity",
+          "argument": "the sport"
+        },
+        {
+          "role": "Cause",
+          "argument": "a viral infection"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "the mother of one called it “the dream of the dream”",
+      "event_type": "Statement",
+      "trigger": "called",
+      "arguments": [
+        {
+          "role": "Speaker",
+          "argument": "Francesca Lollobrigida"
+        },
+        {
+          "role": "Content",
+          "argument": "the dream of the dream"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "a victory that ignited the Games for the host nation",
+      "event_type": "Ignition",
+      "trigger": "ignited",
+      "arguments": [
+        {
+          "role": "Cause",
+          "argument": "victory"
+        },
+        {
+          "role": "Affected",
+          "argument": "the Games"
+        },
+        {
+          "role": "Beneficiary",
+          "argument": "the host nation"
+        }
+      ]
+    }
+  ]
+}

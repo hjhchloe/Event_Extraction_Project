@@ -1,0 +1,368 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Johannes Høsflot Klæbo won his sixth gold medal of these Games when he beat his Norwegian teammate Martin Løwstrøm Nyenget by 17.4 seconds to win the men’s 50km classic.",
+      "event_type": "Competition_Win",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Participant",
+          "argument": "Martin Løwstrøm Nyenget"
+        },
+        {
+          "role": "Event",
+          "argument": "men’s 50km classic"
+        },
+        {
+          "role": "Quantity",
+          "argument": "17.4 seconds"
+        }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Johannes Høsflot Klæbo beat his Norwegian teammate Martin Løwstrøm Nyenget by 17.4 seconds.",
+      "event_type": "Competition_Defeat",
+      "trigger": "beat",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Participant",
+          "argument": "Martin Løwstrøm Nyenget"
+        },
+        {
+          "role": "Quantity",
+          "argument": "17.4 seconds"
+        }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "The 29-year-old set the record for the most gold medals in a single Winter Games.",
+      "event_type": "Record_Set",
+      "trigger": "set",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Result",
+          "argument": "record for the most gold medals in a single Winter Games"
+        }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "Eric Heiden won five at Lake Placid in 1980.",
+      "event_type": "Competition_Win",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Eric Heiden"
+        },
+        {
+          "role": "Quantity",
+          "argument": "five"
+        },
+        {
+          "role": "Place",
+          "argument": "Lake Placid"
+        },
+        {
+          "role": "Time",
+          "argument": "1980"
+        }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "In this past fortnight he has competed in 10 races across 115km.",
+      "event_type": "Competition_Participation",
+      "trigger": "competed",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Quantity",
+          "argument": "10 races"
+        },
+        {
+          "role": "Distance",
+          "argument": "115km"
+        },
+        {
+          "role": "Time",
+          "argument": "this past fortnight"
+        }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "He has won every single one of them.",
+      "event_type": "Competition_Win",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Participant",
+          "argument": "10 races"
+        }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "He has overtaken Laris Latynina, Carl Lewis, Katie Ledecky, Paavo Nurmi and everyone else in the Olympic pantheon.",
+      "event_type": "Ranking_Change",
+      "trigger": "overtaken",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Participant",
+          "argument": "Laris Latynina"
+        },
+        {
+          "role": "Participant",
+          "argument": "Carl Lewis"
+        },
+        {
+          "role": "Participant",
+          "argument": "Katie Ledecky"
+        },
+        {
+          "role": "Participant",
+          "argument": "Paavo Nurmi"
+        }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "Klæbo said after he had won his fifth gold on Wednesday.",
+      "event_type": "Competition_Win",
+      "trigger": "won",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Quantity",
+          "argument": "fifth gold"
+        },
+        {
+          "role": "Time",
+          "argument": "Wednesday"
+        }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "Iversen finally broke and slipped back halfway through the last lap.",
+      "event_type": "Competition_PositionChange",
+      "trigger": "slipped",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Iversen"
+        },
+        {
+          "role": "Time",
+          "argument": "halfway through the last lap"
+        }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "He attacked twice in the final two kilometres.",
+      "event_type": "Competition_Attack",
+      "trigger": "attacked",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Martin Løwstrøm Nyenget"
+        },
+        {
+          "role": "Quantity",
+          "argument": "twice"
+        },
+        {
+          "role": "Place",
+          "argument": "the final two kilometres"
+        }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "Klæbo finally made the move on the final uphill.",
+      "event_type": "Competition_Move",
+      "trigger": "made",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Place",
+          "argument": "final uphill"
+        }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "As he entered the bend into the home stretch he was a tenth of a second ahead.",
+      "event_type": "Movement",
+      "trigger": "entered",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Place",
+          "argument": "the bend into the home stretch"
+        }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "He was cheered into history by thousands of raucous fans.",
+      "event_type": "Cheering",
+      "trigger": "cheered",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "thousands of raucous fans"
+        },
+        {
+          "role": "Participant",
+          "argument": "Johannes Høsflot Klæbo"
+        }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "He began this sport as a sprinter, competing in the 1,500m.",
+      "event_type": "Competition_Participation",
+      "trigger": "competing",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Event",
+          "argument": "1,500m"
+        }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "Over time he has moved up into marathon racing too.",
+      "event_type": "Career_Change",
+      "trigger": "moved",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Participant",
+          "argument": "marathon racing"
+        }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "Klæbo invented an uphill running technique.",
+      "event_type": "Creation",
+      "trigger": "invented",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Johannes Høsflot Klæbo"
+        },
+        {
+          "role": "Result",
+          "argument": "uphill running technique"
+        }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "Theo Schley said Klæbo is the GOAT in the whole sport.",
+      "event_type": "Statement",
+      "trigger": "said",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Theo Schley"
+        },
+        {
+          "role": "Participant",
+          "argument": "Johannes Høsflot Klæbo"
+        }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "Ben Ogden said a lot of the time it’s a race for second.",
+      "event_type": "Statement",
+      "trigger": "said",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Ben Ogden"
+        }
+      ]
+    },
+    {
+      "event_id": "E19",
+      "event_mention": "Einar Hedegart said he is the greatest of all time.",
+      "event_type": "Statement",
+      "trigger": "said",
+      "arguments": [
+        {
+          "role": "Agent",
+          "argument": "Einar Hedegart"
+        },
+        {
+          "role": "Participant",
+          "argument": "Johannes Høsflot Klæbo"
+        }
+      ]
+    },
+    {
+      "event_id": "E20",
+      "event_mention": "Andrew Musgrave finished sixth.",
+      "event_type": "Competition_Result",
+      "trigger": "finished",
+      "arguments": [
+        {
+          "role": "Participant",
+          "argument": "Andrew Musgrave"
+        },
+        {
+          "role": "Result",
+          "argument": "sixth"
+        }
+      ]
+    }
+  ]
+}

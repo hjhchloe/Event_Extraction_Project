@@ -1,0 +1,242 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "Johannes Høsflot Klæbo powered away in the closing stages to win the men’s 50-kilometer cross-country race Saturday.",
+      "event_type": "Sports_Competition_Win",
+      "trigger": "win",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Participant", "argument": "men’s 50-kilometer cross-country race" },
+        { "role": "Time", "argument": "Saturday" },
+        { "role": "Place", "argument": "Tesero, Italy" }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "claiming his sixth gold medal to complete the most dominant individual performance in Winter Olympics history.",
+      "event_type": "Award_Achievement",
+      "trigger": "claiming",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Participant", "argument": "sixth gold medal" }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "The 29-year-old Norwegian now holds the outright lead for gold medals won in a single Games, with six.",
+      "event_type": "Record_Achievement",
+      "trigger": "holds",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Quantity", "argument": "six gold medals" }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "passing U.S. speedskater Eric Heiden.",
+      "event_type": "Record_Surpass",
+      "trigger": "passing",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Participant", "argument": "Eric Heiden" }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "He won every race he entered.",
+      "event_type": "Sports_Competition_Win",
+      "trigger": "won",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Participant", "argument": "every race he entered" }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "Saturday’s race was another display of Klæbo’s superiority over the field, outlasting Norwegian teammates Emil Iversen and Martin Løwstrøm Nyenget on the final lap to win in 2 hours, 7 minutes and 4 seconds.",
+      "event_type": "Sports_Competition_Win",
+      "trigger": "win",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Participant", "argument": "Emil Iversen and Martin Løwstrøm Nyenget" },
+        { "role": "Time", "argument": "Saturday" },
+        { "role": "Quantity", "argument": "2 hours, 7 minutes and 4 seconds" }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "The trio led for virtually the entire race with Nyenget setting the pace.",
+      "event_type": "Sports_Action",
+      "trigger": "setting",
+      "arguments": [
+        { "role": "Agent", "argument": "Martin Løwstrøm Nyenget" },
+        { "role": "Participant", "argument": "the pace" }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "Klæbo made the decisive move with five kilometres remaining.",
+      "event_type": "Sports_Action",
+      "trigger": "made",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Time", "argument": "five kilometres remaining" }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "first shedding his close friend Iversen.",
+      "event_type": "Sports_Action",
+      "trigger": "shedding",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Participant", "argument": "Emil Iversen" }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "before sprinting past Nyenget on the final hill.",
+      "event_type": "Sports_Action",
+      "trigger": "sprinting",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Participant", "argument": "Martin Løwstrøm Nyenget" },
+        { "role": "Place", "argument": "the final hill" }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "Nyenget took silver and Iversen bronze.",
+      "event_type": "Award_Achievement",
+      "trigger": "took",
+      "arguments": [
+        { "role": "Agent", "argument": "Martin Løwstrøm Nyenget" },
+        { "role": "Result", "argument": "silver medal" }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "Nyenget took silver and Iversen bronze.",
+      "event_type": "Award_Achievement",
+      "trigger": "took",
+      "arguments": [
+        { "role": "Agent", "argument": "Emil Iversen" },
+        { "role": "Result", "argument": "bronze medal" }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "ensuring Norway swept the podium.",
+      "event_type": "Sports_Result",
+      "trigger": "swept",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Participant", "argument": "the podium" }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "Einar Hedegart faded in the final kilometres to allow Klæbo Olympic gold.",
+      "event_type": "Sports_Action",
+      "trigger": "faded",
+      "arguments": [
+        { "role": "Agent", "argument": "Einar Hedegart" },
+        { "role": "Time", "argument": "the final kilometres" }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "allow Klæbo Olympic gold in a rare event that he had not previously medalled in.",
+      "event_type": "Award_Achievement",
+      "trigger": "allow",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Result", "argument": "Olympic gold" }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "Gus Schumacher of the U.S. finished 13th.",
+      "event_type": "Sports_Result",
+      "trigger": "finished",
+      "arguments": [
+        { "role": "Agent", "argument": "Gus Schumacher" },
+        { "role": "Result", "argument": "13th place" }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "having won a silver medal in the team sprint earlier this week.",
+      "event_type": "Award_Achievement",
+      "trigger": "won",
+      "arguments": [
+        { "role": "Agent", "argument": "Gus Schumacher" },
+        { "role": "Result", "argument": "silver medal" },
+        { "role": "Participant", "argument": "team sprint" },
+        { "role": "Time", "argument": "earlier this week" }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "Great Britain’s Andrew Musgrave finished an impressive sixth.",
+      "event_type": "Sports_Result",
+      "trigger": "finished",
+      "arguments": [
+        { "role": "Agent", "argument": "Andrew Musgrave" },
+        { "role": "Result", "argument": "sixth place" }
+      ]
+    },
+    {
+      "event_id": "E19",
+      "event_mention": "Ben Ogden withdrew pre-race with a cold.",
+      "event_type": "Withdrawal",
+      "trigger": "withdrew",
+      "arguments": [
+        { "role": "Agent", "argument": "Ben Ogden" },
+        { "role": "Time", "argument": "pre-race" },
+        { "role": "Reason", "argument": "a cold" }
+      ]
+    },
+    {
+      "event_id": "E20",
+      "event_mention": "The final event remaining on the cross-country schedule is Sunday’s women’s 50km race.",
+      "event_type": "Sports_Event_Scheduled",
+      "trigger": "is",
+      "arguments": [
+        { "role": "Participant", "argument": "women’s 50km race" },
+        { "role": "Time", "argument": "Sunday" }
+      ]
+    },
+    {
+      "event_id": "E21",
+      "event_mention": "her team have announced she has reported her own cold symptoms.",
+      "event_type": "Announcement",
+      "trigger": "announced",
+      "arguments": [
+        { "role": "Agent", "argument": "Frida Karlsson’s team" },
+        { "role": "Participant", "argument": "Frida Karlsson reported cold symptoms" }
+      ]
+    },
+    {
+      "event_id": "E22",
+      "event_mention": "It will also mark the last Olympic race of Jessie Diggins’ career.",
+      "event_type": "Career_Event",
+      "trigger": "mark",
+      "arguments": [
+        { "role": "Participant", "argument": "Jessie Diggins" },
+        { "role": "Result", "argument": "last Olympic race of her career" }
+      ]
+    },
+    {
+      "event_id": "E23",
+      "event_mention": "who is set to retire at the end of the season.",
+      "event_type": "Retirement",
+      "trigger": "retire",
+      "arguments": [
+        { "role": "Agent", "argument": "Jessie Diggins" },
+        { "role": "Time", "argument": "the end of the season" }
+      ]
+    }
+  ]
+}

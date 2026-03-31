@@ -1,0 +1,306 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "The speed skating competition at the 2026 Winter Olympics got off to the hottest of starts.",
+      "event_type": "Competition_Start",
+      "trigger": "got off",
+      "arguments": [
+        {"role": "Event", "argument": "speed skating competition"},
+        {"role": "Place", "argument": "2026 Winter Olympics"}
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "Italian Francesca Lollobrigida took home the first speed skating gold of the 2026 Winter Olympics.",
+      "event_type": "Win_Medal",
+      "trigger": "took home",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Result", "argument": "first speed skating gold"},
+        {"role": "Place", "argument": "2026 Winter Olympics"}
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "skating the 3000m in Olympic record time",
+      "event_type": "Sport_Performance",
+      "trigger": "skating",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Participant", "argument": "3000m"}
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "The four-time Olympian posted a final time of 3 minutes, 54.28 seconds.",
+      "event_type": "Record_Time",
+      "trigger": "posted",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Quantity", "argument": "3 minutes, 54.28 seconds"}
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "shaving over two-and-a-half seconds off the mark Dutch legend Irene Schouten set four years earlier in Beijing.",
+      "event_type": "Record_Break",
+      "trigger": "shaving",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Participant", "argument": "Irene Schouten's mark"},
+        {"role": "Place", "argument": "Beijing"},
+        {"role": "Time", "argument": "four years earlier"}
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "Lollobrigida entered the competition as the 9th best women's long distance skater in the world.",
+      "event_type": "Competition_Entry",
+      "trigger": "entered",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Event", "argument": "competition"}
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "She spent part of the season battling a viral infection.",
+      "event_type": "Health_Condition",
+      "trigger": "battling",
+      "arguments": [
+        {"role": "Participant", "argument": "Francesca Lollobrigida"},
+        {"role": "Cause", "argument": "viral infection"}
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "Her final time was over two seconds faster than 2nd-place finisher Ragne Wiklund's.",
+      "event_type": "Race_Result",
+      "trigger": "was",
+      "arguments": [
+        {"role": "Participant", "argument": "Francesca Lollobrigida"},
+        {"role": "Participant", "argument": "Ragne Wiklund"}
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "Maltais rounded out the podium in 3rd.",
+      "event_type": "Podium_Finish",
+      "trigger": "rounded out",
+      "arguments": [
+        {"role": "Agent", "argument": "Valarie Maltais"},
+        {"role": "Result", "argument": "3rd place"}
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "Lollobrigida told the media after her race Saturday.",
+      "event_type": "Communication",
+      "trigger": "told",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Recipient", "argument": "the media"},
+        {"role": "Time", "argument": "Saturday"}
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "Lollobrigida became the first Italian woman to win Olympic speed skating gold.",
+      "event_type": "Achievement",
+      "trigger": "became",
+      "arguments": [
+        {"role": "Participant", "argument": "Francesca Lollobrigida"},
+        {"role": "Result", "argument": "first Italian woman to win Olympic speed skating gold"}
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "In Beijing, Lollobrigida earned silver in the 300m and bronze in the mass start.",
+      "event_type": "Win_Medal",
+      "trigger": "earned",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Result", "argument": "silver in the 300m"},
+        {"role": "Place", "argument": "Beijing"}
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "Lollobrigida earned silver in the 300m and bronze in the mass start.",
+      "event_type": "Win_Medal",
+      "trigger": "earned",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Result", "argument": "bronze in the mass start"}
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "Lollobrigida tore away from the ice and down the tunnels of the Milano Speed Skating Stadium.",
+      "event_type": "Movement",
+      "trigger": "tore away",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Place", "argument": "Milano Speed Skating Stadium"}
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "After the Beijing Games, she took a break from the sport.",
+      "event_type": "Break_From_Sport",
+      "trigger": "took",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Time", "argument": "After the Beijing Games"}
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "She returned to competition in September 2023.",
+      "event_type": "Return_To_Competition",
+      "trigger": "returned",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Time", "argument": "September 2023"}
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "just four months after giving birth.",
+      "event_type": "Birth",
+      "trigger": "giving birth",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Time", "argument": "four months before returning"}
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "she claimed the 2025 world title in the 5000m.",
+      "event_type": "Win_Title",
+      "trigger": "claimed",
+      "arguments": [
+        {"role": "Agent", "argument": "Francesca Lollobrigida"},
+        {"role": "Result", "argument": "2025 world title"},
+        {"role": "Participant", "argument": "5000m"}
+      ]
+    },
+    {
+      "event_id": "E19",
+      "event_mention": "Wiklund took gold in both the 1500m and 3000m at the 2026 European Championships.",
+      "event_type": "Win_Medal",
+      "trigger": "took",
+      "arguments": [
+        {"role": "Agent", "argument": "Ragne Wiklund"},
+        {"role": "Result", "argument": "gold"},
+        {"role": "Participant", "argument": "1500m and 3000m"},
+        {"role": "Place", "argument": "2026 European Championships"}
+      ]
+    },
+    {
+      "event_id": "E20",
+      "event_mention": "won the race at the final World Cup stop Jan. 24.",
+      "event_type": "Win_Race",
+      "trigger": "won",
+      "arguments": [
+        {"role": "Agent", "argument": "Ragne Wiklund"},
+        {"role": "Time", "argument": "Jan. 24"},
+        {"role": "Place", "argument": "final World Cup stop"}
+      ]
+    },
+    {
+      "event_id": "E21",
+      "event_mention": "With her silver, she became the first Norwegian woman to make an Olympic speed skating podium since Bjørg Eva Jensen won the 3000m in 1980.",
+      "event_type": "Achievement",
+      "trigger": "became",
+      "arguments": [
+        {"role": "Participant", "argument": "Ragne Wiklund"},
+        {"role": "Result", "argument": "first Norwegian woman to make an Olympic speed skating podium since 1980"}
+      ]
+    },
+    {
+      "event_id": "E22",
+      "event_mention": "Bjørg Eva Jensen won the 3000m in 1980.",
+      "event_type": "Win_Race",
+      "trigger": "won",
+      "arguments": [
+        {"role": "Agent", "argument": "Bjørg Eva Jensen"},
+        {"role": "Participant", "argument": "3000m"},
+        {"role": "Time", "argument": "1980"}
+      ]
+    },
+    {
+      "event_id": "E23",
+      "event_mention": "the podium finish marked her first individual Olympic medal in either sport.",
+      "event_type": "Achievement",
+      "trigger": "marked",
+      "arguments": [
+        {"role": "Participant", "argument": "Valarie Maltais"},
+        {"role": "Result", "argument": "first individual Olympic medal"}
+      ]
+    },
+    {
+      "event_id": "E24",
+      "event_mention": "She helped Canada to 3000m relay silver (short track) in 2014.",
+      "event_type": "Win_Medal",
+      "trigger": "helped",
+      "arguments": [
+        {"role": "Agent", "argument": "Valarie Maltais"},
+        {"role": "Participant", "argument": "Canada"},
+        {"role": "Result", "argument": "3000m relay silver"},
+        {"role": "Time", "argument": "2014"}
+      ]
+    },
+    {
+      "event_id": "E25",
+      "event_mention": "team pursuit gold (speed skating) in 2022.",
+      "event_type": "Win_Medal",
+      "trigger": "gold",
+      "arguments": [
+        {"role": "Participant", "argument": "Canada"},
+        {"role": "Result", "argument": "team pursuit gold"},
+        {"role": "Time", "argument": "2022"}
+      ]
+    },
+    {
+      "event_id": "E26",
+      "event_mention": "American Greta Myers finished 20th.",
+      "event_type": "Competition_Result",
+      "trigger": "finished",
+      "arguments": [
+        {"role": "Agent", "argument": "Greta Myers"},
+        {"role": "Result", "argument": "20th place"}
+      ]
+    },
+    {
+      "event_id": "E27",
+      "event_mention": "Martina Sablikova’s withdrawal.",
+      "event_type": "Withdrawal",
+      "trigger": "withdrawal",
+      "arguments": [
+        {"role": "Agent", "argument": "Martina Sablikova"}
+      ]
+    },
+    {
+      "event_id": "E28",
+      "event_mention": "Competition continues Sunday, Feb. 8, with the men's 5000m.",
+      "event_type": "Competition_Schedule",
+      "trigger": "continues",
+      "arguments": [
+        {"role": "Event", "argument": "men's 5000m"},
+        {"role": "Time", "argument": "Sunday, Feb. 8"}
+      ]
+    },
+    {
+      "event_id": "E29",
+      "event_mention": "Skaters are scheduled to take the ice at 10 a.m. EST.",
+      "event_type": "Competition_Schedule",
+      "trigger": "scheduled",
+      "arguments": [
+        {"role": "Participant", "argument": "Skaters"},
+        {"role": "Time", "argument": "10 a.m. EST"}
+      ]
+    }
+  ]
+}

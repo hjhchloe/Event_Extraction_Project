@@ -1,0 +1,238 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "event_mention": "the Olympic flame was extinguished in the Verona Arena in February 2026",
+      "event_type": "Ceremony",
+      "trigger": "extinguished",
+      "arguments": [
+        { "role": "Participant", "argument": "Olympic flame" },
+        { "role": "Place", "argument": "Verona Arena" },
+        { "role": "Time", "argument": "February 2026" }
+      ]
+    },
+    {
+      "event_id": "E2",
+      "event_mention": "the final medal table confirmed a familiar reality",
+      "event_type": "Announcement",
+      "trigger": "confirmed",
+      "arguments": [
+        { "role": "Participant", "argument": "final medal table" }
+      ]
+    },
+    {
+      "event_id": "E3",
+      "event_mention": "Norway had once again outclassed the world’s sporting superpowers",
+      "event_type": "Competition",
+      "trigger": "outclassed",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Participant", "argument": "world’s sporting superpowers" }
+      ]
+    },
+    {
+      "event_id": "E4",
+      "event_mention": "With a record-breaking 18 gold medals and 41 total podium finishes",
+      "event_type": "Award",
+      "trigger": "podium finishes",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Quantity", "argument": "18 gold medals" },
+        { "role": "Quantity", "argument": "41 total podium finishes" }
+      ]
+    },
+    {
+      "event_id": "E5",
+      "event_mention": "Johannes Høsflot Klæbo secured six gold medals in a single Games",
+      "event_type": "Award",
+      "trigger": "secured",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Quantity", "argument": "six gold medals" },
+        { "role": "Place", "argument": "a single Games" }
+      ]
+    },
+    {
+      "event_id": "E6",
+      "event_mention": "to bring his career total to 11",
+      "event_type": "Achievement",
+      "trigger": "bring",
+      "arguments": [
+        { "role": "Agent", "argument": "Johannes Høsflot Klæbo" },
+        { "role": "Result", "argument": "career total to 11" }
+      ]
+    },
+    {
+      "event_id": "E7",
+      "event_mention": "Norway’s 18 gold medals represent the highest total ever achieved by any nation at a single Winter Olympics",
+      "event_type": "Record",
+      "trigger": "achieved",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Quantity", "argument": "18 gold medals" }
+      ]
+    },
+    {
+      "event_id": "E8",
+      "event_mention": "surpassing its own previous record of 16 set in Beijing 2022",
+      "event_type": "Record",
+      "trigger": "surpassing",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Participant", "argument": "previous record of 16" },
+        { "role": "Place", "argument": "Beijing 2022" }
+      ]
+    },
+    {
+      "event_id": "E9",
+      "event_mention": "This achievement placed Norway at the top of the medal table for the fourth consecutive Winter Olympics",
+      "event_type": "Ranking",
+      "trigger": "placed",
+      "arguments": [
+        { "role": "Agent", "argument": "This achievement" },
+        { "role": "Participant", "argument": "Norway" },
+        { "role": "Result", "argument": "top of the medal table" }
+      ]
+    },
+    {
+      "event_id": "E10",
+      "event_mention": "The nation claimed 21 medals in cross-country skiing",
+      "event_type": "Award",
+      "trigger": "claimed",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Quantity", "argument": "21 medals" },
+        { "role": "Participant", "argument": "cross-country skiing" }
+      ]
+    },
+    {
+      "event_id": "E11",
+      "event_mention": "17 in biathlon",
+      "event_type": "Award",
+      "trigger": "claimed",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Quantity", "argument": "17 medals" },
+        { "role": "Participant", "argument": "biathlon" }
+      ]
+    },
+    {
+      "event_id": "E12",
+      "event_mention": "four in speed skating",
+      "event_type": "Award",
+      "trigger": "claimed",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Quantity", "argument": "four medals" },
+        { "role": "Participant", "argument": "speed skating" }
+      ]
+    },
+    {
+      "event_id": "E13",
+      "event_mention": "First adopted in 2007",
+      "event_type": "PolicyAdoption",
+      "trigger": "adopted",
+      "arguments": [
+        { "role": "Participant", "argument": "Children’s Rights in Sport provisions" },
+        { "role": "Time", "argument": "2007" }
+      ]
+    },
+    {
+      "event_id": "E14",
+      "event_mention": "revised as recently as 2019",
+      "event_type": "PolicyRevision",
+      "trigger": "revised",
+      "arguments": [
+        { "role": "Participant", "argument": "Children’s Rights in Sport provisions" },
+        { "role": "Time", "argument": "2019" }
+      ]
+    },
+    {
+      "event_id": "E15",
+      "event_mention": "Wiklund practiced orienteering as her primary sport at WANG Elite Sports Upper Secondary School",
+      "event_type": "Training",
+      "trigger": "practiced",
+      "arguments": [
+        { "role": "Agent", "argument": "Ragne Wiklund" },
+        { "role": "Participant", "argument": "orienteering" },
+        { "role": "Place", "argument": "WANG Elite Sports Upper Secondary School" }
+      ]
+    },
+    {
+      "event_id": "E16",
+      "event_mention": "only joined the national speed skating team late in her studies at WANG",
+      "event_type": "Membership",
+      "trigger": "joined",
+      "arguments": [
+        { "role": "Agent", "argument": "Ragne Wiklund" },
+        { "role": "Participant", "argument": "national speed skating team" },
+        { "role": "Time", "argument": "late in her studies at WANG" }
+      ]
+    },
+    {
+      "event_id": "E17",
+      "event_mention": "Norway awards the Egebergs Ærespris",
+      "event_type": "Award",
+      "trigger": "awards",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Participant", "argument": "Egebergs Ærespris" }
+      ]
+    },
+    {
+      "event_id": "E18",
+      "event_mention": "Wiklund in 2023 for her composite background in speed skating and orienteering",
+      "event_type": "Award",
+      "trigger": "awarded",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Participant", "argument": "Ragne Wiklund" },
+        { "role": "Time", "argument": "2023" }
+      ]
+    },
+    {
+      "event_id": "E19",
+      "event_mention": "Brå in 1988 for a career in both cross-country skiing and athletics",
+      "event_type": "Award",
+      "trigger": "awarded",
+      "arguments": [
+        { "role": "Agent", "argument": "Norway" },
+        { "role": "Participant", "argument": "Oddvar Brå" },
+        { "role": "Time", "argument": "1988" }
+      ]
+    },
+    {
+      "event_id": "E20",
+      "event_mention": "Norsk Tipping allocates 50–60% of its annual revenue to sports infrastructure",
+      "event_type": "FundingAllocation",
+      "trigger": "allocates",
+      "arguments": [
+        { "role": "Agent", "argument": "Norsk Tipping" },
+        { "role": "Participant", "argument": "sports infrastructure" },
+        { "role": "Quantity", "argument": "50–60% of its annual revenue" }
+      ]
+    },
+    {
+      "event_id": "E21",
+      "event_mention": "In 2025 alone, nearly €400 million was funnelled into sports",
+      "event_type": "Funding",
+      "trigger": "funnelled",
+      "arguments": [
+        { "role": "Quantity", "argument": "nearly €400 million" },
+        { "role": "Participant", "argument": "sports" },
+        { "role": "Time", "argument": "2025" }
+      ]
+    },
+    {
+      "event_id": "E22",
+      "event_mention": "she is completing a master’s degree in data science at NMBU in Norway",
+      "event_type": "Education",
+      "trigger": "completing",
+      "arguments": [
+        { "role": "Agent", "argument": "Ragne Wiklund" },
+        { "role": "Participant", "argument": "master’s degree in data science" },
+        { "role": "Place", "argument": "NMBU in Norway" }
+      ]
+    }
+  ]
+}
