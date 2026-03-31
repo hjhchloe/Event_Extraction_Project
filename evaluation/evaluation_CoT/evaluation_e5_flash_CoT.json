@@ -1,0 +1,375 @@
+{
+    "summary": {
+        "gold_events": 12,
+        "pred_events": 8,
+        "gold_arguments": 25,
+        "pred_arguments": 17
+    },
+    "trigger_identification": {
+        "precision": 0.875,
+        "recall": 0.5833,
+        "f1": 0.7
+    },
+    "trigger_classification": {
+        "precision": 0.125,
+        "recall": 0.0833,
+        "f1": 0.1
+    },
+    "argument_identification": {
+        "precision": 0.7059,
+        "recall": 0.48,
+        "f1": 0.5714
+    },
+    "argument_classification": {
+        "precision": 0.5294,
+        "recall": 0.36,
+        "f1": 0.4286
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Lindsey Vonn crashed early in the women’s downhill",
+                "event_type": "Incident",
+                "normalized_event_type": "Incident",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the women’s downhill",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Lindsey Vonn crashed early in the women’s downhill",
+                "event_type": "Accident",
+                "normalized_event_type": "Incident",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lindsey Vonn"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "early"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "women’s downhill"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "dashing hopes of an Olympic medal at the Milan Cortina Olympics on Sunday",
+                "event_type": "Outcome",
+                "normalized_event_type": "Outcome",
+                "trigger": "dashing",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "hopes of an Olympic medal",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "the Milan Cortina Olympics",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Sunday",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "dashing hopes of an Olympic medal at the Milan Cortina Olympics on Sunday",
+                "event_type": "Disappointment",
+                "normalized_event_type": "Reaction",
+                "trigger": "dashing",
+                "arguments": [
+                    {
+                        "role": "Result",
+                        "argument": "hopes of an Olympic medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan Cortina Olympics"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "on Sunday"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Vonn lost control over the opening traverse",
+                "event_type": "LossOfControl",
+                "normalized_event_type": "LossOfControl",
+                "trigger": "lost",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "control",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "the opening traverse",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Vonn lost control over the opening traverse after cutting the line too tight",
+                "event_type": "Loss of Control",
+                "normalized_event_type": "Incident",
+                "trigger": "lost",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "opening traverse"
+                    }
+                ]
+            },
+            "similarity": 0.8535,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "was spun around in the air",
+                "event_type": "AccidentEffect",
+                "normalized_event_type": "AccidentEffect",
+                "trigger": "spun",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "in the air",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "was spun around in the air",
+                "event_type": "Spinning",
+                "normalized_event_type": "Incident",
+                "trigger": "spun",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "in the air"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "She was heard screaming out after the crash",
+                "event_type": "Expression",
+                "normalized_event_type": "Expression",
+                "trigger": "screaming",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "She",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "after the crash",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "was heard screaming out after the crash",
+                "event_type": "Screaming",
+                "normalized_event_type": "Reaction",
+                "trigger": "screaming",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "after the crash"
+                    }
+                ]
+            },
+            "similarity": 0.9074,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "she was surrounded by medical personnel",
+                "event_type": "MedicalResponse",
+                "normalized_event_type": "MedicalResponse",
+                "trigger": "surrounded",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "she",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "medical personnel",
+                        "role_original": "Agent"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "was surrounded by medical personnel",
+                "event_type": "Assistance",
+                "normalized_event_type": "Incident",
+                "trigger": "surrounded",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "medical personnel"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.8297,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "she was strapped to a gurney",
+                "event_type": "MedicalTreatment",
+                "normalized_event_type": "MedicalTreatment",
+                "trigger": "strapped",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "she",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "a gurney",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "was strapped to a gurney and flown away by a helicopter",
+                "event_type": "Evacuation",
+                "normalized_event_type": "Incident",
+                "trigger": "flown",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "helicopter"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Vonn"
+                    }
+                ]
+            },
+            "similarity": 0.6924,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "possibly ending the skier’s storied career",
+                "event_type": "CareerEnd",
+                "normalized_event_type": "CareerEnd",
+                "trigger": "ending",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "the skier’s storied career",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "possibly ending the skier’s storied career",
+                "event_type": "Career Ending",
+                "normalized_event_type": "Personal",
+                "trigger": "ending",
+                "arguments": [
+                    {
+                        "role": "Result",
+                        "argument": "skier’s storied career"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        }
+    ]
+}

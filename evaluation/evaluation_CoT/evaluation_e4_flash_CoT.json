@@ -1,0 +1,319 @@
+{
+    "summary": {
+        "gold_events": 9,
+        "pred_events": 6,
+        "gold_arguments": 23,
+        "pred_arguments": 15
+    },
+    "trigger_identification": {
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.8667,
+        "recall": 0.5652,
+        "f1": 0.6842
+    },
+    "argument_classification": {
+        "precision": 0.8667,
+        "recall": 0.5652,
+        "f1": 0.6842
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Ilia Malinin missed out on a medal in a stunning and dramatic men's figure skating final at the Winter Olympics today.",
+                "event_type": "Competition Outcome",
+                "normalized_event_type": "Competition Outcome",
+                "trigger": "missed out",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ilia Malinin",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "a medal",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Winter Olympics",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "today",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Ilia Malinin missed out on a medal in a stunning and dramatic men's figure skating final at the Winter Olympics today.",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "missed out",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "men's figure skating final"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "today"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Winter Olympics"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "The 21-year-old American fell twice in his final free skate.",
+                "event_type": "Accident/Fall",
+                "normalized_event_type": "Accident/Fall",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The 21-year-old American",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "twice",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "his final free skate",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "The 21-year-old American fell twice in his final free skate to score 156.33 and finish eighth",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The 21-year-old American"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "score 156.33 and finish eighth"
+                    }
+                ]
+            },
+            "similarity": 0.9208,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Mikhail Shaidorov of Kazakhstan won gold.",
+                "event_type": "Competition Victory",
+                "normalized_event_type": "Competition Victory",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Mikhail Shaidorov",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Kazakhstan",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "gold",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Mikhail Shaidorov of Kazakhstan won gold.",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Mikhail Shaidorov of Kazakhstan"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Malinin won team gold here at the Milan Cortina Games.",
+                "event_type": "Competition Victory",
+                "normalized_event_type": "Competition Victory",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "team gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milan Cortina Games",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Malinin won team gold here at the Milan Cortina Games",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "team gold"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan Cortina Games"
+                    }
+                ]
+            },
+            "similarity": 0.9891,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "Yuma Kagiyama won silver.",
+                "event_type": "Competition Victory",
+                "normalized_event_type": "Competition Victory",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Yuma Kagiyama",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Yuma Kagiyama won silver",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Yuma Kagiyama"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver"
+                    }
+                ]
+            },
+            "similarity": 0.9938,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "Shun Sato bronze.",
+                "event_type": "Competition Victory",
+                "normalized_event_type": "Competition Victory",
+                "trigger": "bronze",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Shun Sato",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Shun Sato bronze",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "bronze",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Shun Sato"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze"
+                    }
+                ]
+            },
+            "similarity": 0.9893,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

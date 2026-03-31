@@ -1,0 +1,682 @@
+{
+    "summary": {
+        "gold_events": 28,
+        "pred_events": 15,
+        "gold_arguments": 57,
+        "pred_arguments": 33
+    },
+    "trigger_identification": {
+        "precision": 0.8,
+        "recall": 0.4286,
+        "f1": 0.5581
+    },
+    "trigger_classification": {
+        "precision": 0.3333,
+        "recall": 0.1786,
+        "f1": 0.2326
+    },
+    "argument_identification": {
+        "precision": 0.8182,
+        "recall": 0.4737,
+        "f1": 0.6
+    },
+    "argument_classification": {
+        "precision": 0.5152,
+        "recall": 0.2982,
+        "f1": 0.3778
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "American figure skater Ilia Malinin was the favorite to win going into the 2026 Milano-Cortina Winter Games",
+                "event_type": "Status",
+                "normalized_event_type": "Status",
+                "trigger": "favorite",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ilia Malinin",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "2026 Milano-Cortina Winter Games",
+                        "role_original": "Event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Ilia Malinin was the favorite to win going into the 2026 Milano-Cortina Winter Games",
+                "event_type": "Expectation",
+                "normalized_event_type": "Status",
+                "trigger": "favorite",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "going into the 2026 Milano-Cortina Winter Games"
+                    }
+                ]
+            },
+            "similarity": 0.8945,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "He became the top prospect for the gold medal at the Winter Olympics after an impressive performance in the team event",
+                "event_type": "StatusChange",
+                "normalized_event_type": "StatusChange",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ilia Malinin",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "Winter Olympics",
+                        "role_original": "Event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "he became the top prospect for the gold medal at the Winter Olympics",
+                "event_type": "Status",
+                "normalized_event_type": "Status",
+                "trigger": "became",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "top prospect for the gold medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Winter Olympics"
+                    }
+                ]
+            },
+            "similarity": 0.9275,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "he helped score 19 points for Team USA",
+                "event_type": "Scoring",
+                "normalized_event_type": "Scoring",
+                "trigger": "score",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Ilia Malinin",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Team USA",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "19 points",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "an impressive performance in the team event, where he helped score 19 points for Team USA",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "performance",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "score 19 points"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Team USA"
+                    }
+                ]
+            },
+            "similarity": 0.8648,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Malinin opened his short program in commanding fashion",
+                "event_type": "PerformanceStart",
+                "normalized_event_type": "PerformanceStart",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "short program",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Malinin opened his short program in commanding fashion",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "opened",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "short program"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "he fell twice",
+                "event_type": "Fall",
+                "normalized_event_type": "Fall",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "twice",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "he fell twice, dropping him to an eighth-place finish and ending his individual medal hopes",
+                "event_type": "Failure",
+                "normalized_event_type": "Incident",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "eighth-place finish"
+                    }
+                ]
+            },
+            "similarity": 0.656,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "The short program took place on Tuesday, Feb. 10",
+                "event_type": "CompetitionEvent",
+                "normalized_event_type": "CompetitionEvent",
+                "trigger": "took place",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "short program",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Tuesday, Feb. 10",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "The short program took place on Tuesday, Feb. 10",
+                "event_type": "Occurrence",
+                "normalized_event_type": "Status",
+                "trigger": "took place",
+                "arguments": [
+                    {
+                        "role": "Event",
+                        "argument": "short program"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Tuesday, Feb. 10"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E11",
+                "event_mention": "Malinin delivered an impressive performance as he scored 108.16 points to sit in first place",
+                "event_type": "Scoring",
+                "normalized_event_type": "Scoring",
+                "trigger": "scored",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "108.16 points",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "first place",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Malinin delivered an impressive performance as he scored 108.16 points to sit in first place",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "delivered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "scored 108.16 points"
+                    },
+                    {
+                        "role": "Position",
+                        "argument": "first place"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "on Feb. 13, he struggled in the free skate",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "struggled",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Feb. 13",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "free skate",
+                        "role_original": "Event"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "he struggled in the free skate, placing 15th after earning 156.33 points",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "struggled",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "placing 15th"
+                    },
+                    {
+                        "role": "Score",
+                        "argument": "156.33 points"
+                    }
+                ]
+            },
+            "similarity": 0.7331,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "Kazakhstan’s Mikhail Shaidorov won the free skate with 198.64 points",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Mikhail Shaidorov",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "free skate",
+                        "role_original": "Event"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "198.64 points",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Kazakhstan’s Mikhail Shaidorov won the free skate with 198.64 points",
+                "event_type": "Victory",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Mikhail Shaidorov"
+                    },
+                    {
+                        "role": "Event",
+                        "argument": "free skate"
+                    },
+                    {
+                        "role": "Score",
+                        "argument": "198.64 points"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E17",
+                "event_mention": "he popped his quad-axel and completed a single instead",
+                "event_type": "TechnicalAction",
+                "normalized_event_type": "TechnicalAction",
+                "trigger": "popped",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "quad-axel",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Gasps filled the air as he popped his quad-axel and completed a single instead",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "Gasps",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "audience"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "popped his quad-axel"
+                    }
+                ]
+            },
+            "similarity": 0.8333,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "Malinin fell twice—first on another quad lutz attempt",
+                "event_type": "Fall",
+                "normalized_event_type": "Fall",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Malinin fell twice—first on another quad lutz attempt and then again on a failed Salchow combination",
+                "event_type": "Failure",
+                "normalized_event_type": "Incident",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.9357,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E23",
+                "event_mention": "As Malinin struck his final pose",
+                "event_type": "PerformanceEnd",
+                "normalized_event_type": "PerformanceEnd",
+                "trigger": "struck",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "final pose",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E12",
+                "event_mention": "Malinin struck his final pose, the cameras zoomed in on his anguished expression",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "struck",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Action",
+                        "argument": "final pose"
+                    }
+                ]
+            },
+            "similarity": 0.7985,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E25",
+                "event_mention": "he dropped his face into his hands",
+                "event_type": "EmotionalReaction",
+                "normalized_event_type": "EmotionalReaction",
+                "trigger": "dropped",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Agent"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E13",
+                "event_mention": "his composure gave way and he dropped his face into his hands",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "dropped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    }
+                ]
+            },
+            "similarity": 0.8208,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E26",
+                "event_mention": "In a post-match interview, Malinin explained that he felt confident going on to the ice",
+                "event_type": "Communication",
+                "normalized_event_type": "Communication",
+                "trigger": "explained",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "post-match interview",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E14",
+                "event_mention": "Malinin explained that he felt confident going on to the ice",
+                "event_type": "Explanation",
+                "normalized_event_type": "Communication",
+                "trigger": "explained",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Feeling",
+                        "argument": "confident"
+                    }
+                ]
+            },
+            "similarity": 0.9271,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E28",
+                "event_mention": "Malinin received immense backlash for his performance on the ice",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "received",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Malinin",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "immense backlash",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E15",
+                "event_mention": "Malinin received immense backlash for his performance on the ice",
+                "event_type": "Reaction",
+                "normalized_event_type": "Reaction",
+                "trigger": "received",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Ilia Malinin"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "immense backlash"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        }
+    ]
+}

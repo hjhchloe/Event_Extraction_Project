@@ -1,0 +1,294 @@
+{
+    "summary": {
+        "gold_events": 17,
+        "pred_events": 7,
+        "gold_arguments": 41,
+        "pred_arguments": 12
+    },
+    "trigger_identification": {
+        "precision": 0.7143,
+        "recall": 0.2941,
+        "f1": 0.4167
+    },
+    "trigger_classification": {
+        "precision": 0.2857,
+        "recall": 0.1176,
+        "f1": 0.1667
+    },
+    "argument_identification": {
+        "precision": 0.6667,
+        "recall": 0.1951,
+        "f1": 0.3019
+    },
+    "argument_classification": {
+        "precision": 0.5833,
+        "recall": 0.1707,
+        "f1": 0.2642
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "The Team USA three-time Olympic medallist clipped a gate",
+                "event_type": "Incident",
+                "normalized_event_type": "Incident",
+                "trigger": "clipped",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The Team USA three-time Olympic medallist",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "a gate",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "The Team USA three-time Olympic medallist clipped a gate and fell to the ground in pain",
+                "event_type": "Accident",
+                "normalized_event_type": "Incident",
+                "trigger": "fell",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The Team USA three-time Olympic medallist"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "to the ground"
+                    }
+                ]
+            },
+            "similarity": 0.8551,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "she crashed out of the race on Sunday (8 February)",
+                "event_type": "Incident",
+                "normalized_event_type": "Incident",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lindsey Vonn",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the race",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Sunday (8 February)",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "she crashed out of the race",
+                "event_type": "Accident",
+                "normalized_event_type": "Incident",
+                "trigger": "crashed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "she"
+                    }
+                ]
+            },
+            "similarity": 0.8458,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 0
+        },
+        {
+            "gold": {
+                "event_id": "E9",
+                "event_mention": "The race was halted for more than 10 minutes",
+                "event_type": "CompetitionSuspension",
+                "normalized_event_type": "CompetitionSuspension",
+                "trigger": "halted",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The race",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "for more than 10 minutes",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "The race was halted for more than 10 minutes",
+                "event_type": "Interruption",
+                "normalized_event_type": "Incident",
+                "trigger": "halted",
+                "arguments": [
+                    {
+                        "role": "Time",
+                        "argument": "for more than 10 minutes"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E10",
+                "event_mention": "Vonn was airlifted away to Codivilla Hospital in Cortina for medical evaluation",
+                "event_type": "Transportation",
+                "normalized_event_type": "Transportation",
+                "trigger": "airlifted",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Vonn",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Codivilla Hospital in Cortina",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "action",
+                        "argument": "medical evaluation",
+                        "role_original": "Purpose"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Vonn was airlifted away to Codivilla Hospital in Cortina for medical evaluation",
+                "event_type": "Medical",
+                "normalized_event_type": "Incident",
+                "trigger": "airlifted",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Vonn"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "to Codivilla Hospital in Cortina"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "The U.S. Alpine skiing legend suffered a ruptured ACL, bone bruising, and meniscal damage on 30 January",
+                "event_type": "Incident",
+                "normalized_event_type": "Incident",
+                "trigger": "suffered",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The U.S. Alpine skiing legend",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "a ruptured ACL, bone bruising, and meniscal damage",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "30 January",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "The U.S. Alpine skiing legend suffered a ruptured ACL, bone bruising, and meniscal damage on 30 January",
+                "event_type": "Injury",
+                "normalized_event_type": "Incident",
+                "trigger": "suffered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The U.S. Alpine skiing legend"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "on 30 January"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E14",
+                "event_mention": "she lined up 13th on the start list for the women's downhill",
+                "event_type": "CompetitionParticipation",
+                "normalized_event_type": "CompetitionParticipation",
+                "trigger": "lined up",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "she",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "13th",
+                        "role_original": "Quantity"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the women's downhill",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "she lined up 13th on the start list for the women's downhill",
+                "event_type": "Preparation",
+                "normalized_event_type": "Status",
+                "trigger": "lined up",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "she"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "on the start list for the women's downhill"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

@@ -1,0 +1,565 @@
+{
+    "summary": {
+        "gold_events": 27,
+        "pred_events": 11,
+        "gold_arguments": 69,
+        "pred_arguments": 29
+    },
+    "trigger_identification": {
+        "precision": 0.6364,
+        "recall": 0.2593,
+        "f1": 0.3684
+    },
+    "trigger_classification": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+    },
+    "argument_identification": {
+        "precision": 0.7931,
+        "recall": 0.3333,
+        "f1": 0.4694
+    },
+    "argument_classification": {
+        "precision": 0.7241,
+        "recall": 0.3043,
+        "f1": 0.4286
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Team France sewed up the gold medal after a stellar performance in the third leg of the women’s 4x6km biathlon relay on Wednesday at Milan Cortina 2026.",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "sewed up",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Team France",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "gold medal",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Wednesday",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milan Cortina 2026",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Team France sewed up the gold medal after a stellar performance in the third leg of the women’s 4x6km biathlon relay on Wednesday at Milan Cortina 2026.",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "sewed up",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Team France"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold medal"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Wednesday"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milan Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 4
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "Julia Simon of France skied across the finish line with the French flag at a cumulative time of 1 hour, 10 minutes, 22.7 seconds.",
+                "event_type": "Competition_Finish",
+                "normalized_event_type": "Competition_Finish",
+                "trigger": "skied across",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Julia Simon of France",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "finish line",
+                        "role_original": "Place"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "1 hour, 10 minutes, 22.7 seconds",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Julia Simon of France skied across the finish line with the French flag at a cumulative time of 1 hour, 10 minutes, 22.7 seconds, after inheriting a substantial lead from teammate Oceane Michelon.",
+                "event_type": "Finish",
+                "normalized_event_type": "Competition",
+                "trigger": "skied across",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Julia Simon of France"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1 hour, 10 minutes, 22.7 seconds"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Oceane Michelon"
+                    }
+                ]
+            },
+            "similarity": 0.9765,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "after inheriting a substantial lead from teammate Oceane Michelon",
+                "event_type": "Competition_LeadTransfer",
+                "normalized_event_type": "Competition_LeadTransfer",
+                "trigger": "inheriting",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Julia Simon",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Oceane Michelon",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "a substantial lead",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "Michelon, the youngest member of Team France, moved to the front position and created a 47-second lead after shooting in the standing position.",
+                "event_type": "Lead Change",
+                "normalized_event_type": "Competition",
+                "trigger": "moved to",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Michelon"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "47-second lead"
+                    }
+                ]
+            },
+            "similarity": 0.6309,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "Team Sweden won the silver medal after finishing 51.3 seconds behind.",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Team Sweden",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver medal",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "51.3 seconds behind",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "Team Sweden won the silver medal after finishing 51.3 seconds behind, and Team Norway skied to bronze 1:07.6 behind France.",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Team Sweden"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver medal"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "51.3 seconds behind"
+                    }
+                ]
+            },
+            "similarity": 0.8743,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "Team Sweden won the silver medal after finishing 51.3 seconds behind.",
+                "event_type": "Competition_Finish",
+                "normalized_event_type": "Competition_Finish",
+                "trigger": "finishing",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Team Sweden",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "quantity",
+                        "argument": "51.3 seconds behind",
+                        "role_original": "Quantity"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Team Norway skied to bronze 1:07.6 behind France.",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "skied to",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Team Norway"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:07.6 behind France"
+                    }
+                ]
+            },
+            "similarity": 0.6084,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Camille Bened of France started the race before passing off to Lou Jeanmonnot.",
+                "event_type": "Competition_Start",
+                "normalized_event_type": "Competition_Start",
+                "trigger": "started",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Camille Bened of France",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the race",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "Camille Bened of France started the race before passing off to Lou Jeanmonnot.",
+                "event_type": "Race Start",
+                "normalized_event_type": "Competition",
+                "trigger": "started",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Camille Bened of France"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Lou Jeanmonnot"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E18",
+                "event_mention": "Swedish sisters Elvira Oeberg and Hanna Oeberg battled it out with Team Norway for 2nd place.",
+                "event_type": "Competition_Battle",
+                "normalized_event_type": "Competition_Battle",
+                "trigger": "battled",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Elvira Oeberg",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Hanna Oeberg",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Team Norway",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "2nd place",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "Swedish sisters Elvira Oeberg and Hanna Oeberg (the team's anchor) battled it out with Team Norway for 2nd place.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "battled",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Swedish sisters Elvira Oeberg and Hanna Oeberg"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Team Norway"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "2nd place"
+                    }
+                ]
+            },
+            "similarity": 0.9671,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E19",
+                "event_mention": "Hanna Oeberg held her pace against Maren Kirkeeide of Norway to secure the silver medal.",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "secure",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Hanna Oeberg",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver medal",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "Maren Kirkeeide of Norway",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Hanna Oeberg held her pace against Maren Kirkeeide of Norway to secure the silver medal.",
+                "event_type": "Competition Result",
+                "normalized_event_type": "Competition",
+                "trigger": "held",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Hanna Oeberg"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Maren Kirkeeide of Norway"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver medal"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E21",
+                "event_mention": "France becomes the first country to sweep all three biathlon relays — men's, women's and mixed.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "sweep",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "France",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "all three biathlon relays — men's, women's and mixed",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "France becomes the first country to sweep all three biathlon relays — men's, women's and mixed.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "becomes",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "France"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first country to sweep all three biathlon relays"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E22",
+                "event_mention": "Simon earned her third gold medal.",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "earned",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Simon",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "third gold medal",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E10",
+                "event_mention": "Simon earned her third gold medal and Jeanmonnot earned her fourth medal at these Winter Games.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "earned",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Simon"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "third gold medal"
+                    }
+                ]
+            },
+            "similarity": 0.7871,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E23",
+                "event_mention": "Jeanmonnot earned her fourth medal at these Winter Games.",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "earned",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Jeanmonnot",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "fourth medal",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "these Winter Games",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E11",
+                "event_mention": "Jeanmonnot earned her fourth medal at these Winter Games.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "earned",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Jeanmonnot"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "fourth medal"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

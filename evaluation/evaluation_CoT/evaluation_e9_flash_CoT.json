@@ -1,0 +1,316 @@
+{
+    "summary": {
+        "gold_events": 13,
+        "pred_events": 6,
+        "gold_arguments": 33,
+        "pred_arguments": 18
+    },
+    "trigger_identification": {
+        "precision": 1.0,
+        "recall": 0.4615,
+        "f1": 0.6316
+    },
+    "trigger_classification": {
+        "precision": 0.6667,
+        "recall": 0.3077,
+        "f1": 0.4211
+    },
+    "argument_identification": {
+        "precision": 0.5,
+        "recall": 0.2727,
+        "f1": 0.3529
+    },
+    "argument_classification": {
+        "precision": 0.4444,
+        "recall": 0.2424,
+        "f1": 0.3137
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "Lochner and Fleischhauer dominated the competition across all four heats",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "dominated",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lochner and Fleischhauer",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the competition across all four heats",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E1",
+                "event_mention": "Lochner and Fleischhauer dominated the competition across all four heats to upset two-time champion Francesco Friedrich in Milano Cortina 2026 on Tuesday (17 February).",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "dominated",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lochner and Fleischhauer"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Francesco Friedrich"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Tuesday (17 February)"
+                    }
+                ]
+            },
+            "similarity": 0.8767,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "Friedrich won silver",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Friedrich",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E2",
+                "event_mention": "Friedrich won silver to become the joint most decorated pilot in Olympic history.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "won",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Friedrich"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver"
+                    }
+                ]
+            },
+            "similarity": 0.6915,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E5",
+                "event_mention": "German pilot Johannes Lochner delivered the four fastest heats in the two-man bobsleigh",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "delivered",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "German pilot Johannes Lochner",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "the four fastest heats in the two-man bobsleigh",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "German pilot Johannes Lochner delivered the four fastest heats in the two-man bobsleigh to bring the indomitable Francesco Friedrich’s reign to an end and win his first Olympic gold medal at the Olympic Winter Games Milano Cortina 2026 on Tuesday (17 February).",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "delivered",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Johannes Lochner"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Francesco Friedrich"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "first Olympic gold medal"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Olympic Winter Games Milano Cortina 2026"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Tuesday (17 February)"
+                    }
+                ]
+            },
+            "similarity": 0.8191,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E8",
+                "event_mention": "Lochner and brakeman Georg Fleischhauer consolidated their vice-like grip on the top spot in the fourth and final heat",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "consolidated",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lochner and brakeman Georg Fleischhauer",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "their vice-like grip on the top spot",
+                        "role_original": "Participant"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "the fourth and final heat",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E4",
+                "event_mention": "Lochner and brakeman Georg Fleischhauer consolidated their vice-like grip on the top spot in the fourth and final heat with a combined winning time of 3:39.70 for a German clean sweep of the podium.",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "consolidated",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lochner and brakeman Georg Fleischhauer"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "German clean sweep of the podium"
+                    },
+                    {
+                        "role": "Quantity",
+                        "argument": "3:39.70"
+                    }
+                ]
+            },
+            "similarity": 0.9255,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 1
+        },
+        {
+            "gold": {
+                "event_id": "E12",
+                "event_mention": "The 35-year-old Lochner upgraded his silver medal from four years ago at Beijing 2022",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "upgraded",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Lochner",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "his silver medal from four years ago at Beijing 2022",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "The 35-year-old Lochner upgraded his silver medal from four years ago at Beijing 2022, with two-time German 400m hurdles champion Fleischhauer winning gold on his Winter Olympic debut.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "upgraded",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Lochner"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver medal from four years ago at Beijing 2022"
+                    }
+                ]
+            },
+            "similarity": 0.8318,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E13",
+                "event_mention": "Fleischhauer winning gold on his Winter Olympic debut",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "winning",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Fleischhauer",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "his Winter Olympic debut",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "two-time German 400m hurdles champion Fleischhauer winning gold on his Winter Olympic debut.",
+                "event_type": "Achievement",
+                "normalized_event_type": "Achievement",
+                "trigger": "winning",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Fleischhauer"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "gold"
+                    }
+                ]
+            },
+            "similarity": 0.8081,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 2
+        }
+    ]
+}

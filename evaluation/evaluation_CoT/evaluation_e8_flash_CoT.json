@@ -1,0 +1,327 @@
+{
+    "summary": {
+        "gold_events": 7,
+        "pred_events": 9,
+        "gold_arguments": 19,
+        "pred_arguments": 25
+    },
+    "trigger_identification": {
+        "precision": 0.4444,
+        "recall": 0.5714,
+        "f1": 0.5
+    },
+    "trigger_classification": {
+        "precision": 0.1111,
+        "recall": 0.1429,
+        "f1": 0.125
+    },
+    "argument_identification": {
+        "precision": 0.64,
+        "recall": 0.8421,
+        "f1": 0.7273
+    },
+    "argument_classification": {
+        "precision": 0.64,
+        "recall": 0.8421,
+        "f1": 0.7273
+    },
+    "matched_events": [
+        {
+            "gold": {
+                "event_id": "E1",
+                "event_mention": "France added another glittering chapter to their Milano Cortina 2026 biathlon campaign on Wednesday (18 February), storming to victory in the women’s 4x6km relay",
+                "event_type": "Competition_Win",
+                "normalized_event_type": "Competition_Win",
+                "trigger": "storming to victory",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "France",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "event",
+                        "argument": "women’s 4x6km relay",
+                        "role_original": "Event"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "Wednesday (18 February)",
+                        "role_original": "Time"
+                    },
+                    {
+                        "role": "location",
+                        "argument": "Milano Cortina 2026 biathlon campaign",
+                        "role_original": "Place"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E3",
+                "event_mention": "France added another glittering chapter to their Milano Cortina 2026 biathlon campaign on Wednesday (18 February)",
+                "event_type": "Campaign Achievement",
+                "normalized_event_type": "Competition",
+                "trigger": "added",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "France"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "Wednesday (18 February)"
+                    },
+                    {
+                        "role": "Place",
+                        "argument": "Milano Cortina 2026"
+                    }
+                ]
+            },
+            "similarity": 0.9514,
+            "trigger_match": false,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E2",
+                "event_mention": "capped by a flawless anchor leg from Julia Simon",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "capped",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Julia Simon",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "flawless anchor leg",
+                        "role_original": "Result"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E5",
+                "event_mention": "capped by a flawless anchor leg from Julia Simon",
+                "event_type": "Performance",
+                "normalized_event_type": "Performance",
+                "trigger": "capped",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Julia Simon"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "flawless anchor leg"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E3",
+                "event_mention": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon claimed Olympic gold in 1:10:22.7",
+                "event_type": "Medal_Award",
+                "normalized_event_type": "Medal_Award",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Julia Simon",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "Olympic gold",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:10:22.7",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E6",
+                "event_mention": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon claimed Olympic gold in 1:10:22.7",
+                "event_type": "Medal Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "claimed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The French quartet of Camille Bened, Lou Jeanmonnot, Océane Michelon and Simon"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "Olympic gold"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:10:22.7"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E4",
+                "event_mention": "holding off a late challenge from Sweden",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "challenge",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Sweden",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "participant",
+                        "argument": "The French quartet",
+                        "role_original": "Participant"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E7",
+                "event_mention": "holding off a late challenge from Sweden to win by more than 50 seconds",
+                "event_type": "Competition",
+                "normalized_event_type": "Competition",
+                "trigger": "holding off",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "The French quartet"
+                    },
+                    {
+                        "role": "Participant",
+                        "argument": "Sweden"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "win by more than 50 seconds"
+                    }
+                ]
+            },
+            "similarity": 0.8132,
+            "trigger_match": false,
+            "type_match": true,
+            "argument_matches": 2
+        },
+        {
+            "gold": {
+                "event_id": "E6",
+                "event_mention": "Sweden took silver in 1:11:14.0 (+51.3)",
+                "event_type": "Medal_Award",
+                "normalized_event_type": "Medal_Award",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Sweden",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "silver",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:11:14.0 (+51.3)",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E8",
+                "event_mention": "Sweden took silver in 1:11:14.0 (+51.3)",
+                "event_type": "Medal Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "took",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Sweden"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "silver"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:11:14.0 (+51.3)"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        },
+        {
+            "gold": {
+                "event_id": "E7",
+                "event_mention": "Norway completed the podium with bronze in 1:11:30.3 (+1:07.6)",
+                "event_type": "Medal_Award",
+                "normalized_event_type": "Medal_Award",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "participant",
+                        "argument": "Norway",
+                        "role_original": "Agent"
+                    },
+                    {
+                        "role": "result",
+                        "argument": "bronze",
+                        "role_original": "Result"
+                    },
+                    {
+                        "role": "time",
+                        "argument": "1:11:30.3 (+1:07.6)",
+                        "role_original": "Time"
+                    }
+                ]
+            },
+            "prediction": {
+                "event_id": "E9",
+                "event_mention": "Norway completed the podium with bronze in 1:11:30.3 (+1:07.6)",
+                "event_type": "Medal Winning",
+                "normalized_event_type": "Competition",
+                "trigger": "completed",
+                "arguments": [
+                    {
+                        "role": "Agent",
+                        "argument": "Norway"
+                    },
+                    {
+                        "role": "Result",
+                        "argument": "bronze"
+                    },
+                    {
+                        "role": "Time",
+                        "argument": "1:11:30.3 (+1:07.6)"
+                    }
+                ]
+            },
+            "similarity": 1.0,
+            "trigger_match": true,
+            "type_match": false,
+            "argument_matches": 3
+        }
+    ]
+}
